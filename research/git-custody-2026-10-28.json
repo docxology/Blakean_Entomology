@@ -1,0 +1,19 @@
+{
+  "prior_commit": "484a01474674b810bb0d53f9159950f45c7f7af0",
+  "retained_initial_mismatch": [
+    {
+      "path": "research/baseline-counts.csv",
+      "canonical_sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+      "prior_git_blob_sha256": "8e1418c967f734a33f27e0802e9ea7472a12529793aa570c367870fbcfb462f5"
+    },
+    {
+      "path": "research/history/baseline-v2/baseline-counts.csv",
+      "canonical_sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+      "prior_git_blob_sha256": "8e1418c967f734a33f27e0802e9ea7472a12529793aa570c367870fbcfb462f5"
+    }
+  ],
+  "correction": "Disable Git text conversion for CSV exports; canonical files are unchanged",
+  "expected_csv_sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+  "gate": "Every staged tracked blob must equal its exact canonical file bytes before commit",
+  "ignored_provider_data": "local_data/ and analysis_output/ remain excluded from Git"
+}
