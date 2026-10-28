@@ -10,6 +10,34 @@ Read the [working article](docs/manuscript/blakean-entomology.md),
 evidence architecture of [Blakean Federalism](https://github.com/docxology/Blakean_Federalism)
 and uses the [shared Blake corpus and methods](https://github.com/docxology/blake).
 
+## Shared-method application 0.2.0
+
+Generic annotation custody, run verification, search, proximity and descriptive
+statistics now come from `blake.methods`. The application retains its vocabulary,
+contextual policy and literary argument. Its code dependency is pinned separately
+from its unchanged historical corpus pin.
+
+The new article compares pooled and equal-work rates, exact-text repetition and
+finite versus whole-unit co-occurrence. See [analytical extension](docs/research/shared-methods-analysis.md)
+and [current result identities](research/shared-methods-transition.json). The
+historical eleven decisions keep their original run; the new run has no newly
+adjudicated candidates.
+
+```bash
+uv run blake-entomology sensitivity --bundle local_data/corpus/v1 \
+  --pin research/corpus-pin.json --output analysis_output/sensitivity-new.json
+uv run blake-entomology proximity-study --bundle local_data/corpus/v1 \
+  --binding research/proximity-binding.json --output analysis_output/proximity-new.json
+uv run blake-entomology build-search-workspace --bundle local_data/corpus/v1 \
+  --binding research/proximity-binding.json --output analysis_output/workspace-new
+```
+
+The first two outputs are text-free, profile-labeled receipts. The workspace
+contains full texts and stays private and ignored. Install the optional `recovery`
+extra for recovered-source export; ordinary analysis and review use the small
+shared core. The development group includes recovery and plotting dependencies
+needed by the complete test suite.
+
 ## What runs now
 
 - A pinned independent corpus snapshot with **2,067 source units** in three planes.
@@ -37,7 +65,7 @@ their own groups. Taxonomic and rhetorical classifications require context.
 Blake owns acquisition, recovery, passage schemas, normalization, the portable
 application snapshot and generic lexical engine. This application owns its
 vocabulary, review decisions, interpretations and paper. It imports
-`blake.applications` and `blake.studies`; it does not copy Federalism's SQLite
+`blake.applications`, `blake.studies` and `blake.methods`; it does not copy Federalism's SQLite
 reader, search code, institutional model or historical acceptance claims.
 [Detailed lineage](docs/project-lineage.md).
 
@@ -92,8 +120,10 @@ The recovered projection is bound to its producer runtime and lock. If those
 differ, export from the qualified upstream environment using
 `python -m blake.applications export`; loading the portable bundle does not
 require the old producer runtime. Never replace the baseline pin silently.
-The package currently installs Blake's full declared NLP/vision dependency stack,
-although the imported study modules themselves are lightweight.
+The shared-method package installs a small core. Acquisition, NLP and vision use
+Blake's explicit `full` extra. The methods-only profile supports portable-bundle
+analysis and review without loading that stack. The full legacy workflow is
+qualified separately under Python 3.11.
 
 ## Review candidates
 

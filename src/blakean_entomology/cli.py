@@ -5,6 +5,9 @@ from pathlib import Path
 
 import click
 from blake.applications import export_recovered
+from blake.methods.models import ResearchError
+from blake.methods.proximity import ProximityGrid
+from blake.methods.runs import read_regular
 from pydantic import ValidationError
 
 from . import __version__
@@ -19,6 +22,8 @@ from .core import (
     write_new,
 )
 from .models import CorpusPin, EvidenceError
+from .sensitivity import ProximityBinding
+from .workflows import proximity_workflow, sensitivity_workflow, workspace_workflow
 
 
 @click.group()
@@ -96,6 +101,61 @@ def review_command(directory: Path, run_sha256: str, decisions: Path, output: Pa
     except (OSError, ValueError, ValidationError) as exc:
         raise click.ClickException(str(exc)) from exc
     click.echo(summary.model_dump_json(indent=2))
+
+
+@main.command("sensitivity")
+@click.option("--bundle", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--pin", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--vocabulary", "spec_path", type=click.Path(exists=True, path_type=Path))
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+def sensitivity_command(bundle: Path, pin: Path, spec_path: Path | None, output: Path) -> None:
+    """Write NFKC category sensitivity for Blake-primary reading units."""
+    try:
+        receipt = sensitivity_workflow(
+            bundle,
+            CorpusPin.model_validate_json(read_regular(pin, "pin")),
+            vocabulary(spec_path),
+            output,
+        )
+    except (OSError, ValueError, ResearchError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(receipt.model_dump_json(indent=2))
+
+
+@main.command("proximity-study")
+@click.option("--bundle", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--binding", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--grid", type=click.Path(exists=True, path_type=Path))
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+def proximity_command(bundle: Path, binding: Path, grid: Path | None, output: Path) -> None:
+    """Write literal ALL proximity with an explicit portable/projection binding."""
+    try:
+        receipt = proximity_workflow(
+            bundle,
+            ProximityBinding.model_validate_json(read_regular(binding, "pin")),
+            output,
+            ProximityGrid.model_validate_json(read_regular(grid, "grid")) if grid else None,
+        )
+    except (OSError, ValueError, ResearchError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(receipt.model_dump_json(indent=2))
+
+
+@main.command("build-search-workspace")
+@click.option("--bundle", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--binding", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+def workspace_command(bundle: Path, binding: Path, output: Path) -> None:
+    """Build a private offline literal search workspace under analysis_output."""
+    try:
+        index = workspace_workflow(
+            bundle,
+            ProximityBinding.model_validate_json(read_regular(binding, "pin")),
+            output,
+        )
+    except (OSError, ValueError, ResearchError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(str(index))
 
 
 if __name__ == "__main__":

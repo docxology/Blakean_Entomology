@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "source": "docs/manuscript/blakean-entomology.md",
+  "source_sha256": "4074f6e2d2bcaa72c45b8596752cf42ce850d7d9dcb63fe150462e5578c03c22",
+  "pdf": "analysis_output/paper-v5/Blakean_Entomology.pdf",
+  "pdf_sha256": "82d9de0e37c36b8b4e5d4227a17aeb7943e39d934058667a1d92313d0fd22b45",
+  "pages": 9,
+  "figure": "docs/manuscript/assets/retrieval-sensitivity.png",
+  "figure_sha256": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
+  "independent_qa": {
+    "path": "coordination/entomology-paper-qa/entomology-paper-v5-manual-qa.md",
+    "sha256": "4079ea85cab3e06fa5851f96d8c61cedcb1d79911cc75b40e20f73bb4abc62c5"
+  },
+  "qa_manifest": {
+    "path": "coordination/entomology-paper-qa/final-hashmanifest.json",
+    "sha256": "963749f276d1b1f44a87cdc5370e9cc131174ee3512f08fb4f6bede1b4868db4"
+  },
+  "evidence_root": "External sealed work packet blake-shared-methods-20261028; evidence references below are relative to that packet, not the repository.",
+  "scope": "All nine final pages freshly rasterized and inspected independently; selected counts, denominators and all twenty proximity cells independently recomputed with three rejecting controls. Final caption-only delta checked against preserved v4; eight pages pixel-identical.",
+  "historical_qa": {
+    "path": "research/render-qa.json",
+    "sha256": "deed74c7c22231b6f44457fd62570644163deeffbc4e662b86526c712c73b055"
+  },
+  "limits": "No additional contextual decisions, full-work reading credit, quotation or image admission, complete-oeuvre census, accessibility or scientific acceptance. Original eleven decisions remain attached to their historical run; 36,028 candidates remain unreviewed."
+}

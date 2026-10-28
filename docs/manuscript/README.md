@@ -12,6 +12,7 @@ After binding TMPDIR to existing GitVault storage, select a new output directory
 mkdir analysis_output/paper-new
 pandoc docs/manuscript/blakean-entomology.md \
   --standalone --pdf-engine=xelatex \
+  --resource-path docs/manuscript \
   --include-in-header docs/manuscript/print-header.tex \
   --variable papersize=a4 --variable geometry:margin=20mm \
   --variable fontsize=11pt --variable colorlinks=true \
@@ -27,3 +28,9 @@ hashes. A successful render is not a critical-edition, accessibility or scholarl
 acceptance verdict. PDF metadata contains the render time; byte-identical future
 PDF output is not assumed. The analytical artifacts have a separate verified
 byte-for-byte installed-wheel replay.
+
+
+The 0.2 article adds the portrait sensitivity figure and a source-bound analytical
+section. Its historical baseline and eleven authored decisions retain their old
+run pin; the new implementation receives a separate run receipt. Keep the figure
+at its full content width so its smallest printed labels remain legible.

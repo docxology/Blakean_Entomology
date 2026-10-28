@@ -4,21 +4,24 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-entomology"
-version = "0.1.0"
+version = "0.2.0"
 description = "A source-bound invertebrate concordance and research application of the Blake corpus"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Daniel Ari Friedman"}]
-dependencies = ["blake>=0.2.0", "click>=8.1", "pydantic==2.11.9"]
+dependencies = ["blake>=0.3.0", "click>=8.1", "pydantic==2.11.9"]
 
 [project.scripts]
 blake-entomology = "blakean_entomology.cli:main"
 
+[project.optional-dependencies]
+recovery = ["blake[recovery]>=0.3.0"]
+
 [dependency-groups]
-dev = ["pytest>=8,<10", "pytest-cov>=6", "ruff>=0.11", "basedpyright>=1.28"]
+dev = ["pytest>=8,<10", "pytest-cov>=6", "ruff>=0.11", "basedpyright>=1.28", "blake[recovery]>=0.3.0", "matplotlib>=3.7"]
 
 [tool.uv.sources]
-blake = {git = "https://github.com/docxology/blake", rev = "830f5b5dd197e43863374f5ea658b804fa816882"}
+blake = {git = "https://github.com/docxology/blake.git", rev = "4dc75f71d28f83a9f92db9ca523fb38326ba95f6"}
 en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"}
 
 [tool.hatch.build.targets.wheel]
@@ -42,5 +45,4 @@ select = ["E", "F", "I", "UP", "B", "ANN"]
 typeCheckingMode = "all"
 include = ["src"]
 pythonVersion = "3.11"
-# Inspect the pinned installed Blake source; its wheel has no py.typed marker.
-extraPaths = ["src", ".venv/lib/python3.11/site-packages"]
+extraPaths = ["../../Public/blake", "src"]
