@@ -1,0 +1,20 @@
+{
+  "application_version": "0.1.0",
+  "application_code_sha256": "011f5e9792721595eb0fc29384916626a9b20564e2613c338d396597246f307d",
+  "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "decisions_sha256": "c5699db4832bf0b0cedc99706e777ea59b7410de5e1e1139a0a442ec808254eb",
+  "candidate_hits": 36039,
+  "reviewed_hits": 11,
+  "unreviewed_hits": 36028,
+  "decisions": {
+    "animal_literal": 0,
+    "animal_figurative": 8,
+    "associated": 0,
+    "non_animal": 2,
+    "editorial": 0,
+    "uncertain": 1
+  },
+  "primary_animal_hits": 4,
+  "exploratory_animal_hits": 4,
+  "note": "Animal decisions do not change source authorship labels. Counts retain category overlap and repeated editions; they are not distinct organisms or species."
+}

@@ -1,0 +1,331 @@
+{
+  "observed": "2026-10-28",
+  "setup": "Fresh external CPython 3.11 environment; uv lock followed by successful uv sync --locked",
+  "environment": {
+    "source_repository": "https://github.com/docxology/blake",
+    "source_commit": "830f5b5dd197e43863374f5ea658b804fa816882",
+    "python": "3.11.17 (main, Oct 14 2026, 00:55:17) [Clang 23.1.3 ]",
+    "prefix_from_vault": "Username/docxology/Private/Blakean_Entomology/.venv",
+    "base_prefix_from_vault": "Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+    "pyproject_sha256": "2415117bf3e4d10e5c5215006183a13223f2835194f33672ef51ef633a7e14c7",
+    "uv_lock_sha256": "92729c2fcf1bb564fb8de56785a5f89abd829bddd9a77571d58ed9334a14cf02",
+    "locked_packages": 164,
+    "installed_distributions": {
+      "Automat": "25.4.16",
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.2",
+      "Protego": "0.5.0",
+      "PyDispatcher": "2.0.7",
+      "PySocks": "1.7.1",
+      "PyYAML": "6.0.2",
+      "Pygments": "2.19.2",
+      "SQLAlchemy": "2.0.43",
+      "Scrapy": "2.13.3",
+      "Twisted": "25.5.0",
+      "aiofiles": "24.1.0",
+      "aiohappyeyeballs": "2.6.1",
+      "aiohttp": "3.12.15",
+      "aiosignal": "1.4.0",
+      "annotated-types": "0.7.0",
+      "anyio": "4.10.0",
+      "attrs": "25.3.0",
+      "basedpyright": "1.40.2",
+      "beautifulsoup4": "4.13.5",
+      "blake": "0.2.0",
+      "blakean-entomology": "0.1.0",
+      "blis": "0.7.11",
+      "catalogue": "2.0.10",
+      "certifi": "2025.8.3",
+      "cffi": "2.0.0",
+      "charset-normalizer": "3.4.3",
+      "click": "8.2.1",
+      "cloudpathlib": "0.22.0",
+      "confection": "0.1.5",
+      "constantly": "23.10.4",
+      "contourpy": "1.3.3",
+      "coverage": "7.10.6",
+      "cryptography": "45.0.7",
+      "cssselect": "1.3.0",
+      "cycler": "0.12.1",
+      "cymem": "2.0.11",
+      "defusedxml": "0.7.1",
+      "en-core-web-sm": "3.7.1",
+      "filelock": "3.19.1",
+      "fonttools": "4.59.2",
+      "frozenlist": "1.7.0",
+      "fsspec": "2025.9.0",
+      "h11": "0.16.0",
+      "hf-xet": "1.1.10",
+      "httpcore": "1.0.9",
+      "httpx": "0.28.1",
+      "huggingface-hub": "0.34.5",
+      "hyperlink": "21.0.0",
+      "idna": "3.10",
+      "incremental": "24.7.2",
+      "iniconfig": "2.1.0",
+      "itemadapter": "0.12.2",
+      "itemloaders": "1.3.2",
+      "jmespath": "1.0.1",
+      "joblib": "1.5.2",
+      "kiwisolver": "1.4.9",
+      "langcodes": "3.5.0",
+      "language_data": "1.3.0",
+      "lxml": "6.0.1",
+      "marisa-trie": "1.3.1",
+      "markdown-it-py": "4.0.0",
+      "matplotlib": "3.10.6",
+      "mdurl": "0.1.2",
+      "mpmath": "1.3.0",
+      "multidict": "6.6.4",
+      "murmurhash": "1.0.13",
+      "narwhals": "2.5.0",
+      "networkx": "3.5",
+      "nltk": "3.9.1",
+      "nodejs-wheel-binaries": "24.19.0",
+      "numpy": "1.26.4",
+      "opencv-python": "4.11.0.86",
+      "outcome": "1.3.0.post0",
+      "packaging": "25.0",
+      "pandas": "2.3.2",
+      "parsel": "1.10.0",
+      "pillow": "11.3.0",
+      "plotly": "6.3.0",
+      "pluggy": "1.6.0",
+      "preshed": "3.0.10",
+      "prompt_toolkit": "3.0.52",
+      "propcache": "0.3.2",
+      "psutil": "7.0.0",
+      "pyOpenSSL": "25.2.0",
+      "pyarrow": "21.0.0",
+      "pyasn1": "0.6.1",
+      "pyasn1_modules": "0.4.2",
+      "pycparser": "2.23",
+      "pydantic": "2.11.9",
+      "pydantic_core": "2.33.2",
+      "pyparsing": "3.2.4",
+      "pytest": "8.4.2",
+      "pytest-asyncio": "1.2.0",
+      "pytest-cov": "7.0.0",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2025.2",
+      "queuelib": "1.8.0",
+      "regex": "2025.9.1",
+      "requests": "2.32.5",
+      "requests-file": "2.1.0",
+      "rich": "14.1.0",
+      "ruff": "0.13.0",
+      "safetensors": "0.6.2",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.16.2",
+      "seaborn": "0.13.2",
+      "selenium": "4.35.0",
+      "service-identity": "24.2.0",
+      "setuptools": "80.9.0",
+      "shellingham": "1.5.4",
+      "six": "1.17.0",
+      "smart_open": "7.3.1",
+      "sniffio": "1.3.1",
+      "sortedcontainers": "2.4.0",
+      "soupsieve": "2.8",
+      "spacy": "3.7.5",
+      "spacy-legacy": "3.0.12",
+      "spacy-loggers": "1.0.5",
+      "srsly": "2.5.1",
+      "sympy": "1.14.0",
+      "thinc": "8.2.4",
+      "threadpoolctl": "3.6.0",
+      "tldextract": "5.3.0",
+      "tokenizers": "0.22.0",
+      "torch": "2.8.0",
+      "tqdm": "4.67.1",
+      "transformers": "4.56.1",
+      "trio": "0.30.0",
+      "trio-websocket": "0.12.2",
+      "truststore": "0.10.5",
+      "typer": "0.17.4",
+      "typing-inspection": "0.4.1",
+      "typing_extensions": "4.14.1",
+      "tzdata": "2025.2",
+      "urllib3": "2.5.0",
+      "w3lib": "2.3.1",
+      "wasabi": "1.1.3",
+      "wcwidth": "0.2.13",
+      "weasel": "0.4.1",
+      "websocket-client": "1.8.0",
+      "wrapt": "1.17.3",
+      "wsproto": "1.2.0",
+      "yarl": "1.20.1",
+      "zope.interface": "8.0"
+    },
+    "modules": {
+      "blake.applications": {
+        "path_from_vault": "Username/docxology/Private/Blakean_Entomology/.venv/lib/python3.11/site-packages/blake/applications.py",
+        "sha256": "fd521671689cffca1a9e0b66ae7746a1c235ad2d03390bf0aef749f5ea51915f"
+      },
+      "blake.studies": {
+        "path_from_vault": "Username/docxology/Private/Blakean_Entomology/.venv/lib/python3.11/site-packages/blake/studies.py",
+        "sha256": "68b643f4e59f9777de2d615ab6340d08fff64f8d254ec2e73901f54f3755ae8c"
+      },
+      "blakean_entomology.core": {
+        "path_from_vault": "Username/docxology/Private/Blakean_Entomology/src/blakean_entomology/core.py",
+        "sha256": "92c7f92495403ff762cf2ccbbee3fa37c399c820387ffcc6fd467adc80f42b7c"
+      }
+    },
+    "application_code_sha256": "011f5e9792721595eb0fc29384916626a9b20564e2613c338d396597246f307d"
+  },
+  "installed_packaging": {
+    "source_commit": "830f5b5dd197e43863374f5ea658b804fa816882",
+    "git_provenance": {
+      "url": "https://github.com/docxology/blake",
+      "vcs_info": {
+        "vcs": "git",
+        "commit_id": "830f5b5dd197e43863374f5ea658b804fa816882",
+        "requested_revision": "830f5b5dd197e43863374f5ea658b804fa816882"
+      }
+    },
+    "packaged_metadata_sha256": {
+      "LICENSE": "a78c1c8e1f6c96d33a535dc4f10ae9db00bbb29bc177e91492d611f6caa8ff41",
+      "pyproject.toml": "737939be997aa70c818a7feeb57a68f6e63221ce93701cd4df182a7ec8766712",
+      "uv.lock": "63a9b5760d07b4b02fcc6fefb8f3f10f42491dd5fc06d63bdc0215a8a3d63d26"
+    },
+    "recovery_io_sha256": "75d2c157660b8d7aeb8578c383922f54ea59b15e36e2b8e19e8eb177c63edd24"
+  },
+  "canonical_gates": [
+    {
+      "check": "canonical-v2-lock-check",
+      "exit_code": 0,
+      "log_sha256": "f33e34178c7670f147110e9a793373effabaa609c82b41d6cd2e64c293dfd7d0"
+    },
+    {
+      "check": "canonical-v2-dependency-check",
+      "exit_code": 0,
+      "log_sha256": "f601881f92a004c39ba7a22f9a94bb578c1a99129cc08f719132a5c9580f088c"
+    },
+    {
+      "check": "canonical-v2-private-tests",
+      "exit_code": 0,
+      "log_sha256": "8a89f3a12275051051b356cc6d3bebd1d1694e4a904e9d58de1fc69961a49f0e"
+    },
+    {
+      "check": "canonical-v2-ruff-check",
+      "exit_code": 0,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "check": "canonical-v2-ruff-format",
+      "exit_code": 0,
+      "log_sha256": "f114d83b30c5c657ee43a847a45bafccaea255d82673feb87c26d252c61e29c1"
+    },
+    {
+      "check": "canonical-v2-basedpyright",
+      "exit_code": 0,
+      "log_sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c"
+    }
+  ],
+  "retained_initial_installed_failure": {
+    "passed": 73,
+    "errors": 1,
+    "cause": "Upstream recovery recipe assumed checkout metadata and failed on missing installed LICENSE",
+    "log_sha256": "eae2016ee0554657f070901a5df2d4ab5c274dce1cf657f54082f711f30ead0c",
+    "repair": "Package-scoped recipe metadata and installed-layout regression controls in the pinned upstream commit"
+  },
+  "packaging_repair_public_regression": {
+    "passed": 889,
+    "log_sha256": "61944920ae07914ed1591aaa1c0584fdbc2c42542e81ca4edea7133fbdb885a5",
+    "installed_layout_cases_passed": 6,
+    "red_control_log_sha256": "e625f5381dfd68a8a8b601f82cd5e5f7ff4549f8d9782872b0fdbf37bfa97456",
+    "green_log_sha256": "f2973090120ce3518862baf8ac949f50462b2cebcb37bb6530b41074ce53aa36",
+    "review_scope": "Original independent review covers the unchanged reader, studies, application source and paper. The installed-recovery repair has new owner-run regression evidence."
+  },
+  "strict_type_resolution": {
+    "initial_installed_check": "Three reportMissingTypeStubs errors because the Blake wheel has no py.typed marker",
+    "configuration": "Read the exact installed dependency source through .venv/lib/python3.11/site-packages; no diagnostic suppression",
+    "failure_log_sha256": "cb5bc9d421a55f42caf4487575853b4a629c84f8ef4d73fe66669694044a948b",
+    "corrected_planning_log_sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c"
+  },
+  "tests": {
+    "passed": 74,
+    "branch_coverage_percent": 98.94,
+    "required_percent": 90
+  },
+  "installed_runtime": {
+    "checks": [
+      {
+        "check": "canonical-stack-smoke",
+        "exit_code": 0,
+        "expected_exit_code": 0
+      },
+      {
+        "check": "canonical-baseline-replay",
+        "exit_code": 0,
+        "expected_exit_code": 0
+      },
+      {
+        "check": "canonical-verify-replay",
+        "exit_code": 0,
+        "expected_exit_code": 0
+      },
+      {
+        "check": "canonical-csv-review",
+        "exit_code": 0,
+        "expected_exit_code": 0
+      },
+      {
+        "check": "canonical-wrong-pin-control",
+        "exit_code": 1,
+        "expected_exit_code": 1
+      }
+    ],
+    "exact_output_matches": {
+      "summary.json": true,
+      "hits.jsonl": true,
+      "counts.csv": true,
+      "review-queue.csv": true,
+      "report.md": true,
+      "run.json": true
+    },
+    "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+    "review_summary": {
+      "application_version": "0.1.0",
+      "application_code_sha256": "011f5e9792721595eb0fc29384916626a9b20564e2613c338d396597246f307d",
+      "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+      "decisions_sha256": "162f17114ad6cc8c095e98fabacc30a3a4afba1a95e3d01befaca270134a3180",
+      "candidate_hits": 36039,
+      "reviewed_hits": 11,
+      "unreviewed_hits": 36028,
+      "decisions": {
+        "animal_literal": 0,
+        "animal_figurative": 8,
+        "associated": 0,
+        "non_animal": 2,
+        "editorial": 0,
+        "uncertain": 1
+      },
+      "primary_animal_hits": 4,
+      "exploratory_animal_hits": 4,
+      "note": "Animal decisions do not change source authorship labels. Counts retain category overlap and repeated editions; they are not distinct organisms or species."
+    },
+    "wrong_pin_control": {
+      "exit_code": 1,
+      "error": "review_run_pin",
+      "output_created": false
+    }
+  },
+  "independent_final_integration_review_sha256": "2983eb6fbb2f3ef75bd9359f2fbbb2d8a030f6e4f9bd8d4b546d34b856e4756e",
+  "reviewed_public_regression": {
+    "passed": 885,
+    "branch_coverage_percent": 81.79,
+    "log_sha256": "8b0c29c12ee4c31f3e7958330819006ee99bb425237b0c83030025d3e40e9131"
+  },
+  "reviewed_public_focused_tests": {
+    "passed": 58,
+    "branch_coverage_percent": 98.56,
+    "log_sha256": "8720b4145b8da4416d0c62af28f0eba4a2a205ccda35b26c3d4d913f6378de31"
+  },
+  "retained_pdf": {
+    "path": "analysis_output/paper-v3/Blakean_Entomology.pdf",
+    "sha256": "f836cb61c7e8fb5aebe0f6554fa574ae76084b462948a2d6b2e3a58775660316",
+    "pages": 5
+  },
+  "scope": "Installed setup and corpus replay only. Git excludes the corpus, full concordances, review queues and rendered PDFs. Candidate adjudication, complete-oeuvre coverage, image review, edition reconciliation and scientific acceptance remain incomplete."
+}

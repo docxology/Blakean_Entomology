@@ -1,0 +1,8 @@
+{
+  "scope": "Exact passage-model equality of the historical Federalism text import and the portable application bundle; no Federalism repin or new scientific acceptance.",
+  "passages": 2067,
+  "old_index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+  "new_bundle_manifest_sha256": "dda0706cecfb449a4084b7cec95036ce0efa181d2a89b15c2b5511c01f840e9b",
+  "exact_payload_equality": true,
+  "original_index_unchanged": true
+}

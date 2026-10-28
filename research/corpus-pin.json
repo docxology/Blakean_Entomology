@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "bundle_manifest_sha256": "dda0706cecfb449a4084b7cec95036ce0efa181d2a89b15c2b5511c01f840e9b",
+  "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+  "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+  "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+  "source_repository": "https://github.com/docxology/blake",
+  "scope": "Pinned captured source units; not a complete-oeuvre or image inventory."
+}

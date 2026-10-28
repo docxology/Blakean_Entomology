@@ -1,0 +1,15 @@
+{
+  "source": "docs/manuscript/blakean-entomology.md",
+  "source_sha256": "80f07af4c9129354ae8b6edfae2c3b2cf90d09d1eb18df5d7b9cc371f6459341",
+  "stylesheet_sha256": "f700d5f066ff538ab1a6c2c5bdaad2bbd87c8fa9df5668497b7bc17eb4753fdc",
+  "pdf": "analysis_output/paper-v3/Blakean_Entomology.pdf",
+  "pdf_sha256": "f836cb61c7e8fb5aebe0f6554fa574ae76084b462948a2d6b2e3a58775660316",
+  "pages": 5,
+  "page_format": "A4,20mm margins,11pt",
+  "renderers": {
+    "pandoc": "3.12.1",
+    "xelatex": "TeX Live 2026"
+  },
+  "visual_inspection": "All five rasterized final pages inspected. Table kept together; long DOI overflow corrected; no clipping or missing glyphs observed.",
+  "limits": "No accessibility, image census, critical-edition, or scientific acceptance claim; final PDF byte repeatability not tested."
+}

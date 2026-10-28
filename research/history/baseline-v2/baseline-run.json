@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "application": "blakean-entomology",
+  "application_version": "0.1.0",
+  "application_code_sha256": "4d25d2daab5755ac5b93541dea0dbedf3323c6d0cea74ca09ab132cd67c4a506",
+  "corpus_pin": {
+    "schema_version": 1,
+    "bundle_manifest_sha256": "dda0706cecfb449a4084b7cec95036ce0efa181d2a89b15c2b5511c01f840e9b",
+    "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+    "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+    "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+    "source_repository": "https://github.com/docxology/blake",
+    "scope": "Pinned captured source units; not a complete-oeuvre or image inventory."
+  },
+  "spec_sha256": "6e68900ce81770d9d4cd45d7cd7d33f3082ddd6645e6b87363bffcdc1585ba2c",
+  "methods_sha256": "0ce500427e2c24e84806454b2106c386284e42acf180bf1cbf8d770a4b127740",
+  "normalization": "nfkc-casefold-source-spans-v2",
+  "files": [
+    {
+      "name": "summary.json",
+      "size": 227676,
+      "sha256": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55"
+    },
+    {
+      "name": "hits.jsonl",
+      "size": 39350877,
+      "sha256": "b5cc600586a11251c318fbdcbd63e3dfaae09a22b8df82ad267e7035a3814ea0"
+    },
+    {
+      "name": "counts.csv",
+      "size": 38413,
+      "sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971"
+    },
+    {
+      "name": "review-queue.csv",
+      "size": 19416749,
+      "sha256": "82fdb03250b4d089a035d1c30a779e99252ff1ab6e431108ea27c907cf9361df"
+    },
+    {
+      "name": "report.md",
+      "size": 6306,
+      "sha256": "530835dc0ef20c38f934027c99b78e421fa0a6d65a3abed991542b2d0e0a9bc8"
+    }
+  ],
+  "scope": "Exhaustive category-span retrieval for the declared vocabulary and pinned bytes. All candidates remain unreviewed until an explicitly bound review."
+}

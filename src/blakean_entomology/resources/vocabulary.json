@@ -1,0 +1,1096 @@
+{
+  "study_id": "blakean-entomology-invertebrates-v1",
+  "title": "Blakean Entomology: invertebrate names and contextual leads",
+  "terms": [
+    {
+      "term_id": "worm",
+      "group": "worm",
+      "forms": [
+        "worm",
+        "worms",
+        "wormlike",
+        "worm-like",
+        "wormy",
+        "wormeaten",
+        "worm-eaten"
+      ],
+      "note": "Historical or figurative worm; not automatically an annelid."
+    },
+    {
+      "term_id": "earthworm",
+      "group": "worm",
+      "forms": [
+        "earthworm",
+        "earthworms",
+        "earth-worm",
+        "earth-worms",
+        "earth worm",
+        "earth worms"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "tapeworm",
+      "group": "worm",
+      "forms": [
+        "tapeworm",
+        "tapeworms",
+        "tape-worm",
+        "tape-worms",
+        "tape worm",
+        "tape worms"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "silkworm",
+      "group": "insect",
+      "forms": [
+        "silkworm",
+        "silkworms",
+        "silk-worm",
+        "silk-worms",
+        "silk worm",
+        "silk worms"
+      ],
+      "note": "Compound worm name does not imply annelid."
+    },
+    {
+      "term_id": "glowworm",
+      "group": "insect",
+      "forms": [
+        "glowworm",
+        "glowworms",
+        "glow-worm",
+        "glow-worms",
+        "glow worm",
+        "glow worms"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "bookworm",
+      "group": "ambiguous_life",
+      "forms": [
+        "bookworm",
+        "bookworms",
+        "book-worm",
+        "book-worms",
+        "book worm"
+      ],
+      "note": "May refer figuratively to readers."
+    },
+    {
+      "term_id": "blindworm",
+      "group": "ambiguous_life",
+      "forms": [
+        "blindworm",
+        "blindworms",
+        "blind-worm",
+        "blind-worms",
+        "blind worm"
+      ],
+      "note": "May denote a vertebrate; never automatically include."
+    },
+    {
+      "term_id": "cutworm",
+      "group": "insect",
+      "forms": [
+        "cutworm",
+        "cutworms",
+        "cut-worm",
+        "cut-worms"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "ant",
+      "group": "insect",
+      "forms": [
+        "ant",
+        "ants",
+        "emmet",
+        "emmets",
+        "emmett",
+        "emmetts",
+        "emmitt",
+        "emmitts",
+        "pismire",
+        "pismires"
+      ],
+      "note": "Emmet is attested; alternate spellings are declared candidate expansions."
+    },
+    {
+      "term_id": "fly",
+      "group": "insect",
+      "forms": [
+        "fly",
+        "flies"
+      ],
+      "note": "Noun or motion verb; review each span."
+    },
+    {
+      "term_id": "housefly",
+      "group": "insect",
+      "forms": [
+        "housefly",
+        "houseflies",
+        "house-fly",
+        "house-flies",
+        "house fly",
+        "house flies"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "dragonfly",
+      "group": "insect",
+      "forms": [
+        "dragonfly",
+        "dragonflies",
+        "dragon-fly",
+        "dragon-flies",
+        "dragon fly"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "gadfly",
+      "group": "insect",
+      "forms": [
+        "gadfly",
+        "gadflies",
+        "gad-fly",
+        "gad-flies",
+        "gad fly"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "mayfly",
+      "group": "insect",
+      "forms": [
+        "mayfly",
+        "mayflies",
+        "may-fly",
+        "may-flies",
+        "may fly"
+      ],
+      "note": "Separated may fly has an especially high verb false-positive rate."
+    },
+    {
+      "term_id": "firefly",
+      "group": "insect",
+      "forms": [
+        "firefly",
+        "fireflies",
+        "fire-fly",
+        "fire-flies",
+        "fire fly"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "horsefly",
+      "group": "insect",
+      "forms": [
+        "horsefly",
+        "horseflies",
+        "horse-fly",
+        "horse-flies",
+        "horse fly"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "bee",
+      "group": "insect",
+      "forms": [
+        "bee",
+        "bees"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "honeybee",
+      "group": "insect",
+      "forms": [
+        "honeybee",
+        "honeybees",
+        "honey-bee",
+        "honey-bees",
+        "honey bee",
+        "honey bees"
+      ],
+      "note": "May overlap the generic bee category."
+    },
+    {
+      "term_id": "bumblebee",
+      "group": "insect",
+      "forms": [
+        "bumblebee",
+        "bumblebees",
+        "bumble-bee",
+        "bumble-bees",
+        "bumble bee",
+        "humblebee",
+        "humblebees",
+        "humble-bee",
+        "humble bees"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "wasp",
+      "group": "insect",
+      "forms": [
+        "wasp",
+        "wasps"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "hornet",
+      "group": "insect",
+      "forms": [
+        "hornet",
+        "hornets"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "beetle",
+      "group": "insect",
+      "forms": [
+        "beetle",
+        "beetles"
+      ],
+      "note": "Plural spelling can retain an unpunctuated possessive."
+    },
+    {
+      "term_id": "chafer",
+      "group": "insect",
+      "forms": [
+        "chafer",
+        "chafers"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "cockchafer",
+      "group": "insect",
+      "forms": [
+        "cockchafer",
+        "cockchafers",
+        "cock-chafer",
+        "cock-chafers",
+        "cock chafer",
+        "cock chafers"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "scarab",
+      "group": "insect",
+      "forms": [
+        "scarab",
+        "scarabs",
+        "scarabaeus",
+        "scarabaei"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "weevil",
+      "group": "insect",
+      "forms": [
+        "weevil",
+        "weevils"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "ladybird",
+      "group": "insect",
+      "forms": [
+        "ladybird",
+        "ladybirds",
+        "ladybug",
+        "ladybugs",
+        "lady-bird",
+        "lady-bug"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "moth",
+      "group": "insect",
+      "forms": [
+        "moth",
+        "moths",
+        "mothlike",
+        "moth-like"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "butterfly",
+      "group": "insect",
+      "forms": [
+        "butterfly",
+        "butterflies",
+        "butter-fly",
+        "butter-flies"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "caterpillar",
+      "group": "insect",
+      "forms": [
+        "caterpillar",
+        "caterpillars",
+        "caterpiller",
+        "caterpillers",
+        "catterpillar",
+        "catterpillars",
+        "catterpiller",
+        "catterpillers"
+      ],
+      "note": "Catterpiller is attested in The Human Abstract."
+    },
+    {
+      "term_id": "maggot",
+      "group": "insect",
+      "forms": [
+        "maggot",
+        "maggots"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "grub",
+      "group": "insect",
+      "forms": [
+        "grub",
+        "grubs"
+      ],
+      "note": "May be a verb or food."
+    },
+    {
+      "term_id": "larva",
+      "group": "insect",
+      "forms": [
+        "larva",
+        "larvae",
+        "larvas"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "chrysalis",
+      "group": "insect",
+      "forms": [
+        "chrysalis",
+        "chrysalises",
+        "chrysalides"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "cocoon",
+      "group": "associated",
+      "forms": [
+        "cocoon",
+        "cocoons"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "flea",
+      "group": "insect",
+      "forms": [
+        "flea",
+        "fleas"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "louse",
+      "group": "insect",
+      "forms": [
+        "louse",
+        "lice",
+        "louses"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "gnat",
+      "group": "insect",
+      "forms": [
+        "gnat",
+        "gnats"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "midge",
+      "group": "insect",
+      "forms": [
+        "midge",
+        "midges"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "grasshopper",
+      "group": "insect",
+      "forms": [
+        "grasshopper",
+        "grasshoppers",
+        "grass-hopper",
+        "grass-hoppers",
+        "grass hopper"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "cricket",
+      "group": "insect",
+      "forms": [
+        "cricket",
+        "crickets"
+      ],
+      "note": "May denote game rather than animal."
+    },
+    {
+      "term_id": "locust",
+      "group": "insect",
+      "forms": [
+        "locust",
+        "locusts"
+      ],
+      "note": "Can also name a tree."
+    },
+    {
+      "term_id": "earwig",
+      "group": "insect",
+      "forms": [
+        "earwig",
+        "earwigs",
+        "ear-wig",
+        "ear-wigs"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "bug",
+      "group": "insect",
+      "forms": [
+        "bug",
+        "bugs"
+      ],
+      "note": "No automatic modern true-bug classification."
+    },
+    {
+      "term_id": "cockroach",
+      "group": "insect",
+      "forms": [
+        "cockroach",
+        "cockroaches",
+        "cock-roach",
+        "cock-roaches"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "roach",
+      "group": "ambiguous_life",
+      "forms": [
+        "roach",
+        "roaches"
+      ],
+      "note": "Can denote vertebrate fish."
+    },
+    {
+      "term_id": "termite",
+      "group": "insect",
+      "forms": [
+        "termite",
+        "termites",
+        "white ant",
+        "white ants"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "cicada",
+      "group": "insect",
+      "forms": [
+        "cicada",
+        "cicadas",
+        "cicala",
+        "cicalas"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "mosquito",
+      "group": "insect",
+      "forms": [
+        "mosquito",
+        "mosquitoes",
+        "mosquitos",
+        "musquito",
+        "musquitoes"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "spider",
+      "group": "arachnid",
+      "forms": [
+        "spider",
+        "spiders"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "spinner",
+      "group": "ambiguous_life",
+      "forms": [
+        "spinner",
+        "spinners"
+      ],
+      "note": "Spider epithet or human textile worker."
+    },
+    {
+      "term_id": "scorpion",
+      "group": "arachnid",
+      "forms": [
+        "scorpion",
+        "scorpions"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "mite",
+      "group": "arachnid",
+      "forms": [
+        "mite",
+        "mites"
+      ],
+      "note": "Monetary amount in Auguries; cannot auto-admit."
+    },
+    {
+      "term_id": "tick",
+      "group": "arachnid",
+      "forms": [
+        "tick",
+        "ticks"
+      ],
+      "note": "Multiple non-animal senses."
+    },
+    {
+      "term_id": "centipede",
+      "group": "myriapod",
+      "forms": [
+        "centipede",
+        "centipedes",
+        "centiped",
+        "centipeds"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "millipede",
+      "group": "myriapod",
+      "forms": [
+        "millipede",
+        "millipedes",
+        "millepede",
+        "millepedes",
+        "milleped",
+        "millepeds"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "snail",
+      "group": "mollusc",
+      "forms": [
+        "snail",
+        "snails"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "slug",
+      "group": "mollusc",
+      "forms": [
+        "slug",
+        "slugs"
+      ],
+      "note": "May denote projectile or another sense."
+    },
+    {
+      "term_id": "oyster",
+      "group": "mollusc",
+      "forms": [
+        "oyster",
+        "oysters"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "mussel",
+      "group": "mollusc",
+      "forms": [
+        "mussel",
+        "mussels",
+        "muscle",
+        "muscles"
+      ],
+      "note": "Muscle expansion is a noisy historical spelling lead."
+    },
+    {
+      "term_id": "cockle",
+      "group": "mollusc",
+      "forms": [
+        "cockle",
+        "cockles"
+      ],
+      "note": "May denote plant."
+    },
+    {
+      "term_id": "clam",
+      "group": "mollusc",
+      "forms": [
+        "clam",
+        "clams"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "whelk",
+      "group": "mollusc",
+      "forms": [
+        "whelk",
+        "whelks"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "limpet",
+      "group": "mollusc",
+      "forms": [
+        "limpet",
+        "limpets"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "nautilus",
+      "group": "mollusc",
+      "forms": [
+        "nautilus",
+        "nautiluses",
+        "nautili"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "octopus",
+      "group": "mollusc",
+      "forms": [
+        "octopus",
+        "octopuses",
+        "octopi"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "cuttlefish",
+      "group": "mollusc",
+      "forms": [
+        "cuttlefish",
+        "cuttle-fish",
+        "cuttle fish",
+        "cuttle"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "squid",
+      "group": "mollusc",
+      "forms": [
+        "squid",
+        "squids"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "leech",
+      "group": "worm",
+      "forms": [
+        "leech",
+        "leeches"
+      ],
+      "note": "Physician or figurative parasite also possible."
+    },
+    {
+      "term_id": "crab",
+      "group": "crustacean",
+      "forms": [
+        "crab",
+        "crabs"
+      ],
+      "note": "Can name a tree, fruit or non-animal sense."
+    },
+    {
+      "term_id": "lobster",
+      "group": "crustacean",
+      "forms": [
+        "lobster",
+        "lobsters"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "shrimp",
+      "group": "crustacean",
+      "forms": [
+        "shrimp",
+        "shrimps"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "prawn",
+      "group": "crustacean",
+      "forms": [
+        "prawn",
+        "prawns"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "crayfish",
+      "group": "crustacean",
+      "forms": [
+        "crayfish",
+        "cray-fish",
+        "cray fish",
+        "crawfish",
+        "craw-fish",
+        "craw fish"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "barnacle",
+      "group": "crustacean",
+      "forms": [
+        "barnacle",
+        "barnacles"
+      ],
+      "note": "Historical bird associations require review."
+    },
+    {
+      "term_id": "woodlouse",
+      "group": "crustacean",
+      "forms": [
+        "woodlouse",
+        "woodlice",
+        "wood-louse",
+        "wood-lice",
+        "sowbug",
+        "sowbugs",
+        "sow-bug",
+        "sow-bugs"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "polypus",
+      "group": "ambiguous_life",
+      "forms": [
+        "polypus",
+        "polypuses",
+        "polypi",
+        "polyp",
+        "polyps",
+        "polype",
+        "polypes"
+      ],
+      "note": "Mythic/animal/vegetable/medical alternatives remain unresolved."
+    },
+    {
+      "term_id": "hydra",
+      "group": "ambiguous_life",
+      "forms": [
+        "hydra",
+        "hydras"
+      ],
+      "note": "Mythic monster versus animal."
+    },
+    {
+      "term_id": "coral",
+      "group": "ambiguous_life",
+      "forms": [
+        "coral",
+        "corals"
+      ],
+      "note": "Material or colour may not name an organism."
+    },
+    {
+      "term_id": "sponge",
+      "group": "ambiguous_life",
+      "forms": [
+        "sponge",
+        "sponges"
+      ],
+      "note": "Material, object or figurative sense."
+    },
+    {
+      "term_id": "zoophyte",
+      "group": "ambiguous_life",
+      "forms": [
+        "zoophyte",
+        "zoophytes"
+      ],
+      "note": "Historical animal/plant boundary."
+    },
+    {
+      "term_id": "animalcule",
+      "group": "ambiguous_life",
+      "forms": [
+        "animalcule",
+        "animalcules",
+        "animalculae"
+      ],
+      "note": "Broad microscopic life; not automatically invertebrate."
+    },
+    {
+      "term_id": "medusa",
+      "group": "ambiguous_life",
+      "forms": [
+        "medusa",
+        "medusae",
+        "medusas"
+      ],
+      "note": "Mythic or zoological."
+    },
+    {
+      "term_id": "insect",
+      "group": "generic",
+      "forms": [
+        "insect",
+        "insects"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "invertebrate",
+      "group": "generic",
+      "forms": [
+        "invertebrate",
+        "invertebrates"
+      ],
+      "note": "Modern retrieval category; zero is retained."
+    },
+    {
+      "term_id": "vermin",
+      "group": "generic",
+      "forms": [
+        "vermin",
+        "vermine"
+      ],
+      "note": "Can include vertebrates or figurative people."
+    },
+    {
+      "term_id": "creeping_life",
+      "group": "generic",
+      "forms": [
+        "creeping thing",
+        "creeping things",
+        "creeping creature",
+        "creeping creatures"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "hive",
+      "group": "associated",
+      "forms": [
+        "hive",
+        "hives",
+        "beehive",
+        "beehives",
+        "bee-hive",
+        "bee hives"
+      ],
+      "note": "Structure or collective metaphor."
+    },
+    {
+      "term_id": "anthill",
+      "group": "associated",
+      "forms": [
+        "anthill",
+        "anthills",
+        "ant-hill",
+        "ant-hills",
+        "ant hill",
+        "ant hills"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "honey",
+      "group": "associated",
+      "forms": [
+        "honey",
+        "honeycomb",
+        "honeycombs",
+        "honey-comb",
+        "honey-combs"
+      ],
+      "note": "Animal product/imagery; not an animal occurrence."
+    },
+    {
+      "term_id": "wax",
+      "group": "associated",
+      "forms": [
+        "wax",
+        "waxes",
+        "beeswax",
+        "bee-wax",
+        "bees-wax"
+      ],
+      "note": "Material or growth verb; review."
+    },
+    {
+      "term_id": "silk",
+      "group": "associated",
+      "forms": [
+        "silk",
+        "silks",
+        "silken"
+      ],
+      "note": "Product or figure; not an insect observation."
+    },
+    {
+      "term_id": "web",
+      "group": "associated",
+      "forms": [
+        "web",
+        "webs",
+        "cobweb",
+        "cobwebs",
+        "cob-web",
+        "cob-webs"
+      ],
+      "note": "Includes textile and metaphorical contexts."
+    },
+    {
+      "term_id": "swarm",
+      "group": "associated",
+      "forms": [
+        "swarm",
+        "swarms",
+        "swarming",
+        "swarmd"
+      ],
+      "note": "May refer to other animals or people."
+    },
+    {
+      "term_id": "sting",
+      "group": "associated",
+      "forms": [
+        "sting",
+        "stings",
+        "stung",
+        "stinging"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "shell",
+      "group": "associated",
+      "forms": [
+        "shell",
+        "shells",
+        "shelly",
+        "shellfish",
+        "shell-fish",
+        "shell fish"
+      ],
+      "note": "Instrument/material/other non-animal senses."
+    },
+    {
+      "term_id": "pearl",
+      "group": "associated",
+      "forms": [
+        "pearl",
+        "pearls"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "wing",
+      "group": "associated",
+      "forms": [
+        "wing",
+        "wings",
+        "winged",
+        "wingd"
+      ],
+      "note": "Birds and angels included as noisy leads, not invertebrate counts."
+    },
+    {
+      "term_id": "hum",
+      "group": "associated",
+      "forms": [
+        "hum",
+        "hums",
+        "humming"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "crawl",
+      "group": "associated",
+      "forms": [
+        "crawl",
+        "crawls",
+        "crawling",
+        "crawl'd",
+        "crawld"
+      ],
+      "note": ""
+    },
+    {
+      "term_id": "spin",
+      "group": "associated",
+      "forms": [
+        "spin",
+        "spins",
+        "spun",
+        "spinning"
+      ],
+      "note": "Human textile work and other actions."
+    },
+    {
+      "term_id": "flight_verbs",
+      "group": "motion",
+      "forms": [
+        "flying",
+        "flew",
+        "flown",
+        "flyest"
+      ],
+      "note": "Indirect context channel; explicitly not animal noun counts."
+    }
+  ]
+}

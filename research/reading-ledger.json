@@ -1,0 +1,106 @@
+{
+  "observed": "2026-10-28",
+  "scope": "Selected source inspections and acquisition status; no inherited complete-reading credit.",
+  "readings": [
+    {
+      "id": "archive-songs-a",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.a.xml",
+      "status": "selected_contexts",
+      "locators": [
+        "object 27, A Dream",
+        "object 33, The Fly",
+        "object 41, The Human Abstract",
+        "object 48, The Sick Rose"
+      ],
+      "ceiling": "XML text and descriptions only; physical images not inspected; no full copy reading."
+    },
+    {
+      "id": "archive-milton-a",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml",
+      "status": "selected_contexts",
+      "locators": [
+        "object 24, physical text lines 13-22",
+        "object 31 description and Polypus windows"
+      ],
+      "ceiling": "Inventory and catalog alternatives; no complete copy reading or visual zoological identification."
+    },
+    {
+      "id": "archive-thel-b",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.b.xml",
+      "status": "selected_contexts",
+      "locators": [
+        "objects 6-7"
+      ],
+      "ceiling": "Selected Worm/Clay context only; not all copies."
+    },
+    {
+      "id": "erdman-retained",
+      "url": "https://erdman.blakearchive.org/api/pages",
+      "status": "retained_selected_contexts",
+      "sha256": "61c846e4b3122eb9eca6797805bf80d976a6712c179183504b1a465c2ef6f370",
+      "locators": [
+        "E16 record26",
+        "E23 record33",
+        "E27 record37",
+        "E93 record103",
+        "E124 record134",
+        "E323 record335",
+        "E404 record416",
+        "E462 record474",
+        "E490-492 records502-504",
+        "E685 record697"
+      ],
+      "ceiling": "Machine screening plus selected page contexts, not whole-volume reading; live endpoint access failed; mixed edition authorship retained."
+    },
+    {
+      "id": "dauphin-2026",
+      "title": "A Genealogy of the Polypus, from William Blake to H.P. Lovecraft: The Root of All Evil?",
+      "author": "Caroline Dauphin",
+      "year": 2026,
+      "url": "https://publis-shs.univ-rouen.fr/eriac/1132.html",
+      "status": "selected_sections",
+      "locators": [
+        "paragraphs 3-6",
+        "paragraphs 21-25"
+      ],
+      "ceiling": "Selected Blake sections and citation metadata only; no complete article or cited-source reading."
+    },
+    {
+      "id": "goode-2016",
+      "title": "Google Blake",
+      "author": "Mike Goode",
+      "year": 2016,
+      "url": "https://romantic-circles.org/praxis/pedagogical_blake/praxis.2016.pedagogical_blake.goode",
+      "status": "selected_sections",
+      "locators": [
+        "opening sections on fragmentation and pedagogy"
+      ],
+      "ceiling": "Not complete essay; later targeted worm find timed out."
+    },
+    {
+      "id": "schwartz-2012",
+      "title": "Art Thou but a Worm? Blake and the Question Concerning Taxonomy",
+      "author": "Janelle A. Schwartz",
+      "year": 2012,
+      "doi": "10.5749/minnesota/9780816673209.003.0004",
+      "url": "https://academic.oup.com/minnesota-scholarship-online/book/17469/chapter-abstract/175003012",
+      "status": "publisher_abstract_only",
+      "locators": [
+        "pp. 113-148 metadata"
+      ],
+      "ceiling": "Search returned publisher abstract; direct page redirected to inaccessible CDN. Full chapter not acquired or read."
+    },
+    {
+      "id": "perkins-1999",
+      "title": "Animal Rights and Auguries of Innocence",
+      "author": "David Perkins",
+      "year": 1999,
+      "url": "https://bq.blakearchive.org/pdfs/33.1.perkins.pdf",
+      "status": "located_not_read",
+      "locators": [
+        "Blake/An Illustrated Quarterly 33.1"
+      ],
+      "ceiling": "Search excerpt located; PDF open timed out. No complete reading credit or adopted article claims."
+    }
+  ]
+}

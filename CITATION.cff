@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this research application together with the pinned Blake corpus and methods."
+type: software
+title: "Blakean Entomology: Invertebrates in William Blake"
+version: 0.1.0
+date-released: 2026-10-28
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+repository-code: "https://github.com/docxology/Blakean_Entomology"
+abstract: "A private, provenance-bound invertebrate concordance and research application. Candidate retrieval is distinguished from adjudicated literary evidence."

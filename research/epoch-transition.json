@@ -1,0 +1,15 @@
+{
+  "prior": "baseline-v2",
+  "current": "baseline-v3",
+  "reason": "CSV review producer",
+  "unchanged_analytical_artifacts": {
+    "summary.json": true,
+    "hits.jsonl": true,
+    "counts.csv": true,
+    "review-queue.csv": true,
+    "report.md": true
+  },
+  "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "authored_decisions_preserved": 11,
+  "jsonl_csv_review_counts_equal": true
+}
