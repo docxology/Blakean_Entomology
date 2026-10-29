@@ -216,5 +216,46 @@ def atlas_command(
     )
 
 
+@main.command("composition-audit")
+@click.option("--atlas", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--atlas-sha256", required=True)
+@click.option("--sensitivity", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--bundle", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--pin", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--vocabulary", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--proximity", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+def composition_command(
+    atlas: Path,
+    atlas_sha256: str,
+    sensitivity: Path,
+    bundle: Path,
+    pin: Path,
+    vocabulary: Path,
+    proximity: Path,
+    output: Path,
+) -> None:
+    """Recompute bound inputs and write nine text-free composition exports."""
+    from .composition_workflow import CompositionInputs, generate
+
+    try:
+        receipt = generate(
+            CompositionInputs(
+                atlas=atlas,
+                atlas_sha256=atlas_sha256,
+                sensitivity=sensitivity,
+                bundle=bundle,
+                pin=pin,
+                vocabulary=vocabulary,
+                proximity=proximity,
+            ),
+            output,
+            Path.cwd() / "analysis_output",
+        )
+    except (OSError, ValueError, ResearchError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(f"{len(receipt.files)} text-free exports; source candidate. {output}")
+
+
 if __name__ == "__main__":
     main()

@@ -6,112 +6,27 @@
 """Prepare verified Markdown and assets; native PDF rendering belongs to root."""
 
 import re
+import sys
 from pathlib import Path
-from typing import Final, Literal
+
+# Legacy sibling adapters are also executable scripts; admit their source directory
+# for both direct execution and namespace imports without installing tool modules.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import click
-from blake.methods.models import Digest, EvidenceError, FileReceipt, FrozenModel, ResearchError
+from blake.methods.models import EvidenceError, FileReceipt, ResearchError
 from blake.methods.runs import digest, read_regular, reserve, write_new
 from blake.methods.storage import publish_bytes, verify_file
-from build_reference_figures import FigureReceipt
-from reference_plotting import primary_cohort
 
 from blakean_entomology.atlas_models import AtlasReceipt
-from blakean_entomology.casebook import Casebook, load_casebook
+from blakean_entomology.casebook import load_casebook
 from blakean_entomology.core import vocabulary
 from blakean_entomology.taxonomy import load_reference
 from blakean_entomology.workflows import require_private_output
-
-TOKEN: Final = re.compile(r"\{\{([A-Z_]+)\}\}")
-
-
-class PreparationReceipt(FrozenModel):
-    schema_version: Literal[1] = 1
-    atlas_sha256: Digest
-    figures_sha256: Digest
-    casebook_sha256: Digest
-    reference_sha256: Digest
-    manuscript_sha256: Digest
-    bibliography_sha256: Digest
-    generator_sha256: Digest
-    presentation_sha256: Digest
-    figure_tool_sha256: Digest
-    files: tuple[FileReceipt, ...]
-    qualification: Literal["prepared Markdown only; no native PDF or independent acceptance"] = (
-        "prepared Markdown only; no native PDF or independent acceptance"
-    )
-
-
-def hydrate_article(
-    text: str, atlas: AtlasReceipt, figures: FigureReceipt, casebook: Casebook, taxon_count: int
-) -> str:
-    """Resolve all declared new count/caption tokens; reject undeclared tokens."""
-    primary = primary_cohort(atlas)
-    old = atlas.historical_review
-    if old is None:
-        raise EvidenceError(
-            "manuscript_historical_review", "Supply the original historical summary"
-        )
-    values = {
-        "REFERENCE_TAXA": str(taxon_count),
-        "ATLAS_CATEGORIES": str(atlas.category_count),
-        "ATLAS_FORMS": str(atlas.explicit_form_count),
-        "ATLAS_UNITS": f"{atlas.scanned_units:,}",
-        "ATLAS_CANDIDATES": f"{atlas.candidates:,}",
-        "ATLAS_PRIMARY_CANDIDATES": f"{atlas.primary_candidates:,}",
-        "ATLAS_PRIMARY_UNITS": str(primary.source_units),
-        "ZERO_NORMALIZED_FORMS": str(sum(f.equivalent_form_candidates == 0 for f in atlas.forms)),
-        "ZERO_SURFACE_FORMS": str(sum(f.exact_surface_candidates == 0 for f in atlas.forms)),
-        "ALIAS_GROUPS": str(len(atlas.normalized_alias_groups)),
-        "ATLAS_DISTINCT_SPANS": f"{atlas.distinct_source_spans:,}",
-        "OVERLAP_PAIRS": f"{atlas.overlapping_candidate_pairs:,}",
-        "PRIMARY_EXACT_UNITS": str(primary.exact_text_units),
-        "CASEBOOK_CASES": str(len(casebook.cases)),
-        "COMPLETE_POEMS": str(
-            sum(s.credit == "complete_poem_transcription" for s in casebook.selections)
-        ),
-        "HISTORICAL_REVIEWED": str(old.reviewed_hits),
-        "HISTORICAL_UNREVIEWED": f"{old.unreviewed_hits:,}",
-        "REFERENCE_CAPTION": figures.tree_caption,
-        "ATLAS_CAPTION": figures.atlas_caption,
-    }
-    missing = set(TOKEN.findall(text)) - set(values)
-    if missing:
-        raise EvidenceError("manuscript_token", ", ".join(sorted(missing)))
-    hydrated = TOKEN.sub(lambda m: values[m.group(1)], text)
-    if "{{" in hydrated or "}}" in hydrated:
-        raise EvidenceError("manuscript_token_syntax", "Unresolved or malformed token")
-    return hydrated
-
-
-def casebook_markdown(book: Casebook) -> str:
-    """Export authored interpretations and exact reading ceilings without source bodies."""
-    selections = {s.selection_id: s for s in book.selections}
-    lines = [
-        "# Contextual casebook",
-        "",
-        "Bounded textual readings; no new candidate decisions or image identifications.",
-        "",
-    ]
-    for case in book.cases:
-        lines += [
-            f"## {case.title}",
-            "",
-            case.interpretation,
-            "",
-            "Alternative: " + case.rival_reading,
-            "",
-            "Biological limit: " + case.taxonomic_limit,
-            "",
-        ]
-        for identity in case.selections:
-            selection = selections[identity]
-            lines += [
-                f"- {selection.locator}. Credit: `{selection.credit}`. "
-                + f"Selected-text SHA-256: `{selection.selected_text_sha256}`. {selection.limit}"
-            ]
-        lines += [""]
-    return "\n".join(lines)
+from tools.build_reference_figures import FigureReceipt
+from tools.manuscript_assets import AdditionalInput, PreparationReceipt
+from tools.manuscript_content import casebook_markdown, hydrate_article
 
 
 def prepare(
@@ -127,6 +42,7 @@ def prepare(
     sources: Path,
     reference_sha256: str,
     output: Path,
+    additional: AdditionalInput | None = None,
 ) -> PreparationReceipt:
     """Close source/data/figure bindings before writing a new render input epoch."""
     inputs = (
@@ -140,6 +56,9 @@ def prepare(
     )
     for source in inputs:
         require_private_output(output, source)
+    extension = additional.load(atlas_sha256) if additional is not None else None
+    if additional is not None:
+        require_private_output(output, additional.directory)
     atlas_raw = read_regular(atlas_path)
     figure_raw = read_regular(figure_directory / "figures.json")
     if digest(atlas_raw) != atlas_sha256 or digest(figure_raw) != figures_sha256:
@@ -169,17 +88,32 @@ def prepare(
     model = load_reference(reference, sources, reference_sha256, vocabulary())
     manuscript_raw = read_regular(manuscript)
     bibliography_raw = read_regular(bibliography)
-    hydrated = hydrate_article(manuscript_raw.decode(), atlas, figures, book, len(model.taxa))
+    hydrated = hydrate_article(
+        manuscript_raw.decode(), atlas, figures, book, len(model.taxa), extension
+    )
     citations = set(re.findall(r"@([a-z][a-z0-9-]+)", hydrated))
     keys = set(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode()))
+    if len(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode())) != len(keys):
+        raise EvidenceError("manuscript_duplicate_citation_key", str(bibliography))
     if not citations.issubset(keys):
         raise EvidenceError("manuscript_citation", str(sorted(citations - keys)))
-    links = re.findall(r"!\[[^\]]*\]\(assets/([^\)]+)\)", hydrated)
+    links = re.findall(r"!\[(?:[^\[\]]|\[[^\[\]]*\])*\]\(([^\)]+)\)", hydrated)
     expected = {"retrieval-sensitivity.png", "invertebrate-reference.png", "corpus-atlas.png"}
-    if set(links) != expected or len(links) != len(expected):
+    if extension is not None:
+        expected.update(extension.image_paths)
+        for entry in extension.files:
+            payloads[entry.path] = read_regular(
+                verify_file(
+                    figure_directory if additional is None else additional.directory,
+                    entry.path,
+                    entry.size,
+                    entry.sha256,
+                )
+            )
+    expected = {"assets/" + name for name in expected}
+    if set(links) != expected or len(links) != len(expected) or hydrated.count("![") != len(links):
         raise EvidenceError("manuscript_figure_membership", str(links))
     prior_figure = read_regular(manuscript.parent / "assets/retrieval-sensitivity.png")
-    reserve(output)
     render_inputs = {
         "blakean-entomology.md": hydrated.encode(),
         "references.bib": bibliography_raw,
@@ -189,12 +123,43 @@ def prepare(
     render_inputs.update(
         ("assets/" + name, payload)
         for name, payload in payloads.items()
-        if name.endswith((".png", ".svg"))
+        if name.endswith((".png", ".svg")) or extension is not None
     )
+    if additional is not None:
+        render_inputs["additional-assets.json"] = read_regular(
+            additional.directory / "additional-assets.json"
+        )
+    snapshots = [
+        (p, read_regular(p))
+        for p in (
+            manuscript,
+            bibliography,
+            atlas_path,
+            figure_directory / "figures.json",
+            casebook_path,
+            reference,
+            manuscript.parent / "assets/retrieval-sensitivity.png",
+            Path(__file__),
+            Path(__file__).with_name("manuscript_assets.py"),
+            Path(__file__).with_name("manuscript_content.py"),
+            Path(__file__).with_name("reference_plotting.py"),
+            Path(__file__).with_name("build_reference_figures.py"),
+        )
+    ]
     artifacts: list[FileReceipt] = []
+    reserve(output)
     for name, payload in render_inputs.items():
         published = publish_bytes(output / name, payload)
         artifacts.append(FileReceipt(path=name, size=published.size, sha256=published.sha256))
+    for path, raw in snapshots:
+        if read_regular(path) != raw:
+            raise EvidenceError("manuscript_source_changed", str(path))
+    for member in figures.files:
+        _ = verify_file(figure_directory, member.path, member.size, member.sha256)
+    _ = load_casebook(casebook_path, sources, casebook_sha256)
+    _ = load_reference(reference, sources, reference_sha256, vocabulary())
+    if additional is not None:
+        _ = additional.load(atlas_sha256)
     receipt = PreparationReceipt(
         atlas_sha256=atlas_sha256,
         figures_sha256=figures_sha256,
@@ -208,6 +173,13 @@ def prepare(
             Path(__file__).with_name("build_reference_figures.py").read_bytes()
         ),
         files=tuple(artifacts),
+        additional_assets_sha256=additional.sha256 if additional is not None else None,
+        additional_assets=extension,
+        helper_sources=tuple(
+            FileReceipt(path=name, size=len(raw), sha256=digest(raw))
+            for name in ("manuscript_assets.py", "manuscript_content.py")
+            for raw in (read_regular(Path(__file__).with_name(name)),)
+        ),
     )
     _ = write_new(output / "preparation.json", (receipt.model_dump_json(indent=2) + "\n").encode())
     return receipt
@@ -230,6 +202,8 @@ def prepare(
 @click.option("--sources", type=click.Path(exists=True, path_type=Path), required=True)
 @click.option("--reference-sha256", required=True)
 @click.option("--output", type=click.Path(path_type=Path), required=True)
+@click.option("--additional-assets", type=click.Path(exists=True, path_type=Path))
+@click.option("--additional-assets-sha256")
 def main(
     manuscript: Path,
     bibliography: Path,
@@ -243,9 +217,18 @@ def main(
     sources: Path,
     reference_sha256: str,
     output: Path,
+    additional_assets: Path | None,
+    additional_assets_sha256: str | None,
 ) -> None:
     """Generate a source-bound Markdown input; do not invoke a native renderer."""
     try:
+        if (additional_assets is None) != (additional_assets_sha256 is None):
+            raise EvidenceError("additional_asset_options", "Supply directory and SHA together")
+        extra = (
+            AdditionalInput(additional_assets, additional_assets_sha256)
+            if additional_assets is not None and additional_assets_sha256 is not None
+            else None
+        )
         _ = prepare(
             manuscript,
             bibliography,
@@ -259,6 +242,7 @@ def main(
             sources,
             reference_sha256,
             output,
+            extra,
         )
     except (OSError, ValueError, ResearchError) as exc:
         raise click.ClickException(str(exc)) from exc

@@ -2,37 +2,37 @@
 title: "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention"
 author:
   - Daniel Ari Friedman
-date: "28 October 2026 · Private research draft 0.2.0"
+date: "28 October 2026 · Expanded private research draft"
 lang: en
 ---
 
-The exact shared SDK source pin is recorded in `pyproject.toml` and `uv.lock`. Source-grounded
-readings and a complete lexical retrieval experiment within a declared snapshot;
-contextual adjudication and copy-specific image review remain in progress.
+Selected textual and material witnesses are read alongside an exhaustive search
+of declared forms in a pinned corpus. Corpus-wide contextual and visual review
+remains incomplete.
 
 # Abstract
 
-William Blake's invertebrates range from the lost emmet of “A Dream” to the
-expanding Polypus of the prophetic books. Their significance cannot be recovered
-by treating every animal name as a fixed symbol or every search result as a
-Blake-authored observation. This article develops a source-bound inquiry into
-invertebrate lives, figures, products and collective forms across a captured
-Blake corpus. A reusable corpus and lexical engine belong to the public Blake
-methods repository; the present private application owns its vocabulary,
-contextual decisions and interpretation. The declared vocabulary includes
-historical spellings, explicit compounds, and distinct channels for animal names
-and associated imagery. Preliminary readings identify three recurrent problems:
-the obligation to attend to vulnerable life, the instability of human/animal
-comparisons, and the difference between coordinated plurality and engulfing
-aggregation. Work weighting and finite word windows expose the dependence of lexical prominence
-and co-occurrence on the retained source units. The wine-press inventories and the Polypus prevent these problems
-from resolving into a uniformly benevolent bestiary. Search results retain
-source-copy repetition, editorial boundaries, exact spans and zero cells. They
-support a comprehensive review program while remaining distinct from an
-adjudicated census of all invertebrate discussions in Blake. A captured modern
-reference classification separates lexical discovery from biological
-identification. A source-role atlas audits the declared vocabulary, and a bounded
-casebook records exactly which short poems and local passages were read.
+William Blake's small lives make relations consequential: a lost emmet needs a
+route home; a fly becomes a human analogy after injury; feeding insects inhabit
+a tree rooted in the human brain; and a Polypus joins persons within a collective
+body. This article distinguishes three relations across these scenes: provision
+that enables another life, feeding that uses a living body, and aggregation that
+reorganizes its members' powers. Care, appetite, predation, cruelty and metaphor
+intersect without becoming morally interchangeable. Copy-specific readings of
+four short poems, seven selected historical scans, local prophetic and prose
+passages, and bounded scholarship test this argument against rival readings.
+A reproducible concordance preserves the breadth that close reading necessarily
+selects: 102 query categories retrieve 36,039 category-source-span candidates
+across 2,067 captured units, including 2,498 candidates in 199 identified
+Blake-primary reading units. Within that primary scope, 82 name-family categories
+contribute 1,239 candidates. Their pooled and equal nonempty-group compositions
+differ by total variation 0.222387 across 26 positive groups, whereas token-rate
+comparisons retain all 33 eligible groups. Twelve literal-pair experiments expose
+source dependence and distance. These are distributions of retrieval mass, not
+an adjudicated animal census or complete oeuvre. Modern classification, lexical
+matching and material interpretation remain distinct. The resulting argument
+locates ethical force in particular acts of hearing, sustaining, injuring and
+joining, while its explicit zeros and unresolved cases direct further reading.
 
 # 1. Why begin with small lives?
 
@@ -64,6 +64,15 @@ editorial note can become a false Blake quotation. The present method retrieves
 broadly while preserving the distinction between a captured lead and an admitted
 interpretive claim.
 
+The argument follows three relations rather than a stable bestiary: provision
+that enables another life, feeding that uses a living body, and aggregation that
+reorganizes its members' powers. A glow-worm's assistance and the Clay's nurture
+make dependence answerable; a worm's destructive intimacy and the wine-press's
+suffering prevent abundance from guaranteeing reciprocity. The Polypus asks what
+happens to distinct capacities when lives join. Each relation can intersect the
+others, but neither a shared animal name nor a biological analogy supplies a
+single moral verdict.
+
 # 2. Existing questions and the article's contribution
 
 The study does not claim to discover that Blake writes about invertebrates.
@@ -71,15 +80,23 @@ Janelle A. Schwartz's chapter on Blake and taxonomy explicitly addresses the
 varied worm and its relation to decay and generation. Only its publisher abstract
 and bibliographic information were accessible in this pass; the chapter's full
 argument has not been read here. Its existence rules out presenting a worm-based
-approach as an unprecedented research subject. [Publisher abstract, chapter 4,
-pp. 113–148](https://academic.oup.com/minnesota-scholarship-online/book/17469/chapter-abstract/175003012).
+approach as an unprecedented research subject. [@schwartz-2012, chapter 4, publisher abstract only].
 
 Caroline Dauphin's discussion of the Polypus connects its changing poetic forms
-with problems of generation, bodily boundaries and collectivity. Selected
-paragraphs 3–6 and 21–25 inform the present question: how can an aggregated body
+with problems of generation, bodily boundaries and collectivity. The earlier selected
+paragraphs 3–6 and 21–25, now extended through paragraphs 7–28 and 49–50, inform the present question: how can an aggregated body
 become both an image of connection and a threat to distinct lives? Her historical
 genealogy is a scholarly interpretation, not independently established by the
-search totals reported here. [Dauphin, 2026](https://publis-shs.univ-rouen.fr/eriac/1132.html).
+search totals reported here. [@dauphin-2026-expanded, paragraphs 3–28 and 49–50].
+
+Perkins's complete article on animal rights and “Auguries of Innocence” and
+Srigley's complete article on “The Sick Rose” now supply substantive, divergent
+readings of injury. Material scholarship by Essick and Viscomi and selected Fara
+sections place reproduction, generation and the terms of observation beside the
+poems; their limited reading scopes are specified below. Gould, Baker and Erasmus
+Darwin offer historically available comparisons, with no demonstrated reading or
+influence chain from these books to Blake. [@perkins-1999; @srigley-1992;
+@essick-viscomi-2002; @fara-2020]
 
 The contribution attempted here is a reproducible relation between broad
 retrieval and situated reading. Every admitted interpretation should be traceable
@@ -154,7 +171,15 @@ The snail's absence from the reading plane does not erase the Four Zoas passage
 at E323. Nor can a large XML fly count establish that Blake describes thousands
 of flies. The different planes serve different discovery functions.
 
-## 3.1. A reference classification, not a phylogeny of poetic names {#sec:reference}
+## 3.1. The animal name and the material page
+
+An animal word and a depicted animal are different kinds of evidence. A transcription can establish that a poem names a fly without establishing that a particular mark in its design depicts one. Conversely, a visually prominent body can matter without supplying an additional lexical occurrence. The illuminated page makes this distinction productive: lettering, vegetation, figures and coloured grounds guide the movement through the poem, sometimes offering an analogy and sometimes withholding the object that a reader expects to find. The relevant question is therefore not simply whether the picture confirms the text, but what each medium enables the reader to notice, and what remains uncertain after they have been considered together.
+
+Material scholarship also discourages treating colour as a transparent record of a single original conception. Essick and Viscomi distinguish impressions printed in one ink and subsequently coloured from colour printing, in which colour is transferred from the plate. They also show how cropping, straightening and mounting can conceal the relation between an impression and its sheet. Their argument concerns printing processes and bibliographical evidence; it does not license assigning an intention to each difference between two digital reproductions. [@essick-viscomi-2002, pp. 74–76, 91–92] Here the complete captured scans remain available beside the resized figures. Details are enlarged only with their crop boundaries recorded. None has been rotated or recoloured.
+
+The distinction matters particularly for small lives. Enlarging a minute shape may make its outlines easier to inspect while also detaching it from the proportions and verbal setting through which it becomes meaningful. The four *Songs* impressions reproduced here belong to copy Y at the Metropolitan Museum of Art. Their text is checked in that copy; they do not inherit the copy-A reading credit of the earlier casebook. The *Thel* comparison likewise names each physical witness. This is an addition of seven selected visual witnesses, not a representative sample of all copies or a visual census of Blake's animals. [@blake-songs-y-2026; @blake-thel-f-2026; @blake-thel-o-2026]
+
+## 3.2. A reference classification, not a phylogeny of poetic names {#sec:reference}
 
 The modern reference contains {{REFERENCE_TAXA}} admitted NCBI taxon records and
 an explicit mapping policy for all {{ATLAS_CATEGORIES}} historical search
@@ -193,6 +218,13 @@ taxon target. No category total is allocated to a taxon by this policy, and
 
 # 4. Attention, analogy and injury
 
+The earlier casebook read all verse lines of these four poems in copy A.
+The present comparison adds separate complete transcriptions in copy Y and the
+four Met impressions reproduced below. The copy-A textual credits remain intact;
+no full-copy reading or all-copy visual comparison follows.
+
+## 4.1. Assistance has several agents
+
 “A Dream” makes homecoming depend on several kinds of agency. The emmet speaks
 her own distress; the dreamer hears it; the glow-worm can illuminate the ground;
 the beetle provides an audible orientation. On the reading proposed here, the
@@ -204,6 +236,14 @@ the speaker's tear, practical advice and the ending. This is an interpretive pro
 sequence, not a biological claim about ant navigation or a measured social
 network. The glow-worm's familiar association with illumination is insufficient
 by itself: what matters is when and for whom its capacity becomes useful.
+
+In copy Y's “A Dream,” orange-brown lettering occupies almost the entire designed field, while curling stems, tufts and leaves pass around and between its stanzas. Blue washes gather along parts of the margins. The reader's route through speech is also a route through this vegetation. A small upright, pale figure at the lower right becomes clearer in a bounded enlargement, but its identity is less secure than the text's naming of the glow-worm and beetle. It would be misleading to turn every adjacent mark into an insect. What can be seen with greater confidence is a page that makes the written journey dense with branching and interlacing forms. [@blake-songs-y-2026, plate 26, object 26, physical lines 3–22; Met 17.10.26]
+
+William Gould's *An Account of English Ants* supplies a historically available contrast, without establishing that Blake read this book. At the beginning of chapter VIII, Gould presents ant labour as an example of public care and an admonition to human indolence. But that moral use coexists with a demand for repeated observation. Later in the chapter he disputes inherited accounts of winter granaries among the English ants he has examined, while reserving the possibility of different behaviour elsewhere. [@gould-1747, pp. 66–68, 78–81] Natural history here is capable both of making social examples and of correcting exemplary stories. Blake's lost mother need not be reduced to either a lesson in industriousness or a report about ant behaviour. Her interrupted journey places need before usefulness, although the glow-worm's assigned watch still permits a reading through established social offices.
+
+![A Dream. Bentley plate 26; Archive object 26; Erdman E16; accession 17.10.26. Vegetation passes around and between the stanzas; the small lower-right figure remains uncertain. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347935-whole.png){#fig:songs_dream height=155mm}
+
+## 4.2. A human consolation and an injured fly
 
 “The Fly” makes another relation possible through the thoughtlessness of a human
 hand. Its human/animal comparison can support sympathy, but the comparison also
@@ -219,6 +259,12 @@ conclusion, not testimony from the fly about its injury. Full-poem transcription
 credit does not include the design, other copies or all of *Songs*.
 [@blake-songs-a, object 33, physical lines 3–22]
 
+“The Fly” makes the relation between text and design more difficult. In copy Y, a large adult figure bends towards a small child and holds its raised hands. At the left another figure raises a racket towards a shuttlecock-like object. Trees enclose the group, and the poem occupies two upper columns. The most legible bodies are thus human bodies engaged in play and support, not an anatomically resolved fly. [@blake-songs-y-2026, plate 40, object 40, physical lines 3–22; Met 17.10.40] These actions can intensify the analogy between human and insect play. They can also expose a disparity: the child is visibly supported, whereas the creature brushed away has no comparable helper within the depicted scene. Neither possibility proves that the adult illustrates the speaking “I.” The design instead keeps care, diversion and vulnerability beside a poem whose ending returns to the speaker's happiness. The fly's fate remains less fully told than the human argument made from it.
+
+![The Fly. Bentley plate 40; Archive object 40; Erdman E23; accession 17.10.40. Human support and racket play coexist with the poem’s named fly; the shuttlecock-like mark is not identified as a fly. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347974-whole.png){#fig:songs_fly height=155mm}
+
+## 4.3. A worm whose identity remains unsettled
+
 “The Sick Rose” offers a compact retrieval control. The worm is an explicit
 animal-form reference; *flies* is the verb describing its movement, not evidence
 for a second animal named a fly. Both spans belong in the candidate concordance,
@@ -231,6 +277,16 @@ transcription was read for the present casebook. Its movement from sickness to
 the found bed and destructive secret love offers no diagnostic anatomy with
 which to resolve the agent. [@blake-songs-a, object 48, physical lines 3–10]
 
+The design of “The Sick Rose” offers bodies without making the poem a diagnostic report. In copy Y, thorned stems and serrated leaves enclose the text; small bent figures occupy the upper vegetation. A larger exposed human form curves out of the lower blossom beside a narrow, bent, apparently segmented shape. A detail crop permits closer inspection of that adjacency, but not a secure species identification. The bodily and botanical forms overlap too closely for the design to supply a simple labelled predator and host. [@blake-songs-y-2026, plate 39, object 39, physical lines 3–10; Met 17.10.39] In the verse, the worm's destructive movement is explicit while its invisibility is part of the problem. Giving the design an unqualified zoological label would prematurely close the uncertainty through which the verbal address works.
+
+Michael Srigley supplies a substantial counterreading to a straightforward encounter with an insect. He connects the nocturnal worm to traditions of spectral beings and to Paracelsian explanations of illnesses produced by disordered imagination. On his account, sexual repression and solitary fantasy make the destructive love intelligible. The article reconstructs several possible channels through which Blake might have encountered such ideas, but does not demonstrate a particular act of reading the proposed source. [@srigley-1992, pp. 4–8] Its historical hypothesis should remain a hypothesis. Nevertheless, it changes the question: the creature may embody the damage of a social and imaginative relation rather than describe an external organism entering an otherwise innocent world.
+
+That alternative need not expel the animal word from consideration. The poem can be an invertebrate passage precisely because the worm's available senses are being made unstable. A literal animal reading must explain the secret love; a sexual or psychological reading must explain why this injury takes worm-like, nocturnal and mobile form. The two stanzas are not a code with one expendable noun. Their second-person address also matters: the rose is told of its sickness and destruction, but does not answer. The reader hears an attribution of harm rather than an exchange in which both parties describe their relation.
+
+![The Sick Rose. Bentley plate 39; Archive object 39; Erdman E23; accession 17.10.39. Human, floral and narrow bent forms overlap; the design does not diagnose the invisible worm. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347973-whole.png){#fig:songs_rose height=155mm}
+
+## 4.4. Feeding on a compromised growth
+
 The caterpillar and fly of “The Human Abstract” complicate a uniformly tender
 reading. They feed within an account of fear, cruelty and mystery that ends in
 the human brain. A contextual annotation must preserve the predication and
@@ -241,6 +297,12 @@ context. The caterpillar and fly therefore cannot supply an empirical plant-host
 relation through their nouns alone. Source: *Songs* copy A, object 41, physical
 lines 3–26, especially 17–18 and 23–26; E27, record 37.
 [@blake-songs-a, object 41]
+
+“The Human Abstract” resists the opposite simplification, in which insects always stand for persecuted innocence. Its caterpillar and fly feed on Mystery after Cruelty has prepared a snare, watered the ground and brought forth rooted Humility. The final stanza locates the tree in the human brain. In copy Y, an aged, bearded figure raises his arms amid cord-like forms under the text; a dark trunk and projecting growths occupy the margins. These visible relations support an interpretation of entanglement, without requiring the figure to be named or the cords to be identified as an insect web. [@blake-songs-y-2026, plate 47, object 47, physical lines 3–26; Met 17.10.47]
+
+The opening attack on pity that depends upon making another person poor prevents compassion from remaining an unexamined virtue. Read beside “A Dream,” it asks whether assistance answers a prior need or benefits from maintaining dependence. The feeding insects are implicated in a growth whose nourishment is morally compromised; they do not independently explain its origin. This distinction keeps appetite from becoming either automatic guilt or automatic innocence. What matters is the relation between feeding, the conditions that sustain it, and the voice that makes those conditions intelligible.
+
+![The Human Abstract. Bentley plate 47; Archive object 47; Erdman E27; accession 17.10.47. An aged figure raises his arms among cord-like forms; neither a character name nor an insect web is inferred. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-348001-whole.png){#fig:songs_abstract height=155mm}
 
 # 5. Inventories of life around the wine-press
 
@@ -278,28 +340,39 @@ innocence, nor does the presence of Los ensure a stable human superiority. The
 scene motivates reading agency and evaluative position alongside animal name.
 Source: retained Erdman record 335, opening lines of E323.
 
+This juxtaposition changes how the wine-press inventory can be used. The abundance of named life around the press does not ensure that every participant occupies a position of reciprocal benefit. The inventory must remain beside the human grapes and their suffering. [@blake-milton-a, object 24, physical lines 2–42] Nor does the mere presence of predation establish cruelty in the same sense as a deliberately inflicted injury. The article can instead follow three separate relations: the provision that enables another life, the feeding that uses a living body, and the aggregation that reorganizes its members' powers. Their overlap is an interpretive problem, not evidence that they are morally identical.
+
 # 6. Taxonomic uncertainty and collective bodies
 
-In *The Book of Thel*, the Worm is addressed and personified rather than simply
-displayed as a natural-history specimen. The relation between a vulnerable form,
-the Clay and Thel's response requires attention to the sequence of speakers.
-The present source intake anchors that discussion to copy B, objects 6–7,
-physical text lines 3–14 and 2–18 respectively in the new bounded reading.
-Thel's later acknowledgment distinguishes knowing that injury is punished from
-learning that the form is positively cherished with milk and oil. Care therefore
-extends beyond avoiding the bruising foot. The Clay's maternal and nuptial speech
-also constrains the terms of this local care; it is not automatically a universal
-social doctrine. This reading does not claim all copies or settle the Worm's
-biological identity. [@blake-thel-b, objects 6–7]
-[Pinned XML](https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.b.xml).
+## 6.1. Recognition through the infant analogy
 
-Polypus intensifies the problem. Its inclusion in an invertebrate inquiry is
-necessary, yet a fixed modern zoological classification would lose what the
-poetic figure does to the boundaries of bodies and individuality. The initial
-working comparison is between association that helps distinct beings live, as
-in the proposed reading of “A Dream,” and aggregation that absorbs or renders
-indistinct its participants. The comparison is a research question, not an
-equation of Blake's creatures with modern political institutions.
+The earlier bounded reading of copy B, objects 6–7, physical lines 3–14 and 2–18,
+remains a separate textual witness. It established the movement from a bruising
+foot to positive nurture, with maternal and nuptial language qualifying any
+universal social doctrine. The following F/O comparison extends that local
+question through independently identified material witnesses. [@blake-thel-b]
+
+The Worm's presentation in *The Book of Thel* brings analogy into the act of recognition. Thel asks what she sees, calls it weak, compares it to an infant, and hears weeping where articulate speech is unavailable. In both reproduced impressions of Bentley plate 6, an infant-like body rests among long leaves below a floating figure and beside a standing, gowned figure with extended arms. The bodily scale and placement make vulnerability visible before they permit any zoological resolution. [@blake-thel-f-2026, object 6, physical lines 2–13; @blake-thel-o-2026, object 5, physical lines 4–15] The scene can awaken concern by translating another life into a familiar human form. It can also make that concern conditional upon resemblance to a child. Recognition through analogy is consequently an ethical achievement with a limit, rather than transparent access to the Worm's own experience.
+
+The response attributed to the Clay changes the situation. Thel's statement that no one cherishes the helpless being is answered by care already becoming active. In the following reproduced plate from copy O, a reclining figure and an infant appear below the poem and in front of a larger seated figure. The spoken acknowledgment distinguishes a prohibition on wilful bruising from the positive provision of milk and oil. [@blake-thel-o-2026, object 6, Bentley plate 7, physical lines 3–19] A community of care is measured here by what sustains a dependent life, not merely by punishment after injury. Yet maternal, nuptial and hierarchical language shapes that provision. The passage cannot by itself guarantee equal participation or make an obligation to nurture independent of its gendered terms.
+
+Perkins places the infant Worm within a contemporary rhetoric that mobilized tenderness towards humble creatures, while preserving the possibility of irony in the poem's surrounding world. [@perkins-1999, pp. 5–6] That caution helps prevent the scene from becoming a frictionless model of mutual flourishing. Care can be real within the local exchange even if its speakers cannot settle Thel's larger unease. The selected plates support an account of this exchange; they do not settle the meaning of every stage of her journey.
+
+The copies themselves also require different forms of attention. Rosenwald 1798A is copy F, object 6; Rosenwald 1798B is copy O, object 5. Both are Bentley plate 6, corresponding to Erdman plate 4. Object 6 in O is instead Bentley plate 7. In the matched reproductions, F gives the standing figure a conspicuous yellow gown against a relatively continuous ochre upper field, while O shows a paler gown and a more extensively lined and coloured setting. O's painted enclosure is more pronounced. These are observations about the captured images. Unequal reproduction conditions, paper condition and colour management prevent attributing every tonal difference to an intentional revision. The repeated arrangement is an anchor for comparison, not permission to merge the two impressions into a single generic image of *Thel*.
+
+![One plate in two material witnesses. William Blake, The Book of Thel (work imprint 1789), Bentley plate 6 / Erdman plate 4. Left: copy F, Archive object 6, LOC Rosenwald 1798A; Archive printing 1795, LOC ca. 1794 (1794 watermark). Right: copy O, Archive object 5, LOC digital Rosenwald 1798B; Archive c. 1818, LOC ca. 1815 (1815 watermarks). O is bound with Milton D under Archive catalogue no. 1810; that volume number differs from its digital subresource. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC states no known US copyright or other restrictions, with user determination required. Whole scans proportionally resized; neither physical scale nor photographic colour is calibrated.](assets/thel-bentley6-two-copies.png){#fig:thel_copies width=98%}
+
+![Care beyond the prohibition of injury. William Blake, The Book of Thel (imprint 1789), copy O, Archive object 6, Bentley plate 7 / Erdman plate 5; LOC digital Rosenwald 1798B, bound with Milton D, Archive catalogue no. 1810. Archive printing c. 1818; LOC ca. 1815. A reclining figure reaches towards an infant-like body beneath the selected Clay/Worm exchange. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC no-known-US-restrictions statement retains user-determination qualification. Whole captured scan proportionally resized. This is the following plate, not a second copy of Bentley plate 6.](assets/thel-o-006-whole.png){#fig:thel_care height=165mm}
+
+## 6.2. Generation and the powers of a collective body
+
+The historical polypus should first complicate the word “individual.” In the second edition of *Zoonomia* examined here, Erasmus Darwin describes young polyps branching from a parent's side and subsequently separating. He compares them with vegetable buds and interprets their generation through a theory that assigns formative priority to the male. Elsewhere in the same discussion, gnats and tadpoles become examples of bodily transformation, while the polypus remains associated with budding. These statements belong to Darwin's historical physiology, including assumptions that cannot be accepted as modern zoological description. [@darwin-zoonomia-1796, vol. I, section XXXIX.II.3 and XXXIX.IV.2] They nevertheless show why generation could bring together questions about attachment, separation, sexual difference and the production of new powers.
+
+Dauphin's extended Blake discussion traces the poetic reworking of this complex into vegetation and collective bodies. Her reading connects the multiplication of organic forms to a danger of losing distinct identity. Her argument also insists that the scientific creature and its poetic transformations are not interchangeable. [@dauphin-2026-expanded, paragraphs 7–28] It is useful as an account of transformation across discourses. It does not independently establish that any particular branching ornament in an illuminated book depicts a polypus, nor prove a single direct route from Darwin to every occurrence in Blake. The reproduction of a *Thel* infant and the mention of a prophetic Polypus remain different evidential objects.
+
+In the selected *Milton* passage, the joining of every born man into one Polypus is situated within vegetated nerves, wailing souls and changes in perception. The figure is named Orc in the same sentence; the surrounding lines relate Orc, Satan and Luvah rather than leave a stable zoological emblem. [@blake-milton-a, object 28, physical lines 24–35] The problem is not simply that many lives are connected. It is what connection does to their capacities to perceive, act and remain distinguishable. The emmet's helpers retain separate offices and answer a particular voice; the prophetic passage joins persons within a body whose powers exceed any isolated participant. That contrast is locally supported, but the named transformations make a universal opposition between good networks and bad organisms too blunt.
+
+Erasmus Darwin's later *Temple of Nature* further unsettles a simple opposition between scientific materialism and ethical attention. Its third canto brings human pride down towards kinship with emmets and worms after considering insect construction, sensation and volition. Its fourth canto presents feeding across animal and vegetable life as pervasive destruction, extending appetite to creatures conventionally imagined as gentle. [@darwin-temple-1803, canto III, lines 411–434; canto IV, lines 1–66] Kinship and violence therefore inhabit the same natural history. Fara's reading of these passages emphasizes the coexistence of ethical cooperation, progressive development and an account of death that regulates abundance. Her analysis also distinguishes Erasmus's historical explanations from the later theory of his grandson. [@fara-2020, paragraphs 21–23, printed pp. 10–12]
 
 Dauphin's account of the changing Polypus makes it especially important to
 distinguish the biological animal, the poetic figure and later iconographic
@@ -307,39 +380,34 @@ interpretation. The Archive's copy-A Milton descriptions also retain alternative
 identifications: object 24 can be described through caterpillar/centipede and
 beetle/bee/hornet alternatives, while object 31 permits vegetable/Polypus
 possibilities. A catalog's alternatives cannot become several confirmed
-depicted species. The present pass has inspected those descriptions, not the
-physical images. [Dauphin, selected paragraphs](https://publis-shs.univ-rouen.fr/eriac/1132.html);
+depicted species. Those copy-A descriptions have been read; the corresponding Milton
+images have not been inspected in this expansion. [@dauphin-2026-expanded];
 [Archive Milton A](https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml).
 
-The new textual reading of copy A, object28, physical lines 24–35, checks the
-joining of every man into one Polypus against the surrounding nerves, Orc and
-transformation language. The separately captured object31 description remains
-modern catalog prose. An editorial vegetation/animal alternative cannot identify
-the poem's collective body; the poem cannot establish a fresh visual judgment
-about the catalogued form. Historical lexicography remains an acquisition task.
-[@blake-milton-a, objects 28 and 31]
+Historical lexicography remains an acquisition task. The comparison advanced
+here asks what joining permits and suppresses in a particular scene. It does not
+equate Blake's changing collective figures with modern political institutions.
 
 # 7. Instruments, cruelty and the problem of evidence
 
-The microscopy scene in *An Island in the Moon*, chapter 10, E462, offers louse,
-flea, butterfly and cock chafer to spectators amid malfunctioning apparatus and
-social performance. The scene makes looking itself part of the inquiry. An
-animal noun names a proposed demonstration; it does not prove a successful
-observation by a character, much less by Blake. Retained record 474 includes
-the scene and distinguishes its speech and action from the later song material.
+## 7.1. Making a creature visible
 
-“Auguries of Innocence” supplies related but distinct ethical tests. The fly,
-spider, chafer, caterpillar, moth, butterfly, gnat, bee, cricket and emmet appear
-within a poem that moves among suffering, perception and human conduct. Context
-matters even for the lexicon: the *Mite* at E492 concerns an amount extracted from
-labour, not an arachnid. A broad concordance must retrieve that case and a careful
-review must decline to count it as an animal. The relevant retained pages are
-E490–492, records 502–504.
+The failed demonstration in *An Island in the Moon* is sharper when placed beside practical microscopy rather than an undifferentiated idea of science. In the second edition of Henry Baker's *The Microscope Made Easy*, the observer must suit illumination to the object, examine it in different positions and distinguish the image projected by a solar microscope from the body's natural colour. Baker also asks that a living animal be squeezed or disturbed as little as possible. His preparation instructions combine methods of holding creatures alive with pinning or other restraint when size requires it. [@baker-1743, pp. 53–58] The manual does not stand outside human use of animals; it makes the conditions of useful visibility explicit, including the tension between preserving a creature's behaviour and securing it for inspection.
 
-These examples locate the method's responsibility. Broad search should expose
-difficult cases rather than eliminate them invisibly. Contextual annotation
-should then state what was checked and why a classification was made. Neither
-software validation nor a fluent caption can replace source inspection.
+In Blake's chapter 10, by contrast, the speaker offers a louse, flea, butterfly or cockchafer before water, a smearing handkerchief, broken apparatus and a panicked account of escaped pestilence displace the promised demonstration. The sequence is not a successful observation followed by an abstract objection to empirical knowledge. It is a performance in which the promised objects never become reliable shared evidence. [@blake-erdman-retained-expansion, E462, provider record 474, chapter 10 only] Baker's practical cautions make the failure legible without making his manual a demonstrated source for the satire. Both texts allow the means of seeing to matter; they give those means very different dramatic and argumentative functions.
+
+## 7.2. Injury, judgment and the limits of metaphor
+
+“Auguries of Innocence” poses a further difficulty: what should follow when injury has been noticed? Perkins argues that its animal auguries voice innocence confronting cruelty and threatening consequences that exceed ordinary causal explanation. He also warns that treating a tormented creature solely as a metaphor can diminish attention to the animal's suffering. These are interpretive positions, not an uncontested identification of the poem's voice. [@perkins-1999, pp. 7–10] They encourage keeping literal injury present while examining the form in which a speaker makes it consequential.
+
+The boy who kills the fly is threatened with the spider's enmity. This is not simply a food-chain statement: the two-line address assigns a consequence to a human act. Yet the creature associated with catching flies becomes the figure through which killing a fly is answered. Elsewhere the caterpillar repeats maternal grief, and the prohibition on killing moth or butterfly is attached to judgment. [@blake-erdman-retained-expansion, E490–491, records 502–503; “Auguries,” lines 33–40] The sequence crosses animal behaviour, familial feeling and eschatological warning without making them interchangeable. A consistently gentle insect world would have no place for the spider's enmity; a purely predatory one would lose the address to the boy. The poems considered here make small lives matter through those unresolved relations between attention, use, obligation and response. Their ethical force depends on retaining the differences that a single animal-symbol key would erase.
+
+The sequence also includes gnat, bee, cricket and emmet, but a lexical resemblance
+need not name an animal. The *Mite* at E492 is an amount extracted from labour,
+not an arachnid. Broad retrieval preserves that negative control. Its retained
+locator is record 504; this expansion adds no new reading credit for that page.
+The distinction between use, deliberate cruelty and metaphor requires a speaker,
+a predication and a setting, not merely a noun. [@blake-erdman-retained-expansion]
 
 # 8. Source repetition, work balance and lexical distance
 
@@ -415,6 +483,136 @@ returning to the different settings of the short lyrics, the inventories and
 the Polypus discussed in §§4–6; they do not establish a common function across
 those settings.
 
+### Composition across name families
+
+The current installed composition run independently recomputes the full captured atlas, the primary counted inventory and the earlier literal grid before producing the new composition and proximity exports. Numerical equality preserves the historical producers; a separate run binds the current SDK and application source bytes. The checks add no contextual animal decisions or image identifications.
+
+The historical registry partitions into 82 name-family categories, four broad
+labels, 15 associated channels and one motion channel. “Name-family” here means
+the registry groups for worms, insects, arachnids, myriapods, molluscs,
+crustaceans and ambiguous life. It preserves historical retrieval policy rather
+than imposing a new biological classification. Thus it retains *blindworm*,
+*spinner*, *sponge*, derivatives of *worm*, and the noun/verb ambiguity of *fly*.
+It must not be read as a set of adjudicated animal nouns. The other channels
+retain generic labels, products, structures, parts and actions in their own
+declared groups.
+
+For each name-family category, the complete matrix reports candidate counts,
+matched retained units, the eligible unit denominator and NFKC token denominator
+in every recorded group, including zeros. Within-group composition divides each
+category's count by that group's sum of name-family category candidates. Pooled
+composition divides pooled category counts by the total name-channel mass. The
+equal-group composition averages the normalized profiles of groups with positive
+name-channel mass. A group containing no name-family candidate has undefined
+composition; it remains a zero in coverage exports and is excluded from this
+particular mean. This differs from equal-work token rates, whose denominator is
+text length and whose zero-match groups can contribute defined zero rates.
+
+We measure profile differences by total variation: one half of the sum of
+absolute differences between corresponding category shares. The same distance
+compares the full pooled profile with the profile remaining after omission of
+each entire recorded group. These distances express redistribution of
+category-candidate mass, not uncertainty about Blake's oeuvre. Concentration is
+also reported as the smallest number of descending-count groups needed to
+account for one half or four fifths of a category's mass, and as inverse
+Herfindahl concentration. The latter is an effective number of equally weighted
+groups, not a number of independent works.
+
+Categories and overlapping spans remain separate throughout. A compound and
+its component may each contribute a category candidate; the denominator is a
+sum of category candidates, not distinct animal words or organisms. Exact-text
+sensitivity comes from the shared SDK's grouping of identical complete source
+units. It does not remove repeated poems embedded in different whole texts.
+
+The relationship analysis declares twelve exploratory pairs of singular literal
+terms and applies complete word envelopes of 8, 32 and 64 words. Whole-unit
+co-presence is a separate scope. Public SDK matching and proximity APIs retain
+original text boundaries and count matching units before any display cap.
+Their 644,245 original-text word tokens remain distinct from the NFKC
+denominator. These literal pairs do not expand to every form of their similarly
+named categories: *emmet* is narrower than the *ant* family, and *caterpillar*
+does not silently include historical alternative spellings.
+
+Let $c_{gw}$ be the category-candidate count for name family $g$ in group $w$,
+and $m_w=\sum_g c_{gw}$. The three profiles are
+
+$$
+p_{gw}=\frac{c_{gw}}{m_w},\qquad
+P_g=\frac{\sum_w c_{gw}}{\sum_w m_w},\qquad
+Q_g=\frac{1}{|W_+|}\sum_{w\in W_+}p_{gw},\quad W_+=\{w:m_w>0\}.
+$$
+
+For normalized profiles $P,Q$, total variation is
+
+$$
+\operatorname{TV}(P,Q)=\frac12\sum_g|P_g-Q_g|.
+$$
+
+For a positive category, let $s_{gw}=c_{gw}/\sum_v c_{gv}$. Its effective number
+of groups is inverse concentration,
+
+$$
+N_{\mathrm{eff},g}=\left(\sum_w s_{gw}^{\,2}\right)^{-1}.
+$$
+
+A zero-mass category has no defined concentration; Appendix A displays that state
+explicitly. These formulas describe retained category mass, including shared
+and nested spans, rather than independent works or individual animals.
+
+The 82 name-family categories yield 1,239 primary category-span candidates in
+26 of the 33 recorded groups. Thirty-eight categories have positive counts;
+44 remain zero in this primary inventory. The associated channels contribute
+1,087 further candidates, the motion channel 156, and broad labels 16. Their
+sum reproduces the 2,498 primary candidates. Name-family queries therefore
+account for 49.60% of the primary category-candidate mass, rather than all of
+the concordance. Exact whole-text grouping reduces name-family candidates
+from 1,239 to 1,238. The changed category is *mussel*, from 13 to 12. That
+narrow change does not establish that the remaining copies represent distinct
+contexts.
+
+The pooled and equal nonempty-group name compositions have total variation
+0.222387. The *fly* share rises from 14.7700% pooled to 24.3951% under equal
+composition weighting, a change of +9.6251 percentage points. *Worm* falls from
+37.7724% to 33.7732%, or −3.9992 points. *Beetle* falls from 5.0040% to
+1.7664%, and *Polypus* from 5.8918% to 3.5986%. These changes answer a
+different question from the earlier rate comparison: they redistribute a fixed
+name-channel profile rather than comparing candidates per text token.
+
+Two smaller categories expose the cost of normalizing sparse groups. *Mussel*
+rises from 1.0492% pooled to 7.6923% in the equal-group profile. Its one
+candidate in `ahania` and twelve in `america` exhaust the name-channel mass in
+those two groups, so each contributes a complete within-group share to that
+category. A bounded inspection of the retrieved *Ahania* context finds the
+surface “muscles” among bodily formations, not a contextual mollusc
+identification. Similarly, the single *mayfly* candidate contributes one half
+of the name-channel profile in `but828`; it is the normalized sequence
+“may … fly” in the captured *Genesis* transcription. The surrounding reference
+is to fowl and flight. These inspected retrieval ambiguities explain why
+equal weighting cannot serve as an automatic correction toward a truer animal
+census. They also caution that the recorded author/role field is an eligibility
+rule, not a fresh attribution of every transcribed word to Blake.[^contexts]
+
+The three largest omission effects are `songsie` (total variation 0.119982),
+`thel` (0.103325) and `milton` (0.079001). They remove, respectively, 217, 203
+and 168 name-family category candidates from the pooled profile. These groups
+do not simply contribute the most textual mass: `thel` contains 23,019 NFKC
+tokens, whereas `jerusalem` contains 197,560 tokens and its omission distance
+is 0.051693. Composition influence depends on a group's lexical profile as
+well as its size. *Worm* remains the largest pooled category after every
+single-group omission. That finite robustness of the leading category coexists
+with substantial changes in the rest of the profile.
+
+Concentration measures further distinguish visibility from breadth. *Worm*
+and *fly* each occur in 15 recorded groups, but their effective group counts
+are 5.008 and 2.889. Five groups are needed to accumulate four fifths of
+*worm* candidates, compared with four for *fly*. *Polypus* occurs in three
+groups and has an effective count of 2.030; two groups suffice for four fifths
+of its candidates. These numbers locate concentrations in this retained
+collection. They do not count distinct literary episodes or establish the
+independence of copies.
+
+![Composition and group influence. The sixteen largest share shifts compare the pooled name-channel profile with the mean of 26 nonempty-group profiles (1,239 category candidates); all 33 groups remain eligible for omission. The twelve largest omission distances describe redistribution of this finite inventory. Parentheses retain candidate counts. Complete data and all omissions are supplemental; no sampling inference or animal adjudication is implied.](assets/02-composition-influence.png){#fig:composition_influence width=98%}
+
 ## 8.3. Exact-text deduplication is a narrow check
 
 Grouping complete source units by identical text removes one unit from this
@@ -482,6 +680,41 @@ mistaken for an interpretive association.
 
 ![Retrieval sensitivity within the pinned primary reading inventory. A compares pooled and equal-work category rates; B shows each category's largest work-group share; C counts source units for literal singular pairs across finite windows and whole-unit scope. Counts retain copies and overlapping categories. No panel measures independent reading positions or adjudicated animals.](assets/retrieval-sensitivity.png){#fig:retrieval_sensitivity width=98%}
 
+### Twelve source-sensitive literal pairs
+
+The literal-pair audit makes source dependence visible alongside distance.
+*Worm + fly* matches four units from one group at eight words, 28 units from
+three groups at 32 words, and 66 units from six groups at whole-unit scope.
+At 32 words its 28 units divide into four `jerusalem`, eight `songsie` and
+sixteen `vda` units. Thus a comparatively large unit count can be supplied
+by very few recorded groups. These cells identify where a contextual comparison
+should begin; they do not establish 28 distinct nearby encounters.
+
+The contrasts differ across pairs. *Worm + beetle* increases from four units
+at eight words to 31 at 32 words, with no further increase at 64 words or
+whole-unit scope. Its 32-word matches comprise four `milton`, thirteen `s-inn`
+and fourteen `songsie` units. *Emmet + beetle* matches only the four `milton`
+units through 64 words but reaches 31 units at whole-unit scope. A shared
+source document therefore supports a much broader relation than a nearby
+word envelope in the latter case. *Spider + fly* has no eight-word match,
+sixteen 32-word matches entirely in `vda`, and 24 whole-unit matches from
+three groups.
+
+Other contrasts resist a simple relationship graph. *Bee + beetle*,
+*gnat + fly*, *Polypus + worm* and *scorpion + centipede* have zero matches
+through 64 words but respectively four, five, eight and four whole-unit
+matches. *Flea + louse* matches five units from two groups at every declared
+scope. *Moth + butterfly* matches one unit from one group throughout.
+*Caterpillar + fly* returns zero even at whole-unit scope under the declared
+singular literal spelling, despite 36 primary candidates in the broader
+*caterpillar* category. A zero in this experiment is consequently a result
+of a stated query, eligibility rule and source inventory, not an absence claim
+about Blake or the scene discussed elsewhere in this article.
+
+Appendix B prints all twelve pairs, including every zero, with matched units and
+contributing group counts. The full 82-by-33 matrix and twelve-pair source matrix
+remain vector/CSV supplements; neither is reduced to unreadable page labels here.
+
 ## 8.5. A complete vocabulary audit has several kinds of zero {#sec:atlas}
 
 The new atlas recomputes the unchanged {{ATLAS_CATEGORIES}} categories and
@@ -517,6 +750,17 @@ and exploratory positives exemplify why these populations cannot be collapsed.
 
 ![{{ATLAS_CAPTION}}](assets/corpus-atlas.png){#fig:corpus_atlas width=98%}
 
+Unverified Archive XML supplies
+32,066 of all 36,039 candidates, or 88.98%, including 11,597 name-family,
+12,485 associated, 5,993 motion and 1,991 broad-label candidates. Its 51
+positive name-family categories exceed the primary reading scope's 38, but
+this additional retrieval reach includes markup and modern catalog language.
+It cannot enlarge the number of Blake-authored animal attestations by simple
+addition. Mixed Erdman material, four mixed XML units and unverified reading
+documents remain separately reported, with their own token and unit denominators.
+
+![Query channels across source cohorts. Counts, within-cohort shares and positive/declared category totals distinguish 82 name families, four broad labels, fifteen associated channels and one motion channel. Every role/plane/author cohort retains source-unit and NFKC-token denominators. These disjoint cohorts describe retrieval populations, with markup and editorial language retained separately; they are not stages of complete-oeuvre coverage.](assets/04-query-channel-source-audit.png){#fig:query_channels width=98%}
+
 ## 8.6. Reading coverage is a different denominator {#sec:reading_coverage}
 
 The new casebook records {{CASEBOOK_CASES}} bounded interpretive cases and
@@ -528,7 +772,10 @@ reading receipts, not additional candidate decisions. The
 {{HISTORICAL_REVIEWED}} historical decisions remain on their original run, with
 {{HISTORICAL_UNREVIEWED}} candidates still unreviewed there; none has been
 reclassified or rebound to this atlas. The new atlas has zero authored decisions,
-and corpus images remain unreviewed.
+and seven selected historical scans have now been inspected. The corpus-wide
+image inventory remains unreviewed. Four complete copy-Y poem transcriptions and
+selected Thel F/O passages belong to the additive expansion ledger; they inherit
+no credit from the earlier copy-A and Thel-B readings.
 
 This separation also sets a limit on the argument. The small lyric sequence can
 now be discussed through its ending, whereas the Polypus and wine-press cases
@@ -537,6 +784,16 @@ consolation, secret destruction, nurture and bodily aggregation has support in
 these selected contexts. It has not been established as a distribution of
 functions across all of Blake. The machine audit supplies the next places to
 read, and preserves the places where it cannot yet support a claim.
+
+[^contexts]: Fresh local inspection was limited to the SDK's 120-character
+    context on each side of two hits. *Ahania*: `archive:ahania.a`, reading-layer
+    locator lines 1–259, original character interval [5617,5624), source SHA-256
+    `fa95577f5790fc5d2cba1ff08822d79b59d2399f352e2a7f477d891868395761`.
+    *Genesis*: `archive:but828.1`, reading-layer locator lines 1–230, interval
+    [3089,3114), source SHA-256
+    `ef98f4fa8c09feca8dee00110b7a844a7af1a1bf8ddbc7edd9b5aefc96fd6967`.
+    The broad reading-layer line ranges are unit locators, not exact verse-line
+    locators for these hits. Neither inspection credits a complete work or design.
 
 # 9. What remains before a comprehensive account
 
@@ -553,8 +810,12 @@ Mike Goode's discussion of digital fragmentation is pertinent to the research
 design: retrieving a textual fragment can detach it from the verbal-visual work.
 The present concordance is therefore a navigation instrument. An argument
 requires returning from its fragments to their material and textual relations.
-Only selected opening sections of Goode's essay were read here.
-[“Google Blake”](https://romantic-circles.org/praxis/pedagogical_blake/praxis.2016.pedagogical_blake.goode).
+Only selected opening sections of Goode's essay were read here. [@goode-2016]
+
+Seven selected scans provide differential material witnesses, not a representative
+visual census. The unresolved corpus image identifiers, other copies and
+unnamed forms still require systematic inventory. No new animal decision follows
+from the new readings, figures or two sparse contextual controls.
 
 The article's provisional claim is consequently bounded but substantive:
 invertebrate figures let these selected Blake passages test the relation between
@@ -565,41 +826,75 @@ The corpus application makes the further tests of this reading inspectable.
 
 # References and reading status
 
-- Blake, William. *Songs of Innocence and of Experience*, copy A. William Blake
-  Archive, pinned XML at commit `7063e9ea8b13d18bd5a585e87610164fd75d3f60`.
-  Four complete short-poem transcriptions checked in the advancement casebook;
-  no complete copy-reading or image-inspection claim. [@blake-songs-a]
-- Blake, William. *Milton*, copy A. Same Archive commit. Selected inventory,
-  Polypus and object-description windows checked; no image inspection claim.
-  [@blake-milton-a]
-- Blake, William. *The Book of Thel*, copy B. Same Archive commit. Selected
-  objects 6–7 checked; no complete edition comparison. [@blake-thel-b]
-- Blake, William. *The Complete Poetry and Prose*, edited by David V. Erdman.
-  Retained Archive reader API response, SHA-256 in the source-intake ledger.
-  Selected page contexts checked; mixed edition text is not uniformly Blake's.
-- Dauphin, Caroline. 2026. “A Genealogy of the Polypus, from William Blake to
-  H.P. Lovecraft: The Root of All Evil?” *Lectures du monde anglophone* 7.
-  Selected paragraphs 3–6 and 21–25; not a complete article reading.
-- Goode, Mike. 2016. “Google Blake.” *Romantic Circles Praxis*. Selected opening
-  sections on fragmentation and pedagogy; not a complete essay reading.
-- Schwartz, Janelle A. 2012. “Art Thou but a Worm? Blake and the Question
-  Concerning Taxonomy.” In *Worm Work: Recasting Romanticism*, 113–148.
-  [Chapter DOI](https://doi.org/10.5749/minnesota/9780816673209.003.0004). Publisher abstract only;
-  full chapter unavailable in this pass.
+The source ledger distinguishes complete short-poem readings from local
+passages and from whole works. The four complete copy-A *Songs* transcriptions
+and selected *Milton* A / *Thel* B windows remain historical credit. This expansion
+adds four complete copy-Y poem transcriptions and seven selected scans, plus
+local *Thel* F/O, *Island* and “Auguries” passages. It does not credit a complete
+book, all copies or a comprehensive visual inventory.
 
-Additional located scholarship, including David Perkins's “Animal Rights and
-‘Auguries of Innocence’” (*Blake/An Illustrated Quarterly* 33.1, 1999), remains
-an acquisition task. Its PDF fetch failed in this pass; no complete reading or
-argumentative credit is assigned. See `research/reading-ledger.json` for exact
-ceilings, unavailable material and source URLs. The advancement ledger
-`research/reading-ledger-advancement-v1.json` adds precisely bounded new reading
-credit while preserving that historical ledger.
+Perkins (1999) and Srigley (1992) have now been read as complete journal articles
+by the research owner. The earlier Perkins fetch failure remains in the frozen
+ledger as acquisition history. Essick and Viscomi (2002) are used only for selected
+opening and registration sections (pp. 74–76, 90–92); Dauphin's extended reading
+covers paragraphs 7–28 and 49–50 alongside the earlier 3–6 and 21–25. Fara is
+cited under the 2020 online publication date; its issue and PDF citation carry
+2016 (Spring–Fall, nos. 66–67). Only paragraphs 15–23 were read.
+[@perkins-1999; @srigley-1992; @essick-viscomi-2002;
+@dauphin-2026-expanded; @fara-2020]
 
-# Captured reference resources
+Gould (1747) is limited to the title and printed pp. 66–68, 78–81; Baker (1743,
+second edition) to complete selected paragraphs on pp. 53–58; *Zoonomia* to the
+1796 second edition, I.XXXIX.II.3 and IV.2; and *The Temple of Nature* (1803) to
+III.411–434 and IV.1–66. These are historical comparisons, with neither whole-book
+credit nor a proved influence chain. Schwartz remains publisher-abstract only;
+Goode remains selected opening sections. Reading a scholar's article grants no
+automatic credit for its cited books, manuscripts or images.
+[@gould-1747; @baker-1743; @darwin-zoonomia-1796; @darwin-temple-1803;
+@schwartz-2012; @goode-2016]
 
-The following references identify the newly captured classification, policy and
-primary-text resources. Exact snapshot hashes and claim limits accompany the
-source manifest; catalog descriptions remain distinct from Blake's transcription.
+The additive reading, image-provenance and claim ledgers preserve source URLs,
+selected paragraphs or ordered physical line IDs, source hashes and rival
+readings. Original failed accesses and earlier decisions remain intact. New
+source captures and binaries stay in private local custody.
+
+# Appendix A. Complete name-family coverage
+
+The table covers all 82 name-family categories in the 199-unit primary reading
+scope (33 recorded work groups). Counts are category-source-span candidates;
+matched units and positive groups retain copies. Half-mass groups is the minimum
+number of descending-count groups accounting for at least half of a category’s
+mass; a dash marks undefined concentration for a zero category. Associated
+channels and broad labels are separate from this name-family table.
+
+{{NAME_COVERAGE_TABLE}}
+
+# Appendix B. Twelve literal-pair controls
+
+Cells give matched units followed by contributing groups in parentheses.
+Eight-, 32- and 64-word complete envelopes differ from whole-unit co-presence.
+All cells use 199 eligible units and 644,245 original-text word tokens; singular
+literal spellings do not inherit expanded category forms.
+
+{{LITERAL_PAIR_TABLE}}
+
+# Appendix C. Material-witness concordance
+
+| Witness | Bentley / Erdman | Archive object | Repository identity | Printing date evidence |
+|---|---|---:|---|---|
+| A Dream, Songs Y | 26 / E16 | 26 | Met 17.10.26 | [1794], ca. 1825 |
+| The Fly, Songs Y | 40 / E23 | 40 | Met 17.10.40 | [1794], ca. 1825 |
+| The Sick Rose, Songs Y | 39 / E23 | 39 | Met 17.10.39 | [1794], ca. 1825 |
+| The Human Abstract, Songs Y | 47 / E27 | 47 | Met 17.10.47 | [1794], ca. 1825 |
+| Thel F, III | 6 / plate 4 | 6 | LOC 1798A | Archive 1795; LOC ca. 1794 |
+| Thel O, III | 6 / plate 4 | 5 | LOC digital 1798B; bound volume 1810 | Archive c. 1818; LOC ca. 1815 |
+| Thel O, Clay exchange | 7 / plate 5 | 6 | LOC digital 1798B; bound volume 1810 | Archive c. 1818; LOC ca. 1815 |
+
+# Bibliography
+
+The following references identify the cited scholarship, historical witnesses
+and captured classification resources. The source ledgers retain exact reading
+ceilings and snapshot hashes.
 
 ::: {#refs}
 :::

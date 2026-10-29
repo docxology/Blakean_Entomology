@@ -19,7 +19,12 @@ from blakean_entomology.workflows import load_pinned_bundle
 # Exercise the same tool modules imported by their real executable script paths.
 sys.path.insert(0, str(STAGE / "tools"))
 from build_reference_figures import FigureReceipt, build_figures  # noqa: E402
-from prepare_research_manuscript import prepare  # noqa: E402
+from prepare_research_manuscript import (  # noqa: E402
+    AdditionalInput as AdditionalInput,
+)
+from prepare_research_manuscript import (
+    prepare,
+)
 
 CASEBOOK = STAGE / "research/reading-ledger-advancement-v1.json"
 
@@ -106,12 +111,32 @@ def test_rejects_unsafe_figure_inputs(figure_data, tmp_path, failure) -> None:
         assert (output / "retain.txt").read_text() == "retain"
 
 
+def legacy_manuscript(directory: Path) -> Path:
+    """A minimal authored paper exercises the unchanged three-figure contract."""
+    root = directory / "legacy-manuscript"
+    path = root / "article.md"
+    if not path.exists():
+        (root / "assets").mkdir(parents=True)
+        (root / "assets/retrieval-sensitivity.png").write_bytes(
+            (STAGE / "docs/manuscript/assets/retrieval-sensitivity.png").read_bytes()
+        )
+        path.write_text(
+            "# Legacy authored fixture\n\n"
+            "{{REFERENCE_TAXA}} admitted NCBI records; raw counts remain candidates.\n\n"
+            "[@ncbi-taxonomy-2026]\n\n"
+            "![Reference](assets/invertebrate-reference.png)\n\n"
+            "![Atlas](assets/corpus-atlas.png)\n\n"
+            "![Sensitivity](assets/retrieval-sensitivity.png)\n"
+        )
+    return path
+
+
 def prepare_command(atlas, figures, output) -> list[str]:
     return [
         sys.executable,
         str(STAGE / "tools/prepare_research_manuscript.py"),
         "--manuscript",
-        str(STAGE / "docs/manuscript/blakean-entomology.md"),
+        str(legacy_manuscript(atlas.parent)),
         "--bibliography",
         str(STAGE / "docs/manuscript/references.bib"),
         "--atlas",
@@ -141,7 +166,7 @@ def prepare_inputs(
     atlas, figures, output
 ) -> tuple[Path, Path, Path, str, Path, str, Path, str, Path, Path, str, Path]:
     return (
-        STAGE / "docs/manuscript/blakean-entomology.md",
+        legacy_manuscript(atlas.parent),
         STAGE / "docs/manuscript/references.bib",
         atlas,
         digest(atlas.read_bytes()),
@@ -201,7 +226,7 @@ def test_rejects_false_manuscript_inputs(figure_data, tmp_path, failure) -> None
         (figures / "corpus-atlas.png").write_bytes(b"changed")
     else:
         manuscript = tmp_path / "article.md"
-        source = (STAGE / "docs/manuscript/blakean-entomology.md").read_text()
+        source = legacy_manuscript(figure_data.parent).read_text()
         edits = {
             "token": "\n{{INVENTED_COUNT}}",
             "token_syntax": "\n{{unfinished",

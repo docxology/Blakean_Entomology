@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "claim_units": [
+    {
+      "block": "A1",
+      "paragraph": 1,
+      "register": "Methodological distinction; no counting of depicted species",
+      "evidence": [
+        "image-caption-rights-ledger.json",
+        "reading-ledger-expansion.json"
+      ]
+    },
+    {
+      "block": "A1",
+      "paragraph": 2,
+      "register": "Bounded material-scholarship paraphrase; capture/derivative method",
+      "evidence": [
+        "essick-viscomi-2002",
+        "receipts/image-derivation.json"
+      ]
+    },
+    {
+      "block": "A1",
+      "paragraph": 3,
+      "register": "Observed packet scope and enlargement caveat",
+      "evidence": [
+        "receipts/visual-reading.json",
+        "image-caption-rights-ledger.json"
+      ]
+    },
+    {
+      "block": "A2",
+      "paragraph": 1,
+      "register": "Visual observation with uncertain small figure",
+      "evidence": [
+        "met-347935",
+        "songsie.y.illbk.26"
+      ]
+    },
+    {
+      "block": "A2",
+      "paragraph": 2,
+      "register": "Interpretation of speakers and assistance, not insect navigation science",
+      "evidence": [
+        "songsie.y.illbk.26"
+      ]
+    },
+    {
+      "block": "A2",
+      "paragraph": 3,
+      "register": "Historical comparison, not proved influence",
+      "evidence": [
+        "gould-1747",
+        "songsie.y.illbk.26"
+      ]
+    },
+    {
+      "block": "A2",
+      "paragraph": 4,
+      "register": "Visual reading and rival interpretive possibilities",
+      "evidence": [
+        "met-347974",
+        "songsie.y.illbk.40"
+      ]
+    },
+    {
+      "block": "A3",
+      "paragraph": 1,
+      "register": "Ambiguous visual forms; no taxon diagnosis",
+      "evidence": [
+        "met-347973",
+        "songsie.y.illbk.39"
+      ]
+    },
+    {
+      "block": "A3",
+      "paragraph": 2,
+      "register": "Srigley source hypothesis summarized and qualified",
+      "evidence": [
+        "srigley-1992"
+      ]
+    },
+    {
+      "block": "A3",
+      "paragraph": 3,
+      "register": "Rival literal and psychological readings of a complete poem",
+      "evidence": [
+        "songsie.y.illbk.39"
+      ]
+    },
+    {
+      "block": "A3",
+      "paragraph": 4,
+      "register": "Text-image reading without naming the old man",
+      "evidence": [
+        "met-348001",
+        "songsie.y.illbk.47"
+      ]
+    },
+    {
+      "block": "A3",
+      "paragraph": 5,
+      "register": "Comparative ethical inference, not authorial doctrine",
+      "evidence": [
+        "songsie.y.illbk.47",
+        "songsie.y.illbk.26"
+      ]
+    },
+    {
+      "block": "A4",
+      "paragraph": 1,
+      "register": "Text-image infant analogy and its interpretive limit",
+      "evidence": [
+        "thel.f.illbk.06",
+        "thel.o.illbk.05",
+        "thel-f-006",
+        "thel-o-005"
+      ]
+    },
+    {
+      "block": "A4",
+      "paragraph": 2,
+      "register": "Local care exchange and gendered qualification",
+      "evidence": [
+        "thel.o.illbk.06",
+        "thel-o-006"
+      ]
+    },
+    {
+      "block": "A4",
+      "paragraph": 3,
+      "register": "Perkins bounded Thel context, not whole-book conclusion",
+      "evidence": [
+        "perkins-1999",
+        "thel.o.illbk.05",
+        "thel.o.illbk.06"
+      ]
+    },
+    {
+      "block": "A4",
+      "paragraph": 4,
+      "register": "Exact copy/plate mapping; observation not colourimetry",
+      "evidence": [
+        "sources/thel.f.xml",
+        "sources/thel.o.xml",
+        "sources/loc-thel.json",
+        "thel-f-006",
+        "thel-o-005"
+      ]
+    },
+    {
+      "block": "A5",
+      "paragraph": 1,
+      "register": "Historical physiology, explicitly not modern biology",
+      "evidence": [
+        "darwin-zoonomia-1796"
+      ]
+    },
+    {
+      "block": "A5",
+      "paragraph": 2,
+      "register": "Dauphin interpretive genealogy qualified against causal and visual overreach",
+      "evidence": [
+        "dauphin-2026-expanded"
+      ]
+    },
+    {
+      "block": "A5",
+      "paragraph": 3,
+      "register": "Local selected prophetic reading, not universal social-network model",
+      "evidence": [
+        "milton.a.illbk.28",
+        "songsie.y.illbk.26"
+      ]
+    },
+    {
+      "block": "A5",
+      "paragraph": 4,
+      "register": "Primary kinship/predation passages and qualified historical scholarship",
+      "evidence": [
+        "darwin-temple-1803",
+        "fara-2020"
+      ]
+    },
+    {
+      "block": "A5",
+      "paragraph": 5,
+      "register": "Wine-press counterreading and distinction between predation and deliberate cruelty",
+      "evidence": [
+        "milton.a.illbk.24"
+      ]
+    },
+    {
+      "block": "A6",
+      "paragraph": 1,
+      "register": "Historical microscopy paragraphs visually read; no influence claim",
+      "evidence": [
+        "baker-1743"
+      ]
+    },
+    {
+      "block": "A6",
+      "paragraph": 2,
+      "register": "Primary satire scene compared with manual; no successful demonstration inferred",
+      "evidence": [
+        "erdman:474",
+        "baker-1743"
+      ]
+    },
+    {
+      "block": "A6",
+      "paragraph": 3,
+      "register": "Perkins interpretive argument with speaker uncertainty",
+      "evidence": [
+        "perkins-1999"
+      ]
+    },
+    {
+      "block": "A6",
+      "paragraph": 4,
+      "register": "Primary couplet sequence with interpretive distinctions",
+      "evidence": [
+        "erdman:502",
+        "erdman:503"
+      ]
+    }
+  ],
+  "locator_policy": "Image IDs resolve in image-caption-rights-ledger.json; article/book IDs resolve in reading-ledger-expansion.json; XML IDs resolve in receipts/primary-selections.json; retained IDs resolve in receipts/retained-erdman-binding.json.",
+  "limit": "Evidence map supports review of actual bounded readings; it is not an independent review or a computational proof of interpretation.",
+  "packet_origin": {
+    "delivery_sha256": "5073511850b76515930f0283f03e956a35af6968176e95914526b226558d4d15",
+    "ledger_sha256": "0c255fee589b0472a42c8cee09e6a0b0a35be4b561800a9e5ecfa3cc2a431ef2",
+    "source_path_prefix": "local_data/manuscript-expansion-v1/sources/research-images/",
+    "status": "closed research producer; selected originals inspected by root; no new independent acceptance"
+  }
+}

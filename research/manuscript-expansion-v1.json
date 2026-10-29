@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "epoch": "editorial-integration-expansion-v1",
+  "declared_source_head": "3590c635d94a402af107b06f662eca4b0182454f",
+  "source_head_status": "user-supplied initial input; no Git operation by editorial owner",
+  "sdk_identity": "read final root pin from pyproject.toml and uv.lock; source imports only in this preparation",
+  "image_packet_sha256": "5073511850b76515930f0283f03e956a35af6968176e95914526b226558d4d15",
+  "analysis_packet_sha256": "9ef02317c0bc6ee9fb314331d364707dda25e8db7300d48d6f350f1bc973ac3a",
+  "analytical_producer_status": "historical closed candidate used for preparation staging; fresh integrated epoch and installed qualification remain root work",
+  "source_bindings": {
+    "declared_head": "3590c635d94a402af107b06f662eca4b0182454f",
+    "head_verification": "User-provided; no Git operations authorized",
+    "runtime": {
+      "prefix": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/.venv",
+      "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none"
+    },
+    "files": [
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/docs/manuscript/blakean-entomology.md",
+        "copy": "inputs/blakean-entomology.md",
+        "sha256": "69bd3569942400f520bffb86ccc415eac3100379be1f5b4b42c01afd394fbed4",
+        "bytes": 38082
+      },
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/docs/manuscript/references.bib",
+        "copy": "inputs/references.bib",
+        "sha256": "71b96c8c3e2f2871d69bc165765de5d53aeec23a7d395d499303491441eeb099",
+        "bytes": 2029
+      },
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/research/reading-ledger-advancement-v1.json",
+        "copy": "inputs/reading-ledger-advancement-v1.json",
+        "sha256": "80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c",
+        "bytes": 17181
+      },
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/research/primary-source-snapshot-v1.json",
+        "copy": "inputs/primary-source-snapshot-v1.json",
+        "sha256": "6ac268089194c6deb90ded7ae26248f38679910c0d6294f3aeaa7af8ec9fc838",
+        "bytes": 5239
+      },
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/docs/research-protocol.md",
+        "copy": "inputs/research-protocol.md",
+        "sha256": "eaef6fb448113ce6ff3fc88ef386ec646a727f82567b8195126d2b64bc333d76",
+        "bytes": 5258
+      },
+      {
+        "source": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028/research/reading-ledger.json",
+        "copy": "inputs/reading-ledger.json",
+        "sha256": "26001aca197c5a6b84274da491b128fdadb52aaac2561f61922462a0ab95e96a",
+        "bytes": 4051
+      }
+    ]
+  },
+  "integration_map": {
+    "schema_version": 1,
+    "source_manuscript": "inputs/blakean-entomology.md",
+    "source_sha256": "69bd3569942400f520bffb86ccc415eac3100379be1f5b4b42c01afd394fbed4",
+    "headings": [
+      {
+        "line": 13,
+        "heading": "# Abstract",
+        "action": "qualify after integration",
+        "instruction": "Add selected copy-specific visual evidence to scope; leave all retrieval totals and provisional status tied to their original epochs.",
+        "addition_blocks": []
+      },
+      {
+        "line": 37,
+        "heading": "# 1. Why begin with small lives?",
+        "action": "retain",
+        "instruction": "A2 elaborates the initial emmet question through word/image relations and Gould; no separate replacement supplied.",
+        "addition_blocks": []
+      },
+      {
+        "line": 67,
+        "heading": "# 2. Existing questions and the article's contribution",
+        "action": "update scholarship status",
+        "instruction": "Admit Perkins, Srigley, selected Essick/Viscomi and Fara, expanded Dauphin with exact ceilings. Keep Schwartz abstract-only; no entire book read.",
+        "addition_blocks": []
+      },
+      {
+        "line": 93,
+        "heading": "# 3. Sources, units and retrieval",
+        "action": "insert",
+        "instruction": "Insert A1 at end of main section before 3.1; explain seven selected scans and separate material evidence.",
+        "addition_blocks": [
+          "A1"
+        ]
+      },
+      {
+        "line": 157,
+        "heading": "## 3.1. A reference classification, not a phylogeny of poetic names {#sec:reference}",
+        "action": "retain",
+        "instruction": "No taxa or lineages inferred from images, ornaments or historical physiology.",
+        "addition_blocks": []
+      },
+      {
+        "line": 194,
+        "heading": "# 4. Attention, analogy and injury",
+        "action": "insert",
+        "instruction": "Add A2 and A3 after the current four-poem readings; integrate attention and feeding panels or individual plates.",
+        "addition_blocks": [
+          "A2",
+          "A3"
+        ]
+      },
+      {
+        "line": 245,
+        "heading": "# 5. Inventories of life around the wine-press",
+        "action": "insert bounded cross-reference",
+        "instruction": "Use A5 final paragraph to retain suffering alongside the wine-press inventory; earlier copy-A passages remain reinspection only.",
+        "addition_blocks": [
+          "A5 paragraph 5"
+        ]
+      },
+      {
+        "line": 281,
+        "heading": "# 6. Taxonomic uncertainty and collective bodies",
+        "action": "insert",
+        "instruction": "Add A4; place A5 paragraphs 1-4 after the Polypus discussion. Use matched Thel Bentley6 F-object6/O-object5 comparison and optional O-object6 Bentley7 care plate.",
+        "addition_blocks": [
+          "A4",
+          "A5 paragraphs 1-4"
+        ]
+      },
+      {
+        "line": 322,
+        "heading": "# 7. Instruments, cruelty and the problem of evidence",
+        "action": "insert",
+        "instruction": "Add A6 after current microscopy/Auguries paragraphs; Baker comparison is contextual, not a proven source for Blake.",
+        "addition_blocks": [
+          "A6"
+        ]
+      },
+      {
+        "line": 344,
+        "heading": "# 8. Source repetition, work balance and lexical distance",
+        "action": "retain",
+        "instruction": "No sensitivity/profile/epoch changes from this evidence packet.",
+        "addition_blocks": []
+      },
+      {
+        "line": 355,
+        "heading": "## 8.1. A category is not an animal observation",
+        "action": "retain",
+        "instruction": "An image or interpretation is not an authored classification decision.",
+        "addition_blocks": []
+      },
+      {
+        "line": 375,
+        "heading": "## 8.2. Work weighting changes the question",
+        "action": "retain",
+        "instruction": "No recalculation or changed denominator.",
+        "addition_blocks": []
+      },
+      {
+        "line": 418,
+        "heading": "## 8.3. Exact-text deduplication is a narrow check",
+        "action": "retain",
+        "instruction": "No deduplication changes; copy identities preserved.",
+        "addition_blocks": []
+      },
+      {
+        "line": 445,
+        "heading": "## 8.4. Proximity exposes the scale of co-occurrence",
+        "action": "retain",
+        "instruction": "No co-occurrence changes; interpretation does not convert literal proximity to an adjudicated relation.",
+        "addition_blocks": []
+      },
+      {
+        "line": 485,
+        "heading": "## 8.5. A complete vocabulary audit has several kinds of zero {#sec:atlas}",
+        "action": "retain",
+        "instruction": "No vocabulary or zero-cell changes.",
+        "addition_blocks": []
+      },
+      {
+        "line": 520,
+        "heading": "## 8.6. Reading coverage is a different denominator {#sec:reading_coverage}",
+        "action": "clarify new independent epoch",
+        "instruction": "Keep four complete copy-A transcriptions and their baseline credit; report the four new copy-Y poem readings and seven selected scans separately.",
+        "addition_blocks": []
+      },
+      {
+        "line": 541,
+        "heading": "# 9. What remains before a comprehensive account",
+        "action": "update remaining-work statement",
+        "instruction": "Selected visual evidence now exists; systematic all-copy inventory, adjudication and independent final-page inspection remain unfulfilled.",
+        "addition_blocks": []
+      },
+      {
+        "line": 566,
+        "heading": "# References and reading status",
+        "action": "update current reading status",
+        "instruction": "Merge additional bibliography; replace current Perkins acquisition-only sentence without deleting historical failure. State Fara issue/online dates and exact new ceilings.",
+        "addition_blocks": []
+      },
+      {
+        "line": 598,
+        "heading": "# Captured reference resources",
+        "action": "append resources",
+        "instruction": "Include source/rights/reading ledger references and preserve captured classifications separately.",
+        "addition_blocks": []
+      }
+    ],
+    "addition_file": "manuscript-additions.md",
+    "prose_word_count_whitespace": 2919,
+    "root_responsibilities": [
+      "code integration",
+      "independent review",
+      "installed qualification",
+      "native render and page inspection",
+      "Git",
+      "Downloads"
+    ],
+    "preserved_history": {
+      "reviewed": 11,
+      "unreviewed": 36028,
+      "meaning": "Historical run only; no new review decisions in this packet."
+    }
+  },
+  "preserved_history": {
+    "reviewed": 11,
+    "unreviewed": 36028,
+    "new_decisions": 0,
+    "baseline_artifacts": "unchanged historical five-artifact epoch"
+  },
+  "paper_contract": {
+    "name_families": 82,
+    "all_registry_categories": 102,
+    "primary_name_candidates": 1239,
+    "primary_units": 199,
+    "all_work_groups": 33,
+    "nonempty_name_groups": 26,
+    "name_composition_tv_6dp": "0.222387",
+    "literal_pairs": 12,
+    "historic_originals": 7,
+    "main_figures": 11,
+    "appendix_a_rows": 82,
+    "appendix_b_rows": 12,
+    "material_concordance_rows": 7
+  },
+  "table_recipe": {
+    "script": "editorial-integration/scripts/stage_assets.py",
+    "source": "composition.json categories in category_ids order; literal-pairs.csv in declared pair/window order",
+    "fields": [
+      "category",
+      "candidates",
+      "matched_units",
+      "positive_work_groups",
+      "minimum_groups_for_half"
+    ],
+    "zero_state": "all zero rows retained; undefined concentration displayed as dash",
+    "refresh": "new unoccupied asset directory; verify new run/figure manifests; compare semantic totals and exact source hashes; pin new additional-assets.json; no overwrite of historical producer"
+  },
+  "limits": [
+    "no native PDF",
+    "no installed-new-code qualification",
+    "no independent acceptance",
+    "no complete-oeuvre animal census",
+    "no source-currentness refresh claim",
+    "no visual taxon identification",
+    "no inherited full-work credit"
+  ]
+}

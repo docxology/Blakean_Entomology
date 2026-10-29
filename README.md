@@ -1,17 +1,25 @@
 # Blakean Entomology
 
-The advancement source adds a captured NCBI invertebrate reference, explicit
-conditional mappings for all historical categories, a full source-role atlas,
-and a seven-case contextual reading ledger. The reference is a classification
-aid, not a sequence-inferred phylogeny or an identification of Blake's bodies.
-The historical baseline and eleven decisions keep their original pins.
+The current 31-page research draft integrates eleven figures, seven selected
+historical image witnesses, twenty references and an 82-category appendix.
+Its argument compares attention, provision, injury and collective bodies while
+retaining rival readings and copy-specific differences. Source-role counts,
+composition, concentration and twelve literal-pair controls remain retrieval
+diagnostics: 36,028 historical candidates are still unreviewed.
 
-Use `blake-entomology verify-reference --help` and
-`blake-entomology corpus-atlas --help` for the new source-bound CLI workflows.
-The [research method](docs/research/invertebrate-advancement.md) explains units,
-mapping limits, zero-result gap probes, figures and reading credit. The
-[authoring guide](docs/style-guide.md) covers private scholarly conventions.
-The current native manuscript is 14 pages. See the [render guide](docs/manuscript/README.md) and [installed/native qualification](research/advancement-installed-20261028.json). The original advancement bindings remain a source-stage record; the new receipt separately binds installed execution, current figures and native page QA.
+Generic grouped composition and concentration methods live in public Blake;
+this private application supplies the name-family/channel policy and literary
+interpretation. The reference tree is a captured NCBI classification with
+conditional lexical associations, not a sequence-inferred phylogeny.
+
+The SDK is pinned to `d020f47767996a061b6f60e93a82da9386a7926c`. A fresh locked noneditable installation passed
+239 tests, strict typing, Ruff and dependency checks. Coverage including actual
+CLI/figure workloads is 94.83% application and 74.76% tools; the pytest-only
+infrastructure failure remains in the evidence history. See the
+[current qualification](research/expansion-installed-20261028.json),
+[composition methods](docs/research/composition-analysis.md),
+[visual evidence](docs/research/visual-evidence.md) and
+[render guide](docs/manuscript/README.md).
 
 Private research on **invertebrate lives and imagery in William Blake**: worm,
 fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the wider

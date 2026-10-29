@@ -2,6 +2,9 @@
 
 ## 0.2.0 — shared methods and retrieval sensitivity
 
+- Expand the article to 31 pages with eleven figures, seven source-bound Blake witnesses, twenty references, all 82 name-family rows and twelve literal-pair controls.
+- Centralize generic composition/concentration upstream; qualify current installed policy, strict assets and the actual native rendering separately.
+
 - Add the source-verified reference taxonomy, conditional mapping of all 102 categories, 376-form atlas audit and seven-case reading ledger.
 - Integrate reference and portrait-atlas figures, strict manuscript preparation, exact installed SDK qualification and a fresh native article.
 
