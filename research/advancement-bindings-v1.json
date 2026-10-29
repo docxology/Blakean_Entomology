@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "epoch": "invertebrate-advancement-delivery-v1",
+  "source_baseline": "017bdab5a641c5b636bdeffd82b16ab69c665758",
+  "qualification_mode": "ordinary stage source imports; not installed Git",
+  "application_code_sha256": "021d5fc9f5c6d3856eab3aecbf7f5bd1c811607a730969f7e7a820e9f9403f60",
+  "source_closure": [
+    {
+      "path": "entomology/src/blakean_entomology/__init__.py",
+      "size": 100,
+      "sha256": "375e5eaefde34d90c7885a1443d2a7418b2a562a4f084f258d24ed18c0bb1e9b"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/core.py",
+      "size": 8709,
+      "sha256": "6f3f0a2c0824d896832778821d80caf97d005908cb997b6068d436e387129b4d"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/models.py",
+      "size": 2989,
+      "sha256": "42e5bbb227591e8972a68af4f80477014dc9f94a057f4ae660c10767f9e1957b"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/cli.py",
+      "size": 9656,
+      "sha256": "9d102f248e346d0e2d95f19847ff7ade8f2d000944e6b534dce4605a2da0da3c"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/producer.py",
+      "size": 1734,
+      "sha256": "5e9e578c34677b815dcde84034f087ec095e705e7bb493c7e7e85ca55db25c6b"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/sensitivity.py",
+      "size": 4239,
+      "sha256": "aeae09192659e43cc8101e1780ba1f542002daa787c04a817252522ae055b066"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/workflows.py",
+      "size": 6033,
+      "sha256": "fb5c949fdcba3eb063b962faa9d1f9116c43741fcf986e6d8622d8ac6e20ab61"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/taxonomy_models.py",
+      "size": 4163,
+      "sha256": "c0450846b310c57748bf43cb0eb7c472076f3b49588799c1307353b6664cc4d8"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/taxonomy.py",
+      "size": 6002,
+      "sha256": "1e764719dd9410a3c8d6dd6801841126a5ead8aa165de085c529dae7f02fe9c5"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/atlas_models.py",
+      "size": 4912,
+      "sha256": "f1c02155216df81e25f6e20a53e15be2e21101ac3a9cbe3ecdcab9d67547c5e4"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/atlas.py",
+      "size": 7616,
+      "sha256": "d7f370d72e1922fa001dbb7eb77a2c79068c768785831d0794db1c55e3c56e4b"
+    },
+    {
+      "path": "entomology/src/blakean_entomology/casebook.py",
+      "size": 4815,
+      "sha256": "74d55d130cd7b929ffac0f61b367751c03c9e9961ab52115240e685b2e38373e"
+    },
+    {
+      "path": "core/blake/__init__.py",
+      "size": 1625,
+      "sha256": "ef22150325ead9a5b737b5d176df55ec7b2c6d8da2d5089457fe8f77b04ae536"
+    },
+    {
+      "path": "core/blake/version.py",
+      "size": 466,
+      "sha256": "860cc5107461e11a7f40e76ef826a65a4de3c62dedc24cdb830ab12b996d3214"
+    },
+    {
+      "path": "core/blake/studies.py",
+      "size": 13836,
+      "sha256": "68b643f4e59f9777de2d615ab6340d08fff64f8d254ec2e73901f54f3755ae8c"
+    },
+    {
+      "path": "core/blake/applications.py",
+      "size": 10827,
+      "sha256": "fd521671689cffca1a9e0b66ae7746a1c235ad2d03390bf0aef749f5ea51915f"
+    },
+    {
+      "path": "core/blake/text_search/__init__.py",
+      "size": 247,
+      "sha256": "03e49c4a908c9765df227cbbb8fe2120d6dbaf5fe38f5b20d599460e4925bac5"
+    },
+    {
+      "path": "core/blake/text_search/models.py",
+      "size": 3252,
+      "sha256": "a63298dd3e53649328913a7b801a78cdc992629228ad347bf660e4a0c9c46eab"
+    },
+    {
+      "path": "core/blake/text_search/normalize.py",
+      "size": 2444,
+      "sha256": "fc020a2f128845b1767148d78ccfc49b24f814f8ac3c80ffdfd3c32edbed97de"
+    },
+    {
+      "path": "core/blake/text_search/index.py",
+      "size": 9561,
+      "sha256": "536ebdc0596e627156d1e064d20ebb5eca9ce2425d076424d866c3c4289e3d61"
+    },
+    {
+      "path": "core/blake/text_search/vocabulary.py",
+      "size": 900,
+      "sha256": "e28a2edee9884cd08a53f34fadbc4ba30c08591b11986e1b28b0958197593542"
+    },
+    {
+      "path": "core/blake/methods/__init__.py",
+      "size": 767,
+      "sha256": "62cc6aace67d51bbb47643d18384f0bbdde571fefd9b823fe57bede437d8ba7c"
+    },
+    {
+      "path": "core/blake/methods/annotations.py",
+      "size": 5757,
+      "sha256": "cca6d41f5d38a834db8e39cff9e6e3e5307d6bcaac8df88f79b7424dab054394"
+    },
+    {
+      "path": "core/blake/methods/runs.py",
+      "size": 2688,
+      "sha256": "9cc9cb71ec92862fc9fea693573d9d810f3d9f396eea5bd40d594e2e8d9879c0"
+    },
+    {
+      "path": "core/blake/methods/producer.py",
+      "size": 1149,
+      "sha256": "991f30e41aead523399cea401783f092d3849d4ad61cdceb7bb374127233e0d9"
+    },
+    {
+      "path": "core/blake/methods/storage.py",
+      "size": 6297,
+      "sha256": "7bee312a50e48158f2de3d173737d36f85b164e1f7caf1e0989bfb857afe7d9f"
+    },
+    {
+      "path": "core/blake/methods/models.py",
+      "size": 995,
+      "sha256": "1b9c0028a09916d40632152ea2ad271fcff4107fa54669669351ad4147adecc0"
+    },
+    {
+      "path": "core/blake/methods/hierarchy.py",
+      "size": 4963,
+      "sha256": "51ea5792a7767da179018fb44e63648cb395805813f0783aa779736d71d8450b"
+    },
+    {
+      "path": "core/blake/methods/common.py",
+      "size": 1397,
+      "sha256": "c52ffed820b1dcfe283fc6f3fce0913ef8810f28aec595154b5901ce938421ae"
+    },
+    {
+      "path": "core/blake/methods/bundle_models.py",
+      "size": 750,
+      "sha256": "48fe1f22f501cbfa5846c5fc5df9f0ff1acb38a5196992fa3979a774923a84c9"
+    },
+    {
+      "path": "core/blake/methods/projection_models.py",
+      "size": 3010,
+      "sha256": "9206d28c0ce5160a36342eaabedcbbd3cc9e0398b445412c05a134fd56ed0c91"
+    },
+    {
+      "path": "core/blake/methods/profiles.py",
+      "size": 3058,
+      "sha256": "1bb23fb6620d0daaf305d3ad166e68eb17a81eeef8065543af21d704f31dffe3"
+    },
+    {
+      "path": "core/blake/methods/statistics.py",
+      "size": 9088,
+      "sha256": "db34800ee2ce16ac60fefd5440ac61c8dc689f40bd1f3c4b5be086df6ae84b39"
+    },
+    {
+      "path": "core/blake/methods/statistics_core.py",
+      "size": 3743,
+      "sha256": "f96d37e77c1d9bd9c6daf79e19c9a4eb787c76ac583424424d0df244f4378d64"
+    },
+    {
+      "path": "core/blake/methods/statistics_models.py",
+      "size": 4586,
+      "sha256": "2c0cada9a1aa7bccab29294c985fecaa2d80c37c49a3be6a0f1bfba945ed4dfc"
+    },
+    {
+      "path": "core/blake/methods/proximity.py",
+      "size": 8699,
+      "sha256": "127f097121d36c0d89696d0ece0f9d38c9268386469ec135c3b287a402a8ddad"
+    },
+    {
+      "path": "core/blake/methods/search.py",
+      "size": 9850,
+      "sha256": "67636bd8f19bc7850086b76e21bf7ee2a15501e950e00a85ee7c66b5e699a95a"
+    },
+    {
+      "path": "core/blake/methods/search_models.py",
+      "size": 2700,
+      "sha256": "f45fb809a04c217bc9bc0554f80f5436a8ba32194d83bb7a89dd9740f61c6ca7"
+    },
+    {
+      "path": "core/blake/methods/compatibility.py",
+      "size": 812,
+      "sha256": "8d14e9be1310373430482996d7599c76042a9c18c45fd1d0beb895a6c7458f65"
+    },
+    {
+      "path": "core/blake/methods/concordance.py",
+      "size": 4150,
+      "sha256": "a2ac294d96e1abf5d18ad7d6dbcff0e8d7a22b0f931975815335af68ae5e3be2"
+    },
+    {
+      "path": "core/blake/methods/corpus.py",
+      "size": 6677,
+      "sha256": "eea94b554872419dd650170ebc5e3591197f969b4b7aebd4a3b028bb9dc57dbc"
+    },
+    {
+      "path": "core/blake/methods/workspace.py",
+      "size": 8672,
+      "sha256": "7635c45cea10b98bde7265f2624d9d58405dee4ec2970d640a26c07e1e52affc"
+    },
+    {
+      "path": "core/blake/methods/resources/corpus-search.html",
+      "size": 5379,
+      "sha256": "5da2de128f05b272d2318c067d540642cbce69d427b39cf787b5a4a07b390677"
+    },
+    {
+      "path": "core/blake/methods/resources/corpus-search.css",
+      "size": 6434,
+      "sha256": "7d000bd3164d0a835cc008fe5399910bf1568adb408e355a4d67a6925a0ce1b3"
+    },
+    {
+      "path": "core/blake/methods/resources/corpus-search.js",
+      "size": 18630,
+      "sha256": "cfc0a88f831cabefd7b6028f34dfd8493ca45f89af5b80779e9375ce262107a2"
+    }
+  ],
+  "corpus_pin": {
+    "schema_version": 1,
+    "bundle_manifest_sha256": "dda0706cecfb449a4084b7cec95036ce0efa181d2a89b15c2b5511c01f840e9b",
+    "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+    "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+    "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+    "source_repository": "https://github.com/docxology/blake",
+    "scope": "Pinned captured source units; not a complete-oeuvre or image inventory."
+  },
+  "reference": {
+    "path": "entomology/research/reference-taxonomy-v1.json",
+    "size": 123242,
+    "sha256": "4f34c9bf080a2a3014bee83d7f0a477d1b12d2d4a70e778382b1286e84642bc9"
+  },
+  "casebook": {
+    "path": "entomology/research/reading-ledger-advancement-v1.json",
+    "size": 17181,
+    "sha256": "80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c"
+  },
+  "atlas": {
+    "path": "entomology/analysis_output/invertebrate-atlas-v4/atlas.json",
+    "size": 65240713,
+    "sha256": "bdc5a760ab6f7335cfc58daf0cd63e8c599c94be81dd31c6a849ab79132e3bfd"
+  },
+  "figures": {
+    "path": "entomology/analysis_output/invertebrate-figures-v4/figures.json",
+    "size": 2336,
+    "sha256": "9ba2e8668f8295f96c599b3ec070cdd89f5a99d2fc5264b0e49c48e8c3e8ec1c"
+  },
+  "prepared_article": {
+    "path": "entomology/analysis_output/article-advancement-v3/preparation.json",
+    "size": 2225,
+    "sha256": "437813ae300c95147c2fcf0d9c4ced02cfb97ebca587ccbd978c20d57eff3fcc"
+  },
+  "audit_export": {
+    "path": "entomology/research/coverage-audit-v1.json",
+    "size": 9258,
+    "sha256": "5d0cf2ff06d7ca6ebab6dda1376e40b33df7c9fdfea7dcf793ef58724333343b"
+  },
+  "gap_run": {
+    "path": "entomology/analysis_output/vocabulary-gap-probes-v2/run.json",
+    "size": 1910,
+    "sha256": "534da4809716bf47daa0f1565de8e96ccd3603a2892c5613182e2c8088f728eb"
+  },
+  "historical_files_unchanged": {
+    "research/baseline-counts.csv": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+    "research/baseline-run.json": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+    "research/baseline-summary.json": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55",
+    "research/corpus-pin.json": "960a03c24cb43f66a2b6db4b774acffd87d79f3b647940cdc272bef521f2b5b6",
+    "research/epoch-transition.json": "d86186056df7886ea8e9c0eb27925029f9fd59d1928d608cc3fd41c61c9ab067",
+    "research/federalism-parity.json": "14d95220ce348156c9b9051a6fd4878247e107b5985d677a1850710b7cac9029",
+    "research/git-custody-2026-10-28.json": "aa4f1966865f56399162898fdc8581fa8eb5bce8db4a511a5d06cfa8191ac5e5",
+    "research/history/baseline-v2/baseline-counts.csv": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+    "research/history/baseline-v2/baseline-run.json": "80dcf78a86d78946ede517410bd472b0326c6794ed1db1f8e77455639d1b4bec",
+    "research/history/baseline-v2/baseline-summary.json": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55",
+    "research/history/baseline-v2/seed-review-summary.json": "82742bcffabbc780001ceca692b5dbf6da42cc0b519851175b151f4e0cfbee9f",
+    "research/history/baseline-v2/seed-review.jsonl": "90b2c08ea2be12094b7f4b525bdd2d27e0c168e128ae77890e63bc1ab94cf2b4",
+    "research/installation-2026-10-28.json": "12be973f98a05309b5d897a1bb09137b72f8ff4b515e739355b08174d9560ed2",
+    "research/installation-shared-methods-0.2.0.json": "2a44831951362f078344c4d31ba9ca9d3778c4a412de00de4088004d04745d0d",
+    "research/proximity-binding.json": "220cfea58318da3635e1a261df782b74b71e2b09b82a2919e87ed9fe155cc233",
+    "research/reading-ledger.json": "26001aca197c5a6b84274da491b128fdadb52aaac2561f61922462a0ab95e96a",
+    "research/render-qa-0.2.0.json": "53805137876faf15b2b4379e957c3ec0153bb486a0115764895ec1bf0cfdd588",
+    "research/render-qa.json": "deed74c7c22231b6f44457fd62570644163deeffbc4e662b86526c712c73b055",
+    "research/seed-review-summary.json": "cea3e20d9687dc8813b5a10770ff5b0038ac70b10c5f9a675f1b756acfbdbf5b",
+    "research/seed-review.jsonl": "c5699db4832bf0b0cedc99706e777ea59b7410de5e1e1139a0a442ec808254eb",
+    "research/shared-methods-results.json": "2fd4e5bffef376008cdf896ace78d4d3ded172ddf5323cea801a385e7b584176",
+    "research/shared-methods-transition.json": "f8fbff1ebe5ca3916e1190a077d59a6f56d0884b7ee72c1155d4c2922031ae0b",
+    "research/source-intake-2026-10-28.md": "2d7b4f3c7232eafa658fcdb084fe73ecbc25697227ac60c65aba6543d9263fd8",
+    "research/vocabulary.json": "e490350472adc235c27a5534dc6144333d843943633b2c2184effebbf40b16f2",
+    "src/blakean_entomology/resources/vocabulary.json": "e490350472adc235c27a5534dc6144333d843943633b2c2184effebbf40b16f2"
+  },
+  "new_candidate_decisions": 0,
+  "historical_decisions_rebound": false,
+  "taxa": 37,
+  "mappings": 102,
+  "cases": 7,
+  "rasters": [
+    {
+      "name": "invertebrate-reference.png",
+      "pixels": [
+        1704,
+        2256
+      ],
+      "dpi": [
+        240.00459999999998,
+        240.00459999999998
+      ],
+      "bytes_identical_to_inspected_v3": true
+    },
+    {
+      "name": "corpus-atlas.png",
+      "pixels": [
+        2256,
+        2016
+      ],
+      "dpi": [
+        240.00459999999998,
+        240.00459999999998
+      ],
+      "bytes_identical_to_inspected_v3": true
+    }
+  ]
+}

@@ -1,0 +1,4382 @@
+{
+  "schema_version": 1,
+  "reference_id": "invertebrate-reference-2026-10-28-v1",
+  "vocabulary_sha256": "6e68900ce81770d9d4cd45d7cd7d33f3082ddd6645e6b87363bffcdc1585ba2c",
+  "root_tax_id": 33208,
+  "interpretation": "compressed NCBI reference classification; no inferred phylogeny",
+  "sources": [
+    {
+      "source_id": "ncbi-main",
+      "filename": "ncbi-taxonomy-20261028.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id=33208,6656,50557,7147,36668,34735,7399,7041,7088,6961,30073,7509,85819,6993,27469,7524,85823,6893,6855,6933,61985,7553,7554,6447,6448,6544,6605,6340,6381,6199,6157,6231,6073,6040,6681,6677,6087&retmode=xml",
+      "accessed": "2026-10-28",
+      "sha256": "fc23c53d1d45b39087cddf4ad8dbe5ffb4ea99fc40990fbe2837ff943c2b7eb9",
+      "size": 120627,
+      "locator": "TaxaSet/Taxon: TaxId, ScientificName, Rank, LineageEx",
+      "claim_limit": "Captured NCBI classification only, not nomenclatural authority, sequence inference, monophyly proof, or identification of literary referents. Unselected returned records are not admitted."
+    },
+    {
+      "source_id": "ncbi-supplement",
+      "filename": "ncbi-taxonomy-supplement-20261028.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id=3042114,7540,27434,6675,6083,42113&retmode=xml",
+      "accessed": "2026-10-28",
+      "sha256": "9617130a9b20577ddf95c3d96c061aa32f12ec562365718b56dac56c428db7e1",
+      "size": 19981,
+      "locator": "TaxaSet/Taxon: TaxId, ScientificName, Rank, LineageEx",
+      "claim_limit": "Captured NCBI classification only, not nomenclatural authority, sequence inference, monophyly proof, or identification of literary referents. Unselected returned records are not admitted."
+    }
+  ],
+  "taxa": [
+    {
+      "tax_id": 33208,
+      "name": "Metazoa",
+      "rank": "kingdom",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33208"
+    },
+    {
+      "tax_id": 6040,
+      "name": "Porifera",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6040"
+    },
+    {
+      "tax_id": 6073,
+      "name": "Cnidaria",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6073"
+    },
+    {
+      "tax_id": 6083,
+      "name": "Hydra",
+      "rank": "genus",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6073,
+          "name": "Cnidaria",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 6074,
+          "name": "Hydrozoa",
+          "rank": "class"
+        },
+        {
+          "tax_id": 37516,
+          "name": "Hydroidolina",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 406427,
+          "name": "Anthoathecata",
+          "rank": "order"
+        },
+        {
+          "tax_id": 1612408,
+          "name": "Aplanulata",
+          "rank": "suborder"
+        },
+        {
+          "tax_id": 6080,
+          "name": "Hydridae",
+          "rank": "family"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6083"
+    },
+    {
+      "tax_id": 6231,
+      "name": "Nematoda",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6231"
+    },
+    {
+      "tax_id": 6340,
+      "name": "Annelida",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6340"
+    },
+    {
+      "tax_id": 42113,
+      "name": "Clitellata",
+      "rank": "class",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6340,
+          "name": "Annelida",
+          "rank": "phylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42113"
+    },
+    {
+      "tax_id": 6157,
+      "name": "Platyhelminthes",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6157"
+    },
+    {
+      "tax_id": 6199,
+      "name": "Cestoda",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6157,
+          "name": "Platyhelminthes",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 147100,
+          "name": "Rhabditophora",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 3695485,
+          "name": "Neodermata",
+          "rank": "superclass"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6199"
+    },
+    {
+      "tax_id": 6447,
+      "name": "Mollusca",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6447"
+    },
+    {
+      "tax_id": 6448,
+      "name": "Gastropoda",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6447,
+          "name": "Mollusca",
+          "rank": "phylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6448"
+    },
+    {
+      "tax_id": 6544,
+      "name": "Bivalvia",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6447,
+          "name": "Mollusca",
+          "rank": "phylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6544"
+    },
+    {
+      "tax_id": 6605,
+      "name": "Cephalopoda",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 2697495,
+          "name": "Spiralia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206795,
+          "name": "Lophotrochozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6447,
+          "name": "Mollusca",
+          "rank": "phylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6605"
+    },
+    {
+      "tax_id": 6656,
+      "name": "Arthropoda",
+      "rank": "phylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6656"
+    },
+    {
+      "tax_id": 6893,
+      "name": "Araneae",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 6843,
+          "name": "Chelicerata",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 6854,
+          "name": "Arachnida",
+          "rank": "class"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6893"
+    },
+    {
+      "tax_id": 6855,
+      "name": "Scorpiones",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 6843,
+          "name": "Chelicerata",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 6854,
+          "name": "Arachnida",
+          "rank": "class"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6855"
+    },
+    {
+      "tax_id": 6933,
+      "name": "Acari",
+      "rank": "subclass",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 6843,
+          "name": "Chelicerata",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 6854,
+          "name": "Arachnida",
+          "rank": "class"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6933"
+    },
+    {
+      "tax_id": 61985,
+      "name": "Myriapoda",
+      "rank": "subphylum",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=61985"
+    },
+    {
+      "tax_id": 7540,
+      "name": "Chilopoda",
+      "rank": "class",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 61985,
+          "name": "Myriapoda",
+          "rank": "subphylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7540"
+    },
+    {
+      "tax_id": 7553,
+      "name": "Diplopoda",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 61985,
+          "name": "Myriapoda",
+          "rank": "subphylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7553"
+    },
+    {
+      "tax_id": 6681,
+      "name": "Malacostraca",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701029,
+          "name": "Communostraca",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6681"
+    },
+    {
+      "tax_id": 6675,
+      "name": "Cirripedia",
+      "rank": "subclass",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701029,
+          "name": "Communostraca",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 116172,
+          "name": "Thecostraca",
+          "rank": "class"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6675"
+    },
+    {
+      "tax_id": 50557,
+      "name": "Insecta",
+      "rank": "class",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=50557"
+    },
+    {
+      "tax_id": 6961,
+      "name": "Odonata",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33339,
+          "name": "Palaeoptera",
+          "rank": "infraclass"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6961"
+    },
+    {
+      "tax_id": 30073,
+      "name": "Ephemeroptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33339,
+          "name": "Palaeoptera",
+          "rank": "infraclass"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=30073"
+    },
+    {
+      "tax_id": 6993,
+      "name": "Orthoptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 33341,
+          "name": "Polyneoptera",
+          "rank": "cohort"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6993"
+    },
+    {
+      "tax_id": 27434,
+      "name": "Dermaptera",
+      "rank": "order",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 33341,
+          "name": "Polyneoptera",
+          "rank": "cohort"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=27434"
+    },
+    {
+      "tax_id": 7524,
+      "name": "Hemiptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33342,
+          "name": "Paraneoptera",
+          "rank": "cohort"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7524"
+    },
+    {
+      "tax_id": 85823,
+      "name": "Blattodea",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 33341,
+          "name": "Polyneoptera",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 6970,
+          "name": "Dictyoptera",
+          "rank": "superorder"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85823"
+    },
+    {
+      "tax_id": 85819,
+      "name": "Phthiraptera",
+      "rank": "infraorder",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33342,
+          "name": "Paraneoptera",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 1930602,
+          "name": "Psocodea",
+          "rank": "order"
+        },
+        {
+          "tax_id": 160148,
+          "name": "Troctomorpha",
+          "rank": "suborder"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85819"
+    },
+    {
+      "tax_id": 7509,
+      "name": "Siphonaptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 3701062,
+          "name": "Aparaglossata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701063,
+          "name": "Panorpida",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7509"
+    },
+    {
+      "tax_id": 7147,
+      "name": "Diptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 3701062,
+          "name": "Aparaglossata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701063,
+          "name": "Panorpida",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7147"
+    },
+    {
+      "tax_id": 7041,
+      "name": "Coleoptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 3701062,
+          "name": "Aparaglossata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701064,
+          "name": "Neuropteroidea",
+          "rank": "clade"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7041"
+    },
+    {
+      "tax_id": 7088,
+      "name": "Lepidoptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 3701062,
+          "name": "Aparaglossata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701063,
+          "name": "Panorpida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 85604,
+          "name": "Amphiesmenoptera",
+          "rank": "superorder"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7088"
+    },
+    {
+      "tax_id": 7399,
+      "name": "Hymenoptera",
+      "rank": "order",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7399"
+    },
+    {
+      "tax_id": 36668,
+      "name": "Formicidae",
+      "rank": "family",
+      "source_id": "ncbi-main",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 7399,
+          "name": "Hymenoptera",
+          "rank": "order"
+        },
+        {
+          "tax_id": 7400,
+          "name": "Apocrita",
+          "rank": "suborder"
+        },
+        {
+          "tax_id": 7434,
+          "name": "Aculeata",
+          "rank": "infraorder"
+        },
+        {
+          "tax_id": 2153479,
+          "name": "Formicoidea",
+          "rank": "superfamily"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36668"
+    },
+    {
+      "tax_id": 3042114,
+      "name": "Anthophila",
+      "rank": "clade",
+      "source_id": "ncbi-supplement",
+      "lineage": [
+        {
+          "tax_id": 131567,
+          "name": "cellular organisms",
+          "rank": "cellular root"
+        },
+        {
+          "tax_id": 2759,
+          "name": "Eukaryota",
+          "rank": "domain"
+        },
+        {
+          "tax_id": 33154,
+          "name": "Opisthokonta",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33208,
+          "name": "Metazoa",
+          "rank": "kingdom"
+        },
+        {
+          "tax_id": 6072,
+          "name": "Eumetazoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33213,
+          "name": "Bilateria",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33317,
+          "name": "Protostomia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 1206794,
+          "name": "Ecdysozoa",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 88770,
+          "name": "Panarthropoda",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6656,
+          "name": "Arthropoda",
+          "rank": "phylum"
+        },
+        {
+          "tax_id": 197563,
+          "name": "Mandibulata",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 197562,
+          "name": "Pancrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701028,
+          "name": "Altocrustacea",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 3701030,
+          "name": "Allotriocarida",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 6960,
+          "name": "Hexapoda",
+          "rank": "subphylum"
+        },
+        {
+          "tax_id": 50557,
+          "name": "Insecta",
+          "rank": "class"
+        },
+        {
+          "tax_id": 85512,
+          "name": "Dicondylia",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 7496,
+          "name": "Pterygota",
+          "rank": "subclass"
+        },
+        {
+          "tax_id": 33340,
+          "name": "Neoptera",
+          "rank": "infraclass"
+        },
+        {
+          "tax_id": 3701061,
+          "name": "Eumetabola",
+          "rank": "clade"
+        },
+        {
+          "tax_id": 33392,
+          "name": "Endopterygota",
+          "rank": "cohort"
+        },
+        {
+          "tax_id": 7399,
+          "name": "Hymenoptera",
+          "rank": "order"
+        },
+        {
+          "tax_id": 7400,
+          "name": "Apocrita",
+          "rank": "suborder"
+        },
+        {
+          "tax_id": 7434,
+          "name": "Aculeata",
+          "rank": "infraorder"
+        },
+        {
+          "tax_id": 34735,
+          "name": "Apoidea",
+          "rank": "superfamily"
+        }
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3042114"
+    }
+  ],
+  "mappings": [
+    {
+      "term_id": "worm",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6340,
+        6157,
+        6231,
+        50557
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Polyphyletic literary label, not a clade. Listed annelid, flatworm, nematode and insect destinations are nonexhaustive examples, never an allocation of these candidates.",
+      "evidence_locators": [
+        "ncbitaxon:6340: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6157: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6231: ScientificName/Rank/LineageEx",
+        "ncbitaxon:50557: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "earthworm",
+      "status": "broad_group",
+      "taxon_ids": [
+        42113
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:42113: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "tapeworm",
+      "status": "broad_group",
+      "taxon_ids": [
+        6199
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6199: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "silkworm",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Compound worm name does not imply annelid.",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "glowworm",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        7041,
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Vernacular compound is not an annelid diagnosis. Beetle and dipteran destinations are provisional examples; neither identifies the poem's actor.",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx",
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx",
+        "Songs copy A: objects 27, 33, 48; pinned Archive XML"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "bookworm",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        7041,
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May refer figuratively to readers.",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx",
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "blindworm",
+      "status": "outside_scope",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "May denote a vertebrate; excluded from the invertebrate reference without erasing the historical query category.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cutworm",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "ant",
+      "status": "resolved_lineage",
+      "taxon_ids": [
+        36668
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Conditional modern ant sense maps to Formicidae. Emmet is attested in Songs A object27; emmett/emmitt remain query variants, not newly established Blake spellings.",
+      "evidence_locators": [
+        "ncbitaxon:36668: ScientificName/Rank/LineageEx",
+        "Songs copy A: objects 27, 33, 48; pinned Archive XML"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "fly",
+      "status": "resolved_lineage",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Conditional animal noun sense maps to Diptera; flies in Songs A object48 is a flight verb. Compound names can refer to different orders.",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx",
+        "Songs copy A: objects 27, 33, 48; pinned Archive XML"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "housefly",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "dragonfly",
+      "status": "broad_group",
+      "taxon_ids": [
+        6961
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6961: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "gadfly",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "mayfly",
+      "status": "broad_group",
+      "taxon_ids": [
+        30073
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Separated may fly has an especially high verb false-positive rate.",
+      "evidence_locators": [
+        "ncbitaxon:30073: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "firefly",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "horsefly",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "bee",
+      "status": "resolved_lineage",
+      "taxon_ids": [
+        3042114
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Conditional modern bee sense maps to Anthophila, not all Apoidea. No species, social behaviour or local biological identification follows.",
+      "evidence_locators": [
+        "ncbitaxon:3042114: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "honeybee",
+      "status": "broad_group",
+      "taxon_ids": [
+        3042114
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May overlap the generic bee category.",
+      "evidence_locators": [
+        "ncbitaxon:3042114: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "bumblebee",
+      "status": "broad_group",
+      "taxon_ids": [
+        3042114
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:3042114: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "wasp",
+      "status": "broad_group",
+      "taxon_ids": [
+        7399
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7399: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "hornet",
+      "status": "broad_group",
+      "taxon_ids": [
+        7399
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7399: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "beetle",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Plural spelling can retain an unpunctuated possessive.",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "chafer",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cockchafer",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "scarab",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "weevil",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "ladybird",
+      "status": "broad_group",
+      "taxon_ids": [
+        7041
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7041: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "moth",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "butterfly",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "caterpillar",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Catterpiller is attested in The Human Abstract.",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "maggot",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "grub",
+      "status": "broad_group",
+      "taxon_ids": [
+        50557
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May be a verb or food.",
+      "evidence_locators": [
+        "ncbitaxon:50557: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "larva",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "A developmental stage across animal groups, not an insect clade. Historical insect retrieval tag is preserved, not endorsed as biological scope.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "chrysalis",
+      "status": "broad_group",
+      "taxon_ids": [
+        7088
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7088: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cocoon",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "flea",
+      "status": "broad_group",
+      "taxon_ids": [
+        7509
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7509: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "louse",
+      "status": "broad_group",
+      "taxon_ids": [
+        85819
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:85819: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "gnat",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "midge",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "grasshopper",
+      "status": "broad_group",
+      "taxon_ids": [
+        6993
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6993: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cricket",
+      "status": "broad_group",
+      "taxon_ids": [
+        6993
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May denote game rather than animal.",
+      "evidence_locators": [
+        "ncbitaxon:6993: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "locust",
+      "status": "broad_group",
+      "taxon_ids": [
+        6993
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Can also name a tree.",
+      "evidence_locators": [
+        "ncbitaxon:6993: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "earwig",
+      "status": "broad_group",
+      "taxon_ids": [
+        27434
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:27434: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "bug",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        50557,
+        7524
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. No automatic modern true-bug classification.",
+      "evidence_locators": [
+        "ncbitaxon:50557: ScientificName/Rank/LineageEx",
+        "ncbitaxon:7524: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cockroach",
+      "status": "broad_group",
+      "taxon_ids": [
+        85823
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:85823: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "roach",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        85823
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Can denote vertebrate fish.",
+      "evidence_locators": [
+        "ncbitaxon:85823: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "termite",
+      "status": "broad_group",
+      "taxon_ids": [
+        85823
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:85823: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cicada",
+      "status": "broad_group",
+      "taxon_ids": [
+        7524
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7524: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "mosquito",
+      "status": "broad_group",
+      "taxon_ids": [
+        7147
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7147: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "spider",
+      "status": "resolved_lineage",
+      "taxon_ids": [
+        6893
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Conditional animal sense maps to Araneae, outside Insecta. Personification and the identity of any depicted body require separate review.",
+      "evidence_locators": [
+        "ncbitaxon:6893: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "spinner",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6893
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Spider epithet or human textile worker.",
+      "evidence_locators": [
+        "ncbitaxon:6893: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "scorpion",
+      "status": "broad_group",
+      "taxon_ids": [
+        6855
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6855: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "mite",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6933
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Monetary amount in Auguries; cannot auto-admit.",
+      "evidence_locators": [
+        "ncbitaxon:6933: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "tick",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6933
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Multiple non-animal senses.",
+      "evidence_locators": [
+        "ncbitaxon:6933: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "centipede",
+      "status": "broad_group",
+      "taxon_ids": [
+        7540
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7540: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "millipede",
+      "status": "broad_group",
+      "taxon_ids": [
+        7553
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:7553: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "snail",
+      "status": "broad_group",
+      "taxon_ids": [
+        6448
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6448: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "slug",
+      "status": "broad_group",
+      "taxon_ids": [
+        6448
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May denote projectile or another sense.",
+      "evidence_locators": [
+        "ncbitaxon:6448: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "oyster",
+      "status": "broad_group",
+      "taxon_ids": [
+        6544
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6544: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "mussel",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6544
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Bivalve animal sense only; the declared muscle/muscles forms can refer to vertebrate tissue and require contextual rejection.",
+      "evidence_locators": [
+        "ncbitaxon:6544: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cockle",
+      "status": "broad_group",
+      "taxon_ids": [
+        6544
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. May denote plant.",
+      "evidence_locators": [
+        "ncbitaxon:6544: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "clam",
+      "status": "broad_group",
+      "taxon_ids": [
+        6544
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6544: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "whelk",
+      "status": "broad_group",
+      "taxon_ids": [
+        6448
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6448: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "limpet",
+      "status": "broad_group",
+      "taxon_ids": [
+        6448
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6448: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "nautilus",
+      "status": "broad_group",
+      "taxon_ids": [
+        6605
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6605: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "octopus",
+      "status": "broad_group",
+      "taxon_ids": [
+        6605
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6605: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "cuttlefish",
+      "status": "broad_group",
+      "taxon_ids": [
+        6605
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6605: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "squid",
+      "status": "broad_group",
+      "taxon_ids": [
+        6605
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6605: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "leech",
+      "status": "broad_group",
+      "taxon_ids": [
+        42113
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Physician or figurative parasite also possible.",
+      "evidence_locators": [
+        "ncbitaxon:42113: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "crab",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Can name a tree, fruit or non-animal sense.",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "lobster",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "shrimp",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "prawn",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "crayfish",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "barnacle",
+      "status": "broad_group",
+      "taxon_ids": [
+        6675
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Historical bird associations require review.",
+      "evidence_locators": [
+        "ncbitaxon:6675: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "woodlouse",
+      "status": "broad_group",
+      "taxon_ids": [
+        6681
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:6681: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "polypus",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6073,
+        6605
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Historical, mythic, botanical and medical senses remain open. Cnidarian and cephalopod records are reference alternatives, not identifications; no historical dictionary entry or image has been verified.",
+      "evidence_locators": [
+        "ncbitaxon:6073: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6605: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "hydra",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6083
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Mythic monster versus animal.",
+      "evidence_locators": [
+        "ncbitaxon:6083: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "coral",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6073
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Material or colour may not name an organism.",
+      "evidence_locators": [
+        "ncbitaxon:6073: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "sponge",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6040
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Material, object or figurative sense.",
+      "evidence_locators": [
+        "ncbitaxon:6040: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "zoophyte",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6073,
+        6040
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Historical animal/plant boundary.",
+      "evidence_locators": [
+        "ncbitaxon:6073: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6040: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "animalcule",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Broad microscopic life; not automatically invertebrate.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "medusa",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6073
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Mythic or zoological.",
+      "evidence_locators": [
+        "ncbitaxon:6073: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "insect",
+      "status": "broad_group",
+      "taxon_ids": [
+        50557
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "ncbitaxon:50557: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "invertebrate",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [
+        6656,
+        6447,
+        6340,
+        6073,
+        6040
+      ],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Modern retrieval category; zero is retained.",
+      "evidence_locators": [
+        "ncbitaxon:6656: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6447: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6340: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6073: ScientificName/Rank/LineageEx",
+        "ncbitaxon:6040: ScientificName/Rank/LineageEx"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "vermin",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. Can include vertebrates or figurative people.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "creeping_life",
+      "status": "ambiguous_mapping",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Context must establish an animal sense before this deliberately broad modern reference destination is useful. The association is an editorial research aid, not a contextual decision or a taxonomic identification. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "hive",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Structure or collective metaphor.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "anthill",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "honey",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Animal product/imagery; not an animal occurrence.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "wax",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Material or growth verb; review.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "silk",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Product or figure; not an insect observation.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "web",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Includes textile and metaphorical contexts.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "swarm",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. May refer to other animals or people.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "sting",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "shell",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Instrument/material/other non-animal senses.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "pearl",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "wing",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Birds and angels included as noisy leads, not invertebrate counts.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "hum",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "crawl",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. ",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "spin",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Human textile work and other actions.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    },
+    {
+      "term_id": "flight_verbs",
+      "status": "non_taxon",
+      "taxon_ids": [],
+      "certainty": "conditional_modern_sense",
+      "rationale": "Product, structure, body part, action or motion; not a taxon. Maker and biological sense require context. Indirect context channel; explicitly not animal noun counts.",
+      "evidence_locators": [
+        "research/vocabulary.json: editorial scope; no taxonomic identification"
+      ],
+      "alternatives_exhaustive": false
+    }
+  ]
+}

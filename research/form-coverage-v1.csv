@@ -1,0 +1,377 @@
+term_id,form,normalized_tokens,equivalent_form_candidates,exact_surface_candidates,primary_equivalent_form_candidates,primary_exact_surface_candidates
+worm,worm,['worm'],2462,2462,384,384
+worm,worms,['worms'],342,342,80,80
+worm,wormlike,['wormlike'],0,0,0,0
+worm,worm-like,"['worm', 'like']",93,91,0,0
+worm,wormy,['wormy'],10,10,4,4
+worm,wormeaten,['wormeaten'],0,0,0,0
+worm,worm-eaten,"['worm', 'eaten']",0,0,0,0
+earthworm,earthworm,['earthworm'],16,16,0,0
+earthworm,earthworms,['earthworms'],0,0,0,0
+earthworm,earth-worm,"['earth', 'worm']",65,53,22,22
+earthworm,earth-worms,"['earth', 'worms']",1,1,0,0
+earthworm,earth worm,"['earth', 'worm']",65,10,22,0
+earthworm,earth worms,"['earth', 'worms']",1,0,0,0
+tapeworm,tapeworm,['tapeworm'],0,0,0,0
+tapeworm,tapeworms,['tapeworms'],0,0,0,0
+tapeworm,tape-worm,"['tape', 'worm']",10,10,4,4
+tapeworm,tape-worms,"['tape', 'worms']",0,0,0,0
+tapeworm,tape worm,"['tape', 'worm']",10,0,4,0
+tapeworm,tape worms,"['tape', 'worms']",0,0,0,0
+silkworm,silkworm,['silkworm'],0,0,0,0
+silkworm,silkworms,['silkworms'],0,0,0,0
+silkworm,silk-worm,"['silk', 'worm']",10,10,4,4
+silkworm,silk-worms,"['silk', 'worms']",0,0,0,0
+silkworm,silk worm,"['silk', 'worm']",10,0,4,0
+silkworm,silk worms,"['silk', 'worms']",0,0,0,0
+glowworm,glowworm,['glowworm'],0,0,0,0
+glowworm,glowworms,['glowworms'],0,0,0,0
+glowworm,glow-worm,"['glow', 'worm']",166,166,27,27
+glowworm,glow-worms,"['glow', 'worms']",0,0,0,0
+glowworm,glow worm,"['glow', 'worm']",166,0,27,0
+glowworm,glow worms,"['glow', 'worms']",0,0,0,0
+bookworm,bookworm,['bookworm'],0,0,0,0
+bookworm,bookworms,['bookworms'],0,0,0,0
+bookworm,book-worm,"['book', 'worm']",0,0,0,0
+bookworm,book-worms,"['book', 'worms']",0,0,0,0
+bookworm,book worm,"['book', 'worm']",0,0,0,0
+blindworm,blindworm,['blindworm'],0,0,0,0
+blindworm,blindworms,['blindworms'],0,0,0,0
+blindworm,blind-worm,"['blind', 'worm']",34,0,16,0
+blindworm,blind-worms,"['blind', 'worms']",0,0,0,0
+blindworm,blind worm,"['blind', 'worm']",34,34,16,16
+cutworm,cutworm,['cutworm'],0,0,0,0
+cutworm,cutworms,['cutworms'],0,0,0,0
+cutworm,cut-worm,"['cut', 'worm']",21,0,9,0
+cutworm,cut-worms,"['cut', 'worms']",0,0,0,0
+ant,ant,['ant'],107,107,0,0
+ant,ants,['ants'],0,0,0,0
+ant,emmet,['emmet'],164,164,36,36
+ant,emmets,['emmets'],4,4,1,1
+ant,emmett,['emmett'],0,0,0,0
+ant,emmetts,['emmetts'],0,0,0,0
+ant,emmitt,['emmitt'],0,0,0,0
+ant,emmitts,['emmitts'],0,0,0,0
+ant,pismire,['pismire'],0,0,0,0
+ant,pismires,['pismires'],0,0,0,0
+fly,fly,['fly'],2643,2643,156,156
+fly,flies,['flies'],2510,2510,27,27
+housefly,housefly,['housefly'],0,0,0,0
+housefly,houseflies,['houseflies'],0,0,0,0
+housefly,house-fly,"['house', 'fly']",0,0,0,0
+housefly,house-flies,"['house', 'flies']",0,0,0,0
+housefly,house fly,"['house', 'fly']",0,0,0,0
+housefly,house flies,"['house', 'flies']",0,0,0,0
+dragonfly,dragonfly,['dragonfly'],85,85,0,0
+dragonfly,dragonflies,['dragonflies'],5,5,0,0
+dragonfly,dragon-fly,"['dragon', 'fly']",0,0,0,0
+dragonfly,dragon-flies,"['dragon', 'flies']",0,0,0,0
+dragonfly,dragon fly,"['dragon', 'fly']",0,0,0,0
+gadfly,gadfly,['gadfly'],0,0,0,0
+gadfly,gadflies,['gadflies'],0,0,0,0
+gadfly,gad-fly,"['gad', 'fly']",0,0,0,0
+gadfly,gad-flies,"['gad', 'flies']",0,0,0,0
+gadfly,gad fly,"['gad', 'fly']",0,0,0,0
+mayfly,mayfly,['mayfly'],0,0,0,0
+mayfly,mayflies,['mayflies'],0,0,0,0
+mayfly,may-fly,"['may', 'fly']",36,0,1,0
+mayfly,may-flies,"['may', 'flies']",0,0,0,0
+mayfly,may fly,"['may', 'fly']",36,34,1,0
+firefly,firefly,['firefly'],0,0,0,0
+firefly,fireflies,['fireflies'],0,0,0,0
+firefly,fire-fly,"['fire', 'fly']",0,0,0,0
+firefly,fire-flies,"['fire', 'flies']",0,0,0,0
+firefly,fire fly,"['fire', 'fly']",0,0,0,0
+horsefly,horsefly,['horsefly'],0,0,0,0
+horsefly,horseflies,['horseflies'],0,0,0,0
+horsefly,horse-fly,"['horse', 'fly']",4,0,0,0
+horsefly,horse-flies,"['horse', 'flies']",4,0,0,0
+horsefly,horse fly,"['horse', 'fly']",4,0,0,0
+bee,bee,['bee'],110,110,30,30
+bee,bees,['bees'],49,49,14,14
+honeybee,honeybee,['honeybee'],0,0,0,0
+honeybee,honeybees,['honeybees'],0,0,0,0
+honeybee,honey-bee,"['honey', 'bee']",16,0,5,0
+honeybee,honey-bees,"['honey', 'bees']",20,0,9,0
+honeybee,honey bee,"['honey', 'bee']",16,12,5,4
+honeybee,honey bees,"['honey', 'bees']",20,20,9,9
+bumblebee,bumblebee,['bumblebee'],0,0,0,0
+bumblebee,bumblebees,['bumblebees'],0,0,0,0
+bumblebee,bumble-bee,"['bumble', 'bee']",0,0,0,0
+bumblebee,bumble-bees,"['bumble', 'bees']",0,0,0,0
+bumblebee,bumble bee,"['bumble', 'bee']",0,0,0,0
+bumblebee,humblebee,['humblebee'],0,0,0,0
+bumblebee,humblebees,['humblebees'],0,0,0,0
+bumblebee,humble-bee,"['humble', 'bee']",0,0,0,0
+bumblebee,humble bees,"['humble', 'bees']",0,0,0,0
+wasp,wasp,['wasp'],19,19,4,4
+wasp,wasps,['wasps'],2,2,0,0
+hornet,hornet,['hornet'],23,23,4,4
+hornet,hornets,['hornets'],2,2,0,0
+beetle,beetle,['beetle'],421,421,35,35
+beetle,beetles,['beetles'],132,132,27,27
+chafer,chafer,['chafer'],4,4,1,1
+chafer,chafers,['chafers'],4,4,1,1
+cockchafer,cockchafer,['cockchafer'],0,0,0,0
+cockchafer,cockchafers,['cockchafers'],0,0,0,0
+cockchafer,cock-chafer,"['cock', 'chafer']",4,0,1,0
+cockchafer,cock-chafers,"['cock', 'chafers']",0,0,0,0
+cockchafer,cock chafer,"['cock', 'chafer']",4,4,1,1
+cockchafer,cock chafers,"['cock', 'chafers']",0,0,0,0
+scarab,scarab,['scarab'],0,0,0,0
+scarab,scarabs,['scarabs'],0,0,0,0
+scarab,scarabaeus,['scarabaeus'],0,0,0,0
+scarab,scarabaei,['scarabaei'],0,0,0,0
+weevil,weevil,['weevil'],0,0,0,0
+weevil,weevils,['weevils'],0,0,0,0
+ladybird,ladybird,['ladybird'],0,0,0,0
+ladybird,ladybirds,['ladybirds'],0,0,0,0
+ladybird,ladybug,['ladybug'],0,0,0,0
+ladybird,ladybugs,['ladybugs'],0,0,0,0
+ladybird,lady-bird,"['lady', 'bird']",0,0,0,0
+ladybird,lady-bug,"['lady', 'bug']",0,0,0,0
+moth,moth,['moth'],460,460,14,14
+moth,moths,['moths'],100,100,0,0
+moth,mothlike,['mothlike'],0,0,0,0
+moth,moth-like,"['moth', 'like']",16,16,4,4
+butterfly,butterfly,['butterfly'],701,701,20,20
+butterfly,butterflies,['butterflies'],119,119,0,0
+butterfly,butter-fly,"['butter', 'fly']",0,0,0,0
+butterfly,butter-flies,"['butter', 'flies']",0,0,0,0
+caterpillar,caterpillar,['caterpillar'],611,611,0,0
+caterpillar,caterpillars,['caterpillars'],55,55,0,0
+caterpillar,caterpiller,['caterpiller'],1,1,0,0
+caterpillar,caterpillers,['caterpillers'],0,0,0,0
+caterpillar,catterpillar,['catterpillar'],0,0,0,0
+caterpillar,catterpillars,['catterpillars'],0,0,0,0
+caterpillar,catterpiller,['catterpiller'],85,85,36,36
+caterpillar,catterpillers,['catterpillers'],0,0,0,0
+maggot,maggot,['maggot'],12,12,4,4
+maggot,maggots,['maggots'],0,0,0,0
+grub,grub,['grub'],0,0,0,0
+grub,grubs,['grubs'],0,0,0,0
+larva,larva,['larva'],0,0,0,0
+larva,larvae,['larvae'],0,0,0,0
+larva,larvas,['larvas'],0,0,0,0
+chrysalis,chrysalis,['chrysalis'],66,66,0,0
+chrysalis,chrysalises,['chrysalises'],0,0,0,0
+chrysalis,chrysalides,['chrysalides'],0,0,0,0
+cocoon,cocoon,['cocoon'],0,0,0,0
+cocoon,cocoons,['cocoons'],0,0,0,0
+flea,flea,['flea'],36,36,5,5
+flea,fleas,['fleas'],0,0,0,0
+louse,louse,['louse'],15,15,5,5
+louse,lice,['lice'],3,3,0,0
+louse,louses,['louses'],0,0,0,0
+gnat,gnat,['gnat'],14,14,5,5
+gnat,gnats,['gnats'],0,0,0,0
+midge,midge,['midge'],0,0,0,0
+midge,midges,['midges'],0,0,0,0
+grasshopper,grasshopper,['grasshopper'],149,149,34,34
+grasshopper,grasshoppers,['grasshoppers'],0,0,0,0
+grasshopper,grass-hopper,"['grass', 'hopper']",0,0,0,0
+grasshopper,grass-hoppers,"['grass', 'hoppers']",0,0,0,0
+grasshopper,grass hopper,"['grass', 'hopper']",0,0,0,0
+cricket,cricket,['cricket'],2,2,0,0
+cricket,crickets,['crickets'],4,4,1,1
+locust,locust,['locust'],61,61,0,0
+locust,locusts,['locusts'],2,2,0,0
+earwig,earwig,['earwig'],12,12,4,4
+earwig,earwigs,['earwigs'],0,0,0,0
+earwig,ear-wig,"['ear', 'wig']",0,0,0,0
+earwig,ear-wigs,"['ear', 'wigs']",0,0,0,0
+bug,bug,['bug'],11,11,4,4
+bug,bugs,['bugs'],0,0,0,0
+cockroach,cockroach,['cockroach'],0,0,0,0
+cockroach,cockroaches,['cockroaches'],0,0,0,0
+cockroach,cock-roach,"['cock', 'roach']",0,0,0,0
+cockroach,cock-roaches,"['cock', 'roaches']",0,0,0,0
+roach,roach,['roach'],0,0,0,0
+roach,roaches,['roaches'],0,0,0,0
+termite,termite,['termite'],0,0,0,0
+termite,termites,['termites'],0,0,0,0
+termite,white ant,"['white', 'ant']",0,0,0,0
+termite,white ants,"['white', 'ants']",0,0,0,0
+cicada,cicada,['cicada'],0,0,0,0
+cicada,cicadas,['cicadas'],0,0,0,0
+cicada,cicala,['cicala'],0,0,0,0
+cicada,cicalas,['cicalas'],0,0,0,0
+mosquito,mosquito,['mosquito'],0,0,0,0
+mosquito,mosquitoes,['mosquitoes'],0,0,0,0
+mosquito,mosquitos,['mosquitos'],0,0,0,0
+mosquito,musquito,['musquito'],0,0,0,0
+mosquito,musquitoes,['musquitoes'],0,0,0,0
+spider,spider,['spider'],587,587,42,42
+spider,spiders,['spiders'],128,128,36,36
+spinner,spinner,['spinner'],10,10,4,4
+spinner,spinners,['spinners'],0,0,0,0
+scorpion,scorpion,['scorpion'],32,32,4,4
+scorpion,scorpions,['scorpions'],7,7,1,1
+mite,mite,['mite'],4,4,1,1
+mite,mites,['mites'],0,0,0,0
+tick,tick,['tick'],0,0,0,0
+tick,ticks,['ticks'],0,0,0,0
+centipede,centipede,['centipede'],24,24,4,4
+centipede,centipedes,['centipedes'],0,0,0,0
+centipede,centiped,['centiped'],0,0,0,0
+centipede,centipeds,['centipeds'],0,0,0,0
+millipede,millipede,['millipede'],0,0,0,0
+millipede,millipedes,['millipedes'],0,0,0,0
+millipede,millepede,['millepede'],0,0,0,0
+millipede,millepedes,['millepedes'],0,0,0,0
+millipede,milleped,['milleped'],0,0,0,0
+millipede,millepeds,['millepeds'],0,0,0,0
+snail,snail,['snail'],79,79,0,0
+snail,snails,['snails'],16,16,0,0
+slug,slug,['slug'],12,12,4,4
+slug,slugs,['slugs'],0,0,0,0
+oyster,oyster,['oyster'],18,18,0,0
+oyster,oysters,['oysters'],0,0,0,0
+mussel,mussel,['mussel'],0,0,0,0
+mussel,mussels,['mussels'],0,0,0,0
+mussel,muscle,['muscle'],40,40,12,12
+mussel,muscles,['muscles'],16,16,1,1
+cockle,cockle,['cockle'],0,0,0,0
+cockle,cockles,['cockles'],0,0,0,0
+clam,clam,['clam'],9,9,1,1
+clam,clams,['clams'],2,2,0,0
+whelk,whelk,['whelk'],65,65,0,0
+whelk,whelks,['whelks'],0,0,0,0
+limpet,limpet,['limpet'],0,0,0,0
+limpet,limpets,['limpets'],0,0,0,0
+nautilus,nautilus,['nautilus'],2,2,0,0
+nautilus,nautiluses,['nautiluses'],0,0,0,0
+nautilus,nautili,['nautili'],0,0,0,0
+octopus,octopus,['octopus'],0,0,0,0
+octopus,octopuses,['octopuses'],0,0,0,0
+octopus,octopi,['octopi'],0,0,0,0
+cuttlefish,cuttlefish,['cuttlefish'],0,0,0,0
+cuttlefish,cuttle-fish,"['cuttle', 'fish']",0,0,0,0
+cuttlefish,cuttle fish,"['cuttle', 'fish']",0,0,0,0
+cuttlefish,cuttle,['cuttle'],0,0,0,0
+squid,squid,['squid'],0,0,0,0
+squid,squids,['squids'],0,0,0,0
+leech,leech,['leech'],0,0,0,0
+leech,leeches,['leeches'],0,0,0,0
+crab,crab,['crab'],32,32,0,0
+crab,crabs,['crabs'],0,0,0,0
+lobster,lobster,['lobster'],0,0,0,0
+lobster,lobsters,['lobsters'],0,0,0,0
+shrimp,shrimp,['shrimp'],18,18,0,0
+shrimp,shrimps,['shrimps'],0,0,0,0
+prawn,prawn,['prawn'],0,0,0,0
+prawn,prawns,['prawns'],0,0,0,0
+crayfish,crayfish,['crayfish'],0,0,0,0
+crayfish,cray-fish,"['cray', 'fish']",0,0,0,0
+crayfish,cray fish,"['cray', 'fish']",0,0,0,0
+crayfish,crawfish,['crawfish'],0,0,0,0
+crayfish,craw-fish,"['craw', 'fish']",0,0,0,0
+crayfish,craw fish,"['craw', 'fish']",0,0,0,0
+barnacle,barnacle,['barnacle'],0,0,0,0
+barnacle,barnacles,['barnacles'],0,0,0,0
+woodlouse,woodlouse,['woodlouse'],0,0,0,0
+woodlouse,woodlice,['woodlice'],0,0,0,0
+woodlouse,wood-louse,"['wood', 'louse']",0,0,0,0
+woodlouse,wood-lice,"['wood', 'lice']",0,0,0,0
+woodlouse,sowbug,['sowbug'],0,0,0,0
+woodlouse,sowbugs,['sowbugs'],0,0,0,0
+woodlouse,sow-bug,"['sow', 'bug']",0,0,0,0
+woodlouse,sow-bugs,"['sow', 'bugs']",0,0,0,0
+polypus,polypus,['polypus'],202,202,73,73
+polypus,polypuses,['polypuses'],0,0,0,0
+polypus,polypi,['polypi'],0,0,0,0
+polypus,polyp,['polyp'],3,3,0,0
+polypus,polyps,['polyps'],0,0,0,0
+polypus,polype,['polype'],0,0,0,0
+polypus,polypes,['polypes'],0,0,0,0
+hydra,hydra,['hydra'],4,4,0,0
+hydra,hydras,['hydras'],0,0,0,0
+coral,coral,['coral'],4,4,0,0
+coral,corals,['corals'],0,0,0,0
+sponge,sponge,['sponge'],38,38,18,18
+sponge,sponges,['sponges'],0,0,0,0
+zoophyte,zoophyte,['zoophyte'],0,0,0,0
+zoophyte,zoophytes,['zoophytes'],0,0,0,0
+animalcule,animalcule,['animalcule'],0,0,0,0
+animalcule,animalcules,['animalcules'],0,0,0,0
+animalcule,animalculae,['animalculae'],0,0,0,0
+medusa,medusa,['medusa'],6,6,0,0
+medusa,medusae,['medusae'],0,0,0,0
+medusa,medusas,['medusas'],0,0,0,0
+insect,insect,['insect'],1302,1302,0,0
+insect,insects,['insects'],701,701,14,14
+invertebrate,invertebrate,['invertebrate'],0,0,0,0
+invertebrate,invertebrates,['invertebrates'],0,0,0,0
+vermin,vermin,['vermin'],10,10,2,2
+vermin,vermine,['vermine'],0,0,0,0
+creeping_life,creeping thing,"['creeping', 'thing']",7,7,0,0
+creeping_life,creeping things,"['creeping', 'things']",3,3,0,0
+creeping_life,creeping creature,"['creeping', 'creature']",0,0,0,0
+creeping_life,creeping creatures,"['creeping', 'creatures']",0,0,0,0
+hive,hive,['hive'],3,3,0,0
+hive,hives,['hives'],0,0,0,0
+hive,beehive,['beehive'],0,0,0,0
+hive,beehives,['beehives'],0,0,0,0
+hive,bee-hive,"['bee', 'hive']",2,0,0,0
+hive,bee hives,"['bee', 'hives']",0,0,0,0
+anthill,anthill,['anthill'],0,0,0,0
+anthill,anthills,['anthills'],0,0,0,0
+anthill,ant-hill,"['ant', 'hill']",0,0,0,0
+anthill,ant-hills,"['ant', 'hills']",0,0,0,0
+anthill,ant hill,"['ant', 'hill']",0,0,0,0
+anthill,ant hills,"['ant', 'hills']",0,0,0,0
+honey,honey,['honey'],200,200,84,84
+honey,honeycomb,['honeycomb'],0,0,0,0
+honey,honeycombs,['honeycombs'],0,0,0,0
+honey,honey-comb,"['honey', 'comb']",0,0,0,0
+honey,honey-combs,"['honey', 'combs']",0,0,0,0
+wax,wax,['wax'],109,109,4,4
+wax,waxes,['waxes'],0,0,0,0
+wax,beeswax,['beeswax'],0,0,0,0
+wax,bee-wax,"['bee', 'wax']",0,0,0,0
+wax,bees-wax,"['bees', 'wax']",0,0,0,0
+silk,silk,['silk'],41,41,12,12
+silk,silks,['silks'],4,4,0,0
+silk,silken,['silken'],109,109,38,38
+web,web,['web'],654,654,96,96
+web,webs,['webs'],94,94,18,18
+web,cobweb,['cobweb'],0,0,0,0
+web,cobwebs,['cobwebs'],0,0,0,0
+web,cob-web,"['cob', 'web']",0,0,0,0
+web,cob-webs,"['cob', 'webs']",0,0,0,0
+swarm,swarm,['swarm'],19,19,0,0
+swarm,swarms,['swarms'],2,2,0,0
+swarm,swarming,['swarming'],0,0,0,0
+swarm,swarmd,['swarmd'],0,0,0,0
+sting,sting,['sting'],16,16,3,3
+sting,stings,['stings'],26,26,9,9
+sting,stung,['stung'],16,16,7,7
+sting,stinging,['stinging'],0,0,0,0
+shell,shell,['shell'],574,574,139,139
+shell,shells,['shells'],23,23,0,0
+shell,shelly,['shelly'],2,2,0,0
+shell,shellfish,['shellfish'],24,24,0,0
+shell,shell-fish,"['shell', 'fish']",0,0,0,0
+shell,shell fish,"['shell', 'fish']",0,0,0,0
+pearl,pearl,['pearl'],125,125,29,29
+pearl,pearls,['pearls'],52,52,1,1
+wing,wing,['wing'],3561,3561,98,98
+wing,wings,['wings'],4913,4913,378,378
+wing,winged,['winged'],2632,2632,48,48
+wing,wingd,['wingd'],49,49,8,8
+hum,hum,['hum'],123,123,57,57
+hum,hums,['hums'],0,0,0,0
+hum,humming,['humming'],1,1,0,0
+crawl,crawl,['crawl'],68,68,2,2
+crawl,crawls,['crawls'],138,138,0,0
+crawl,crawling,['crawling'],495,495,24,24
+crawl,crawl'd,"['crawl', 'd']",0,0,0,0
+crawl,crawld,['crawld'],0,0,0,0
+spin,spin,['spin'],61,61,18,18
+spin,spins,['spins'],5,5,0,0
+spin,spun,['spun'],14,14,2,2
+spin,spinning,['spinning'],137,137,12,12
+flight_verbs,flying,['flying'],5887,5887,21,21
+flight_verbs,flew,['flew'],344,344,135,135
+flight_verbs,flown,['flown'],2,2,0,0
+flight_verbs,flyest,['flyest'],0,0,0,0

@@ -1,5 +1,18 @@
 # Blakean Entomology
 
+The advancement source adds a captured NCBI invertebrate reference, explicit
+conditional mappings for all historical categories, a full source-role atlas,
+and a seven-case contextual reading ledger. The reference is a classification
+aid, not a sequence-inferred phylogeny or an identification of Blake's bodies.
+The historical baseline and eleven decisions keep their original pins.
+
+Use `blake-entomology verify-reference --help` and
+`blake-entomology corpus-atlas --help` for the new source-bound CLI workflows.
+The [research method](docs/research/invertebrate-advancement.md) explains units,
+mapping limits, zero-result gap probes, figures and reading credit. The
+[authoring guide](docs/style-guide.md) covers private scholarly conventions.
+The current native manuscript is 14 pages. See the [render guide](docs/manuscript/README.md) and [installed/native qualification](research/advancement-installed-20261028.json). The original advancement bindings remain a source-stage record; the new receipt separately binds installed execution, current figures and native page QA.
+
 Private research on **invertebrate lives and imagery in William Blake**: worm,
 fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the wider
 field of small, creeping, collective and uncertain bodies.

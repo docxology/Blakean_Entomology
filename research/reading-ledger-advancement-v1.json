@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "epoch": "contextual-casebook-v1",
+  "sources": [
+    {
+      "source_id": "songsie.a",
+      "filename": "songsie.a.xml",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.a.xml",
+      "accessed": "2026-10-28",
+      "sha256": "a96c9270a820015c4eae511a8e882aa58c310b35480a32cc167fc373da7c333f",
+      "size": 465129,
+      "locator": "desc[@id]/phystext//l[@n]; catalog descriptions separately selected",
+      "claim_limit": "Textual transcription inspection only. No complete copy, work, physical image, colour, or iconographic identification credit."
+    },
+    {
+      "source_id": "milton.a",
+      "filename": "milton.a.xml",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml",
+      "accessed": "2026-10-28",
+      "sha256": "521df252512d60f9f12b929babd00a83074d340e7b2acc4e66bec9412be00728",
+      "size": 480993,
+      "locator": "desc[@id]/phystext//l[@n]; catalog descriptions separately selected",
+      "claim_limit": "Textual transcription inspection only. No complete copy, work, physical image, colour, or iconographic identification credit."
+    },
+    {
+      "source_id": "thel.b",
+      "filename": "thel.b.xml",
+      "url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.b.xml",
+      "accessed": "2026-10-28",
+      "sha256": "6ca9b31105b4a72c2fb7c9bc50f08c669d1099b86f40c0c4e593395a8ff7771c",
+      "size": 74042,
+      "locator": "desc[@id]/phystext//l[@n]; catalog descriptions separately selected",
+      "claim_limit": "Textual transcription inspection only. No complete copy, work, physical image, colour, or iconographic identification credit."
+    }
+  ],
+  "selections": [
+    {
+      "selection_id": "dream",
+      "source_id": "songsie.a",
+      "object_id": "songsie.a.illbk.27",
+      "line_ids": [
+        "songsie.a.illbk.27.03",
+        "songsie.a.illbk.27.04",
+        "songsie.a.illbk.27.05",
+        "songsie.a.illbk.27.06",
+        "songsie.a.illbk.27.07",
+        "songsie.a.illbk.27.08",
+        "songsie.a.illbk.27.09",
+        "songsie.a.illbk.27.10",
+        "songsie.a.illbk.27.11",
+        "songsie.a.illbk.27.12",
+        "songsie.a.illbk.27.13",
+        "songsie.a.illbk.27.14",
+        "songsie.a.illbk.27.15",
+        "songsie.a.illbk.27.16",
+        "songsie.a.illbk.27.17",
+        "songsie.a.illbk.27.18",
+        "songsie.a.illbk.27.19",
+        "songsie.a.illbk.27.20",
+        "songsie.a.illbk.27.21",
+        "songsie.a.illbk.27.22"
+      ],
+      "credit": "complete_poem_transcription",
+      "selected_text_sha256": "0d6f45a8a85a6e4f603fadfcc256781f74c409c12e39f60440b1efb7ac539ae7",
+      "locator": "songsie.a, Archive object 27, physical transcription lines 3-22",
+      "limit": "Complete short-poem transcription, not its design or other copies."
+    },
+    {
+      "selection_id": "fly",
+      "source_id": "songsie.a",
+      "object_id": "songsie.a.illbk.33",
+      "line_ids": [
+        "songsie.a.illbk.33.03",
+        "songsie.a.illbk.33.04",
+        "songsie.a.illbk.33.05",
+        "songsie.a.illbk.33.06",
+        "songsie.a.illbk.33.07",
+        "songsie.a.illbk.33.08",
+        "songsie.a.illbk.33.09",
+        "songsie.a.illbk.33.10",
+        "songsie.a.illbk.33.11",
+        "songsie.a.illbk.33.12",
+        "songsie.a.illbk.33.13",
+        "songsie.a.illbk.33.14",
+        "songsie.a.illbk.33.15",
+        "songsie.a.illbk.33.16",
+        "songsie.a.illbk.33.17",
+        "songsie.a.illbk.33.18",
+        "songsie.a.illbk.33.19",
+        "songsie.a.illbk.33.20",
+        "songsie.a.illbk.33.21",
+        "songsie.a.illbk.33.22"
+      ],
+      "credit": "complete_poem_transcription",
+      "selected_text_sha256": "299e864a76f16956bc493fbb227a7a8e52ae3d1fd3fe48a338d2865a12abf1f2",
+      "locator": "songsie.a, Archive object 33, physical transcription lines 3-22",
+      "limit": "Complete short-poem transcription, not its design or other copies."
+    },
+    {
+      "selection_id": "human-abstract",
+      "source_id": "songsie.a",
+      "object_id": "songsie.a.illbk.41",
+      "line_ids": [
+        "songsie.a.illbk.41.03",
+        "songsie.a.illbk.41.04",
+        "songsie.a.illbk.41.05",
+        "songsie.a.illbk.41.06",
+        "songsie.a.illbk.41.07",
+        "songsie.a.illbk.41.08",
+        "songsie.a.illbk.41.09",
+        "songsie.a.illbk.41.10",
+        "songsie.a.illbk.41.11",
+        "songsie.a.illbk.41.12",
+        "songsie.a.illbk.41.13",
+        "songsie.a.illbk.41.14",
+        "songsie.a.illbk.41.15",
+        "songsie.a.illbk.41.16",
+        "songsie.a.illbk.41.17",
+        "songsie.a.illbk.41.18",
+        "songsie.a.illbk.41.19",
+        "songsie.a.illbk.41.20",
+        "songsie.a.illbk.41.21",
+        "songsie.a.illbk.41.22",
+        "songsie.a.illbk.41.23",
+        "songsie.a.illbk.41.24",
+        "songsie.a.illbk.41.25",
+        "songsie.a.illbk.41.26"
+      ],
+      "credit": "complete_poem_transcription",
+      "selected_text_sha256": "c7e1f396d6ed9a9ab6a13604e9f5fec2332cd475181592a149900d37b0e708f1",
+      "locator": "songsie.a, Archive object 41, physical transcription lines 3-26",
+      "limit": "Complete short-poem transcription, not its design or other copies."
+    },
+    {
+      "selection_id": "sick-rose",
+      "source_id": "songsie.a",
+      "object_id": "songsie.a.illbk.48",
+      "line_ids": [
+        "songsie.a.illbk.48.03",
+        "songsie.a.illbk.48.04",
+        "songsie.a.illbk.48.05",
+        "songsie.a.illbk.48.06",
+        "songsie.a.illbk.48.07",
+        "songsie.a.illbk.48.08",
+        "songsie.a.illbk.48.09",
+        "songsie.a.illbk.48.10"
+      ],
+      "credit": "complete_poem_transcription",
+      "selected_text_sha256": "a35271c7d88cc54623111ecfdbbcca4083bedc6535ce22a7de6bf02174c108db",
+      "locator": "songsie.a, Archive object 48, physical transcription lines 3-10",
+      "limit": "Complete short-poem transcription, not its design or other copies."
+    },
+    {
+      "selection_id": "winepress",
+      "source_id": "milton.a",
+      "object_id": "milton.a.illbk.24",
+      "line_ids": [
+        "milton.a.illbk.24.02",
+        "milton.a.illbk.24.03",
+        "milton.a.illbk.24.04",
+        "milton.a.illbk.24.05",
+        "milton.a.illbk.24.06",
+        "milton.a.illbk.24.07",
+        "milton.a.illbk.24.08",
+        "milton.a.illbk.24.09",
+        "milton.a.illbk.24.10",
+        "milton.a.illbk.24.11",
+        "milton.a.illbk.24.12",
+        "milton.a.illbk.24.13",
+        "milton.a.illbk.24.14",
+        "milton.a.illbk.24.15",
+        "milton.a.illbk.24.16",
+        "milton.a.illbk.24.17",
+        "milton.a.illbk.24.18",
+        "milton.a.illbk.24.19",
+        "milton.a.illbk.24.20",
+        "milton.a.illbk.24.21",
+        "milton.a.illbk.24.22",
+        "milton.a.illbk.24.23",
+        "milton.a.illbk.24.24",
+        "milton.a.illbk.24.25",
+        "milton.a.illbk.24.26",
+        "milton.a.illbk.24.27",
+        "milton.a.illbk.24.28",
+        "milton.a.illbk.24.29",
+        "milton.a.illbk.24.30",
+        "milton.a.illbk.24.31",
+        "milton.a.illbk.24.32",
+        "milton.a.illbk.24.33",
+        "milton.a.illbk.24.34",
+        "milton.a.illbk.24.35",
+        "milton.a.illbk.24.36",
+        "milton.a.illbk.24.37",
+        "milton.a.illbk.24.38",
+        "milton.a.illbk.24.39",
+        "milton.a.illbk.24.40",
+        "milton.a.illbk.24.41",
+        "milton.a.illbk.24.42"
+      ],
+      "credit": "bounded_passage",
+      "selected_text_sha256": "93edd5c421f1906f212828a38b1b7c590aded0b0cab9756106b449e99754dad9",
+      "locator": "milton.a, Archive object 24, physical transcription lines 2-42",
+      "limit": "Selected local context, not complete prophetic book or copy."
+    },
+    {
+      "selection_id": "polypus-text",
+      "source_id": "milton.a",
+      "object_id": "milton.a.illbk.28",
+      "line_ids": [
+        "milton.a.illbk.28.24",
+        "milton.a.illbk.28.25",
+        "milton.a.illbk.28.26",
+        "milton.a.illbk.28.27",
+        "milton.a.illbk.28.28",
+        "milton.a.illbk.28.29",
+        "milton.a.illbk.28.30",
+        "milton.a.illbk.28.31",
+        "milton.a.illbk.28.32",
+        "milton.a.illbk.28.33",
+        "milton.a.illbk.28.34",
+        "milton.a.illbk.28.35"
+      ],
+      "credit": "bounded_passage",
+      "selected_text_sha256": "6d88f7ae3f3ecd46f6027038588f764f3f792ac9e4384d20cb8b7ac9455c6d0c",
+      "locator": "milton.a, Archive object 28, physical transcription lines 24-35",
+      "limit": "Selected local context, not complete prophetic book or copy."
+    },
+    {
+      "selection_id": "thel-worm",
+      "source_id": "thel.b",
+      "object_id": "thel.b.illbk.06",
+      "line_ids": [
+        "thel.b.illbk.06.03",
+        "thel.b.illbk.06.04",
+        "thel.b.illbk.06.05",
+        "thel.b.illbk.06.06",
+        "thel.b.illbk.06.07",
+        "thel.b.illbk.06.08",
+        "thel.b.illbk.06.09",
+        "thel.b.illbk.06.10",
+        "thel.b.illbk.06.11",
+        "thel.b.illbk.06.12",
+        "thel.b.illbk.06.13",
+        "thel.b.illbk.06.14"
+      ],
+      "credit": "bounded_passage",
+      "selected_text_sha256": "59d5ba37921a5e11b7435c6b74be2aa57b067d346e93119c7f1f1ebf6d5df0ae",
+      "locator": "thel.b, Archive object 6, physical transcription lines 3-14",
+      "limit": "Selected local context, not complete prophetic book or copy."
+    },
+    {
+      "selection_id": "thel-clay",
+      "source_id": "thel.b",
+      "object_id": "thel.b.illbk.07",
+      "line_ids": [
+        "thel.b.illbk.07.02",
+        "thel.b.illbk.07.03",
+        "thel.b.illbk.07.04",
+        "thel.b.illbk.07.05",
+        "thel.b.illbk.07.06",
+        "thel.b.illbk.07.07",
+        "thel.b.illbk.07.08",
+        "thel.b.illbk.07.09",
+        "thel.b.illbk.07.10",
+        "thel.b.illbk.07.11",
+        "thel.b.illbk.07.12",
+        "thel.b.illbk.07.13",
+        "thel.b.illbk.07.14",
+        "thel.b.illbk.07.15",
+        "thel.b.illbk.07.16",
+        "thel.b.illbk.07.17",
+        "thel.b.illbk.07.18"
+      ],
+      "credit": "bounded_passage",
+      "selected_text_sha256": "abf8eea31173acbd518476737528bb4ba9567c8263e060117e371b46a30a8d53",
+      "locator": "thel.b, Archive object 7, physical transcription lines 2-18",
+      "limit": "Selected local context, not complete prophetic book or copy."
+    },
+    {
+      "selection_id": "polypus-catalog",
+      "source_id": "milton.a",
+      "object_id": "milton.a.illbk.31",
+      "line_ids": [],
+      "credit": "catalog_description",
+      "selected_text_sha256": "f3fb82b88160dca75ae41980fbb1a3561fb4fb435b7df2a9c621ad39e5212377",
+      "locator": "Milton copy A, Archive object31, illusdesc (modern catalog prose)",
+      "limit": "Catalog alternatives vegetation/Polypus only; no fresh image judgment."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "care-and-route",
+      "title": "A Dream: a route offered, not a rescue observed",
+      "selections": [
+        "dream"
+      ],
+      "interpretation": "Across five stanzas the emmet's narrated familial distress precedes the speaker's tear and the glow-worm's proposed practical route. Light on the ground and the beetle's audible round make distinct capacities useful to the wanderer. The concluding imperative offers homecoming; the poem does not narrate its completion.",
+      "rival_reading": "The watchman's assigned office can be read as ordered social roles rather than spontaneous distributed coordination. Neither reading establishes real ant navigation or a measured social network.",
+      "taxonomic_limit": "Emmet supplies a conditional Formicidae association; glow-worm is not an annelid determination. No species or caste inferred."
+    },
+    {
+      "case_id": "thought-and-injury",
+      "title": "The Fly: conditional consolation after injury",
+      "selections": [
+        "fly"
+      ],
+      "interpretation": "The first stanza's thoughtless brushing gives way to reciprocal human/fly questions, a future blind hand, and the conditional inference linking thought and life. The final happiness is the speaker's conclusion under that conditional; the fly is not reported to speak or consent.",
+      "rival_reading": "The analogy can extend concern across bodies while also replacing the injured fly's circumstances with the speaker's consolation about mortality. The complete ending keeps both readings available.",
+      "taxonomic_limit": "The noun may be associated with Diptera in a modern animal sense. Neither happy nor thought supplies biological evidence for a species or insect cognition."
+    },
+    {
+      "case_id": "hidden-agent",
+      "title": "The Sick Rose: invisibility does not identify a worm",
+      "selections": [
+        "sick-rose"
+      ],
+      "interpretation": "The two stanzas move from sickness and nocturnal arrival to discovery of the bed and destruction through secret love. Flies predicates the worm's movement. It is not a separate animal noun, and the lyric provides no diagnostic anatomy for its invisible agent.",
+      "rival_reading": "Erotic, pathological and animal-form readings need not be collapsed to one zoological referent. Flight alone does not select a modern insect lineage.",
+      "taxonomic_limit": "Worm remains an ambiguous polyphyletic literary label; the flight-verb candidate is retained rather than silently subtracted."
+    },
+    {
+      "case_id": "brain-tree",
+      "title": "The Human Abstract: the ending changes the feeding scene",
+      "selections": [
+        "human-abstract"
+      ],
+      "interpretation": "The sequence makes poverty and cruelty participate in the growth of a tree of mystery and deceit, then ends by locating the sought tree in the human brain. Catterpiller and Fly feed on mystery within that sequence. Their feeding is not evidence of a natural plant-host association.",
+      "rival_reading": "The creatures can be read as beneficiaries of the corrupt growth or as figures inhabiting its obscurity; neither role inherits the sympathetic emmet's function automatically.",
+      "taxonomic_limit": "Keep the attested Catterpiller spelling. The modern Lepidoptera/Diptera associations remain conditional and do not classify mental faculties."
+    },
+    {
+      "case_id": "press-and-positions",
+      "title": "Milton: around the press and inside it",
+      "selections": [
+        "winepress"
+      ],
+      "interpretation": "Object24 lines2-11 names the press as war and printing, lines13-30 assemble dancing life around it, and lines31-42 turn to human grapes that do not sing or dance and to their suffering. Position relative to the press is part of the contrast. The list crosses insects, other arthropods, annelid and flatworm labels, molluscs, plants and vertebrates.",
+      "rival_reading": "The surrounding jubilee may promise transformation, yet the local passage refuses an undifferentiated image of harmonious abundance. It does not demonstrate a modern ecological community or a literal parasite census.",
+      "taxonomic_limit": "Earth-worm and Tape-Worm have different modern reference destinations. Nettle's sting and the weeds' creeping are non-taxon controls within the same inspected context."
+    },
+    {
+      "case_id": "cherishing",
+      "title": "Thel: protection from injury and positive nourishment",
+      "selections": [
+        "thel-worm",
+        "thel-clay"
+      ],
+      "interpretation": "Thel's questions identify the Worm with helpless infancy, but the Clay hears and responds before Thel's later acknowledgment. In object7 lines10-12 Thel distinguishes knowing that injury is punished from learning that the form is cherished with milk and oil. The passage develops care beyond prohibiting a bruising foot.",
+      "rival_reading": "The Clay's maternal and nuptial speech embeds care in a particular gendered vocabulary. This local response does not establish a universal political doctrine or settle Thel's whole narrative.",
+      "taxonomic_limit": "The Worm/infant relation is interpretive evidence, not an annelid diagnosis. Only the listed objects were read in this pass."
+    },
+    {
+      "case_id": "joined-body",
+      "title": "Milton: a joined body and a catalog alternative",
+      "selections": [
+        "polypus-text",
+        "polypus-catalog"
+      ],
+      "interpretation": "Object28 lines30-35 links Orc, vegetated mortal nerves and the joining of every man into one Polypus. Separately, the object31 catalog description proposes vegetation or a Polypus for a form. These are distinct textual and editorial claims with distinct locators; neither can supply the other's certainty.",
+      "rival_reading": "The passage motivates an inquiry into collective embodiment and loss of distinction, while the local extract alone cannot establish the figure's full history or a single moral function across the books.",
+      "taxonomic_limit": "Cnidarian and cephalopod alternatives in the reference are provisional research destinations. Historical lexicography and fresh image inspection remain pending."
+    }
+  ],
+  "new_candidate_decisions": 0,
+  "whole_book_reading_credit": false,
+  "physical_images_inspected": false
+}

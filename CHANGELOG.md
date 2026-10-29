@@ -2,6 +2,9 @@
 
 ## 0.2.0 — shared methods and retrieval sensitivity
 
+- Add the source-verified reference taxonomy, conditional mapping of all 102 categories, 376-form atlas audit and seven-case reading ledger.
+- Integrate reference and portrait-atlas figures, strict manuscript preparation, exact installed SDK qualification and a fresh native article.
+
 - Delegate generic review queues, immutable run custody and producer bindings to
   `blake.methods`; retain invertebrate vocabulary and contextual policy here.
 - Add source-bound sensitivity, literal proximity and offline workspace commands.

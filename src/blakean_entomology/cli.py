@@ -11,6 +11,7 @@ from blake.methods.runs import read_regular
 from pydantic import ValidationError
 
 from . import __version__
+from .atlas import atlas_workflow
 from .core import (
     analyze,
     digest,
@@ -23,6 +24,7 @@ from .core import (
 )
 from .models import CorpusPin, EvidenceError
 from .sensitivity import ProximityBinding
+from .taxonomy import load_reference, reference_tree
 from .workflows import proximity_workflow, sensitivity_workflow, workspace_workflow
 
 
@@ -156,6 +158,62 @@ def workspace_command(bundle: Path, binding: Path, output: Path) -> None:
     except (OSError, ValueError, ResearchError) as exc:
         raise click.ClickException(str(exc)) from exc
     click.echo(str(index))
+
+
+@main.command("verify-reference")
+@click.option("--reference", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--sources", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--reference-sha256", required=True)
+@click.option("--vocabulary", "spec_path", type=click.Path(exists=True, path_type=Path))
+def verify_reference_command(
+    reference: Path, sources: Path, reference_sha256: str, spec_path: Path | None
+) -> None:
+    """Verify captured NCBI lineages and all conditional lexical associations."""
+    try:
+        model = load_reference(reference, sources, reference_sha256, vocabulary(spec_path))
+        tree = reference_tree(model)
+    except (OSError, ValueError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(tree.model_dump_json(indent=2))
+
+
+@main.command("corpus-atlas")
+@click.option("--bundle", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--pin", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--vocabulary", "spec_path", type=click.Path(exists=True, path_type=Path))
+@click.option("--reference", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--sources", type=click.Path(exists=True, path_type=Path), required=True)
+@click.option("--reference-sha256", required=True)
+@click.option("--historical-summary", type=click.Path(exists=True, path_type=Path))
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+def atlas_command(
+    bundle: Path,
+    pin: Path,
+    spec_path: Path | None,
+    reference: Path,
+    sources: Path,
+    reference_sha256: str,
+    historical_summary: Path | None,
+    output: Path,
+) -> None:
+    """Audit every declared form and role/plane; preserve distinct review epochs."""
+    try:
+        receipt = atlas_workflow(
+            bundle,
+            CorpusPin.model_validate_json(read_regular(pin)),
+            vocabulary(spec_path),
+            reference,
+            sources,
+            reference_sha256,
+            output,
+            historical_summary,
+        )
+    except (OSError, ValueError, ResearchError) as exc:
+        raise click.ClickException(str(exc)) from exc
+    click.echo(
+        f"{receipt.scanned_units} source units; {receipt.candidates} category-span candidates; "
+        + f"{receipt.current_epoch_authored_decisions} new decisions. {output}"
+    )
 
 
 if __name__ == "__main__":

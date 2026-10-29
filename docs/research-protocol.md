@@ -67,6 +67,22 @@ automatic endorsement of a whole passage, edition, or numerical analysis.
 
 ## Completion gates
 
+The modern reference is a separate versioned classification resource, verified
+against captured NCBI names, ranks and lineages. Resolved lineage, broad group,
+ambiguous mapping, non-taxon and outside-scope states do not adjudicate lexical
+hits. Its shared tree layout carries no branch lengths, time inference or
+monophyly proof. The vocabulary audit and separate gap-probe epoch preserve
+all earlier forms and decisions. See
+[the advancement method](research/invertebrate-advancement.md) and
+[the private style guide](style-guide.md).
+
+New reading credit is recorded in the advancement ledger with selected-text and
+source hashes. Full short-poem transcription credit requires every verse line
+in that captured object. It does not grant whole-book or physical-image credit.
+Neither prose interpretation nor mapping metadata automatically writes a review
+decision. Figure and prepared-manuscript completion receipts close their input
+and output hashes; root still owns final native page inspection.
+
 The pipeline can establish exhaustive matching of its declared terms within the
 pinned snapshot. A comprehensive literary article additionally requires reviewing
 all relevant candidates, edition/object checks, an image inventory, and assessment

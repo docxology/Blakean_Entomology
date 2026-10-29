@@ -12,6 +12,11 @@ APPLICATION_SOURCES: Final = (
     "producer.py",
     "sensitivity.py",
     "workflows.py",
+    "taxonomy_models.py",
+    "taxonomy.py",
+    "atlas_models.py",
+    "atlas.py",
+    "casebook.py",
 )
 SHARED_SOURCES: Final = (
     "__init__.py",
@@ -29,6 +34,7 @@ SHARED_SOURCES: Final = (
     "methods/producer.py",
     "methods/storage.py",
     "methods/models.py",
+    "methods/hierarchy.py",
     "methods/common.py",
     "methods/bundle_models.py",
     "methods/projection_models.py",
