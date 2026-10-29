@@ -5,11 +5,11 @@ from pathlib import Path
 from typing import Literal
 
 from blake.applications import ApplicationBundle, load_bundle
-from blake.methods.compatibility import bundle_to_projection
 from blake.methods.models import Artifact, Digest, FrozenModel
 from blake.methods.profiles import RetrievalProfile, RuntimeProfile, runtime_profile
 from blake.methods.proximity import ProximityGrid, ProximityStudy
 from blake.methods.runs import digest, safe_directory, write_new
+from blake.methods.schema_conversion import bundle_to_projection
 from blake.methods.statistics_models import CountedStatistics
 from blake.methods.workspace import WorkspaceBranding, build_search_workspace_passages
 from blake.studies import StudySpec

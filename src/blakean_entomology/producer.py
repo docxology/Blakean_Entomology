@@ -45,7 +45,7 @@ SHARED_SOURCES: Final = (
     "methods/proximity.py",
     "methods/search.py",
     "methods/search_models.py",
-    "methods/compatibility.py",
+    "methods/schema_conversion.py",
     "methods/concordance.py",
     "methods/corpus.py",
     "methods/workspace.py",

@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import Final
 
 from blake.applications import ApplicationBundle, load_bundle
-from blake.methods.compatibility import bundle_to_projection
 from blake.methods.models import (
     Digest,
     EvidenceError,
@@ -17,6 +16,7 @@ from blake.methods.models import (
 from blake.methods.profiles import RetrievalProfile, runtime_profile
 from blake.methods.proximity import ProximityGrid, ProximityStudy, build_proximity_study
 from blake.methods.runs import digest
+from blake.methods.schema_conversion import bundle_to_projection
 from blake.methods.search_models import SearchRequest
 from blake.methods.statistics import analyze_inventory
 from blake.methods.statistics_models import CountedStatistics, SourceUnit

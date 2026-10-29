@@ -15,7 +15,6 @@ from importlib import metadata, resources
 from pathlib import Path
 from typing import Final, Literal
 
-from blake.methods.compatibility import bundle_to_projection
 from blake.methods.models import (
     Artifact,
     Digest,
@@ -35,6 +34,7 @@ from blake.methods.runs import (
     verify_artifacts,
     write_new,
 )
+from blake.methods.schema_conversion import bundle_to_projection
 from blake.methods.search_models import SearchRequest
 from blake.studies import StudySpec
 from pydantic import Field
