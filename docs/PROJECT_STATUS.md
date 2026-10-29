@@ -59,8 +59,12 @@ any later qualification separately.
   fingerprint changes are enumerated in the current receipt, with measurements
   and historical decisions unchanged.
 
-Private-main synchronization remains the final delivery gate. Source binding
-and privacy are checked on each delivery. Their outcome belongs in
+- [x] Qualified PR #1 merged normally into private main, canonical checkout
+  fast-forwarded, tracked bytes and checkout roundtrip verified, and fresh locked
+  canonical-source installation qualified.
+
+Source binding, privacy and matching local/remote main are checked on each
+delivery. Their outcome belongs in
 [verification.json](../research/verification.json), rather than a historical
 source-stage handoff or an unqualified checklist tick.
 

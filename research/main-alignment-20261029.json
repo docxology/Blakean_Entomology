@@ -15,8 +15,57 @@
   },
   "coverage_scope": "Fresh installed 239 tests plus actual installed composition CLI and four-figure production; pytest-only lower tools coverage and producer-fingerprint RED remain retained.",
   "delivery": {
+    "branch": "main",
+    "canonical_fast_forward_receipt": {
+      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-fast-forward.json",
+      "sha256": "0a444f159e0fc83eda953cf2e993b84b5a45d0b4b12256042852a59f5669e8cb"
+    },
+    "final_head_scope": "integration_commit identifies the verified main integration before this bounded documentation/receipt closure. The final ordinary push and exact local/remote HEAD are read back in the external final delivery receipt.",
+    "fresh_canonical_installation": {
+      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-installed.json",
+      "record": {
+        "all_installed_python_sources_equal_canonical_main": true,
+        "canonical_ignored_assets_unchanged": true,
+        "cli_help_exit": 0,
+        "environment": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
+        "head": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
+        "identity": {
+          "app": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blakean_entomology/__init__.py",
+          "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+          "direct_url": {
+            "url": "https://github.com/docxology/blake.git",
+            "vcs_info": {
+              "commit_id": "45171a099a6a658c52ab689501de646a28485653",
+              "requested_revision": "45171a099a6a658c52ab689501de646a28485653",
+              "vcs": "git"
+            }
+          },
+          "installed_distributions": 32,
+          "prefix": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
+          "sdk": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blake/__init__.py"
+        },
+        "locked_install_exit": 0,
+        "locked_install_log_sha256": "027f83e96a9d6eebfe9869c83eec4a828dc23e77bec08b5c298857578a949521"
+      },
+      "sha256": "7376fff16ca751bd3e9d86b828904499c1d8f8a42681ddf877722005add5c075"
+    },
+    "independent_candidate_readiness": {
+      "path": "Local/blake-private-alignment-20261029/independent-review/entomology-readiness.md",
+      "scope": "Pre-main source/software/custody readiness only; final closure independently reviewed separately.",
+      "sha256": "5d4420e047bf7590ececf4b0f05a06f14dfd90518c8826f12a2dc1ca904625fb"
+    },
+    "integration_commit": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
+    "private_identity_immediately_before_merge": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "id": "R_kgDOVa1PXQ",
+      "nameWithOwner": "docxology/Blakean_Entomology",
+      "visibility": "PRIVATE"
+    },
     "pull_request": "https://github.com/docxology/Blakean_Entomology/pull/1",
-    "status": "awaiting qualified existing PR integration to private main"
+    "pull_request_state": "MERGED",
+    "status": "PRIVATE_MAIN_INTEGRATED"
   },
   "epoch": "main-alignment-20261029",
   "installed_gates": {
@@ -743,7 +792,7 @@
     "git": "45171a099a6a658c52ab689501de646a28485653",
     "version": "0.4.0"
   },
-  "status": "QUALIFIED_PRIVATE_MAIN_CANDIDATE",
+  "status": "DELIVERED_PRIVATE_MAIN",
   "tests": 239,
   "unique_locked_package_names": 33,
   "version": "0.2.0"
