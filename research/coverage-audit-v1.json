@@ -1,0 +1,489 @@
+{
+  "schema_version": 1,
+  "epoch": "invertebrate-audit-export-v1",
+  "atlas_path": "analysis_output/invertebrate-atlas-v4/atlas.json",
+  "atlas_sha256": "bdc5a760ab6f7335cfc58daf0cd63e8c599c94be81dd31c6a849ab79132e3bfd",
+  "reference_sha256": "4f34c9bf080a2a3014bee83d7f0a477d1b12d2d4a70e778382b1286e84642bc9",
+  "casebook_sha256": "80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c",
+  "application_code_sha256": "021d5fc9f5c6d3856eab3aecbf7f5bd1c811607a730969f7e7a820e9f9403f60",
+  "count_unit": "category-source-span candidates",
+  "profile": {
+    "semantics": {
+      "profile": "nfkc-casefold-source-spans-v2",
+      "normalization": "NFKC then Unicode casefold with original-source spans",
+      "boundaries": "Contiguous normalized tokens; punctuation and line breaks separate tokens",
+      "variants": "Explicit forms; equivalent same-category spans deduplicated; category overlap retained",
+      "tokens": "Unicode \\w+ runs after normalization"
+    },
+    "python": "3.11.17",
+    "unicode": "14.0.0"
+  },
+  "table_files": [
+    {
+      "name": "vocabulary-coverage-v1.csv",
+      "size": 11118,
+      "sha256": "406c191496950a215ec34ac4a2bcb9666d224451c272ee1b05ba6edb16e62d53"
+    },
+    {
+      "name": "form-coverage-v1.csv",
+      "size": 15409,
+      "sha256": "07e72be079aa4dd3c25532698dfe1d20454d2ac4eea12381f6e7efe6bec4cc8d"
+    },
+    {
+      "name": "source-role-coverage-v1.csv",
+      "size": 38413,
+      "sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971"
+    },
+    {
+      "name": "work-coverage-v1.csv",
+      "size": 118649,
+      "sha256": "1409b8ef2d5244672f79f3e962c8d81b6d0375a990ea4dc321aa28aa2c9b32db"
+    },
+    {
+      "name": "primary-source-snapshot-v1.json",
+      "size": 5239,
+      "sha256": "6ac268089194c6deb90ded7ae26248f38679910c0d6294f3aeaa7af8ec9fc838"
+    }
+  ],
+  "table_row_counts": {
+    "vocabulary-coverage-v1.csv": 102,
+    "form-coverage-v1.csv": 376,
+    "source-role-coverage-v1.csv": 918,
+    "work-coverage-v1.csv": 3366
+  },
+  "historical_count_cells_byte_values_equal": true,
+  "historical_decisions_transferred": false,
+  "new_decisions": 0,
+  "corpus_images_reviewed": false,
+  "distinct_exact_intervals": 36039,
+  "intersecting_candidate_pairs": 550,
+  "zero_normalized_forms_all_planes": 242,
+  "zero_exact_casefold_surface_forms_all_planes": 256,
+  "zero_normalized_forms_primary_only": 291,
+  "normalized_alias_groups": [
+    {
+      "normalized_tokens": [
+        "ant",
+        "hill"
+      ],
+      "forms": [
+        "ant-hill",
+        "ant hill"
+      ],
+      "categories": [
+        "anthill"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "ant",
+        "hills"
+      ],
+      "forms": [
+        "ant-hills",
+        "ant hills"
+      ],
+      "categories": [
+        "anthill"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "blind",
+        "worm"
+      ],
+      "forms": [
+        "blind-worm",
+        "blind worm"
+      ],
+      "categories": [
+        "blindworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "book",
+        "worm"
+      ],
+      "forms": [
+        "book-worm",
+        "book worm"
+      ],
+      "categories": [
+        "bookworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "bumble",
+        "bee"
+      ],
+      "forms": [
+        "bumble-bee",
+        "bumble bee"
+      ],
+      "categories": [
+        "bumblebee"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "cock",
+        "chafer"
+      ],
+      "forms": [
+        "cock-chafer",
+        "cock chafer"
+      ],
+      "categories": [
+        "cockchafer"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "cock",
+        "chafers"
+      ],
+      "forms": [
+        "cock-chafers",
+        "cock chafers"
+      ],
+      "categories": [
+        "cockchafer"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "craw",
+        "fish"
+      ],
+      "forms": [
+        "craw-fish",
+        "craw fish"
+      ],
+      "categories": [
+        "crayfish"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "cray",
+        "fish"
+      ],
+      "forms": [
+        "cray-fish",
+        "cray fish"
+      ],
+      "categories": [
+        "crayfish"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "cuttle",
+        "fish"
+      ],
+      "forms": [
+        "cuttle-fish",
+        "cuttle fish"
+      ],
+      "categories": [
+        "cuttlefish"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "dragon",
+        "fly"
+      ],
+      "forms": [
+        "dragon-fly",
+        "dragon fly"
+      ],
+      "categories": [
+        "dragonfly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "earth",
+        "worm"
+      ],
+      "forms": [
+        "earth-worm",
+        "earth worm"
+      ],
+      "categories": [
+        "earthworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "earth",
+        "worms"
+      ],
+      "forms": [
+        "earth-worms",
+        "earth worms"
+      ],
+      "categories": [
+        "earthworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "fire",
+        "fly"
+      ],
+      "forms": [
+        "fire-fly",
+        "fire fly"
+      ],
+      "categories": [
+        "firefly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "gad",
+        "fly"
+      ],
+      "forms": [
+        "gad-fly",
+        "gad fly"
+      ],
+      "categories": [
+        "gadfly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "glow",
+        "worm"
+      ],
+      "forms": [
+        "glow-worm",
+        "glow worm"
+      ],
+      "categories": [
+        "glowworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "glow",
+        "worms"
+      ],
+      "forms": [
+        "glow-worms",
+        "glow worms"
+      ],
+      "categories": [
+        "glowworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "grass",
+        "hopper"
+      ],
+      "forms": [
+        "grass-hopper",
+        "grass hopper"
+      ],
+      "categories": [
+        "grasshopper"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "honey",
+        "bee"
+      ],
+      "forms": [
+        "honey-bee",
+        "honey bee"
+      ],
+      "categories": [
+        "honeybee"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "honey",
+        "bees"
+      ],
+      "forms": [
+        "honey-bees",
+        "honey bees"
+      ],
+      "categories": [
+        "honeybee"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "horse",
+        "fly"
+      ],
+      "forms": [
+        "horse-fly",
+        "horse fly"
+      ],
+      "categories": [
+        "horsefly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "house",
+        "flies"
+      ],
+      "forms": [
+        "house-flies",
+        "house flies"
+      ],
+      "categories": [
+        "housefly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "house",
+        "fly"
+      ],
+      "forms": [
+        "house-fly",
+        "house fly"
+      ],
+      "categories": [
+        "housefly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "may",
+        "fly"
+      ],
+      "forms": [
+        "may-fly",
+        "may fly"
+      ],
+      "categories": [
+        "mayfly"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "shell",
+        "fish"
+      ],
+      "forms": [
+        "shell-fish",
+        "shell fish"
+      ],
+      "categories": [
+        "shell"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "silk",
+        "worm"
+      ],
+      "forms": [
+        "silk-worm",
+        "silk worm"
+      ],
+      "categories": [
+        "silkworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "silk",
+        "worms"
+      ],
+      "forms": [
+        "silk-worms",
+        "silk worms"
+      ],
+      "categories": [
+        "silkworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "tape",
+        "worm"
+      ],
+      "forms": [
+        "tape-worm",
+        "tape worm"
+      ],
+      "categories": [
+        "tapeworm"
+      ]
+    },
+    {
+      "normalized_tokens": [
+        "tape",
+        "worms"
+      ],
+      "forms": [
+        "tape-worms",
+        "tape worms"
+      ],
+      "categories": [
+        "tapeworm"
+      ]
+    }
+  ],
+  "cohort_census": [
+    {
+      "role": "editorial",
+      "plane": "erdman",
+      "author_id": "mixed-edition",
+      "units": 796,
+      "tokens": 287605,
+      "exact_text_units": 796,
+      "work_groups": 1
+    },
+    {
+      "role": "editorial",
+      "plane": "xml",
+      "author_id": "mixed-edition",
+      "units": 4,
+      "tokens": 540531,
+      "exact_text_units": 4,
+      "work_groups": 1
+    },
+    {
+      "role": "primary",
+      "plane": "reading",
+      "author_id": "william-blake-1757-1827",
+      "units": 199,
+      "tokens": 644247,
+      "exact_text_units": 198,
+      "work_groups": 33
+    },
+    {
+      "role": "unverified",
+      "plane": "reading",
+      "author_id": "unverified",
+      "units": 341,
+      "tokens": 77850,
+      "exact_text_units": 283,
+      "work_groups": 329
+    },
+    {
+      "role": "unverified",
+      "plane": "xml",
+      "author_id": "unverified",
+      "units": 727,
+      "tokens": 9313114,
+      "exact_text_units": 727,
+      "work_groups": 540
+    }
+  ]
+}

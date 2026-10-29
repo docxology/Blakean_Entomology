@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "epoch": "research-images-expansion-20261028",
+  "images": [
+    {
+      "id": "met-347935",
+      "artist": "William Blake",
+      "work": "Songs of Innocence and of Experience",
+      "original": {
+        "path": "images/originals/met-347935.jpg",
+        "bytes": 2147416,
+        "sha256": "f7211eb0b8e980562bcf7d28354ddf4b658d9fb07b3a3c4d65dfd28cdbd9748b"
+      },
+      "dimensions": [
+        3107,
+        3369
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Orange-brown lettering fills most of the designed field; curling vegetation runs along margins and between stanzas.",
+          "Blue washes appear especially along the right edge; a separate pale outer flourish surrounds the design.",
+          "A small pale upright figure is visible at the lower right; bounded crop inspected after the whole image."
+        ],
+        "uncertainties": [
+          "No anatomically secure emmet, beetle or glow-worm identification made from ornament.",
+          "The lower-right figure is not securely identified by visual inspection; the catalogue's watchman suggestion remains contextual."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "A Dream",
+        "plate": 26,
+        "accession": "17.10.26",
+        "bentley": 26
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art",
+        "copy": "Y",
+        "archive_object": 26,
+        "metadata": {
+          "path": "sources/met-347935.json",
+          "bytes": 2054,
+          "sha256": "5d43e4f7c1d460f56595722c3e8477cca66ed55ac860852eaa4449a07427751a"
+        },
+        "object_url": "https://www.metmuseum.org/art/collection/search/347935",
+        "direct_image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP816667.jpg",
+        "credit": "William Blake, The Metropolitan Museum of Art, Rogers Fund, 1917 (17.10.26)",
+        "rights": "Public Domain; Met API isPublicDomain=true; Met Open Access policy CC0",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "rights_evidence": {
+          "path": "sources/met-web-tool-reading.json",
+          "bytes": 29955,
+          "sha256": "4c44ea1526c7e790398666f253f9efee9692522e93016ebc7473bfd5c744b272"
+        },
+        "print_date": "Museum: [1794] printed ca.1825; Archive: 1825"
+      },
+      "whole_derivative": "images/derivatives/met-347935-whole.png"
+    },
+    {
+      "id": "met-347974",
+      "artist": "William Blake",
+      "work": "Songs of Innocence and of Experience",
+      "original": {
+        "path": "images/originals/met-347974.jpg",
+        "bytes": 1860206,
+        "sha256": "f5cdd12ebb9ffa1caf332d214baa71a5df746253880bb7892a0e58edd123bdfd"
+      },
+      "dimensions": [
+        2637,
+        3722
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Poem is arranged in two upper columns between curving tree forms.",
+          "An adult-sized figure bends towards a smaller child and holds its raised hands.",
+          "A second standing figure raises a racket towards a shuttlecock-like object; the lower scene has green ground and blue/yellow/pink washes."
+        ],
+        "uncertainties": [
+          "Caregiving and play are visually supported; identities and narrative roles of these figures remain interpretive.",
+          "No anatomically resolved fly identified; the shuttlecock-like mark is not admitted as a fly."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Fly",
+        "plate": 40,
+        "accession": "17.10.40",
+        "bentley": 40
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art",
+        "copy": "Y",
+        "archive_object": 40,
+        "metadata": {
+          "path": "sources/met-347974.json",
+          "bytes": 2613,
+          "sha256": "8fc5e00f178163177192f7da76242847c65592f5bc4a0c5bf931c32e372ca44e"
+        },
+        "object_url": "https://www.metmuseum.org/art/collection/search/347974",
+        "direct_image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP816704.jpg",
+        "credit": "William Blake, The Metropolitan Museum of Art, Rogers Fund, 1917 (17.10.40)",
+        "rights": "Public Domain; Met API isPublicDomain=true; Met Open Access policy CC0",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "rights_evidence": {
+          "path": "sources/met-web-tool-reading.json",
+          "bytes": 29955,
+          "sha256": "4c44ea1526c7e790398666f253f9efee9692522e93016ebc7473bfd5c744b272"
+        },
+        "print_date": "Museum: [1794] printed ca.1825; Archive: 1825"
+      },
+      "whole_derivative": "images/derivatives/met-347974-whole.png"
+    },
+    {
+      "id": "met-347973",
+      "artist": "William Blake",
+      "work": "Songs of Innocence and of Experience",
+      "original": {
+        "path": "images/originals/met-347973.jpg",
+        "bytes": 1898980,
+        "sha256": "1e1ab04a15be2e53bf5265444f0c5e3a33e822795c6c5ad6763cc77d5d3a1976"
+      },
+      "dimensions": [
+        3152,
+        3419
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Thorned stems, serrated leaves and two small bent figures surround the upper text.",
+          "A large pale human form curves from or over the lower blossom.",
+          "A narrow bent, partly segmented-looking shape appears beside the lower human form; bounded crop inspected."
+        ],
+        "uncertainties": [
+          "Overlap between human, floral and worm-like forms prevents a diagnostic taxon identification.",
+          "Sexual or predatory relation is interpretive; no single visual identification settles the poem's invisible worm."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Sick Rose",
+        "plate": 39,
+        "accession": "17.10.39",
+        "bentley": 39
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art",
+        "copy": "Y",
+        "archive_object": 39,
+        "metadata": {
+          "path": "sources/met-347973.json",
+          "bytes": 2307,
+          "sha256": "c473a134db5b68753ca84cdf2105ff8a0e6f8ecb8c3cfee89db800ecbcee5dec"
+        },
+        "object_url": "https://www.metmuseum.org/art/collection/search/347973",
+        "direct_image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP816680.jpg",
+        "credit": "William Blake, The Metropolitan Museum of Art, Rogers Fund, 1917 (17.10.39)",
+        "rights": "Public Domain; Met API isPublicDomain=true; Met Open Access policy CC0",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "rights_evidence": {
+          "path": "sources/met-web-tool-reading.json",
+          "bytes": 29955,
+          "sha256": "4c44ea1526c7e790398666f253f9efee9692522e93016ebc7473bfd5c744b272"
+        },
+        "print_date": "Museum: [1794] printed ca.1825; Archive: 1825"
+      },
+      "whole_derivative": "images/derivatives/met-347973-whole.png"
+    },
+    {
+      "id": "met-348001",
+      "artist": "William Blake",
+      "work": "Songs of Innocence and of Experience",
+      "original": {
+        "path": "images/originals/met-348001.jpg",
+        "bytes": 2108844,
+        "sha256": "142baa47074fb2ff4654573b5a99844eae2bdd005ad86f327129f8ff6cba58a8"
+      },
+      "dimensions": [
+        3207,
+        3474
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Orange-brown text occupies the upper field within trunk-like margins.",
+          "An aged, bearded figure in blue raises both arms in the lower design.",
+          "Cord-like or branch-like forms extend through and across the lower figure and vegetation."
+        ],
+        "uncertainties": [
+          "The figure is not named Urizen by this visual reading; no independent mythological-character identification.",
+          "Cord-like forms are not automatically an insect web; no visual species census is inferred."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Human Abstract",
+        "plate": 47,
+        "accession": "17.10.47",
+        "bentley": 47
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art",
+        "copy": "Y",
+        "archive_object": 47,
+        "metadata": {
+          "path": "sources/met-348001.json",
+          "bytes": 2184,
+          "sha256": "0ee3d640d1fa30224161364fe605584943030984a38ba7d187a1cc65427b7396"
+        },
+        "object_url": "https://www.metmuseum.org/art/collection/search/348001",
+        "direct_image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP816694.jpg",
+        "credit": "William Blake, The Metropolitan Museum of Art, Rogers Fund, 1917 (17.10.47)",
+        "rights": "Public Domain; Met API isPublicDomain=true; Met Open Access policy CC0",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "rights_evidence": {
+          "path": "sources/met-web-tool-reading.json",
+          "bytes": 29955,
+          "sha256": "4c44ea1526c7e790398666f253f9efee9692522e93016ebc7473bfd5c744b272"
+        },
+        "print_date": "Museum: [1794] printed ca.1825; Archive: 1825"
+      },
+      "whole_derivative": "images/derivatives/met-348001-whole.png"
+    },
+    {
+      "id": "thel-f-006",
+      "artist": "William Blake",
+      "work": "The Book of Thel",
+      "original": {
+        "path": "images/originals/thel-f-006.jpg",
+        "bytes": 796967,
+        "sha256": "5ba629e80b719675e31834807a4c012602f3d5c528fcc53ada1b7ba4cd5836b6"
+      },
+      "dimensions": [
+        2972,
+        4434
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "A floating human figure occupies the upper left; a standing gowned figure opens both arms at right.",
+          "A small infant-like body rests among long pointed leaves at the standing figure's feet.",
+          "The standing gown is conspicuously yellow; ochre sky, blue washes and a comparatively open unpainted text field are visible."
+        ],
+        "uncertainties": [
+          "The infant is identified with the Worm through the nearby text, not inferred to be a biological larva.",
+          "Colour differences from O are not colourimetrically calibrated or assigned to authorial intention."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Book of Thel, III",
+        "copy": "F",
+        "archive_object": 6,
+        "bentley": 6,
+        "erdman": 4,
+        "accession": "Rosenwald 1798A",
+        "dating": {
+          "archive": "1795",
+          "loc": "ca. 1794, 1794 watermark",
+          "resolution": "retained disagreement"
+        }
+      },
+      "provenance": {
+        "institution": "Library of Congress, Rare Book and Special Collections Division",
+        "copy": "F",
+        "archive_object": 6,
+        "metadata": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "object_url": "https://www.loc.gov/resource/rbc.2003rosen1798A/?sp=6",
+        "direct_image_url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1798A:006/full/pct:100.0/0/default.jpg",
+        "credit": "William Blake, The Book of Thel, copy F, Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection",
+        "rights": "Historical public-domain artwork; LOC item says no known US copyright or other restrictions in collection, with its stated user-determination qualification; not labelled CC0",
+        "rights_url": "https://www.loc.gov/item/48031330/",
+        "rights_evidence": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "print_date": {
+          "archive": "1795",
+          "loc": "ca. 1794, 1794 watermark",
+          "resolution": "retained disagreement"
+        }
+      },
+      "whole_derivative": "images/derivatives/thel-f-006-whole.png"
+    },
+    {
+      "id": "thel-o-005",
+      "artist": "William Blake",
+      "work": "The Book of Thel",
+      "original": {
+        "path": "images/originals/thel-o-005.jpg",
+        "bytes": 1028364,
+        "sha256": "890bd06d4690011b4c344a58277b0395a13416709219c9b55ff55a9d5d7908c0"
+      },
+      "dimensions": [
+        3006,
+        4470
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Same etched arrangement as F object6: floating, standing and infant-like figures.",
+          "Standing gown is paler than F in these reproductions.",
+          "More prominent rectangular enclosure, linear sky strokes and blue/pink washes extend around the design and text; penned 5 appears at upper right."
+        ],
+        "uncertainties": [
+          "Same Bentley plate does not imply identical object number, print date, paper, colouring or photographic conditions.",
+          "No numerical colour analysis or physical-scale equality asserted."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Book of Thel, III",
+        "copy": "O",
+        "archive_object": 5,
+        "bentley": 6,
+        "erdman": 4,
+        "accession": "LOC digital Rosenwald 1798B; bound volume associated with Milton D / Archive catalog no.1810",
+        "dating": {
+          "archive": "c. 1818",
+          "loc": "ca. 1815, 1815 watermarks",
+          "resolution": "retained disagreement"
+        }
+      },
+      "provenance": {
+        "institution": "Library of Congress, Rare Book and Special Collections Division",
+        "copy": "O",
+        "archive_object": 5,
+        "metadata": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "object_url": "https://www.loc.gov/resource/rbc.2003rosen1798B/?sp=5",
+        "direct_image_url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1798B:005/full/pct:100.0/0/default.jpg",
+        "credit": "William Blake, The Book of Thel, copy O, Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection",
+        "rights": "Historical public-domain artwork; LOC item says no known US copyright or other restrictions in collection, with its stated user-determination qualification; not labelled CC0",
+        "rights_url": "https://www.loc.gov/item/48031330/",
+        "rights_evidence": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "print_date": {
+          "archive": "c. 1818",
+          "loc": "ca. 1815, 1815 watermarks",
+          "resolution": "retained disagreement"
+        }
+      },
+      "whole_derivative": "images/derivatives/thel-o-005-whole.png"
+    },
+    {
+      "id": "thel-o-006",
+      "artist": "William Blake",
+      "work": "The Book of Thel",
+      "original": {
+        "path": "images/originals/thel-o-006.jpg",
+        "bytes": 1044267,
+        "sha256": "628665d0da4b897a21fda48e99b6303e48cc5163def3c28410dddfc2f5acfa52"
+      },
+      "dimensions": [
+        2982,
+        4540
+      ],
+      "format": "JPEG",
+      "admitted": true,
+      "visual_reading": {
+        "method": "actual local view_image of the complete captured original; details only as separately recorded crops",
+        "observations": [
+          "Text occupies the upper portion above a large seated figure with folded arms.",
+          "A low reclining adult-like figure reaches towards a small infant-like figure under long curling leaves and drooping flowers.",
+          "Blue, pink and yellow washes and a bounded painted lower field are visible; penned 6 appears upper right."
+        ],
+        "uncertainties": [
+          "Not the same plate as F object6: cannot serve as its two-copy comparison.",
+          "Worm/Clay/Thel labels depend on the selected text and catalogue relation, not anatomical zoological diagnosis."
+        ],
+        "ceiling": "Digital image reading only; no handling of original, pigment analysis, image-wide taxon inventory or all-copy comparison"
+      },
+      "identity": {
+        "title": "The Book of Thel, continuation of Clay exchange",
+        "copy": "O",
+        "archive_object": 6,
+        "bentley": 7,
+        "erdman": 5,
+        "accession": "LOC digital Rosenwald 1798B; bound volume associated with Milton D / Archive catalog no.1810",
+        "dating": {
+          "archive": "c. 1818",
+          "loc": "ca. 1815",
+          "resolution": "retained disagreement"
+        }
+      },
+      "provenance": {
+        "institution": "Library of Congress, Rare Book and Special Collections Division",
+        "copy": "O",
+        "archive_object": 6,
+        "metadata": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "object_url": "https://www.loc.gov/resource/rbc.2003rosen1798B/?sp=6",
+        "direct_image_url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1798B:006/full/pct:100.0/0/default.jpg",
+        "credit": "William Blake, The Book of Thel, copy O, Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection",
+        "rights": "Historical public-domain artwork; LOC item says no known US copyright or other restrictions in collection, with its stated user-determination qualification; not labelled CC0",
+        "rights_url": "https://www.loc.gov/item/48031330/",
+        "rights_evidence": {
+          "path": "sources/loc-thel.json",
+          "bytes": 80728,
+          "sha256": "8c0871b51d744723d0cf1996c4b4fc3d88fd862ae02ea92981b00afce2525bee"
+        },
+        "print_date": {
+          "archive": "c. 1818",
+          "loc": "ca. 1815",
+          "resolution": "retained disagreement"
+        }
+      },
+      "whole_derivative": "images/derivatives/thel-o-006-whole.png"
+    }
+  ],
+  "captions": [
+    {
+      "id": "fig:songs_attention",
+      "path": "images/derivatives/songs-attention-sheet.png",
+      "inputs": [
+        "met-347935",
+        "met-347974"
+      ],
+      "caption": "Attention in word and design. Left: A Dream, Songs copy Y, plate 26 (Met 17.10.26), whose vegetation runs around and between the stanzas; a small upright figure at lower right remains uncertain in this reading. Right: The Fly, copy Y, plate 40 (17.10.40), with a large figure supporting a child's raised hands and another figure playing with a racket and shuttlecock-like object. The visible human scene offers an analogy with the named fly without supplying a resolved zoological portrait. William Blake, printed ca.1825; The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access. Whole captured scans proportionally resized; not shown at equal physical scale. Each panel is also supplied as a separate whole-plate derivative."
+    },
+    {
+      "id": "fig:songs_feeding",
+      "path": "images/derivatives/songs-feeding-sheet.png",
+      "inputs": [
+        "met-347973",
+        "met-348001"
+      ],
+      "caption": "Forms of injury and entanglement. Left: The Sick Rose, Songs copy Y, plate 39 (Met 17.10.39), with thorned vegetation, small bent figures and an exposed lower body beside an ambiguous narrow bent form. Right: The Human Abstract, copy Y, plate 47 (17.10.47), with an aged figure raising his arms among cord-like forms. The worm of the first poem and the feeding caterpillar and fly of the second belong to different rhetorical situations; these designs do not settle their biological identities. William Blake, printed ca.1825; The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access. Whole captured scans proportionally resized; separate full-page versions supplied."
+    },
+    {
+      "id": "fig:thel_copies",
+      "path": "images/derivatives/thel-bentley6-two-copies.png",
+      "inputs": [
+        "thel-f-006",
+        "thel-o-005"
+      ],
+      "caption": "One plate in two material witnesses. The Book of Thel, Bentley plate 6 (Erdman plate 4): left, copy F object6, LOC Rosenwald1798A; right, copy O object5, LOC digital resource Rosenwald1798B. The floating, standing and infant-like figures retain their etched arrangement, while the reproduced gowns, washes and painted enclosure differ. The nearby text calls the infant-like figure the Worm; no taxon is inferred from this analogy. Archive print dates are 1795 and c.1818; LOC catalogue descriptions give ca.1794 and ca.1815 respectively. The disagreement is retained. William Blake; Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork, LOC no-known-US-restrictions statement. Proportional whole-scan resizing only; photographic colour and physical scales are not calibrated."
+    },
+    {
+      "id": "fig:thel_care",
+      "path": "images/derivatives/thel-o-006-whole.png",
+      "inputs": [
+        "thel-o-006"
+      ],
+      "caption": "Care beyond the prohibition of injury. The Book of Thel, copy O, object6, Bentley plate7 (Erdman plate5), LOC digital Rosenwald1798B. A reclining adult-like figure reaches towards an infant-like figure beneath the exchange in which Thel distinguishes punishment of a bruising foot from positive nurture with milk and oil. The lower scene is read with the selected Clay/Worm text, not as a zoological specimen. William Blake; Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Archive dates this printing c.1818; LOC catalogue gives ca.1815. Historical public-domain artwork; whole captured scan proportionally resized."
+    }
+  ],
+  "comparison": {
+    "id": "thel-bentley6",
+    "same_work": true,
+    "same_bentley_plate": 6,
+    "inputs": [
+      "thel-f-006",
+      "thel-o-005"
+    ],
+    "rejected_pair": [
+      "thel-f-006",
+      "thel-o-006"
+    ],
+    "rejection_reason": "Archive object6 has Bentley6 in F and Bentley7 in O; exact object number cannot substitute for plate identity",
+    "limits": "One matched pair only; no general theory of copy evolution or calibrated colour measurement"
+  },
+  "derivation_receipt": {
+    "path": "receipts/image-derivation.json",
+    "bytes": 7540,
+    "sha256": "b1e9fd472bd043005bcab19de947f8a87a331b44a89b3460c5bc8ef6b79d408f"
+  },
+  "private_custody": "All actual source images, downloaded texts and derivatives stay private local research evidence; no GitHub publication authorized. No Blake Archive image file or AI-generated artwork used.",
+  "packet_origin": {
+    "delivery_sha256": "5073511850b76515930f0283f03e956a35af6968176e95914526b226558d4d15",
+    "ledger_sha256": "8071acea8df36468481baa9463eb48571d4a828afb4d53bd3370eeae6a6a699c",
+    "source_path_prefix": "local_data/manuscript-expansion-v1/sources/research-images/",
+    "status": "closed research producer; selected originals inspected by root; no new independent acceptance"
+  }
+}

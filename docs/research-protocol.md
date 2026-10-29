@@ -1,5 +1,9 @@
 # Research protocol
 
+Use [PROJECT_STATUS.md](PROJECT_STATUS.md) for the current completion record and
+bounded next tasks. This protocol defines research acceptance independently of
+software, rendering and delivery.
+
 ## Question and scope
 
 How does Blake use small and invertebrate life to think about perception, embodied
@@ -66,6 +70,25 @@ retain rival readings. Every animal decision is about the cited span, not an
 automatic endorsement of a whole passage, edition, or numerical analysis.
 
 ## Completion gates
+
+The modern reference is a separate versioned classification resource, verified
+against captured NCBI names, ranks and lineages. Resolved lineage, broad group,
+ambiguous mapping, non-taxon and outside-scope states do not adjudicate lexical
+hits. Its shared tree layout carries no branch lengths, time inference or
+monophyly proof. The vocabulary audit and separate gap-probe epoch preserve
+all earlier forms and decisions. See
+[the advancement method](research/invertebrate-advancement.md) and
+[the private style guide](style-guide.md).
+
+New reading credit is recorded in the advancement ledger with selected-text and
+source hashes. Full short-poem transcription credit requires every verse line
+in that captured object. It does not grant whole-book or physical-image credit.
+Neither prose interpretation nor mapping metadata automatically writes a review
+decision. Figure and prepared-manuscript completion receipts close their input
+and output hashes. Native page inspection and selected-original checks were
+completed for the retained 31-page working draft; their exact scope is indexed
+in [project status](PROJECT_STATUS.md). New paper bytes require fresh native and
+physical-page qualification.
 
 The pipeline can establish exhaustive matching of its declared terms within the
 pinned snapshot. A comprehensive literary article additionally requires reviewing

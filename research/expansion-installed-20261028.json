@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "version": "0.2.0",
+  "epoch": "expansion-installed-20261028",
+  "shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
+  "lock_sha256": "f3bc4ff29754df3ee103cc7b8d611000669b929aaeac1b76502860b6844e0a83",
+  "locked_package_entries": 36,
+  "unique_locked_package_names": 33,
+  "installed_distributions": 32,
+  "tests": 239,
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 94.82625482625483,
+      "floor": 90,
+      "covered": 1228,
+      "total": 1295
+    },
+    "tools": {
+      "branch_aware_percent": 74.76190476190476,
+      "floor": 60,
+      "covered": 628,
+      "total": 840
+    }
+  },
+  "coverage_scope": "239 installed tests plus actual installed composition CLI and four-figure production workloads; pytest-only tool coverage failed and is retained.",
+  "native": {
+    "directory": "analysis_output/entomology-native-expansion-02",
+    "pdf": "analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf",
+    "pdf_sha256": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3",
+    "pages": 31,
+    "native_receipt_sha256": "d3f6b9ddd205fc406c60a5e1671aa0ca27fe89bff6df98e01e92c2cfcde17af2"
+  },
+  "external_evidence": {
+    "entomology-setup-02.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/entomology-setup-02.json",
+      "sha256": "10ce4e2d153bda65046c90284dc8f20aa3c3f7c7edc48c6b9e815336f095b77a"
+    },
+    "entomology-final-installed.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/entomology-final-installed.json",
+      "sha256": "30e00a825ccec26e98e748286c057c60b3901cbc8a8ebc39b44e8d24481c5090"
+    },
+    "entomology-final-post-qualification.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/entomology-final-post-qualification.json",
+      "sha256": "ddfca40ec6805a21c6dd2cdc89015ec0619a689eda9593d45efea8a11f67ae81"
+    }
+  },
+  "root_physical_page_qa": {
+    "path": "Local/blake-entomology-expansion-20261028/root-qa/entomologyfinal/visual-observations.json",
+    "sha256": "0c601ce75554187970ed8a0e971453908430f1067a31fede73b601b92d793c26"
+  },
+  "historical_preimages": {
+    "README.md": {
+      "path": "research/history/expansion-installed-preimage/README.md",
+      "sha256": "5862913a121b85c1d2dfe44fe246b4d811f4c8a16ed06a059b704a1d525cb640"
+    },
+    "CHANGELOG.md": {
+      "path": "research/history/expansion-installed-preimage/CHANGELOG.md",
+      "sha256": "55f4e08532c3646ccdeddbbada84d9c03de21ac3f889250685cfdbafabac611e"
+    },
+    "docs/manuscript/README.md": {
+      "path": "research/history/expansion-installed-preimage/docs/manuscript/README.md",
+      "sha256": "43a2e839830fdf3bf26254225ebaf179599fb68857190271e9f1c3db24b7193d"
+    }
+  },
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred.",
+  "historical_reviewed": 11,
+  "historical_unreviewed": 36028,
+  "new_formal_decisions": 0,
+  "selected_image_witnesses": 7,
+  "systematic_corpus_image_review": false,
+  "composition_candidates": 1239,
+  "name_family_categories": 82,
+  "pooled_equal_nonempty_tv": 0.22238654149654963,
+  "prepared_article": "analysis_output/article-installed-expansion-01",
+  "preparation_sha256": "e02a096014d50320157893d862963ea5b2a4d8767d8ed517a5008ba56299a02e",
+  "additional_assets_directory": "local_data/manuscript-expansion-installed-v1",
+  "additional_assets_sha256": "672e08b78788a2e47caa0f59ff19771402e785cd01c214cb3d186c375a77a1df"
+}

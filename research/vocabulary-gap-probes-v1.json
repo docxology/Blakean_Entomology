@@ -1,0 +1,76 @@
+{
+  "study_id": "invertebrate-gap-probes-20261028-v1",
+  "title": "Separate exploratory gap probes; no historical vocabulary replacement",
+  "terms": [
+    {
+      "term_id": "daddy_long_legs",
+      "forms": [
+        "daddy-long-legs",
+        "daddy long legs"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "harvestman",
+      "forms": [
+        "harvestman",
+        "harvestmen"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "nematode",
+      "forms": [
+        "nematode",
+        "nematodes"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "roundworm",
+      "forms": [
+        "roundworm",
+        "roundworms",
+        "round-worm",
+        "round-worms"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "crayfish_plurals",
+      "forms": [
+        "crayfishes",
+        "crawfishes",
+        "cray fishes",
+        "craw fishes"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "antlion",
+      "forms": [
+        "antlion",
+        "antlions",
+        "ant-lion",
+        "ant-lions"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    },
+    {
+      "term_id": "silverfish",
+      "forms": [
+        "silverfish",
+        "silver-fish",
+        "silver fish"
+      ],
+      "group": "gap_probe",
+      "note": "Editorial recall probe; not an asserted Blake attestation, taxon decision or extension of historical v1."
+    }
+  ]
+}

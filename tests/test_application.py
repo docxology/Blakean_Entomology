@@ -14,7 +14,7 @@ from blake.applications import (
     ApplicationProducer,
     PassageBinding,
 )
-from blake.recovery import recover_corpus
+from blake.recovery_pipeline import recover_corpus
 from blake.studies import StudySpec, StudyTerm
 from blake.text_search.models import Passage
 from blake.text_search.recovered import build_recovered_search

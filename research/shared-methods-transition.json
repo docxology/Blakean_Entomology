@@ -1,0 +1,32 @@
+{
+  "historical_run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "current_run_sha256": "ae28b1112b5ca5d797d8556f2464a735736fa8b3ebdbcefdd9f528417b204f96",
+  "application_version": "0.2.0",
+  "application_code_sha256": "27bd6ff1e706d063e4232d5f4d5f3e96dea800c9593393e30eb11a6d384dd1de",
+  "unchanged_analytical_artifacts": {
+    "summary.json": {
+      "sha256": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55",
+      "byte_identical": true
+    },
+    "hits.jsonl": {
+      "sha256": "b5cc600586a11251c318fbdcbd63e3dfaae09a22b8df82ad267e7035a3814ea0",
+      "byte_identical": true
+    },
+    "counts.csv": {
+      "sha256": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
+      "byte_identical": true
+    },
+    "review-queue.csv": {
+      "sha256": "82fdb03250b4d089a035d1c30a779e99252ff1ab6e431108ea27c907cf9361df",
+      "byte_identical": true
+    },
+    "report.md": {
+      "sha256": "530835dc0ef20c38f934027c99b78e421fa0a6d65a3abed991542b2d0e0a9bc8",
+      "byte_identical": true
+    }
+  },
+  "historical_decisions_rebound": false,
+  "historical_reviewed_candidates": 11,
+  "new_run_authored_decisions": 0,
+  "scope": "Shared source implementation; unchanged captured input and declared vocabulary; no new reading or animal census"
+}

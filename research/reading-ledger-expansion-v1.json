@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "epoch": "research-images-expansion-20261028",
+  "accessed": "2026-10-28 local / retrieval UTC timestamps per receipt",
+  "relation_to_frozen_candidate": "Additive evidence only; original 11 decisions and 36028 unreviewed remain bound to their old run. No review decisions, counts or corpus epochs changed.",
+  "sources": [
+    {
+      "id": "perkins-1999",
+      "identity": "David Perkins, Animal Rights and Auguries of Innocence, Blake/An Illustrated Quarterly 33.1 (Summer 1999), 4-11",
+      "url": "https://bq.blakearchive.org/33.1.perkins",
+      "sources": [
+        {
+          "path": "sources/perkins-1999-curl.html",
+          "bytes": 78739,
+          "sha256": "bed46ecd28cf50cd97b7a572045368e032461294ad3bc985f687cf615ad36eaa"
+        },
+        {
+          "path": "sources/perkins-1999-curl.pdf",
+          "bytes": 2525151,
+          "sha256": "1a984439505cb238bd97af172e1e2b1db9840022339871a05b94e56d6d8f6848"
+        }
+      ],
+      "selection": {
+        "path": "readings/perkins.txt",
+        "bytes": 41856,
+        "sha256": "44f7e1bdc8aa4da9c1c34845311905323e737caf3207eeac96a3c28a4bfc6eca"
+      },
+      "bounds": "Complete article body, journal anchors p4 through p11; excludes adjacent Nelson Hilton article appearing on the final PDF page",
+      "credit": "complete_article_text",
+      "advance": "Previous frozen ledger located_not_read; now actual complete reading",
+      "limits": "No automatic reading credit for cited books, sermons or manuscripts; no journal embedded-image reading credit",
+      "use": "Animal injury and metaphor; innocence as an interpretive voice; Thel infant Worm; preserve rival readings."
+    },
+    {
+      "id": "srigley-1992",
+      "identity": "Michael Srigley, The Sickness of Blake's Rose, Blake/An Illustrated Quarterly 26.1 (Summer 1992), 4-8",
+      "url": "https://bq.blakearchive.org/26.1.srigley",
+      "sources": [
+        {
+          "path": "sources/srigley-1992.html",
+          "bytes": 71684,
+          "sha256": "c47fc44681c128ae8159590555013e6ef66e08881b0a7f9a94baa31b68cc26ab"
+        }
+      ],
+      "selection": {
+        "path": "readings/srigley.txt",
+        "bytes": 38426,
+        "sha256": "d7cba66f295aa9e621cafdbf1264e9f85d68eb05334d39e0ec7be7537e01d34d"
+      },
+      "bounds": "Complete article body, anchors p4-p8, through final note 27",
+      "credit": "complete_article_text",
+      "advance": "New actual journal-article reading",
+      "limits": "Paracelsus, Vaughan, archival catalogues and proposed channels of transmission not independently read or proved; no adoption of historical medical claims",
+      "use": "Counterreading of the Sick Rose worm through fantasy and sexual repression; explicitly conjectural source relation."
+    },
+    {
+      "id": "essick-viscomi-2002",
+      "identity": "Robert N. Essick and Joseph Viscomi, An Inquiry into William Blake's Method of Color Printing, Blake/An Illustrated Quarterly 35.3 (Winter 2002), 74-103",
+      "url": "https://bq.blakearchive.org/35.3.essick",
+      "sources": [
+        {
+          "path": "sources/essick-viscomi-2002-curl.html",
+          "bytes": 207609,
+          "sha256": "ab0a128a3d9163a443694cfc772d8abd037e9eeb46a5bc76566975ed92b8ec23"
+        },
+        {
+          "path": "sources/essick-viscomi-2002.pdf",
+          "bytes": 9229402,
+          "sha256": "3881976a1fc449ba5310d26e7921bdfd2c03c66d75cd8b7cbbd63d59ad8ee5de"
+        }
+      ],
+      "selection": {
+        "path": "readings/essick-viscomi-selected.json",
+        "bytes": 23529,
+        "sha256": "0282cf660733f249f18892f101b251c91a7aebdbf5b6d1c9a8f34fdb10958998"
+      },
+      "bounds": "Complete selected prose blocks 6-8, 10-12, 51-54 in readings/essick-viscomi-paragraphs.json (#core h2/h3/p sequence, 1-based): opening pp74-75; Background and Context opening; bottom-sheet registration and cropping/matting discussion pp90-92",
+      "credit": "bounded_complete_paragraphs",
+      "advance": "New selected material-bibliography reading",
+      "limits": "Not complete 30-page article; no independent assessment of printing experiments, embedded photographs, or the entire two-pull debate",
+      "use": "Distinguish colored impressions from color prints; cropping and mounting can conceal artifact relations."
+    },
+    {
+      "id": "dauphin-2026-expanded",
+      "identity": "Caroline Dauphin, A Genealogy of the Polypus, from William Blake to H.P. Lovecraft: The Root of All Evil?, Lectures du monde anglophone 7 (2026)",
+      "url": "https://publis-shs.univ-rouen.fr/eriac/1132.html",
+      "sources": [
+        {
+          "path": "sources/dauphin-2026.html",
+          "bytes": 97869,
+          "sha256": "d2459ed4a8ca4f3ca327a743a59342e89645b3af25b5d3d3d4e622fa2defbbe9"
+        }
+      ],
+      "selection": {
+        "path": "readings/dauphin-paragraphs7-28.txt",
+        "bytes": 14708,
+        "sha256": "b6138aeec7093179b760f3a8746a4f6cadadfa223c411ddf2c9e74d1dc985f6f"
+      },
+      "bounds": "Numbered paragraphs 7-28, including six intervening quotation blocks; additionally paragraphs 49-50 read in the full prose projection",
+      "credit": "extended_bounded_sections",
+      "advance": "Extends earlier paragraphs 3-6 and 21-25; overlap explicitly retained, not counted as wholly new reading",
+      "limits": "No complete article, Lovecraft/Culbard image, thesis, Schwartz chapter, or other cited-book reading credit. No adoption of the article's broad Bible/bestiary or visual absence claims",
+      "objections": [
+        "Article note 9 attributes A Blake Dictionary to David Erdman; this packet does not propagate that attribution (the standard author is S. Foster Damon).",
+        "Do not turn claimed Darwin-Blake confluence into proof of one direct source for each passage.",
+        "Paragraphs 49-50 do not establish an exhaustive absence of Polypus images in this packet."
+      ],
+      "use": "Generation, bodily boundaries and loss of individuality as a proposed genealogy."
+    },
+    {
+      "id": "fara-2020",
+      "identity": "Patricia Fara, Questions of inheritance: Erasmus and Charles Darwin, Romanticism and Victorianism on the Net 66-67 (issue labelled Spring-Fall 2016; online 2020-06-10)",
+      "url": "https://doi.org/10.7202/1069958ar",
+      "sources": [
+        {
+          "path": "sources/erudit-darwin.pdf",
+          "bytes": 639381,
+          "sha256": "1a8efcefc4da716619df51aafce4d184e69b379d071831ae9f664a338ae805ee"
+        },
+        {
+          "path": "sources/fara-crossref.json",
+          "bytes": 8967,
+          "sha256": "8cef29f9d4186b0c6d3e65561dd75b2cb9bca1b90d4deb6703f48fc31756ba4b"
+        }
+      ],
+      "selection": {
+        "path": "readings/erudit-darwin.txt",
+        "bytes": 52567,
+        "sha256": "70aa480fde9aaa3885986406256972274ad9c034e3753ef90c958ad80b071740"
+      },
+      "bounds": "Complete numbered paragraphs 15-23, printed article pp8-12 (PDF pages 9-13 including cover); first paragraph/title and abstract also checked; paragraph 24 only inspected partly and not admitted",
+      "credit": "bounded_complete_paragraphs",
+      "advance": "New accessible peer-reviewed article sections",
+      "limits": "No full article; no full Charles Darwin notebooks, Malthus, Paley or cited books reading; argument about family transmission not adopted",
+      "use": "Erasmus's insect kinship, predation and material ethics; distinguish the two Darwins and issue/online dates."
+    },
+    {
+      "id": "gould-1747",
+      "identity": "William Gould, An Account of English Ants (London: A. Millar, 1747), CUL-DAR.LIB.233",
+      "url": "https://darwin-online.org.uk/converted/pdf/1747_Gould_ants_CUL-DAR.LIB.233.pdf",
+      "sources": [
+        {
+          "path": "sources/gould-1747.pdf",
+          "bytes": 11061355,
+          "sha256": "72bc1198448ea28e638d94b19a42db4acdbee8d080bb65bfd0d82a1a8ccf0676"
+        }
+      ],
+      "selection": {
+        "path": "readings/gould-selected-pages.txt",
+        "bytes": 9011,
+        "sha256": "9a78938f0695f5ce220d81f2eeabe2d47062f79f293fc2d01850729231079390"
+      },
+      "bounds": "Title page verified; printed pp66-68 (PDF 82-84), pp78-81 (PDF 94-97), complete pages; ends before p82 continuation",
+      "credit": "bounded_complete_pages",
+      "advance": "New primary natural-history sections",
+      "limits": "OCR has long-s and recognition errors; no quoted diplomatic transcription; no full book or documented Blake reading/influence",
+      "use": "Public care moralization alongside repeated observation and correction of English winter-granary narratives."
+    },
+    {
+      "id": "baker-1743",
+      "identity": "Henry Baker, The Microscope Made Easy, second edition (London: R. Dodsley, 1743), ESTC T89680; Wellcome EPB/B/11985, b20642659",
+      "url": "https://wellcomecollection.org/works/u4cdmgs8",
+      "sources": [
+        {
+          "path": "sources/wellcome-baker.html",
+          "bytes": 110418,
+          "sha256": "16e84f48a449d8b26cd8cd4412f93cd48621832ba344185b5c15d87232c34a6b"
+        },
+        {
+          "path": "sources/baker-manifest.json",
+          "bytes": 873730,
+          "sha256": "a051ac5cb7717c79f1fb84124afc8d7e93df81e603d09608391e2df4cc3a7f58"
+        },
+        {
+          "path": "sources/baker-scan-0090.jpg",
+          "bytes": 487801,
+          "sha256": "ba306a6fcc2ada375be825fb196221c2681fe0a1839d6c32dab45296d7db4bcb"
+        },
+        {
+          "path": "sources/baker-scan-0091.jpg",
+          "bytes": 505596,
+          "sha256": "b413e593e83c729097d62196cd18b9a7f78bbacac2ebee2de403ebc787b478f3"
+        },
+        {
+          "path": "sources/baker-scan-0092.jpg",
+          "bytes": 484483,
+          "sha256": "0e833c12ab8072fe7dd1d9c25e73971027df2125023dccd893ec9526897815c0"
+        },
+        {
+          "path": "sources/baker-scan-0093.jpg",
+          "bytes": 497367,
+          "sha256": "fbd4f3c80548cdb865da3eaefb33e960747ecbeaa1e3743d23a932d8daeb5a11"
+        },
+        {
+          "path": "sources/baker-scan-0094.jpg",
+          "bytes": 491864,
+          "sha256": "2436f8bcb36d8a047b0851236344919f7ff488f465a60df68676ac47da0f08ea"
+        },
+        {
+          "path": "sources/baker-scan-0095.jpg",
+          "bytes": 509258,
+          "sha256": "a960dd2b2889660f1ddf1d1207baf82f60954b00a2e28c39fbfbe579dba9771b"
+        }
+      ],
+      "bounds": "Printed pp53-58, scans 0090-0095. Complete paragraphs from 'The Transparency or Opakeness' on p53 through the animalcule dilution paragraph ending 'their true Shape' p58. The incoming continuation at top p53 and outgoing 'But' at foot p58 are not complete reading units",
+      "credit": "bounded_complete_paragraphs_from_visual_scans",
+      "selection_sha_policy": "Exact scanned page bytes and first/last paragraph locators bind the selection; no OCR text masquerades as a diplomatic transcription",
+      "advance": "New actual page-image reading after unsuccessful OCR endpoints",
+      "limits": "No full chapter/book; no demonstration that Blake read Baker; historical husbandry/observation prescriptions not endorsed as current practice",
+      "visual_inspection": "All six scans individually opened with view_image; scan0071 only a discovery reverse/foldout and excluded from admitted text bounds",
+      "use": "Lighting, observer fallibility, projected images, minimal disturbance and restraint."
+    },
+    {
+      "id": "darwin-zoonomia-1796",
+      "identity": "Erasmus Darwin, Zoonomia vol.I, second edition corrected (London: J. Johnson, 1796), Gutenberg 15707",
+      "url": "https://www.gutenberg.org/cache/epub/15707/pg15707-images.html",
+      "sources": [
+        {
+          "path": "sources/zoonomia-1796.html",
+          "bytes": 1349489,
+          "sha256": "d5bd046bf212e97770d3c16705b00766a76b5782517e0ad6a7370e263454d441"
+        }
+      ],
+      "selections": [
+        {
+          "path": "readings/zoonomia-II3.txt",
+          "bytes": 3685,
+          "sha256": "3b814e443a40a0c1f5cd54ed6de2b6e2032af742c4ecd31231cce5a968b6aefa"
+        },
+        {
+          "path": "readings/zoonomia-IV2.txt",
+          "bytes": 7058,
+          "sha256": "853ecd14748d2d7949eea7f8014589a2ec21648a5bb86978fe879efd7a686671"
+        }
+      ],
+      "bounds": "Section XXXIX.II.3 in full (five paragraphs) and XXXIX.IV.2 in full (eight paragraphs), including tadpole/gnat/polypus paragraph and concluding paragraph before IV.3",
+      "credit": "bounded_complete_subsections",
+      "advance": "New actual primary-text reading",
+      "limits": "This is the 1796 second edition, not the 1794 first edition; dedication is dated 1794. No causal inference about Blake's 1795 work from this later witness; historical male-only theory not modern biology",
+      "use": "Budding, separation, development and sexual difference in a historical physiological framework."
+    },
+    {
+      "id": "darwin-temple-1803",
+      "identity": "Erasmus Darwin, The Temple of Nature (London: J. Johnson, 1803), Gutenberg 26861",
+      "url": "https://www.gutenberg.org/cache/epub/26861/pg26861-images.html",
+      "sources": [
+        {
+          "path": "sources/temple-nature-1803.html",
+          "bytes": 600915,
+          "sha256": "60bbd72027f68d6d932a41cbe34341f1fb3604615a6f38e5a6e624181dafcb09"
+        }
+      ],
+      "selection": {
+        "path": "readings/temple-nature.txt",
+        "bytes": 484264,
+        "sha256": "698d6997044a3aa1b5482f50fe15e28deb0da684d88322cb9100471a8758859c"
+      },
+      "bounds": "Canto III lines 411-434 (printed pp118-120), Canto IV lines 1-66 (printed pp129-134). No new reading credit for other cantos or Additional Notes",
+      "credit": "bounded_poem_passages",
+      "advance": "New actual primary-text passages",
+      "limits": "Not complete poem/book; no claim that Darwin's creature identifications or natural-history assertions are modern results",
+      "use": "Kinship with emmets and worms beside predation across animal and plant life."
+    }
+  ],
+  "primary_selections": [
+    {
+      "id": "songsie.y.illbk.26",
+      "source": "sources/songsie.y.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.y.xml",
+      "source_sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        3,
+        22
+      ],
+      "line_ids": [
+        "songsie.y.illbk.26.03",
+        "songsie.y.illbk.26.04",
+        "songsie.y.illbk.26.05",
+        "songsie.y.illbk.26.06",
+        "songsie.y.illbk.26.07",
+        "songsie.y.illbk.26.08",
+        "songsie.y.illbk.26.09",
+        "songsie.y.illbk.26.10",
+        "songsie.y.illbk.26.11",
+        "songsie.y.illbk.26.12",
+        "songsie.y.illbk.26.13",
+        "songsie.y.illbk.26.14",
+        "songsie.y.illbk.26.15",
+        "songsie.y.illbk.26.16",
+        "songsie.y.illbk.26.17",
+        "songsie.y.illbk.26.18",
+        "songsie.y.illbk.26.19",
+        "songsie.y.illbk.26.20",
+        "songsie.y.illbk.26.21",
+        "songsie.y.illbk.26.22"
+      ],
+      "selected_file": "readings/songsie.y.illbk.26.txt",
+      "selected_sha256": "53f04df4eeb8f79b4ff3efcc813ff8c5971fb60429a4d067f688c0a83edc3763",
+      "notes_excluded": [
+        {
+          "line_id": "songsie.y.illbk.26.07",
+          "role": "editorial apparatus or physical numbering, excluded from verse",
+          "text": "\"folorn\": i.e., \"forlorn\"."
+        }
+      ],
+      "text_reading_credit": "complete short poem in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "songsie.y.illbk.39",
+      "source": "sources/songsie.y.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.y.xml",
+      "source_sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        3,
+        10
+      ],
+      "line_ids": [
+        "songsie.y.illbk.39.03",
+        "songsie.y.illbk.39.04",
+        "songsie.y.illbk.39.05",
+        "songsie.y.illbk.39.06",
+        "songsie.y.illbk.39.07",
+        "songsie.y.illbk.39.08",
+        "songsie.y.illbk.39.09",
+        "songsie.y.illbk.39.10"
+      ],
+      "selected_file": "readings/songsie.y.illbk.39.txt",
+      "selected_sha256": "a6b369ff0e2743c935e1f2d7fa382bda2bdaddb4e8c72c7ddb15c3aa04e6b78d",
+      "notes_excluded": [],
+      "text_reading_credit": "complete short poem in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "songsie.y.illbk.40",
+      "source": "sources/songsie.y.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.y.xml",
+      "source_sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        3,
+        22
+      ],
+      "line_ids": [
+        "songsie.y.illbk.40.03",
+        "songsie.y.illbk.40.04",
+        "songsie.y.illbk.40.05",
+        "songsie.y.illbk.40.06",
+        "songsie.y.illbk.40.07",
+        "songsie.y.illbk.40.08",
+        "songsie.y.illbk.40.09",
+        "songsie.y.illbk.40.10",
+        "songsie.y.illbk.40.11",
+        "songsie.y.illbk.40.12",
+        "songsie.y.illbk.40.13",
+        "songsie.y.illbk.40.14",
+        "songsie.y.illbk.40.15",
+        "songsie.y.illbk.40.16",
+        "songsie.y.illbk.40.17",
+        "songsie.y.illbk.40.18",
+        "songsie.y.illbk.40.19",
+        "songsie.y.illbk.40.20",
+        "songsie.y.illbk.40.21",
+        "songsie.y.illbk.40.22"
+      ],
+      "selected_file": "readings/songsie.y.illbk.40.txt",
+      "selected_sha256": "d694bf096b9bfd83f935912b4ad87232c32a394aaecf0c8b2a2daf22fb42c5f3",
+      "notes_excluded": [],
+      "text_reading_credit": "complete short poem in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "songsie.y.illbk.47",
+      "source": "sources/songsie.y.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.y.xml",
+      "source_sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        3,
+        26
+      ],
+      "line_ids": [
+        "songsie.y.illbk.47.03",
+        "songsie.y.illbk.47.04",
+        "songsie.y.illbk.47.05",
+        "songsie.y.illbk.47.06",
+        "songsie.y.illbk.47.07",
+        "songsie.y.illbk.47.08",
+        "songsie.y.illbk.47.09",
+        "songsie.y.illbk.47.10",
+        "songsie.y.illbk.47.11",
+        "songsie.y.illbk.47.12",
+        "songsie.y.illbk.47.13",
+        "songsie.y.illbk.47.14",
+        "songsie.y.illbk.47.15",
+        "songsie.y.illbk.47.16",
+        "songsie.y.illbk.47.17",
+        "songsie.y.illbk.47.18",
+        "songsie.y.illbk.47.19",
+        "songsie.y.illbk.47.20",
+        "songsie.y.illbk.47.21",
+        "songsie.y.illbk.47.22",
+        "songsie.y.illbk.47.23",
+        "songsie.y.illbk.47.24",
+        "songsie.y.illbk.47.25",
+        "songsie.y.illbk.47.26"
+      ],
+      "selected_file": "readings/songsie.y.illbk.47.txt",
+      "selected_sha256": "75c0fcadc29b2f6deb866f0648f3745fe24245731108bba6ecd2333a8201624a",
+      "notes_excluded": [],
+      "text_reading_credit": "complete short poem in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "thel.f.illbk.06",
+      "source": "sources/thel.f.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.f.xml",
+      "source_sha256": "b2dd8f89287f497456a0692c421a236978de2911f8dff4d8568a15c9d283b08d",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        2,
+        13
+      ],
+      "line_ids": [
+        "thel.f.illbk.06.02",
+        "thel.f.illbk.06.03",
+        "thel.f.illbk.06.04",
+        "thel.f.illbk.06.05",
+        "thel.f.illbk.06.06",
+        "thel.f.illbk.06.07",
+        "thel.f.illbk.06.08",
+        "thel.f.illbk.06.09",
+        "thel.f.illbk.06.10",
+        "thel.f.illbk.06.11",
+        "thel.f.illbk.06.12",
+        "thel.f.illbk.06.13"
+      ],
+      "selected_file": "readings/thel.f.illbk.06.txt",
+      "selected_sha256": "05971ad3f102a4e156042eb18c667e14598564fe9fc4b66e6f3e818b1b77d66d",
+      "notes_excluded": [],
+      "text_reading_credit": "bounded physical-text passage in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "thel.o.illbk.05",
+      "source": "sources/thel.o.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.o.xml",
+      "source_sha256": "d85c80452a683038d65db1dd3802c1a2189f564b84c9aa7e48440dfb0611fddc",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        4,
+        15
+      ],
+      "line_ids": [
+        "thel.o.illbk.05.04",
+        "thel.o.illbk.05.05",
+        "thel.o.illbk.05.06",
+        "thel.o.illbk.05.07",
+        "thel.o.illbk.05.08",
+        "thel.o.illbk.05.09",
+        "thel.o.illbk.05.10",
+        "thel.o.illbk.05.11",
+        "thel.o.illbk.05.12",
+        "thel.o.illbk.05.13",
+        "thel.o.illbk.05.14",
+        "thel.o.illbk.05.15"
+      ],
+      "selected_file": "readings/thel.o.illbk.05.txt",
+      "selected_sha256": "47df2a506cee228fa36fa20663555ff1ad6973b816fc503268d5d5320dae9031",
+      "notes_excluded": [],
+      "text_reading_credit": "bounded physical-text passage in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "thel.o.illbk.06",
+      "source": "sources/thel.o.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.o.xml",
+      "source_sha256": "d85c80452a683038d65db1dd3802c1a2189f564b84c9aa7e48440dfb0611fddc",
+      "source_acquisition": "fresh pinned XML acquisition; exact transport receipt retained",
+      "line_bounds": [
+        3,
+        19
+      ],
+      "line_ids": [
+        "thel.o.illbk.06.03",
+        "thel.o.illbk.06.04",
+        "thel.o.illbk.06.05",
+        "thel.o.illbk.06.06",
+        "thel.o.illbk.06.07",
+        "thel.o.illbk.06.08",
+        "thel.o.illbk.06.09",
+        "thel.o.illbk.06.10",
+        "thel.o.illbk.06.11",
+        "thel.o.illbk.06.12",
+        "thel.o.illbk.06.13",
+        "thel.o.illbk.06.14",
+        "thel.o.illbk.06.15",
+        "thel.o.illbk.06.16",
+        "thel.o.illbk.06.17",
+        "thel.o.illbk.06.18",
+        "thel.o.illbk.06.19"
+      ],
+      "selected_file": "readings/thel.o.illbk.06.txt",
+      "selected_sha256": "e351800ae62a167d3910b04e4e9ec33d4f977c172b8ce5918de0d50f5df327b2",
+      "notes_excluded": [],
+      "text_reading_credit": "bounded physical-text passage in this copy",
+      "advance": "new copy-specific text reading; no inherited credit from copy A or Thel B"
+    },
+    {
+      "id": "milton.a.illbk.24",
+      "source": "sources/milton.a.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml",
+      "source_sha256": "521df252512d60f9f12b929babd00a83074d340e7b2acc4e66bec9412be00728",
+      "source_acquisition": "local verified copy of frozen candidate source, not a new network acquisition",
+      "line_bounds": [
+        2,
+        42
+      ],
+      "line_ids": [
+        "milton.a.illbk.24.02",
+        "milton.a.illbk.24.03",
+        "milton.a.illbk.24.04",
+        "milton.a.illbk.24.05",
+        "milton.a.illbk.24.06",
+        "milton.a.illbk.24.07",
+        "milton.a.illbk.24.08",
+        "milton.a.illbk.24.09",
+        "milton.a.illbk.24.10",
+        "milton.a.illbk.24.11",
+        "milton.a.illbk.24.12",
+        "milton.a.illbk.24.13",
+        "milton.a.illbk.24.14",
+        "milton.a.illbk.24.15",
+        "milton.a.illbk.24.16",
+        "milton.a.illbk.24.17",
+        "milton.a.illbk.24.18",
+        "milton.a.illbk.24.19",
+        "milton.a.illbk.24.20",
+        "milton.a.illbk.24.21",
+        "milton.a.illbk.24.22",
+        "milton.a.illbk.24.23",
+        "milton.a.illbk.24.24",
+        "milton.a.illbk.24.25",
+        "milton.a.illbk.24.26",
+        "milton.a.illbk.24.27",
+        "milton.a.illbk.24.28",
+        "milton.a.illbk.24.29",
+        "milton.a.illbk.24.30",
+        "milton.a.illbk.24.31",
+        "milton.a.illbk.24.32",
+        "milton.a.illbk.24.33",
+        "milton.a.illbk.24.34",
+        "milton.a.illbk.24.35",
+        "milton.a.illbk.24.36",
+        "milton.a.illbk.24.37",
+        "milton.a.illbk.24.38",
+        "milton.a.illbk.24.39",
+        "milton.a.illbk.24.40",
+        "milton.a.illbk.24.41",
+        "milton.a.illbk.24.42"
+      ],
+      "selected_file": "readings/milton.a.illbk.24.txt",
+      "selected_sha256": "fa8c78a77f28664787d84d470744dd05da61bd825368ef6b2210e73fc7e41c84",
+      "notes_excluded": [
+        {
+          "line_id": "milton.a.illbk.24.36",
+          "role": "editorial apparatus or physical numbering, excluded from verse",
+          "text": "The \"g\" in \"lacerating\" is illegible in Copy A."
+        }
+      ],
+      "text_reading_credit": "bounded physical-text passage in this copy",
+      "advance": "reinspection of previously bounded copy-A passage, not a new corpus decision"
+    },
+    {
+      "id": "milton.a.illbk.28",
+      "source": "sources/milton.a.xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml",
+      "source_sha256": "521df252512d60f9f12b929babd00a83074d340e7b2acc4e66bec9412be00728",
+      "source_acquisition": "local verified copy of frozen candidate source, not a new network acquisition",
+      "line_bounds": [
+        24,
+        35
+      ],
+      "line_ids": [
+        "milton.a.illbk.28.24",
+        "milton.a.illbk.28.25",
+        "milton.a.illbk.28.26",
+        "milton.a.illbk.28.27",
+        "milton.a.illbk.28.28",
+        "milton.a.illbk.28.29",
+        "milton.a.illbk.28.30",
+        "milton.a.illbk.28.31",
+        "milton.a.illbk.28.32",
+        "milton.a.illbk.28.33",
+        "milton.a.illbk.28.34",
+        "milton.a.illbk.28.35"
+      ],
+      "selected_file": "readings/milton.a.illbk.28.txt",
+      "selected_sha256": "3e8a7cd208d719fd502653897fca059b99c604f9880543f2e46f2fc956d53cac",
+      "notes_excluded": [],
+      "text_reading_credit": "bounded physical-text passage in this copy",
+      "advance": "reinspection of previously bounded copy-A passage, not a new corpus decision"
+    }
+  ],
+  "retained_erdman_binding": {
+    "path": "receipts/retained-erdman-binding.json",
+    "bytes": 2052,
+    "sha256": "47a2b593f9f1904862b853fcb046d05cffff03cdbc204596e082a532a962ffcd"
+  },
+  "retained_reading_bounds": {
+    "erdman:474": "chapter 10 only, from Chap 10 through 'So they need not bidding go', before Chap 11",
+    "erdman:502": "Auguries lines 1-34 beginning To see a World; preceding poem fragment excluded",
+    "erdman:503": "Auguries lines 35-80 complete retained page read; manuscript uses 35-40",
+    "erdman:504": "retained for context only; no new reading credit or manuscript claim"
+  },
+  "quotation_policy": "No direct quotation of copyrighted scholarly prose in the additions; article titles/locators identify sources. Public-domain Blake snippets checked in selected copy-specific text. Contemporary primary texts paraphrased.",
+  "excluded_reading_credit": [
+    "Schwartz chapter: historical abstract-only ceiling remains",
+    "Viscomi BRANCH capture: acquired, no new reading credit",
+    "Songs C and Z XML: discovery metadata, no complete poem or visual reading credit",
+    "Thel B XML: inherited local reference, no new reading credit",
+    "Baker discovery scan0071: no argumentative reading credit",
+    "Exploratory erdman-selected-units.json includes extra substring leads; only explicit IDs in admitted-erdman-rows.jsonl are retained for use"
+  ],
+  "exploratory_projection_warning": "See receipts/exploratory-projection-limits.json. Early *-selected.json files are exploratory and can contain embedded notes. Final primary-selections receipt and per-object TXT files are authoritative.",
+  "packet_origin": {
+    "delivery_sha256": "5073511850b76515930f0283f03e956a35af6968176e95914526b226558d4d15",
+    "ledger_sha256": "b0f78e1c4225633246eadfb7bb16a03c26f9fccb41b12277d15df04f9a0ab2e1",
+    "source_path_prefix": "local_data/manuscript-expansion-v1/sources/research-images/",
+    "status": "closed research producer; selected originals inspected by root; no new independent acceptance"
+  }
+}

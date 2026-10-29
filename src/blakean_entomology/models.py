@@ -1,40 +1,24 @@
 """Application custody and explicit contextual review contracts."""
 
 from enum import StrEnum
-from typing import Annotated, ClassVar, Literal, Self, assert_never
+from typing import Literal, Self, assert_never
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from blake.methods.models import Artifact as Artifact
+from blake.methods.models import BundleCorpusPin as CorpusPin
+from blake.methods.models import Digest, FrozenModel
+from blake.methods.models import EvidenceError as EvidenceError
+from pydantic import Field, model_validator
 
-Digest = Annotated[str, Field(pattern=r"^[a-f0-9]{64}$")]
-
-
-class EvidenceError(ValueError):
-    """A source, output or annotation cannot be admitted."""
-
-    def __init__(self, code: str, detail: str) -> None:
-        self.code: str = code
-        self.detail: str = detail
-        super().__init__(f"{code}: {detail}")
-
-
-class FrozenModel(BaseModel):
-    model_config: ClassVar[ConfigDict] = ConfigDict(frozen=True, extra="forbid")
-
-
-class CorpusPin(FrozenModel):
-    schema_version: Literal[1] = 1
-    bundle_manifest_sha256: Digest
-    captured_manifest_sha256: Digest
-    projection_manifest_sha256: Digest
-    index_sha256: Digest
-    source_repository: str = "https://github.com/docxology/blake"
-    scope: str = "Pinned captured source units; not a complete-oeuvre or image inventory."
-
-
-class Artifact(FrozenModel):
-    name: str = Field(pattern=r"^[a-z][a-z0-9_-]*\.(json|jsonl|csv|md)$")
-    size: int = Field(ge=0)
-    sha256: Digest
+__all__ = [
+    "Artifact",
+    "CorpusPin",
+    "Decision",
+    "EvidenceError",
+    "ReviewDecision",
+    "ReviewSummary",
+    "RunReceipt",
+    "is_animal_decision",
+]
 
 
 class RunReceipt(FrozenModel):
