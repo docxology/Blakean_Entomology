@@ -26,7 +26,7 @@
     "docs/research/invertebrate-advancement.md": "e3dbdbeb9ad3d41f40640441b7cb83a78bcb4dabbe42cd078676face615dd8b4",
     "docs/research/shared-methods-analysis.md": "8f0c1cbbde431a16d556d2ec857874489bf00ab671897a4bf18894a011d9ece8",
     "docs/research/visual-evidence.md": "ddc028f253bef7db4bd3efadecb393e2328abfc83dc1a7a16ce263b2c56f80f4",
-    "docs/style-guide.md": "38bdf06d9004232bf8b35b205a032a4d5cbc5bcb9c9d5713acc39784e73288e2",
+    "docs/style-guide.md": "377e7e88a81d53612017d1487a62436ccae093d1f761538b30f21df7141fc1df",
     "pyproject.toml": "262e1e65a0849b8834cd926eb5dd470225d91c90867178589c98553235ac1a83",
     "research/advancement-bindings-v1.json": "68db3da9a0d07433ea2169c701cfd2b3699c5adf01f7f0b5dacbae739d9e4004",
     "research/advancement-installed-20261028.json": "c834d1d73dd4cd52f9384f3002b143fa961331be45961c8dc9b03691dca4cfcd",
@@ -134,5 +134,11 @@
       "sha256": "43a2e839830fdf3bf26254225ebaf179599fb68857190271e9f1c3db24b7193d"
     }
   },
-  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred.",
+  "documentation_delta": {
+    "scope": "Shared authoring-guide URL and this index binding only; executable, scholarly authoring, data and native PDF bytes unchanged.",
+    "previous_guide_pin": "21b1c002ef7588b9c908fb60fd6111c4eb548358",
+    "current_guide_pin": "d020f47767996a061b6f60e93a82da9386a7926c",
+    "shared_guide_content_identical_at_both_public_commits": true
+  }
 }
