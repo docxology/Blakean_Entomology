@@ -1,5 +1,9 @@
 # Blakean Entomology
 
+Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
+[agent guidance](AGENTS.md), [current verification](research/verification.json)
+and the [reviewed private PDF](Blakean_Entomology.pdf).
+
 The current 31-page research draft integrates eleven figures, seven selected
 historical image witnesses, twenty references and an 82-category appendix.
 Its argument compares attention, provision, injury and collective bodies while
@@ -12,11 +16,15 @@ this private application supplies the name-family/channel policy and literary
 interpretation. The reference tree is a captured NCBI classification with
 conditional lexical associations, not a sequence-inferred phylogeny.
 
-The SDK is pinned to `d020f47767996a061b6f60e93a82da9386a7926c`. A fresh locked noneditable installation passed
-239 tests, strict typing, Ruff and dependency checks. Coverage including actual
-CLI/figure workloads is 94.83% application and 74.76% tools; the pytest-only
-infrastructure failure remains in the evidence history. See the
-[current qualification](research/expansion-installed-20261028.json),
+The current runtime selects Blake 0.4.0 at
+`45171a099a6a658c52ab689501de646a28485653`; its locked installation and
+workflow qualification are recorded in [verification.json](research/verification.json).
+The retained paper and analytical/preparation epoch use core
+`d020f47767996a061b6f60e93a82da9386a7926c`. That historical installed gate
+passed 239 tests, strict typing, Ruff and dependency checks; coverage including
+actual CLI/figure workloads was 94.83% application and 74.76% tools. Its
+pytest-only infrastructure failure remains preserved. See the
+[paper-epoch qualification](research/expansion-installed-20261028.json),
 [composition methods](docs/research/composition-analysis.md),
 [visual evidence](docs/research/visual-evidence.md) and
 [render guide](docs/manuscript/README.md).
@@ -31,7 +39,7 @@ Read the [working article](docs/manuscript/blakean-entomology.md),
 evidence architecture of [Blakean Federalism](https://github.com/docxology/Blakean_Federalism)
 and uses the [shared Blake corpus and methods](https://github.com/docxology/blake).
 
-## Shared-method application 0.2.0
+## Shared-method application
 
 Generic annotation custody, run verification, search, proximity and descriptive
 statistics now come from `blake.methods`. The application retains its vocabulary,
@@ -83,8 +91,9 @@ their own groups. Taxonomic and rhetorical classifications require context.
 
 ## Corpus and methods belong upstream
 
-Blake owns acquisition, recovery, passage schemas, normalization, the portable
-application snapshot and generic lexical engine. This application owns its
+Blake owns acquisition, recovery, portable schemas and conversion, normalization,
+distinct retrieval profiles, generic statistics/proximity/composition/concentration,
+hierarchy/layout and run/annotation custody. This application owns its
 vocabulary, review decisions, interpretations and paper. It imports
 `blake.applications`, `blake.studies` and `blake.methods`; it does not copy Federalism's SQLite
 reader, search code, institutional model or historical acceptance claims.
@@ -143,8 +152,7 @@ differ, export from the qualified upstream environment using
 require the old producer runtime. Never replace the baseline pin silently.
 The shared-method package installs a small core. Acquisition, NLP and vision use
 Blake's explicit `full` extra. The methods-only profile supports portable-bundle
-analysis and review without loading that stack. The full legacy workflow is
-qualified separately under Python 3.11.
+analysis and review without loading that stack. The optional acquisition/NLP/vision workflow is qualified separately under Python 3.11.
 
 ## Review candidates
 
@@ -180,10 +188,10 @@ historical analysis producer.
 ## Verification and scope
 
 ```bash
-uv run pytest tests -q --cov=blakean_entomology --cov-branch --cov-fail-under=90
-uv run ruff check src tests
-uv run ruff format --check src tests
-uv run basedpyright
+uv run --locked pytest tests -q --cov=blakean_entomology --cov-branch --cov-fail-under=90
+uv run --locked ruff check src tests tools
+uv run --locked ruff format --check src tests tools
+uv run --locked basedpyright
 ```
 
 Tests use real files, a real offline source recovery/import, real CLI invocations,
@@ -195,4 +203,6 @@ The [reading ledger](research/reading-ledger.json) states actual reading ceiling
 and unavailable sources. Images have not received a systematic visual census.
 Lexical completeness within the declared snapshot, contextual review completion,
 edition reconciliation and iconographic coverage remain separate claims.
-[Privacy and custody](PRIVACY.md).
+[Privacy and custody](PRIVACY.md). Completed engineering and remaining contextual,
+image, edition, editorial and scientific work are separated in the
+[project status](docs/PROJECT_STATUS.md).

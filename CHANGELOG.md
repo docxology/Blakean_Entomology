@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29 — current core and private-main alignment
+
+- Pin the installed Blake 0.4.0 interfaces to an exact released Git commit, with historical corpus and manuscript producers retained separately.
+- Add agent instructions, current completion/next-task signposts and the exact reviewed private working-paper PDF.
+- Preserve earlier research, source and qualification receipts; distinguish engineering delivery from outstanding contextual, image, browser and scientific work.
+
 ## 0.2.0 — shared methods and retrieval sensitivity
 
 - Expand the article to 31 pages with eleven figures, seven source-bound Blake witnesses, twenty references, all 82 name-family rows and twelve literal-pair controls.

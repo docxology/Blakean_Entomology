@@ -1,5 +1,9 @@
 # Composition analysis contracts
 
+Current SDK, retained paper-epoch identities, completed qualification and scoped
+next work are indexed in [PROJECT_STATUS.md](../PROJECT_STATUS.md). The contracts
+below apply when creating a new analytical epoch.
+
 This layer adds a private query-channel policy over
 `blake.methods.composition`. The public API owns all composition, concentration,
 rational-mass thresholds and group-omission mathematics. Existing SDK methods own
@@ -29,7 +33,7 @@ uv run --no-sync python -m blakean_entomology.cli composition-audit \
 ```
 
 `tools/audit_composition.py` exposes the same arguments. Ordinary application
-imports do not import Matplotlib. Root chooses a **fresh** epoch after installing
+imports do not import Matplotlib. The maintainer chooses a **fresh** epoch after installing
 a new Git-pinned SDK; an occupied output, including an incomplete epoch, refuses.
 
 The generator verifies the trusted atlas hash, corpus identities, canonical
@@ -85,12 +89,14 @@ root's native manuscript sizing, rendering and independent visual acceptance.
 
 ## Qualification boundaries
 
-The focused generic tests must run in the existing external Python 3.9 and 3.11
-environments. Use `--noconftest` and a focused pytest configuration: the public
-repository's unrelated conftest imports a legacy runtime PEP 604 annotation that
-fails on Python 3.9. Retain that failure receipt. New-module coverage is scoped to
-the generic and private adapter modules separately and does not certify repository
-coverage. The existing public typing holds and full public regression remain
-root-owned. Full current private tests, Ruff format/lint and strict `src` checking
-must remain clean. Real malformed, mismatched, occupied, linked and out-of-root
-inputs must fail before completion publication while preserving existing bytes.
+The recorded source-stage generic checks used external Python 3.9 and 3.11
+and isolated test configuration; the older full-stack/conftest failure remains
+in that historical evidence. For a new upstream pin, qualify the dependency-light
+SDK separately from this Python 3.11 private application and from optional full-stack
+capabilities. Consult the pinned upstream [verification scope](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/verification.md)
+rather than treating an old failure or a focused pass as a current blanket verdict.
+Scope generic and private adapter coverage separately. Current private tests,
+Ruff format/lint and strict application/tool checks must pass. Real malformed,
+mismatched, occupied, linked and out-of-root inputs must fail before completion
+publication while preserving existing bytes. Record new qualification in
+[current verification](../../research/verification.json); preserve old receipts.

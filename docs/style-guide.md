@@ -1,9 +1,12 @@
 # Entomology authoring and evidence guide
 
-Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/d020f47767996a061b6f60e93a82da9386a7926c/docs/style-guide.md)
+Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
 claims. This private addendum owns biological vocabulary and literary readings.
-The shared guide is bound here to the exact public SDK source used by this project.
+The current runtime uses that 0.4.0 source. The retained paper/analysis epoch
+uses `d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
+byte-identical at those two commits. See [project status](PROJECT_STATUS.md) for
+current qualification and open research tasks.
 
 ## Biological language
 
@@ -66,5 +69,6 @@ Use Pandoc bibliography citations for the new captured sources and `--citeproc`
 at root's final render. Keep native layout choices in the print header.
 
 Source-stage tests, aggregate figure inspection, installed-package replay,
-native-page inspection and independent acceptance are separate results. Root
-owns the final version, SDK pin, native PDF and Downloads delivery.
+native-page inspection and independent acceptance are separate results. The
+maintainer binds version, SDK pin, native PDF and private delivery in the current
+verification receipt; historical handoffs retain their own scope.

@@ -1,0 +1,23 @@
+{
+  "schema_version": 20,
+  "version": "0.2.0",
+  "tests": 239,
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 94.82625482625483,
+      "floor": 90,
+      "covered": 1228,
+      "total": 1295
+    },
+    "tools": {
+      "branch_aware_percent": 74.76190476190476,
+      "floor": 60,
+      "covered": 628,
+      "total": 840
+    }
+  },
+  "coverage_scope": "239 installed tests plus actual installed composition CLI and four-figure production workloads; pytest-only tool coverage failed and is retained.",
+  "qualification": "research/expansion-installed-20261028.json",
+  "sha256": "8d0001350355dfafe990174f7ae4206f65e323886d78159d65d10e83c7be440f",
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
+}

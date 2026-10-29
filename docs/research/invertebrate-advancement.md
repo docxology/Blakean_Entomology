@@ -1,8 +1,11 @@
 # Invertebrate reference, corpus atlas and contextual casebook
 
-This is a source-stage implementation and research epoch. Root owns the final
-SDK/version admission and native manuscript render. The historical vocabulary,
-baseline, eleven decisions and their run pin are preserved byte for byte.
+This documents the reference/atlas/casebook research epoch used by the later
+installed and reviewed manuscript. Its original source-stage handoff is retained
+in Git history; [project status](../PROJECT_STATUS.md) and the
+[render guide](../manuscript/README.md) identify completed qualification and the
+remaining research tasks. The historical vocabulary, baseline, eleven decisions
+and their run pin retain their exact identities.
 
 ## What the reference establishes
 
@@ -96,6 +99,7 @@ then publishes PNG, SVG and generated captions. `tools/reference_plotting.py`
 owns the domain presentation; both files are hashed in the figure receipt.
 `tools/prepare_research_manuscript.py` validates source/data/figure bindings,
 citations and image membership, hydrates count tokens, and copies independent
-render inputs. It does not run Pandoc or a native renderer. Use the concrete
-commands in `coordination/entomology-agent/ROOT_COMMANDS.md` from the delivery
-packet, and choose fresh epoch destinations when regenerating.
+render inputs. It does not run Pandoc or a native renderer. Use the current
+[render guide](../manuscript/README.md) and CLI contracts for a new epoch. The
+original `coordination/entomology-agent/ROOT_COMMANDS.md` remains a historical
+delivery-packet recipe; its staging paths are not inferred from a source clone.

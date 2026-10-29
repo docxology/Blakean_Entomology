@@ -1,37 +1,75 @@
-# Reproduce the current Entomology manuscript
+# Reproduce the Entomology manuscript
 
-Current native PDF: `analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf` (31 pages), SHA-256
-`4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3`. The actual Pandoc citeproc and two XeLaTeX passes used the
-installed SDK `d020f47767996a061b6f60e93a82da9386a7926c`. See
-`research/expansion-installed-20261028.json` for installed tests, exact local
-assets, native writer receipts and physical-page QA. Independent acceptance is
-recorded separately; the prior 14-page edition remains historical.
+## Reviewed paper and current runtime
 
-Use the supported repository lease, external CPython 3.11, external caches/TMP,
-`uv sync --locked --no-editable`, and fresh unoccupied output names. The ignored
-corpus and original image captures must be restored from authorized private
-custody; a source clone alone cannot reproduce them. Caller-held expected
-digests must be verified before admission, rather than learned from a suspect
-asset merely to silence a mismatch.
+The [private root PDF](../../Blakean_Entomology.pdf) is the retained 31-page
+working draft with eleven figures, twenty references and the 82-category
+appendix. Its SHA-256 is
+`4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3`.
+The original native output remains
+`analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf`.
 
-The current additional assets are in `local_data/manuscript-expansion-installed-v1`;
-their `additional-assets.json` digest is `672e08b78788a2e47caa0f59ff19771402e785cd01c214cb3d186c375a77a1df`.
-They bind current installed analytical producers, nine byte-identical data
-exports and the original seven captured JPGs. The historical atlas and base
-figure epoch remain unchanged; their numeric content was independently replayed
-from the pinned bundle before fresh composition generation. The actual hydrated
-article is `analysis_output/article-installed-expansion-01`; its preparation receipt digest is
-`e02a096014d50320157893d862963ea5b2a4d8767d8ed517a5008ba56299a02e`.
+That paper's actual Pandoc citeproc and two XeLaTeX passes used the installed
+SDK `d020f47767996a061b6f60e93a82da9386a7926c`. The
+[expansion receipt](../../research/expansion-installed-20261028.json) binds its
+installed tests, assets, preparation, native writer and physical-page QA. A later
+bounded independent working-draft review also inspected the exact PDF and selected
+originals. The earlier 14-page edition and prior procedural rejections remain
+history; no old verdict is rewritten.
 
-`tools/prepare_research_manuscript.py` delegates typed asset/receipt validation
-to `tools/manuscript_assets.py` and content hydration to
-`tools/manuscript_content.py`. The receipt binds both helpers. All touched units
-meet the size check. The exact fresh preparation command and its occupied-output
-and wrong-asset negative controls are retained in the external qualification.
+The current application runtime selects Blake 0.4.0 at
+`45171a099a6a658c52ab689501de646a28485653`. Read
+[current verification](../../research/verification.json) for that later
+qualification. Keeping the reviewed PDF unchanged does not claim a new native
+0.4 render or repeat the original analytical inference. Current task scopes,
+including the nonblocking Figure 11 caption clarification, are in
+[PROJECT_STATUS.md](../PROJECT_STATUS.md).
 
-After preparing a new private article, the actual native writer recipe is:
+## Inputs and preparation
 
-```bash
+Use the supported repository lease, external CPython 3.11, external caches/TMP
+and a fresh unoccupied output name. Verify both interpreter prefixes on GitVault.
+Restore the ignored corpus and original image captures from authorized custody;
+a source clone alone cannot recreate them.
+
+The retained installed epoch uses:
+
+| Input | Bound identity |
+|---|---|
+| Additional asset directory | `local_data/manuscript-expansion-installed-v1` |
+| Additional manifest SHA-256 | `672e08b78788a2e47caa0f59ff19771402e785cd01c214cb3d186c375a77a1df` |
+| Prepared article | `analysis_output/article-installed-expansion-01` |
+| Preparation receipt SHA-256 | `e02a096014d50320157893d862963ea5b2a4d8767d8ed517a5008ba56299a02e` |
+
+The additional assets bind nine data exports and seven original JPGs. The
+historical atlas/base-figure epoch remains distinct from the later composition
+epoch. Reading the same data or reusing an image does not grant new review credit.
+Originals, derivations, rights notes and selected-text receipts are described in
+[visual evidence](../research/visual-evidence.md).
+
+`tools/prepare_research_manuscript.py` delegates typed input/receipt admission to
+`tools/manuscript_assets.py` and content hydration to
+`tools/manuscript_content.py`. Its receipt binds both helpers. For a fresh
+preparation, pass the trusted atlas, base figures, additional assets, casebook and
+reference with their expected hashes. Use the CLI's `--help` for the current
+argument contract. Verify those expected hashes from the trusted epoch record
+before admission; a new digest learned from changed bytes is not a repair.
+
+The preparer checks source/data/figure bindings, complete image membership,
+citations, count-token resolution and producer closure before publishing its
+completion marker. Occupied or mismatched inputs refuse. For changed analytics,
+create fresh analytical and figure epochs first, then build a new closed asset
+directory and compare all semantic exports before hydrating prose. Preserve all
+82 appendix rows and the twelve declared pair controls while their epoch is
+unchanged; a changed result requires an explicit editorial revision.
+
+## Actual native writer route
+
+The example below reads the retained prepared article and writes a fresh
+`native-new` directory. For a new epoch, explicitly substitute its newly
+prepared article directory. Create the new native directory before execution:
+
+~~~bash
 cd analysis_output/article-installed-expansion-01
 pandoc blakean-entomology.md --standalone --citeproc \
   --bibliography references.bib --resource-path . --to latex \
@@ -44,124 +82,28 @@ xelatex -interaction=nonstopmode -halt-on-error -file-line-error \
   -no-shell-escape -output-directory ../native-new ../native-new/Blakean_Entomology.tex
 xelatex -interaction=nonstopmode -halt-on-error -file-line-error \
   -no-shell-escape -output-directory ../native-new ../native-new/Blakean_Entomology.tex
-```
+~~~
 
-Create the new native directory before those commands, bind `SOURCE_DATE_EPOCH`,
-UTC, `TEXMFVAR` and `TEXMFCONFIG` externally, and retain each raw exit/log. The
-executed recipe uses `SOURCE_DATE_EPOCH=1793145600`; byte identity is checked,
-never assumed. The bibliography-local widow correction received a second actual
-native epoch. Inspect every physical page and the eleven figures at readable
-scale. Full SVG/PDF/CSV analytical supplements remain private alongside the
-print figures. No source/PDF/image bytes are published through Git.
+Bind `SOURCE_DATE_EPOCH`, UTC, `TEXMFVAR` and `TEXMFCONFIG` externally; the retained
+recipe used `SOURCE_DATE_EPOCH=1793145600`. Keep each raw exit and log. Two passes
+are required for the reference-bearing native document. The final retained log
+has five Underfull warnings and an unused table-captionsetup warning; it is not
+described as warning-free.
 
-## Preserved editorial source-stage instructions
+Inspect every physical page of a new paper, especially whole-plate images, the
+matched *Thel* sheet, captions, appendix rows and long bibliography locators.
+Source-stage, installed-package, native, selected-image, physical-page,
+independent-review and scientific qualifications are separate.
 
-The following describes the earlier preparation handoff. Its staging names and
-pending-owner statements are historical; current installed/native identities
-above supersede those status claims.
+## Historical handoffs and distribution
 
-# Prepare the expanded Entomology manuscript
+The [pre-alignment guide at the reviewed source](https://github.com/docxology/Blakean_Entomology/blob/b1be36ab3bc3f9ceada1b520c1e85b0ac72b016f/docs/manuscript/README.md)
+retains the source-stage command examples and pending-owner language as history.
+Its old pending statements are superseded by the qualified epoch above; they are
+not active implementation tasks. Earlier preimages remain under
+`research/history/`.
 
-The expanded source integrates selected textual readings, seven historical image
-witnesses and finite composition/proximity analyses. The previous 14-page edition
-at `analysis_output/advancement-native-20261028-04/Blakean_Entomology.pdf` and its
-`research/advancement-installed-20261028.json` receipt remain historical. They do
-not qualify this new source. Root owns the final SDK pin in `pyproject.toml` and
-`uv.lock`, installed replay, native output, page inspection and acceptance.
-
-## Inputs and custody
-
-Use a repository lease, the existing external interpreter, and external TMP/cache
-roots. `local_data/` and `analysis_output/` remain ignored private custody. The
-additive metadata lives in `research/*-expansion-v1.json`; exact images, captured
-source bodies, selected readings and producer code live beneath
-`local_data/manuscript-expansion-v1/`. No source binary belongs in Git.
-
-The image delivery is bound to SHA-256
-`5073511850b76515930f0283f03e956a35af6968176e95914526b226558d4d15`.
-The analytical candidate delivery is bound to
-`9ef02317c0bc6ee9fb314331d364707dda25e8db7300d48d6f350f1bc973ac3a`.
-The current local additional-asset manifest explicitly labels that historical
-producer. It is preparation staging, with no installed-new-code claim. The
-four original copy-Y JPGs and three Thel JPGs are retained byte-for-byte; whole
-scan derivatives and the matched F/O sheet retain their derivation receipts.
-See [visual evidence](../research/visual-evidence.md).
-
-## Preparation contract
-
-The legacy three-figure API remains available for a minimal authored manuscript.
-The expanded main manuscript additionally requires both `--additional-assets`
-and `--additional-assets-sha256`. `additional-assets.json` is a strict typed
-manifest. Its flat asset receipts, exact Markdown image membership, source-file
-receipts, producer receipts, source ledgers, atlas pin and two table replacements
-are verified before output reservation. Unknown fields, changed bytes, unsafe
-paths, symlinks, duplicate/colliding names, missing sources and occupied outputs
-refuse explicitly. Source bytes are checked again before the completion marker.
-A failed publication after reservation retains its partial output without a
-completion marker.
-
-The additional directory is closed: every regular file is declared, with only
-`additional-assets.json` excluded from its own payload list. Image paths identify
-exact displayed images; other declared files are supplements. Sources are copied
-into private staging without flattening copy or object identities. The preparation
-receipt binds the authored Markdown, bibliography, all asset manifests, copied
-bytes, source-ledger hashes and historical producer receipts.
-
-From the project root under the supported lease, with the existing external
-runtime and source `PYTHONPATH` selected by root, choose a fresh output name:
-
-```zsh
-atlas=analysis_output/advancement-atlas-20261028-01/atlas.json
-figures=analysis_output/advancement-figures-20261028-01
-additional=local_data/manuscript-expansion-v1
-atlas_sha=$(uv run --locked python -c 'import hashlib,sys; print(hashlib.sha256(open(sys.argv[1],"rb").read()).hexdigest())' "$atlas")
-figures_sha=$(uv run --locked python -c 'import hashlib,sys; print(hashlib.sha256(open(sys.argv[1],"rb").read()).hexdigest())' "$figures/figures.json")
-additional_sha=$(uv run --locked python -c 'import hashlib,sys; print(hashlib.sha256(open(sys.argv[1],"rb").read()).hexdigest())' "$additional/additional-assets.json")
-casebook_sha=$(uv run --locked python -c 'import hashlib; print(hashlib.sha256(open("research/reading-ledger-advancement-v1.json","rb").read()).hexdigest())')
-reference_sha=$(uv run --locked python -c 'import hashlib; print(hashlib.sha256(open("research/reference-taxonomy-v1.json","rb").read()).hexdigest())')
-uv run --locked python tools/prepare_research_manuscript.py \
-  --manuscript docs/manuscript/blakean-entomology.md \
-  --bibliography docs/manuscript/references.bib \
-  --atlas "$atlas" --atlas-sha256 "$atlas_sha" \
-  --figures "$figures" --figures-sha256 "$figures_sha" \
-  --additional-assets "$additional" --additional-assets-sha256 "$additional_sha" \
-  --casebook research/reading-ledger-advancement-v1.json --casebook-sha256 "$casebook_sha" \
-  --reference research/reference-taxonomy-v1.json --reference-sha256 "$reference_sha" \
-  --sources local_data/reference-sources --output analysis_output/expanded-preparation-new
-```
-
-The exact available base-figure directory and executed command are recorded in
-the editorial handoff. The example must be rebound to root's fresh producer
-before final output. A caller-held expected digest is an admission input; do not
-replace a known expected digest merely to silence a mismatch.
-
-## Refreshing the analytical epoch
-
-After root reproduces integrated analyses in `analysis_output/composition-expansion-01`
-and `analysis_output/composition-figures-expansion-01`, build a new additional
-asset directory. Verify the new run/figure manifests first. Preserve the image
-packet and its seven original JPG hashes. Regenerate Appendix A directly from
-`composition.json` in `category_ids` order: category, candidates, matched units,
-positive work groups and minimum groups for half mass. Preserve all 82 rows and
-undefined zero-mass concentration. Appendix B follows the twelve declared pairs
-and windows in `literal-pairs.csv`, printing units and matched work groups.
-
-The closed editorial scratch recipe `scripts/stage_assets.py` accepts explicit
-DATA, FIGURES and a new unoccupied DESTINATION. It checks the supplied producer
-hashes and semantic denominators, preserves every source/producer receipt and
-creates a new manifest. Its default inputs are the historical candidate; root
-must supply fresh paths and label the new producer explicitly. Numeric prose
-must be compared with the new semantic outputs before render; a changed result
-requires an editorial change rather than silently retaining this epoch's numbers.
-The four complete vector/CSV figures remain supplements. The main text uses only
-composition influence and query-channel audit; the full 82-by-33 matrix must not
-be reduced to tiny A4 labels.
-
-## Historical editorial handoff
-
-Pandoc citeproc should consume the hydrated Markdown, copied bibliography and
-resource directory. `print-header.tex` retains the existing source control for
-layout. Inspect every physical page of the fresh output, especially the four
-separate Songs scans, the matched Thel sheet, captions, Appendix A and long source
-locators. The source requests generous whole-plate sizes; those requests do not
-certify final print legibility. No native PDF was produced by editorial integration.
+Keep this manuscript and its permitted delivery artifacts private. Raw provider
+expression, original image captures, full queues and analytical working data
+retain their ignored custody and item-level rights boundaries. See
+[PRIVACY.md](../../PRIVACY.md) before changing any distribution surface.
