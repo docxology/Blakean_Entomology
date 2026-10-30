@@ -1,6 +1,15 @@
 # Selected visual witnesses and their limits
 
-Seven complete historical scans support this expansion: four Songs copy-Y
+The current edition discusses nine selected original objects: the seven
+historical scans below and two additional *Gates of Paradise* copy-E rectos.
+These are a bounded casebook, not an image census. The dated
+[image provenance](../../research/image-provenance-advancement-20261029.json)
+binds the two new originals, official museum metadata, rights evidence and
+complete-recto comparison. The closed parent packet preserves full calibration
+captures as well as the preferred museum rectos; multiple digital renditions
+remain two objects.
+
+The historical seven-scan expansion comprised: four Songs copy-Y
 impressions from the Met and three Thel F/O impressions from the Library of
 Congress. The research producer and root inspected all seven original JPGs.
 The editorial pass checked the closed bytes and supporting selections; it makes
@@ -45,6 +54,29 @@ Root's fresh Met Fly observation agrees with copy Y, plate 40, 17.10.40, ca. 182
 and public-domain status. Root's fresh LOC and BQ fetches failed; their separately
 successful captured primary sources remain the evidence for those claims.
 
-Final native page sizing, full-page inspection, independent acceptance and any
-publication or Downloads delivery remain root responsibilities. The original
+The current [render guide](../manuscript/README.md) and
+[verification receipt](../../research/verification.json) bind native page sizing,
+full-page inspection and independent acceptance separately from these selected
+source observations. Private-main publication and Downloads delivery remain
+maintainer responsibilities. The original
 five analytical baseline artifacts and eleven decisions are unchanged.
+
+## Two edition-specific Gates objects
+
+The YCBA catalogues *What is Man!* as frontispiece/plate 1, accession
+B1978.43.1484, and *Alas!* as museum plate 9, B1978.43.1492, both in
+*For Children: The Gates of Paradise* copy E, catalogued 1793. The latter
+leaf retains printed 7 and handwritten 8; neither number is silently replaced
+by the museum sequence. The complete rectos and their inscriptions were viewed.
+Official object records mark both Public Domain and link CC0; credit remains
+Yale Center for British Art, Paul Mellon Collection. The raw museum captures
+and metadata stay in ignored private custody.
+
+The selected later *For the Sexes* passages at ASU E260, E263 and E268
+remain a separate documentary frame. Their expanded wording is absent from the
+early rectos. The segmented shape over a leaf and the airborne humanoid forms
+support bounded material readings, not species identifications. Höltgen's
+selected Gates discussion supplies a live rival interpretation; it receives
+neither whole-article credit nor a proved influence claim. The article's new
+comparison preserves whole engraved designs and captions through proportional
+resizing with a white gutter; no recolouring or generated imagery is used.

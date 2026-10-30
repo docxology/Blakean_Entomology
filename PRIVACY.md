@@ -26,9 +26,9 @@ silently overwritten. Git alone is not a backup of ignored research data.
 
 The explicitly selected working-paper PDF, [Blakean_Entomology.pdf](Blakean_Entomology.pdf),
 is tracked here as a PRIVATE research deliverable. Its exact reviewed SHA-256 is
-`4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3`; the native analytical and reading epoch remains
-the one documented in the manuscript guide and retained receipts. The current
-application runtime and its qualification are recorded separately.
+`64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05`; the current native, analytical and selected-reading identities are recorded in
+the manuscript guide and current advancement receipt. Earlier editions, corpus
+pins, reading ceilings and failures remain retained separately.
 
 This narrow exception covers the reviewed paper with its attributed selected
 image witnesses and project-authored aggregate figures; it does not authorize
@@ -37,3 +37,7 @@ research outputs. Source captures and their provider terms remain in local
 custody. Repository privacy is mandatory for this delivery and does not confer
 redistribution rights. Any public release needs a separate item-level rights
 and scholarly review; this private-main integration is not that clearance.
+
+The previous selected PDF remains byte-for-byte in the retained initial-source
+packet and prior private Git history. The current narrow PDF exception does not
+add raw source captures or expand any complete-reading or redistribution claim.

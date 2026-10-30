@@ -508,8 +508,8 @@ def render(packet: Path, expected_run_sha: str, output: Path, output_root: Path)
         + f"{run.source_census.literal_tokens} original-text word tokens",
     )
 
-    fig = new_figure((13, 6))
-    ax = axes(fig, (0.27, 0.23, 0.70, 0.62))
+    fig = new_figure((8.3, 6))
+    ax = axes(fig, (0.27, 0.36, 0.70, 0.49))
     cohorts = tuple(dict.fromkeys((r.role, r.plane, r.author_id) for r in data.channels))
     channels = ("name_family", "broad_label", "associated", "motion")
     look = {(r.role, r.plane, r.author_id, r.channel): r for r in data.channels}
@@ -522,7 +522,7 @@ def render(packet: Path, expected_run_sha: str, output: Path, output_root: Path)
         ax,
         [[float(look[*c, ch].category_candidates) for ch in channels] for c in cohorts],
         labels,
-        channels,
+        ("Name family", "Broad label", "Associated context", "Motion"),
         [
             [
                 look[*c, ch].category_candidates
@@ -538,9 +538,9 @@ def render(packet: Path, expected_run_sha: str, output: Path, output_root: Path)
     _ = fig.text(
         0.05,
         0.03,
-        "Cell = category-span candidates; shade = within-cohort mass share. Cohort n/T retained.\n"
-        + "XML/editorial candidates do not establish Blake animal attestations; "
-        + "cohorts are not completeness stages.",
+        "Cell = category-span candidates; shade = within-cohort mass share.\n"
+        + "Cohort n/T retained. XML/editorial candidates do not establish\n"
+        + "Blake animal attestations; cohorts are not completeness stages.",
     )
     save(
         fig,

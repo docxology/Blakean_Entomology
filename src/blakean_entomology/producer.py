@@ -17,6 +17,7 @@ APPLICATION_SOURCES: Final = (
     "atlas_models.py",
     "atlas.py",
     "casebook.py",
+    "review_contexts.py",
 )
 SHARED_SOURCES: Final = (
     "__init__.py",

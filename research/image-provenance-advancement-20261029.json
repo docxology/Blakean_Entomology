@@ -1,0 +1,106 @@
+{
+  "epoch": "edition-gates-20261029-v1",
+  "parent_delivery_sha256": "7fcfc46bf1afacc54650662e189e3ac15765d4093cf4863f41ce569c2db2849d",
+  "objects": [
+    {
+      "accession": "B1978.43.1484",
+      "catalogue_date": "1793",
+      "copy": "E",
+      "creator": "William Blake",
+      "credit": "Yale Center for British Art, Paul Mellon Collection",
+      "id": "tms:2412",
+      "images": {
+        "museum_full_capture": {
+          "bytes": 6936320,
+          "dimensions": [
+            6128,
+            8954
+          ],
+          "format": "JPEG",
+          "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/ycba-gates-original.jpg",
+          "sha256": "33d01214bfad60afae754bf3e726f5d8d013875f84fa6a8e680bfdf62cf8bb72",
+          "viewed_by_root": true
+        },
+        "museum_recto": {
+          "bytes": 3490495,
+          "dimensions": [
+            4504,
+            4962
+          ],
+          "format": "JPEG",
+          "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/ycba-gates-recto.jpg",
+          "sha256": "03608a0ed576203d60132c8219982fe484821bc2c390e58d9ea60b91f7503e07",
+          "viewed_by_root": true
+        }
+      },
+      "metadata": {
+        "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/yale-gates-object.html",
+        "sha256": "e09f8e5f5f3f99abd16090e09e5328ad141a77562e6536469caad90caa10ac18"
+      },
+      "rights": "Object page labels Public Domain and links CC0; this does not generalize to unrelated museum assets.",
+      "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://collections.britishart.yale.edu/catalog/tms:2412",
+      "title": "What is Man!, Frontispiece (Plate 1)",
+      "work": "For Children: The Gates of Paradise"
+    },
+    {
+      "accession": "B1978.43.1492",
+      "catalogue_date": "1793",
+      "copy": "E",
+      "creator": "William Blake",
+      "credit": "Yale Center for British Art, Paul Mellon Collection",
+      "id": "tms:2421",
+      "images": {
+        "museum_full_capture": {
+          "bytes": 6558388,
+          "dimensions": [
+            5976,
+            8801
+          ],
+          "format": "JPEG",
+          "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/ycba-alas-original.jpg",
+          "sha256": "a5546b89a1ba9b30984c5d70b8eb929acf191510122da3767ac45a67f0bb9fec",
+          "viewed_by_root": true
+        },
+        "museum_recto": {
+          "bytes": 2884787,
+          "dimensions": [
+            3936,
+            4789
+          ],
+          "format": "JPEG",
+          "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/ycba-alas-recto.jpg",
+          "sha256": "6abad4476e00eee4370fba6a91e8a4901bb916473e971f7218aede41cfbf8025",
+          "viewed_by_root": true
+        }
+      },
+      "metadata": {
+        "path": "/Volumes/GitVault/Local/blake-paper-advancement-20261029/research-additions/sources/yale-alas-object.html",
+        "sha256": "8ccfd2b9c2e25789fb320fa6386977b3a44653ba23faeae05763206a1ed6f72b"
+      },
+      "rights": "Object page labels Public Domain and links CC0; this does not generalize to unrelated museum assets.",
+      "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://collections.britishart.yale.edu/catalog/tms:2421",
+      "title": "Alas! (Plate 9)",
+      "work": "For Children: The Gates of Paradise"
+    }
+  ],
+  "selected_original_objects_added": 2,
+  "current_selected_original_objects": 9,
+  "reading_credit": "Two actual recto views and selected ASU E260/E263/E268 and Hoeltgen Gates discussion only; no whole-book/article reading or influence claim.",
+  "derivative": {
+    "path": "gates-copy-e-comparison.jpg",
+    "sha256": "8699f9b96ede3b9fc1f88258418c7c7c8df9ae9e4e2e7619b2a12cf71b7af182",
+    "dimensions": [
+      3885,
+      2200
+    ],
+    "method": "Proportional LANCZOS resize to common2200pixel height, white80pixel gutter, JPEG92/no chroma subsampling; complete museum rectos, no recolouring, reconstruction or design cropping."
+  },
+  "edition_limits": [
+    "For Children copy E1793 leaves do not print the later For the Sexes wording discussed via ASU.",
+    "Alas museum plate9 has printed7 and handwritten8; numbering systems remain separate.",
+    "Airborne humanoid forms are not identified as literal flies or modern taxa."
+  ],
+  "source_admissibility": "Root's separate independent source review admitted the closed parent packet; final manuscript/native/scientific acceptance is separate."
+}

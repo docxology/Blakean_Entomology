@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "epoch": "context-review-20261029-v1",
+  "reviewer": "Codex bounded original-source-window inspection, 2026-10-29; agent review, not specialist consensus",
+  "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "seed_file": "seed-review.jsonl",
+  "seed_sha256": "c5699db4832bf0b0cedc99706e777ea59b7410de5e1e1139a0a442ec808254eb",
+  "batch_file": "context-review-decisions-20261029.jsonl",
+  "batch_sha256": "979d070a50a5252ffb0d0eb5601c5c7d28fb21eb418cb8d05abf6f0b9e1fe7e8",
+  "combined_file": "context-review-combined-20261029.jsonl",
+  "combined_sha256": "581a53bef6642ee1420cdc312b4f10696293952bb696ae3f588e6833f4478755",
+  "new_decisions": 36,
+  "historical_seed_decisions": 11,
+  "selection": "Purposive ambiguity/counterreading batch;32 primary reading and4 unverified XML catalog candidates. Selected before coding, with no overlap with seed11.",
+  "reading_credit": "Actual bounded source windows only, at most800 preceding and1000 following original characters; not whole-work, image or specialist-review credit.",
+  "coding_rule": "Explicit human comparison/personification uses animal_figurative; concrete animal sense can be animal_literal within a poem; products/structures use associated; motion verbs non_animal. Modern catalog text takes editorial precedence. Unresolved literal/figurative mode stays uncertain. These single labels do not exhaust literary functions.",
+  "limits": "No prevalence, accuracy, species, distinct-scene or independent-sample estimate. Animal decisions never change original source roles. New batch includes uncertain dispositions and agent judgments that remain contestable.",
+  "selection_script_sha256": "b84ae6404e1668c8f7ca53c147fefbb76d4ed17b41f3239935c483e0f5fef1ca",
+  "private_witnesses_sha256": "65d56ee2c099b13c410aab21926547c3477cbc274978193d8b2674e34416e9be",
+  "selections": [
+    {
+      "selection_id": "E29-01",
+      "hit_id": "48faffbacb5e3437b58a88b1fe9652fbd690def2615ca778bc28051e4025e64c",
+      "term_id": "ant",
+      "passage_id": "archive:jerusalem.a",
+      "work_id": "jerusalem",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/jerusalem.a.xml",
+      "source_sha256": "7e0870a18ebb55652ccd3bc95b4e08b64dce92917ff24da4b56296c505b48179",
+      "text_sha256": "65e37d5b32a404df5b71ae51546c19e212553a44de89a65f35ad2b69fe14d453",
+      "span": [
+        221733,
+        221738
+      ],
+      "window": [
+        220933,
+        222738
+      ],
+      "window_sha256": "dd1c82e2aa466e0d01f26ed9ea9abbdd619eb5d7ca0e3dfbc915e05359d7a106"
+    },
+    {
+      "selection_id": "E29-02",
+      "hit_id": "9e2bc5554a31f27c0255c4b8be139bad23a5ac16693ab517e89efe36ef30615d",
+      "term_id": "ant",
+      "passage_id": "archive:milton.a",
+      "work_id": "milton",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/milton.a.xml",
+      "source_sha256": "521df252512d60f9f12b929babd00a83074d340e7b2acc4e66bec9412be00728",
+      "text_sha256": "206d981d94e240e80f92ec170867e8b7816ba2ee7be204cbea39a4b982d0b1b9",
+      "span": [
+        53353,
+        53358
+      ],
+      "window": [
+        52553,
+        54358
+      ],
+      "window_sha256": "a070beec28d16e6ee3a04ff4bb8e899c80566a0bb04954996e780ff5d2854931"
+    },
+    {
+      "selection_id": "E29-03",
+      "hit_id": "afc51e55fcc1924be576f20ca664846c16aa6f62d2b549fae01ec199d2dfe324",
+      "term_id": "ant",
+      "passage_id": "archive:songsie.a",
+      "work_id": "songsie",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.a.xml",
+      "source_sha256": "a96c9270a820015c4eae511a8e882aa58c310b35480a32cc167fc373da7c333f",
+      "text_sha256": "8e308bf5dd1e3c7cbbc693c8d7643e0d871cb18f135f8b736fb74ae710da6ab0",
+      "span": [
+        13259,
+        13264
+      ],
+      "window": [
+        12459,
+        14264
+      ],
+      "window_sha256": "79bb543a6fb1f3c03b0099f27bdf0c89d2a40663b00e2f8dd6ee381ddc1fb45e"
+    },
+    {
+      "selection_id": "E29-04",
+      "hit_id": "4286da1bf5f87fc8104530cf9ba01b8128855edc6336b6e5b884ea89441151fd",
+      "term_id": "bee",
+      "passage_id": "archive:jerusalem.a",
+      "work_id": "jerusalem",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/jerusalem.a.xml",
+      "source_sha256": "7e0870a18ebb55652ccd3bc95b4e08b64dce92917ff24da4b56296c505b48179",
+      "text_sha256": "65e37d5b32a404df5b71ae51546c19e212553a44de89a65f35ad2b69fe14d453",
+      "span": [
+        69949,
+        69953
+      ],
+      "window": [
+        69149,
+        70953
+      ],
+      "window_sha256": "2cca6323e371eb23113e21db6d82c675447d81ee940f659f8e9225d94873c549"
+    },
+    {
+      "selection_id": "E29-05",
+      "hit_id": "30e2339df66a6cb95d169105bddf444f592fad450d35f525fb1cfa6124fdfe00",
+      "term_id": "bee",
+      "passage_id": "archive:mhh.a",
+      "work_id": "mhh",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/mhh.a.xml",
+      "source_sha256": "aa0e2b9153f7b1dafacd46be4a0ade09628a499e8dda26ba1ffeec8ee244a6d4",
+      "text_sha256": "242a36b95390e631d0a34acb284f0f74aee46efa7bd27601a7a555c5053b5dd2",
+      "span": [
+        295,
+        299
+      ],
+      "window": [
+        0,
+        1299
+      ],
+      "window_sha256": "c52d0d013029a131e55f3a67e08ed4182d941c63d975a1eb9153cbe77b6f0090"
+    },
+    {
+      "selection_id": "E29-06",
+      "hit_id": "a084aeadaf397723a0e601fb31de6cd97784f7b100d34ccf3a6a14d6c4fb8baa",
+      "term_id": "bee",
+      "passage_id": "archive:mhh.a",
+      "work_id": "mhh",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/mhh.a.xml",
+      "source_sha256": "aa0e2b9153f7b1dafacd46be4a0ade09628a499e8dda26ba1ffeec8ee244a6d4",
+      "text_sha256": "242a36b95390e631d0a34acb284f0f74aee46efa7bd27601a7a555c5053b5dd2",
+      "span": [
+        4732,
+        4735
+      ],
+      "window": [
+        3932,
+        5735
+      ],
+      "window_sha256": "c812a6af30926e7a1a9cfe272267e06a85871c021b2a908bab8ed88257920aa6"
+    },
+    {
+      "selection_id": "E29-07",
+      "hit_id": "0b18507b4011d3708f16f1048deed6891f7c4a7e130423e1c374f354e8edcb0a",
+      "term_id": "bee",
+      "passage_id": "archive:vda.a",
+      "work_id": "vda",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/vda.a.xml",
+      "source_sha256": "36b6fe431ae8341f0bfc16b12e0ea57a88c6ae61326f82438fe24bb241dedbac",
+      "text_sha256": "5b694074373dc3ea61ab0eb595e42eda16df8159ff1a75b7595a33f34b9e8bef",
+      "span": [
+        4135,
+        4138
+      ],
+      "window": [
+        3335,
+        5138
+      ],
+      "window_sha256": "b7b8e2fd0ff62e10795d8451850d1d0554ca0d8447e7f7a97c0bb31a8e400fa7"
+    },
+    {
+      "selection_id": "E29-08",
+      "hit_id": "7f36b6db4a39f9b784e8caa8e8e1a9370adf8d918ce8daa50e584c1533268ade",
+      "term_id": "fly",
+      "passage_id": "archive:bb126.1",
+      "work_id": "bb126",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb126.1.xml",
+      "source_sha256": "fefa00d57a4c65abe741ad1fcfcc8433edc951c50900bcd042f3a2e24e65eb08",
+      "text_sha256": "ac984ae09d8bfd8cc8c68e8685cb5de59347ed068df9d4f1fba7cb9820cc93a9",
+      "span": [
+        19294,
+        19297
+      ],
+      "window": [
+        18494,
+        20297
+      ],
+      "window_sha256": "0684adab68ae3f2f93f1c2668720eeb07cc093f4cb3a7f1818a3f39373f0cae2"
+    },
+    {
+      "selection_id": "E29-09",
+      "hit_id": "1a40a768986b82d4b1ccbe5084885ba2037714ab39010df24888ea043e54d25f",
+      "term_id": "fly",
+      "passage_id": "archive:bb196.1",
+      "work_id": "bb196",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb196.1.xml",
+      "source_sha256": "5bf186637d13eeec429bbdb89c1c8876dcd7ae0bf65ea28fcac63918c6a9d469",
+      "text_sha256": "5b46ca1142ab496cdddec41d0c268102013b22921f9117595aaaaad9e7638786",
+      "span": [
+        6778,
+        6783
+      ],
+      "window": [
+        5978,
+        7783
+      ],
+      "window_sha256": "f2047362f50d6b21295652d0bc8e2378aebba7aa81174c539196c74abf9f015c"
+    },
+    {
+      "selection_id": "E29-10",
+      "hit_id": "abad5e5553204d72534acd9b82325bbe0672dc347a6ae7b9627d9a44eb093410",
+      "term_id": "fly",
+      "passage_id": "archive:bb69.1",
+      "work_id": "bb69",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb69.1.xml",
+      "source_sha256": "25f282886691dc8cf0aa2885d9ce57648a0a15219eab2c3198bf9149ef11c45f",
+      "text_sha256": "ecb99fc682c2978f26aa2bb28b0e7e9241c4fab6f3081cac2f1f51b971878205",
+      "span": [
+        5351,
+        5356
+      ],
+      "window": [
+        4551,
+        6356
+      ],
+      "window_sha256": "5b00f53d47bb3d107504c2663a38559d8c604aebeb03afc233c5f7eaa3a23204"
+    },
+    {
+      "selection_id": "E29-11",
+      "hit_id": "146446d52a96cb475704901a601e56345be63d6bc7ed2cf7dcf13888aec2e9be",
+      "term_id": "fly",
+      "passage_id": "archive:bb74.1",
+      "work_id": "bb74",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb74.1.xml",
+      "source_sha256": "13ec1ec0a41e330968abc193df966822b56e2e96829efe7ac2b8c768ec1ce3de",
+      "text_sha256": "b568f77479a4ccbf15139f53ff42556baafbd8b487020d15e41c1b33ab4f0553",
+      "span": [
+        39017,
+        39020
+      ],
+      "window": [
+        38217,
+        40020
+      ],
+      "window_sha256": "52836a3ee2f32dc84b56e1a656be26e0797d3aba66b5f8c79bf4d4fb869934e2"
+    },
+    {
+      "selection_id": "E29-12",
+      "hit_id": "694c1d783ac683e074da0aaab64cfee22f4085050d92624654c0c565d3ed1639",
+      "term_id": "fly",
+      "passage_id": "archive:but828.1",
+      "work_id": "but828",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/but828.1.xml",
+      "source_sha256": "ef98f4fa8c09feca8dee00110b7a844a7af1a1bf8ddbc7edd9b5aefc96fd6967",
+      "text_sha256": "dffeea447482e376097fc6d456c5e1fcbd33d8ef32a8f44be68447efb611bf54",
+      "span": [
+        3111,
+        3114
+      ],
+      "window": [
+        2311,
+        4114
+      ],
+      "window_sha256": "ed689b21f35cafbd3969447b3cc468ef0dfff2badb4f7b91003e2df900afcaca"
+    },
+    {
+      "selection_id": "E29-13",
+      "hit_id": "15f9cc9aec624957468d7be1a36cf004af80abc362636d138cbcf000d9b0b71c",
+      "term_id": "honey",
+      "passage_id": "archive:bb126.1",
+      "work_id": "bb126",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb126.1.xml",
+      "source_sha256": "fefa00d57a4c65abe741ad1fcfcc8433edc951c50900bcd042f3a2e24e65eb08",
+      "text_sha256": "ac984ae09d8bfd8cc8c68e8685cb5de59347ed068df9d4f1fba7cb9820cc93a9",
+      "span": [
+        6411,
+        6416
+      ],
+      "window": [
+        5611,
+        7416
+      ],
+      "window_sha256": "f39ffd668152bb9e9bee64333eddc074db6792ae61fec672daa2248feaa461b0"
+    },
+    {
+      "selection_id": "E29-14",
+      "hit_id": "e92f59304a9d061366828b203af2b9bf9aa1d68ad674c08b7127f114dda18312",
+      "term_id": "honey",
+      "passage_id": "archive:thel.a-proof",
+      "work_id": "thel",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/thel.a-proof.xml",
+      "source_sha256": "769021c4361cd6182744a506ed8fff1044eee6b004b83958d0813de0ef3c1781",
+      "text_sha256": "c8195da26ef03b7a1e8dca9cabcc6201986c3c29693c406f63dd8f8c489c6740",
+      "span": [
+        2033,
+        2038
+      ],
+      "window": [
+        1233,
+        3038
+      ],
+      "window_sha256": "cc1b83aebd405228f8c5aaacb1ff094819705c7d170151239edd6997b22bcf45"
+    },
+    {
+      "selection_id": "E29-15",
+      "hit_id": "d498a19437e766b3c1839334231012bae39ff93951c05995d4dc1521aa3fd7fb",
+      "term_id": "silk",
+      "passage_id": "archive:vda.a",
+      "work_id": "vda",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/vda.a.xml",
+      "source_sha256": "36b6fe431ae8341f0bfc16b12e0ea57a88c6ae61326f82438fe24bb241dedbac",
+      "text_sha256": "5b694074373dc3ea61ab0eb595e42eda16df8159ff1a75b7595a33f34b9e8bef",
+      "span": [
+        12173,
+        12179
+      ],
+      "window": [
+        11373,
+        13179
+      ],
+      "window_sha256": "fbcc424a1efdb80a163d96e308cd6a8cfde89ceed5d0061b59e47cbc39c0356a"
+    },
+    {
+      "selection_id": "E29-16",
+      "hit_id": "55b42d8f2d8d9f8f982fe01f104c3414d60ea65b26d9d986da72af1a22ea6f75",
+      "term_id": "spider",
+      "passage_id": "archive:bb32.d",
+      "work_id": "bb32",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb32.d.xml",
+      "source_sha256": "db2b13f1f83c25aeba8b8aaeb6adcb98a62b19c4669be0b56908143ac05d4544",
+      "text_sha256": "33700917b5f3926e6a82dfa1e018c2c673111aa2163cf6a4617c7f7d3a2fd6da",
+      "span": [
+        44462,
+        44468
+      ],
+      "window": [
+        43662,
+        45468
+      ],
+      "window_sha256": "05ef2f0889716f8a6239720dacddb1d3da0dee328d6dbfc83c2ce16c158ad163"
+    },
+    {
+      "selection_id": "E29-17",
+      "hit_id": "ae9e082dbf38c1768dbb79ff9f6a9e16cbab6a53daab0b7055cffc552cda3eef",
+      "term_id": "spider",
+      "passage_id": "archive:bb49.a",
+      "work_id": "bb49",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb49.a.xml",
+      "source_sha256": "3284bd7714e63e3f4b3ec496d80abf5e95c6c25515b238e0d1cde611e514a867",
+      "text_sha256": "6c4d88ade262ee14d7166a2fb9a1b16f5854ad116b51bf8e971cee70c2cf55b0",
+      "span": [
+        4588,
+        4595
+      ],
+      "window": [
+        3788,
+        5595
+      ],
+      "window_sha256": "ba576353394e168b754cc3630a1f45f2b1b978931b3320f81f1697ccabd1ee5e"
+    },
+    {
+      "selection_id": "E29-18",
+      "hit_id": "a4c2df312207fab83ccf84817646e1b162724dddc036874b6ca8fd0a418c34af",
+      "term_id": "spider",
+      "passage_id": "archive:jerusalem.a",
+      "work_id": "jerusalem",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/jerusalem.a.xml",
+      "source_sha256": "7e0870a18ebb55652ccd3bc95b4e08b64dce92917ff24da4b56296c505b48179",
+      "text_sha256": "65e37d5b32a404df5b71ae51546c19e212553a44de89a65f35ad2b69fe14d453",
+      "span": [
+        232578,
+        232584
+      ],
+      "window": [
+        231778,
+        233584
+      ],
+      "window_sha256": "660e66240d8a8c0d8c8ef5a972bbcfc6a6d78a66cb59440956debeb528096c33"
+    },
+    {
+      "selection_id": "E29-19",
+      "hit_id": "87ba0be6960fe377debc841f88c2c2df5c696cf29fc1d0abf7ad5a17245726a3",
+      "term_id": "spider",
+      "passage_id": "archive:mhh.a",
+      "work_id": "mhh",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/mhh.a.xml",
+      "source_sha256": "aa0e2b9153f7b1dafacd46be4a0ade09628a499e8dda26ba1ffeec8ee244a6d4",
+      "text_sha256": "242a36b95390e631d0a34acb284f0f74aee46efa7bd27601a7a555c5053b5dd2",
+      "span": [
+        5890,
+        5896
+      ],
+      "window": [
+        5090,
+        6896
+      ],
+      "window_sha256": "2523f5508b9bdb49fe7d74138c91f7055f8bd613dba089eb57162261e120f292"
+    },
+    {
+      "selection_id": "E29-20",
+      "hit_id": "facee1efb545c4a2769c3afba8ea4b357fd879a0e64ddad62d218e8c6c6a4adc",
+      "term_id": "spider",
+      "passage_id": "archive:mhh.a",
+      "work_id": "mhh",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/mhh.a.xml",
+      "source_sha256": "aa0e2b9153f7b1dafacd46be4a0ade09628a499e8dda26ba1ffeec8ee244a6d4",
+      "text_sha256": "242a36b95390e631d0a34acb284f0f74aee46efa7bd27601a7a555c5053b5dd2",
+      "span": [
+        15863,
+        15870
+      ],
+      "window": [
+        15063,
+        16870
+      ],
+      "window_sha256": "38c042303cafd09a43114e9538721994e09cbd87e9f5efbb44b63789e11b985e"
+    },
+    {
+      "selection_id": "E29-21",
+      "hit_id": "acd332c8ad6cec646b31d21ec405d5b428f45ec7631354fee151997ad5cd8356",
+      "term_id": "spider",
+      "passage_id": "archive:urizen.a",
+      "work_id": "urizen",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.a.xml",
+      "source_sha256": "3746a51fdfcb4bb4680a965200def7446b24d5d19caa366feeef77c80080e9d3",
+      "text_sha256": "88142fa30b92bcbe10dffc56a849faf97e9e471b43e626561599838490a5bb78",
+      "span": [
+        16097,
+        16104
+      ],
+      "window": [
+        15297,
+        17104
+      ],
+      "window_sha256": "b1d4bcf201378084836eb8badaef8448802cb38aaa00e2ca0a13d6c44d564295"
+    },
+    {
+      "selection_id": "E29-22",
+      "hit_id": "04150af1a4edf43cf00cb9c8fbd9b7aee39434a0aa262aff183f81e3a7368d7d",
+      "term_id": "spider",
+      "passage_id": "archive:vda.a",
+      "work_id": "vda",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/vda.a.xml",
+      "source_sha256": "36b6fe431ae8341f0bfc16b12e0ea57a88c6ae61326f82438fe24bb241dedbac",
+      "text_sha256": "5b694074373dc3ea61ab0eb595e42eda16df8159ff1a75b7595a33f34b9e8bef",
+      "span": [
+        9158,
+        9164
+      ],
+      "window": [
+        8358,
+        10164
+      ],
+      "window_sha256": "37a1daffbcf2cc3c179d4049bc241c7d9b7ec4c0745fe17529cd53c92d76bebe"
+    },
+    {
+      "selection_id": "E29-23",
+      "hit_id": "6cc4c8fadaf22a31e6f9d1d29c5fb5556dc65c94cec1220113a11db9c5b53267",
+      "term_id": "web",
+      "passage_id": "archive:gates-sexes.b",
+      "work_id": "gates-sexes",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/gates-sexes.b.xml",
+      "source_sha256": "9793706ae077cb73bcf9996269578fa20729efc9dcd862a0a248a5b31c49d7b7",
+      "text_sha256": "393ccd5ac7b35691345d585343e9b2c128828aa66e3bf040c5c958753c62de08",
+      "span": [
+        3516,
+        3519
+      ],
+      "window": [
+        2716,
+        4519
+      ],
+      "window_sha256": "d7cd9bd1a4ffdd344a0d883e38a5de37ec5657de2b47a55c5363314d1afeae20"
+    },
+    {
+      "selection_id": "E29-24",
+      "hit_id": "115298f48bc015046fde69363dcbec00d4b659c771dfcfb91ad8b2731771880b",
+      "term_id": "worm",
+      "passage_id": "archive:bb203.1",
+      "work_id": "bb203",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb203.1.xml",
+      "source_sha256": "8ad75b86b3d19311b6f3ad2fc48cb195543e4dd464da43914aff781a2b2cf2df",
+      "text_sha256": "7d13a099760e81d7a4d04813b2fde6d2f96bd2a969a1adf8d6277cb1699fdc1d",
+      "span": [
+        17327,
+        17332
+      ],
+      "window": [
+        16527,
+        18332
+      ],
+      "window_sha256": "5ac421c705fb7a7669be520e9d929b6d57c96e1ef24ba4edd91eded760a8a464"
+    },
+    {
+      "selection_id": "E29-25",
+      "hit_id": "603bd9928b463ef1fff673c1428fcbce0ae721255e11fa72775779bad40e25ad",
+      "term_id": "worm",
+      "passage_id": "archive:bb203.1",
+      "work_id": "bb203",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb203.1.xml",
+      "source_sha256": "8ad75b86b3d19311b6f3ad2fc48cb195543e4dd464da43914aff781a2b2cf2df",
+      "text_sha256": "7d13a099760e81d7a4d04813b2fde6d2f96bd2a969a1adf8d6277cb1699fdc1d",
+      "span": [
+        21294,
+        21298
+      ],
+      "window": [
+        20494,
+        22298
+      ],
+      "window_sha256": "0d57dd80aaada2b5b77d1a1e9814893bda8afd77567b4cca5fa11cefeeb99c02"
+    },
+    {
+      "selection_id": "E29-26",
+      "hit_id": "a6259d4d436ebeecb2a98295bfbc6353e836eb35d54825d5a6fea092769d857c",
+      "term_id": "worm",
+      "passage_id": "archive:bb37.1",
+      "work_id": "bb37",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb37.1.xml",
+      "source_sha256": "68921a6a6bc2a943b153995ea7493e094369c82447b3e980e8a7610310a233f2",
+      "text_sha256": "729aa1e095d73ac63774cdfcf418c4ad73bcd3c7990347d94293e78dcbd5cbe6",
+      "span": [
+        209,
+        213
+      ],
+      "window": [
+        0,
+        586
+      ],
+      "window_sha256": "729aa1e095d73ac63774cdfcf418c4ad73bcd3c7990347d94293e78dcbd5cbe6"
+    },
+    {
+      "selection_id": "E29-27",
+      "hit_id": "cc3017655ab97f48f902409a5690988b9b916a8cdf151d3528d0aa40b9a1944d",
+      "term_id": "worm",
+      "passage_id": "archive:bb49.a",
+      "work_id": "bb49",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb49.a.xml",
+      "source_sha256": "3284bd7714e63e3f4b3ec496d80abf5e95c6c25515b238e0d1cde611e514a867",
+      "text_sha256": "6c4d88ade262ee14d7166a2fb9a1b16f5854ad116b51bf8e971cee70c2cf55b0",
+      "span": [
+        3978,
+        3982
+      ],
+      "window": [
+        3178,
+        4982
+      ],
+      "window_sha256": "0463836cd55053c3d9ddd0d00fcec281e88d8a22c6316ce3c4991fc85223c61b"
+    },
+    {
+      "selection_id": "E29-28",
+      "hit_id": "54e00512186891449c3ab972d70050550cf5e7e80a9168f14ea4e2b8d8fa2d77",
+      "term_id": "worm",
+      "passage_id": "archive:bb49.a",
+      "work_id": "bb49",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb49.a.xml",
+      "source_sha256": "3284bd7714e63e3f4b3ec496d80abf5e95c6c25515b238e0d1cde611e514a867",
+      "text_sha256": "6c4d88ade262ee14d7166a2fb9a1b16f5854ad116b51bf8e971cee70c2cf55b0",
+      "span": [
+        16385,
+        16390
+      ],
+      "window": [
+        15585,
+        17390
+      ],
+      "window_sha256": "95e28d7977ae5ab001e00eeecf6762e21915cb7dc8a431dc9b24679fff10ec60"
+    },
+    {
+      "selection_id": "E29-29",
+      "hit_id": "71d114ae2a5ad19895ca4aee62c04f51b64cfce65c44f35d72833f53094d3781",
+      "term_id": "worm",
+      "passage_id": "archive:europe.a",
+      "work_id": "europe",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/europe.a.xml",
+      "source_sha256": "72048e7621950b86410c4c53051574b77e77259838f644ebd8c90357c7774723",
+      "text_sha256": "95c97508ef3a71beadfdf64f3c21ae24015ea6631d7b824446e2b065c05a2f97",
+      "span": [
+        3390,
+        3395
+      ],
+      "window": [
+        2590,
+        4395
+      ],
+      "window_sha256": "3d195fd7cc422582e40d9ceec4530db9c2a17b6a5ebc310ae6fb745de63859f0"
+    },
+    {
+      "selection_id": "E29-30",
+      "hit_id": "11a22d87f9022c04195db45b927dab0a7ccfd632bae0d222430725c1bd1fee86",
+      "term_id": "worm",
+      "passage_id": "archive:europe.a",
+      "work_id": "europe",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/europe.a.xml",
+      "source_sha256": "72048e7621950b86410c4c53051574b77e77259838f644ebd8c90357c7774723",
+      "text_sha256": "95c97508ef3a71beadfdf64f3c21ae24015ea6631d7b824446e2b065c05a2f97",
+      "span": [
+        9860,
+        9864
+      ],
+      "window": [
+        9060,
+        10864
+      ],
+      "window_sha256": "e52d4ca037579bcf4485dee7ee0af1984ece201ab402a29c0ae19f1dbce6a3fa"
+    },
+    {
+      "selection_id": "E29-31",
+      "hit_id": "f94f722508c9848027defa03c93c9ecdf68a6307b578445cfb9627d8ebdd3aaa",
+      "term_id": "worm",
+      "passage_id": "archive:gates-child.a",
+      "work_id": "gates-child",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/gates-child.a.xml",
+      "source_sha256": "8230e876d516d4c4318b46edae59d015e4efa3d391bfa474790f1d769f09cbba",
+      "text_sha256": "160c2efcf6f563015faab3555251d7118bc64e57851119a17333fdf7b9aa08a3",
+      "span": [
+        426,
+        430
+      ],
+      "window": [
+        0,
+        483
+      ],
+      "window_sha256": "160c2efcf6f563015faab3555251d7118bc64e57851119a17333fdf7b9aa08a3"
+    },
+    {
+      "selection_id": "E29-32",
+      "hit_id": "b4a62dcf4ebfa7b3c89d2c4b912903b0300041c06979863d1d8e5964f2a62efd",
+      "term_id": "fly",
+      "passage_id": "archive:songsie.a",
+      "work_id": "songsie",
+      "source_role": "primary",
+      "source_plane": "reading",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/songsie.a.xml",
+      "source_sha256": "a96c9270a820015c4eae511a8e882aa58c310b35480a32cc167fc373da7c333f",
+      "text_sha256": "8e308bf5dd1e3c7cbbc693c8d7643e0d871cb18f135f8b736fb74ae710da6ab0",
+      "span": [
+        15234,
+        15237
+      ],
+      "window": [
+        14434,
+        16237
+      ],
+      "window_sha256": "409d95956803ae1cd6e51d2ba6f6925feb44725198e4d08fda1d21608e416921"
+    },
+    {
+      "selection_id": "E29-33",
+      "hit_id": "66d05a67d039111aee77f09532cf155a98a0f5d50b7f17828d4006de81f41609",
+      "term_id": "fly",
+      "passage_id": "xml:america.k",
+      "work_id": "america",
+      "source_role": "unverified",
+      "source_plane": "xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/america.k.xml",
+      "source_sha256": "7d5acfa835b902de73f3cc97ea9dda42d15b5d337a2d1ca9ca2f783945f245b1",
+      "text_sha256": "7d5acfa835b902de73f3cc97ea9dda42d15b5d337a2d1ca9ca2f783945f245b1",
+      "span": [
+        52853,
+        52856
+      ],
+      "window": [
+        52053,
+        53856
+      ],
+      "window_sha256": "8d23abced2628dfd577f23b9dd4123eebb6c434aeb4dcb1b2c054f65549b438e"
+    },
+    {
+      "selection_id": "E29-34",
+      "hit_id": "49fe166f81482eabb2347dcff373fa0dadece72cd7a2846d537e9a5d489c9893",
+      "term_id": "fly",
+      "passage_id": "xml:bb435.1",
+      "work_id": "bb435",
+      "source_role": "unverified",
+      "source_plane": "xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb435.1.xml",
+      "source_sha256": "f6651df8a0307f22d60140867116bc95d8153eb176135eaafabc732d3819779d",
+      "text_sha256": "f6651df8a0307f22d60140867116bc95d8153eb176135eaafabc732d3819779d",
+      "span": [
+        32135,
+        32138
+      ],
+      "window": [
+        31335,
+        33138
+      ],
+      "window_sha256": "f811dd9cbc13d5992eac9ba186b8a88e6698b3658ec8c0d5fe2d4bc848635130"
+    },
+    {
+      "selection_id": "E29-35",
+      "hit_id": "f8311aad23760aefe040b6d0e8641e1e3fbe0a4ce42f50b74ac3190545d8b7ed",
+      "term_id": "fly",
+      "passage_id": "xml:bb456.1",
+      "work_id": "bb456",
+      "source_role": "unverified",
+      "source_plane": "xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb456.1.xml",
+      "source_sha256": "cc9af820ae9b413acc9f42ed8126b64f82b4a2a69ec7acbfce55793b206f9ee8",
+      "text_sha256": "cc9af820ae9b413acc9f42ed8126b64f82b4a2a69ec7acbfce55793b206f9ee8",
+      "span": [
+        194190,
+        194195
+      ],
+      "window": [
+        193390,
+        195195
+      ],
+      "window_sha256": "443af0019ee51093e258e7f5f11a199f5ff1b884f7101342e93ba4b9240cf60b"
+    },
+    {
+      "selection_id": "E29-36",
+      "hit_id": "74e9f2d852a357edd56e050a26cd312b2d20de8228a1a662538c7769a817112a",
+      "term_id": "fly",
+      "passage_id": "xml:bb466.2",
+      "work_id": "bb466",
+      "source_role": "unverified",
+      "source_plane": "xml",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/bb466.2.xml",
+      "source_sha256": "84de8be031e5d161947a0674ba0393d594df230333b7394ce1665c173bd5bfc6",
+      "text_sha256": "84de8be031e5d161947a0674ba0393d594df230333b7394ce1665c173bd5bfc6",
+      "span": [
+        63758,
+        63763
+      ],
+      "window": [
+        62958,
+        64763
+      ],
+      "window_sha256": "4b4f5dc68b22b0f6c0ed035e2a29b4f8e312db01b359bee944725336d37e972b"
+    }
+  ],
+  "accounting": {
+    "new_batch": {
+      "candidate_ids": 36,
+      "source_units": 23,
+      "recorded_work_groups": 23,
+      "source_cohorts": {
+        "primary/reading": 32,
+        "unverified/xml": 4
+      }
+    },
+    "combined": {
+      "candidate_ids": 47,
+      "source_units": 28,
+      "recorded_work_groups": 25,
+      "source_cohorts": {
+        "primary/reading": 37,
+        "editorial/erdman": 6,
+        "unverified/xml": 4
+      }
+    },
+    "overlapping_window_components_same_source": [
+      [
+        "E29-06",
+        "E29-19"
+      ],
+      [
+        "E29-17",
+        "E29-27"
+      ]
+    ],
+    "distinct_batch_window_hashes": 36,
+    "independence_limit": "Unique candidate IDs are not independent scenes or animals. Window overlap components are mechanical interval groupings, not scene identity. The new Milton emmet and historical Erdman winepress seeds repeat a poetic inventory; the new Auguries fly window also contains historical spider/bee aphorisms."
+  }
+}

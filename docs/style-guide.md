@@ -3,9 +3,11 @@
 Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
 claims. This private addendum owns biological vocabulary and literary readings.
-The current runtime uses that 0.4.0 source. The retained paper/analysis epoch
-uses `d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
-byte-identical at those two commits. See [project status](PROJECT_STATUS.md) for
+The current 0.3.0 application and its new native paper preparation use that
+0.4.0 source. The historical 0.2.0 paper and analytical epoch used
+`d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
+byte-identical at those two commits. Keep the original producer attached to
+its retained bytes rather than transferring it to the current paper. See [project status](PROJECT_STATUS.md) for
 current qualification and open research tasks.
 
 ## Biological language

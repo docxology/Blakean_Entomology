@@ -1,32 +1,32 @@
 # Blakean Entomology
 
 Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
-[agent guidance](AGENTS.md), [current verification](research/verification.json)
-and the [reviewed private PDF](Blakean_Entomology.pdf).
+[agent guidance](AGENTS.md), the [article source](docs/manuscript/blakean-entomology.md)
+and the [current private paper](Blakean_Entomology.pdf).
 
-The current 31-page research draft integrates eleven figures, seven selected
-historical image witnesses, twenty references and an 82-category appendix.
-Its argument compares attention, provision, injury and collective bodies while
-retaining rival readings and copy-specific differences. Source-role counts,
-composition, concentration and twelve literal-pair controls remain retrieval
-diagnostics: 36,028 historical candidates are still unreviewed.
+The **0.3.0** application and **37-page** paper add a declared contextual
+review batch, source-bound figures and an edition-sensitive comparison of two
+1793 *Gates of Paradise* objects with later textual frames. The article now
+contains 13 figures, 24 references, nine selected original
+image objects and the complete 82-category appendix. Its modern reference tree
+is a captured classification with conditional lexical associations, not a
+sequence-inferred phylogeny or evidence of a literary species identity.
 
-Generic grouped composition and concentration methods live in public Blake;
-this private application supplies the name-family/channel policy and literary
-interpretation. The reference tree is a captured NCBI classification with
-conditional lexical associations, not a sequence-inferred phylogeny.
+The executable shared core remains Blake 0.4.0 at
+`45171a099a6a658c52ab689501de646a28485653`. 248 tests pass; branch-aware
+coverage from the declared suite and actual production is 94.70%
+application and 79.23% tools. Strict package and changed-tool checks, Ruff,
+dependency checks, installed-source equality, exact analytical replay and real
+refusal controls are recorded in [the current qualification](research/paper-advancement-20261029.json).
+The fresh native PDF, independent page/source review and real-browser offline
+workspace checks retain their separate scopes.
 
-The current runtime selects Blake 0.4.0 at
-`45171a099a6a658c52ab689501de646a28485653`; its locked installation and
-workflow qualification are recorded in [verification.json](research/verification.json).
-The retained paper and analytical/preparation epoch use core
-`d020f47767996a061b6f60e93a82da9386a7926c`. That historical installed gate
-passed 239 tests, strict typing, Ruff and dependency checks; coverage including
-actual CLI/figure workloads was 94.83% application and 74.76% tools. Its
-pytest-only infrastructure failure remains preserved. See the
-[paper-epoch qualification](research/expansion-installed-20261028.json),
-[composition methods](docs/research/composition-analysis.md),
-[visual evidence](docs/research/visual-evidence.md) and
+The earlier 31-page edition and analytical/preparation epoch used core
+`d020f47767996a061b6f60e93a82da9386a7926c`. Their original 239-test gate,
+coverage, failures and reviewed native bytes remain preserved in
+[the historical qualification](research/expansion-installed-20261028.json).
+See [composition methods](docs/research/composition-analysis.md),
+[visual evidence](docs/research/visual-evidence.md) and the
 [render guide](docs/manuscript/README.md).
 
 Private research on **invertebrate lives and imagery in William Blake**: worm,
@@ -49,8 +49,10 @@ from its unchanged historical corpus pin.
 The new article compares pooled and equal-work rates, exact-text repetition and
 finite versus whole-unit co-occurrence. See [analytical extension](docs/research/shared-methods-analysis.md)
 and [current result identities](research/shared-methods-transition.json). The
-historical eleven decisions keep their original run; the new run has no newly
-adjudicated candidates.
+historical eleven decisions retain their original run. The later contextual
+study adds 36 separately authored decisions on that same pinned baseline; see
+[the review contract](docs/research/context-review-20261029.md). The retrieval
+sensitivity run itself does not adjudicate candidates.
 
 ```bash
 uv run blake-entomology sensitivity --bundle local_data/corpus/v1 \
@@ -77,10 +79,12 @@ needed by the complete test suite.
   not animal or species totals.
 - All **918 category/role/plane cells**, including zero-result categories, exact
   source offsets, provenance, denominators and a complete private review queue.
-- An explicit seed review of **11 candidates**: eight figurative animal cases,
-  two non-animal senses and one uncertain case. Four admitted animal cases remain
-  exploratory because their source units are mixed/editorial. **36,028 candidates
-  remain unreviewed**; there is no whole-oeuvre completeness verdict.
+- **47 reviewed candidates and 35,992 unreviewed**, combining the unchanged
+  eleven-decision seed with 36 new agent-authored decisions. Combined labels are
+  2 literal animals, 27 figurative animals, 4 associated, 6 non-animal, 4 editorial
+  and 4 uncertain. Twenty-five animal decisions are primary and four remain
+  exploratory. The batch is purposive, contains overlapping contexts and repeated
+  witnesses, and supplies no prevalence or accuracy estimate. [Context study](docs/research/context-review-20261029.md).
 - A source-grounded article draft covering “A Dream,” “The Fly,” “The Sick Rose,”
   “The Human Abstract,” *Thel*, the wine-press inventories, *Four Zoas*, *An Island
   in the Moon*, *Auguries*, and Polypus.
@@ -109,8 +113,9 @@ Provider expression and the full review queue remain ignored.
 
 ## Run locally
 
-Keep source, Python, environments, caches and temporary files on GitVault. From
-the canonical `Username/docxology/Private/Blakean_Entomology` checkout:
+Keep source, Python, environments, caches and temporary files on the mounted
+GitVault. Acquire the supported repository lease, then run from the canonical
+`Username/docxology/Private/Blakean_Entomology` checkout:
 
 ```bash
 export GITVAULT_ROOT="$(cd ../../../.. && pwd)"
@@ -119,11 +124,10 @@ export UV_CACHE_DIR="$GITVAULT_ROOT/Local/caches/uv"
 export TMPDIR="$GITVAULT_ROOT/Local/tmp"
 export UV_LINK_MODE=copy
 uv sync --locked --python 3.11
-uv run --python 3.11 python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
+uv run --locked --python 3.11 python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 ```
 
-Both reported prefixes must resolve on the mounted GitVault. Acquire the
-supported repository lease for canonical project writes and gates. A clone alone
+Both reported prefixes must resolve on the mounted GitVault. A clone alone
 contains no provider corpus. Restore the exact ignored application bundle from
 authorized local custody to replay the baseline:
 
@@ -178,6 +182,11 @@ uv run blake-entomology review \
   --decisions research/seed-review.jsonl \
   --output analysis_output/seed-review-replay.json
 ```
+
+The current 47-decision replay uses
+`research/context-review-combined-20261029.jsonl` with the same trusted baseline
+run pin and a fresh output path. The command above deliberately demonstrates the
+unchanged historical seed. [Current batch and figure commands](docs/research/context-review-20261029.md).
 
 Each decision requires an explicit reviewer and rationale. Animal decisions also
 require a verification locator. Wrong-run, duplicate and unknown IDs are refused;

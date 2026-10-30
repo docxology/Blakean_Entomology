@@ -86,7 +86,8 @@ in that captured object. It does not grant whole-book or physical-image credit.
 Neither prose interpretation nor mapping metadata automatically writes a review
 decision. Figure and prepared-manuscript completion receipts close their input
 and output hashes. Native page inspection and selected-original checks were
-completed for the retained 31-page working draft; their exact scope is indexed
+completed for the historical 31-page working draft. The current 0.3.0 edition
+has separate native and physical-page evidence; their exact scopes are indexed
 in [project status](PROJECT_STATUS.md). New paper bytes require fresh native and
 physical-page qualification.
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — contextual decisions and material editions
+
+- Add 36 explicitly agent-authored decisions to the unchanged eleven-decision seed: 47 reviewed and 35,992 unreviewed, with uncertainty, overlap and source roles retained.
+- Add a tested domain context summary and source-run figure; qualify exact installed source, real review/refusal workflows and reproducible drawing assets.
+- Correct the query-channel figure/caption to distinguish candidate shares from the five-cohort positive/declared-category table.
+- Integrate two source-verified 1793 YCBA Gates objects and separately located later textual frames, with exact numbering, rights, selected-reading ceilings and rival interpretations.
+- Produce a fresh native manuscript, preserve superseded outputs, and align agent guidance, current provenance, research scopes and private-main/PDF delivery.
+
 ## 2026-10-29 — current core and private-main alignment
 
 - Pin the installed Blake 0.4.0 interfaces to an exact released Git commit, with historical corpus and manuscript producers retained separately.

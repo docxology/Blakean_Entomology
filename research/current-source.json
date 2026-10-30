@@ -3,33 +3,37 @@
     ".gitattributes": "7c090e2d2095a3b709516e7246c1a0274c9024058df6537d5573b27d10f68d56",
     ".gitignore": "c89095f250825c007f55963cb5c7368a22bf99d3c3632bd82c7787ca10ed610f",
     ".python-version": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
-    "AGENTS.md": "e011317821d8f289eaf5020a1f14b0601337987016db82aade1ae976b8ffb770",
-    "Blakean_Entomology.pdf": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3",
-    "CHANGELOG.md": "819a68650ad687d3a2d28282756da3d4d53231831d1560eadf01b69e8c034947",
-    "CITATION.cff": "f7c81cb835ffc6c82c1c38a8e5cfeb4f84534efe6f4aeaf14ca7713b8c407e0f",
+    "AGENTS.md": "3d4c3fdd9af2fc41c65b7c88bbc0fd3a1ed9063debd21fd5f87929301636c164",
+    "Blakean_Entomology.pdf": "64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05",
+    "CHANGELOG.md": "a5ae123969b753c197a3be188547264e5dc277e2c19965d35879fbe0b9790d26",
+    "CITATION.cff": "1796f39cc55105b98a42b858ddb06afe2ea64bd031ccd466f136d7f08913eb9b",
     "LICENSE": "87e643a73df2905cdbb1ea614eb476e43b5b0029421a410f8cbfb588c48877ab",
-    "PRIVACY.md": "2e2781744fb8ceb19da243ed6a2bdac9c4dbdd1f675dc51180b09e6f8a94468d",
-    "README.md": "78eef66b51e221551bfc7b39f1f28fc921204a7baf7ca27210972eed668f08fd",
-    "docs/PROJECT_STATUS.md": "74e0f492ef7649ceac0191ed9ff6ec15d1a09946caba7256c4dffdac44790ac4",
-    "docs/manuscript/README.md": "1fc60fa7198e3871ea698f60813fb985f2ab785f22505f79fdc63dd05bccbf1c",
+    "PRIVACY.md": "0df17162b1cac9eb57c40a67bb040a7c8ebc9c2cd5bf43b1fece00e0cabe46f4",
+    "README.md": "6737360b8f2da500de44b2cb773912276fe0d0df19d2656bf82cddd2e368dfe5",
+    "docs/PROJECT_STATUS.md": "f8d8eb864d5e30f4b19a460abb423d2353e1a1cbe12bb9d50171665054434ceb",
+    "docs/manuscript/README.md": "388fffb2bcd931dc5d71822f72fae0f529e205e6f0daff51f61297aaed87caa1",
     "docs/manuscript/assets/retrieval-sensitivity.png": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
-    "docs/manuscript/blakean-entomology.md": "25fd9dda03be5b17080b034fdf521ee93ddf392cec98d9e29a72ab450182b5fd",
+    "docs/manuscript/blakean-entomology.md": "4ad6a3cd37fd687c7938852e3cf1385eb36a71aeb3e1647d51971ff38710425f",
     "docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
-    "docs/manuscript/references.bib": "44a0484a8b3be183e032d114d0f23eb983afdb9fdb3055c8c200035332348f86",
+    "docs/manuscript/references.bib": "28fdd316193863a8179c03a11fdf345a11870012b8cb284183a22491f19827e9",
     "docs/manuscript/sensitivity-supplement.md": "38dba98c7095c3ba1d25c4c13e9946104a4c7939c5dee536576519fa85f7f65e",
-    "docs/project-lineage.md": "c86f96abf4cdd8fbd0e086f2845e145c35c13b0fc68ed3b904dbf7163ff6719a",
-    "docs/research-protocol.md": "030dbd09408e11eb634122f76839a93ec110673a2c7cd56bff713d5bfb6bff6c",
+    "docs/project-lineage.md": "0ea628d5a0feab37bd02b31ed1c979a8808238e004c26e7d18eb07a5b9742422",
+    "docs/research-protocol.md": "219f2a659db854e6bdc61aeddc070d076ef2a728691f683ebbf1494e0a422299",
     "docs/research/composition-analysis.md": "b5ac9414eadc22bd01e2444e6df0b860f5637cb4eed38b6218ca039adabfccc1",
+    "docs/research/context-review-20261029.md": "7209d3893e572b83ba83102f66d4de88ef427e787dd8a8c0f199814b275235d3",
     "docs/research/invertebrate-advancement.md": "db28155eb22297c5df82a6b9a459c17a5cbf7c4f038216b492c0ec2f1fa9e33e",
     "docs/research/shared-methods-analysis.md": "8f0c1cbbde431a16d556d2ec857874489bf00ab671897a4bf18894a011d9ece8",
-    "docs/research/visual-evidence.md": "ddc028f253bef7db4bd3efadecb393e2328abfc83dc1a7a16ce263b2c56f80f4",
-    "docs/style-guide.md": "e459d46240a85368f34bcb8bd2b73cca282ddc66eb5077cae97264fb57504444",
-    "pyproject.toml": "0ed2c61be0644412bb91c44499ac49d5da565b5f219881f6339aec4d33ac8072",
+    "docs/research/visual-evidence.md": "870108207a3a710f537680c440e8ebc4ef37b169d8d6a2b2f791838feb007536",
+    "docs/style-guide.md": "dd517ac18477299951abbc13b574c14c83598b5e72a5b801511194ccf49fc872",
+    "pyproject.toml": "f4abf016f44927937997f5ea12bafc0dc2fba96dc921238aec41f6289d1b92f7",
     "research/advancement-bindings-v1.json": "68db3da9a0d07433ea2169c701cfd2b3699c5adf01f7f0b5dacbae739d9e4004",
     "research/advancement-installed-20261028.json": "c834d1d73dd4cd52f9384f3002b143fa961331be45961c8dc9b03691dca4cfcd",
     "research/baseline-counts.csv": "b33491ef9f9fbe6cc02ce6668f80e39f81d5841b32e061c101cb2176f8bcd971",
     "research/baseline-run.json": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
     "research/baseline-summary.json": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55",
+    "research/context-review-combined-20261029.jsonl": "581a53bef6642ee1420cdc312b4f10696293952bb696ae3f588e6833f4478755",
+    "research/context-review-decisions-20261029.jsonl": "979d070a50a5252ffb0d0eb5601c5c7d28fb21eb418cb8d05abf6f0b9e1fe7e8",
+    "research/context-review-study-20261029.json": "c075e2d1496920178240b19caddceb18f10f9a6a8a24d6cab6f390e755c9b3bc",
     "research/corpus-pin.json": "960a03c24cb43f66a2b6db4b774acffd87d79f3b647940cdc272bef521f2b5b6",
     "research/coverage-audit-v1.json": "5d0cf2ff06d7ca6ebab6dda1376e40b33df7c9fdfea7dcf793ef58724333343b",
     "research/epoch-transition.json": "d86186056df7886ea8e9c0eb27925029f9fd59d1928d608cc3fd41c61c9ab067",
@@ -72,11 +76,23 @@
     "research/history/main-alignment-20261029/src/blakean_entomology/workflows.py": "fb5c949fdcba3eb063b962faa9d1f9116c43741fcf986e6d8622d8ac6e20ab61",
     "research/history/main-alignment-20261029/tests/test_application.py": "31ec03dd0176224bd01fc96de8b34103cb51efaccda0dc8cf1244c7f3653f429",
     "research/history/main-alignment-20261029/uv.lock": "f3bc4ff29754df3ee103cc7b8d611000669b929aaeac1b76502860b6844e0a83",
+    "research/history/paper-advancement-20261029/AGENTS.md": "e011317821d8f289eaf5020a1f14b0601337987016db82aade1ae976b8ffb770",
+    "research/history/paper-advancement-20261029/CHANGELOG.md": "819a68650ad687d3a2d28282756da3d4d53231831d1560eadf01b69e8c034947",
+    "research/history/paper-advancement-20261029/CITATION.cff": "f7c81cb835ffc6c82c1c38a8e5cfeb4f84534efe6f4aeaf14ca7713b8c407e0f",
+    "research/history/paper-advancement-20261029/PRIVACY.md": "2e2781744fb8ceb19da243ed6a2bdac9c4dbdd1f675dc51180b09e6f8a94468d",
+    "research/history/paper-advancement-20261029/README.md": "78eef66b51e221551bfc7b39f1f28fc921204a7baf7ca27210972eed668f08fd",
+    "research/history/paper-advancement-20261029/docs/PROJECT_STATUS.md": "74e0f492ef7649ceac0191ed9ff6ec15d1a09946caba7256c4dffdac44790ac4",
+    "research/history/paper-advancement-20261029/pyproject.toml": "0ed2c61be0644412bb91c44499ac49d5da565b5f219881f6339aec4d33ac8072",
+    "research/history/paper-advancement-20261029/research/current-source.json": "a3ee119a285d3b8f5b310a58b0620597c04742e0735dc587368f6d5af5354003",
+    "research/history/paper-advancement-20261029/research/verification.json": "1ddc0de43a91dbd2f394896869fb8a3c5e5d327c0f0d8a8feb3ca720ed2867ab",
+    "research/history/paper-advancement-20261029/uv.lock": "ae25df7c1eb37b48ae52c9de877803c5643485ad6d6563cada05a523892f8ec9",
+    "research/image-provenance-advancement-20261029.json": "de6c0ed07cf9251b36778bed6aa37782db3576b9a5acd308d6dd1ccd23d802d7",
     "research/image-provenance-expansion-v1.json": "3da7b88ceb239639c83d0da932a5dd46e83e46726ffcb8a082690682b264263a",
     "research/installation-2026-10-28.json": "12be973f98a05309b5d897a1bb09137b72f8ff4b515e739355b08174d9560ed2",
     "research/installation-shared-methods-0.2.0.json": "2a44831951362f078344c4d31ba9ca9d3778c4a412de00de4088004d04745d0d",
     "research/main-alignment-20261029.json": "0a5fd6ac80ca5be28bf3105603a7b6278b53bfc62e8dacf48fb5ddc1e09a7357",
     "research/manuscript-expansion-v1.json": "41773c7fa2e531a929cf1ff611e26e3806df379dba85c767bdbbca0d621d0fde",
+    "research/paper-advancement-20261029.json": "87272530fbbbda7fd0c5b0ae5c465bffda1810b92bf3eec5cacfb9b90af95f63",
     "research/primary-source-snapshot-v1.json": "6ac268089194c6deb90ded7ae26248f38679910c0d6294f3aeaa7af8ec9fc838",
     "research/proximity-binding.json": "220cfea58318da3635e1a261df782b74b71e2b09b82a2919e87ed9fe155cc233",
     "research/reading-ledger-advancement-v1.json": "80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c",
@@ -96,7 +112,7 @@
     "research/vocabulary-gap-probes-v1.json": "17a236472ca80e4833cca5ccac021044088b652e3dd70a8dde0595572bca6f2a",
     "research/vocabulary.json": "e490350472adc235c27a5534dc6144333d843943633b2c2184effebbf40b16f2",
     "research/work-coverage-v1.csv": "1409b8ef2d5244672f79f3e962c8d81b6d0375a990ea4dc321aa28aa2c9b32db",
-    "src/blakean_entomology/__init__.py": "375e5eaefde34d90c7885a1443d2a7418b2a562a4f084f258d24ed18c0bb1e9b",
+    "src/blakean_entomology/__init__.py": "6bfac6ee80a5689df6ddd48b8c6bdc6d0a196bb9b2b90230e675c475fd858fc0",
     "src/blakean_entomology/atlas.py": "d7f370d72e1922fa001dbb7eb77a2c79068c768785831d0794db1c55e3c56e4b",
     "src/blakean_entomology/atlas_models.py": "f1c02155216df81e25f6e20a53e15be2e21101ac3a9cbe3ecdcab9d67547c5e4",
     "src/blakean_entomology/casebook.py": "74d55d130cd7b929ffac0f61b367751c03c9e9961ab52115240e685b2e38373e",
@@ -105,8 +121,9 @@
     "src/blakean_entomology/composition_workflow.py": "8b2ec282009f120ea5ce0909af889cbac1047500616d2da4fea76d8f70c87853",
     "src/blakean_entomology/core.py": "6f3f0a2c0824d896832778821d80caf97d005908cb997b6068d436e387129b4d",
     "src/blakean_entomology/models.py": "42e5bbb227591e8972a68af4f80477014dc9f94a057f4ae660c10767f9e1957b",
-    "src/blakean_entomology/producer.py": "6e3bb671c59572287d4450dcb81a74518d2eac7f4caba7053b85accefba047d3",
+    "src/blakean_entomology/producer.py": "4156a86d8f3140f03185980cfcdb803acc16cd0137e246b8f5569998f4659fe2",
     "src/blakean_entomology/resources/vocabulary.json": "e490350472adc235c27a5534dc6144333d843943633b2c2184effebbf40b16f2",
+    "src/blakean_entomology/review_contexts.py": "9bd2fb3263da2dcce147d4d0efec751ce4d47feb3ac4864c2a21743a7112a8dc",
     "src/blakean_entomology/sensitivity.py": "15d05723eaa7047699538a5dc5848268d809d487375df36593a72f53516eb92d",
     "src/blakean_entomology/taxonomy.py": "1e764719dd9410a3c8d6dd6801841126a5ead8aa165de085c529dae7f02fe9c5",
     "src/blakean_entomology/taxonomy_models.py": "c0450846b310c57748bf43cb0eb7c472076f3b49588799c1307353b6664cc4d8",
@@ -116,6 +133,7 @@
     "tests/test_casebook.py": "f604bc8bafcf4a466b2751447b7b0d791d554a0662ce779c8d35091b7878197a",
     "tests/test_composition.py": "8be0f43fbe82c3a7844239107be2a8a63ed46145a0faaa8b2814c1db960ce101",
     "tests/test_composition_tools.py": "8c5112336af2b0f810e8fc08cada2f366365103c5287171d20752efb0e2ef3c5",
+    "tests/test_context_review.py": "9809b30544d395d42dee646be3b7961403e0221d63181d5295a09db919f11c63",
     "tests/test_expanded_manuscript.py": "e09d2c4b92ff7bc2a0b28491492720fc4c4a6b45375dc7c7976118cd9a6c9ef4",
     "tests/test_methods_adapter.py": "641486cb6e1e630913cda2d63823d21a12098faf301c49cc2f4afcc6ffe0df33",
     "tests/test_research_figures.py": "b5e9a9a17005aa56437ed6cf2d312d836cf70b20ce919c028c5a119f9f0f0b61",
@@ -125,98 +143,70 @@
     "tests/test_taxonomy.py": "f80188c73cda37cc5530512304fac7c58a36c1a5fbf89a09cec128ddd5740777",
     "tests/test_workflows.py": "ec2862097700f8485c6357b2c2c8e05a7360940c23b23f9d3152081de327b6a1",
     "tools/audit_composition.py": "0bcb991e5c08c01764484601381442b62e5b0fedfdb98b481b1c161dddff26e9",
-    "tools/build_composition_figures.py": "65c865a9ef0d7788a1ac6142ce911653f50151a3f6a37bee971f5468e5a6eebd",
+    "tools/build_composition_figures.py": "2aed12f1efb65d03e372dc63219d58c33bb8379b41e2508c518245377573a534",
+    "tools/build_context_review_figure.py": "26d7e4316c097f183a5f86c199eab056e4b3ab84778dde5b48e773a9800033b8",
     "tools/build_reference_figures.py": "640581400e074969b01061c071f5c53015adb15e896b8a988a5578e795cadaa0",
     "tools/build_sensitivity_figure.py": "c1c6f8d39cb4d86a128b357af424e3344fa20e170710425b566790375dbced2a",
-    "tools/manuscript_assets.py": "84a5ccbabc686a719b3ccd8595ab8c2cde53c7624a07e4ad199749851b678522",
+    "tools/manuscript_assets.py": "ea3cf0ac3625e56bb72eb70a29be2fce6890a80fd93aa10551dc875f5b1e34f9",
     "tools/manuscript_content.py": "cef78404c043e4b7bd4e42ea754a10de5ca54e8bd58fd472f747ca810f5d3cfe",
     "tools/prepare_research_manuscript.py": "1ee0d6880a855a40b75f30c40e7cf35cd54cd3a98165194fb99396d1eda15f45",
     "tools/reference_plotting.py": "be5d62eb11881188b1b9ea3d35ce9e07e4563c2058579a13e0bc54b6ed854f5b",
-    "uv.lock": "ae25df7c1eb37b48ae52c9de877803c5643485ad6d6563cada05a523892f8ec9"
+    "uv.lock": "28007c59a89e093b1af2fbfeff6b6d51251954018e3c51e914482d9ac4923b06"
   },
-  "current_version": "0.2.0",
-  "cyclic_exclusion_reason": "The current-source index and derivative verification record are the two mutually changing indexes. Every other candidate tracked/authored file, including qualification, historical preimages and retained PDF, is bound.",
+  "current_version": "0.3.0",
+  "cyclic_exclusion_reason": "Only the current-source index and derivative verification index are excluded. Every other candidate source, historical preimage, qualification receipt and selected PDF is bound.",
   "cyclic_exclusions": [
     "research/current-source.json",
     "research/verification.json"
   ],
   "delivery": {
-    "branch": "main",
-    "canonical_fast_forward_receipt": {
-      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-fast-forward.json",
-      "sha256": "0a444f159e0fc83eda953cf2e993b84b5a45d0b4b12256042852a59f5669e8cb"
-    },
-    "final_head_scope": "integration_commit identifies the verified main integration before this bounded documentation/receipt closure. The final ordinary push and exact local/remote HEAD are read back in the external final delivery receipt.",
-    "fresh_canonical_installation": {
-      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-installed.json",
-      "record": {
-        "all_installed_python_sources_equal_canonical_main": true,
-        "canonical_ignored_assets_unchanged": true,
-        "cli_help_exit": 0,
-        "environment": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
-        "head": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
-        "identity": {
-          "app": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blakean_entomology/__init__.py",
-          "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
-          "direct_url": {
-            "url": "https://github.com/docxology/blake.git",
-            "vcs_info": {
-              "commit_id": "45171a099a6a658c52ab689501de646a28485653",
-              "requested_revision": "45171a099a6a658c52ab689501de646a28485653",
-              "vcs": "git"
-            }
-          },
-          "installed_distributions": 32,
-          "prefix": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
-          "sdk": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blake/__init__.py"
-        },
-        "locked_install_exit": 0,
-        "locked_install_log_sha256": "027f83e96a9d6eebfe9869c83eec4a828dc23e77bec08b5c298857578a949521"
-      },
-      "sha256": "7376fff16ca751bd3e9d86b828904499c1d8f8a42681ddf877722005add5c075"
-    },
-    "independent_candidate_readiness": {
-      "path": "Local/blake-private-alignment-20261029/independent-review/entomology-readiness.md",
-      "scope": "Pre-main source/software/custody readiness only; final closure independently reviewed separately.",
-      "sha256": "5d4420e047bf7590ececf4b0f05a06f14dfd90518c8826f12a2dc1ca904625fb"
-    },
-    "integration_commit": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
-    "private_identity_immediately_before_merge": {
-      "defaultBranchRef": {
-        "name": "main"
-      },
-      "id": "R_kgDOVa1PXQ",
-      "nameWithOwner": "docxology/Blakean_Entomology",
-      "visibility": "PRIVATE"
-    },
-    "pull_request": "https://github.com/docxology/Blakean_Entomology/pull/1",
-    "pull_request_state": "MERGED",
-    "status": "PRIVATE_MAIN_INTEGRATED"
+    "final_readback": "Local/blake-paper-advancement-20261029/receipts/entomology-final-delivery.json",
+    "required_visibility": "PRIVATE",
+    "scope": "The final ordinary push, exact local/remote head and Downloads bytes are read back externally after this source commit, avoiding a recursive commit identity.",
+    "status_at_source_freeze": "QUALIFIED_FOR_AUTHORIZED_PRIVATE_MAIN_PUSH",
+    "target_branch": "main"
   },
   "previous_source": {
-    "source": "research/history/main-alignment-20261029/research/current-source.json",
-    "source_sha256": "bb648a24642944b99553ac833d865d7c6429845923ea7cbe035651fed8b8af48",
-    "verification": "research/history/main-alignment-20261029/research/verification.json",
-    "verification_sha256": "6f43dae0554c9f2c5ca1a23d2d9bdc9d18752f2148f9c88fe4e18f175dca03d1"
-  },
-  "qualification_epoch": "main-alignment-20261029",
-  "receipt": "research/main-alignment-20261029.json",
-  "receipt_sha256": "0a5fd6ac80ca5be28bf3105603a7b6278b53bfc62e8dacf48fb5ddc1e09a7357",
-  "reviewed_native": {
-    "current_native_render_performed": false,
-    "historical_shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
-    "native": {
-      "directory": "analysis_output/entomology-native-expansion-02",
-      "native_receipt_sha256": "d3f6b9ddd205fc406c60a5e1671aa0ca27fe89bff6df98e01e92c2cfcde17af2",
-      "pages": 31,
-      "pdf": "analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf",
-      "pdf_sha256": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3"
+    "research/current-source.json": {
+      "bytes": 20326,
+      "path": "Username/docxology/Private/Blakean_Entomology/research/history/paper-advancement-20261029/research/current-source.json",
+      "sha256": "a3ee119a285d3b8f5b310a58b0620597c04742e0735dc587368f6d5af5354003"
     },
-    "pages": 31,
-    "pdf": "Blakean_Entomology.pdf",
-    "sha256": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3"
+    "research/verification.json": {
+      "bytes": 4728,
+      "path": "Username/docxology/Private/Blakean_Entomology/research/history/paper-advancement-20261029/research/verification.json",
+      "sha256": "1ddc0de43a91dbd2f394896869fb8a3c5e5d327c0f0d8a8feb3ca720ed2867ab"
+    }
   },
-  "schema_version": 21,
-  "scope": "Current software/core integration and documentation delivery. Retained manuscript bytes and historical input/decision/source epochs unchanged; no new native, browser, image-census, scholarly or scientific acceptance.",
+  "qualification_epoch": "paper-advancement-20261029",
+  "receipt": "research/paper-advancement-20261029.json",
+  "receipt_sha256": "87272530fbbbda7fd0c5b0ae5c465bffda1810b92bf3eec5cacfb9b90af95f63",
+  "reviewed_native": {
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "current_native_render_performed": true,
+    "epoch": "analysis_output/entomology-native-advancement-20261030-05",
+    "independent_acceptance": {
+      "bytes": 11074,
+      "path": "Local/blake-paper-advancement-20261029/independent-review-continuation-20261030/entomology-PREPUBLICATION-ACCEPTANCE.json",
+      "sha256": "ae0aa3d05e1e633db26b84880bcd66182583220e02ab68dfb956ec85ef1011af"
+    },
+    "pages": 37,
+    "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-native-advancement-20261030-05/Blakean_Entomology.pdf",
+    "prepared": {
+      "manuscript_sha256": "3f71abdeb1450d40518967e6fc5f793808f5007669a039d3ea37477a2d618321",
+      "path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/analysis_output/article-advancement-20261030-05",
+      "receipt_sha256": "6d8d55c69b9fb34d8c283aa1f38318f8cb518b9eb36ef4e1c9cf53d3f6224e26"
+    },
+    "sha256": "64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05",
+    "source_inputs": {
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/blakean-entomology.md": "4ad6a3cd37fd687c7938852e3cf1385eb36a71aeb3e1647d51971ff38710425f",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/references.bib": "28fdd316193863a8179c03a11fdf345a11870012b8cb284183a22491f19827e9",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/uv.lock": "28007c59a89e093b1af2fbfeff6b6d51251954018e3c51e914482d9ac4923b06"
+    },
+    "writer": "Established standalone Pandoc citeproc and two actual XeLaTeX passes; no docxology/template Python writer execution is claimed."
+  },
+  "schema_version": 22,
+  "scope": "New domain contextual study, bounded selected-image and scholarly additions, current installed-source qualification, fresh native working paper and functional offline-workspace evidence. Root documentation/index/private-PDF closure is separate from unchanged program and rendered inputs. Retained mathematical execution is byte-revalidated, not newly rerun. No complete-oeuvre/image census, prevalence/accuracy estimate, accessibility certification, all-tools typing or specialist scientific acceptance.",
   "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653"
 }

@@ -28,9 +28,20 @@ class AdditionalAssets(FrozenModel):
     source_files: tuple[AssetFile, ...] = Field(min_length=1)
     producer_receipts: tuple[str, ...] = Field(min_length=1)
     source_ledgers: tuple[str, ...] = Field(min_length=1)
-    replacements: dict[Literal["NAME_COVERAGE_TABLE", "LITERAL_PAIR_TABLE"], str] = Field(
-        default_factory=dict
-    )
+    replacements: dict[
+        Literal[
+            "NAME_COVERAGE_TABLE",
+            "LITERAL_PAIR_TABLE",
+            "CONTEXT_REVIEW_TABLE",
+            "SOURCE_CHANNEL_TABLE",
+            "CONTEXT_REVIEW_CAPTION",
+            "CONTEXT_REVIEW_TOTAL",
+            "CONTEXT_REVIEW_REMAINING",
+            "CONTEXT_REVIEW_NEW",
+            "SELECTED_IMAGE_WITNESSES",
+        ],
+        str,
+    ] = Field(default_factory=dict)
 
 
 @dataclass(frozen=True, slots=True)

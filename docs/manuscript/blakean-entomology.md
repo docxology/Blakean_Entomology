@@ -2,7 +2,7 @@
 title: "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention"
 author:
   - Daniel Ari Friedman
-date: "28 October 2026 · Expanded private research draft"
+date: "29 October 2026 · Private research draft 0.3.0"
 lang: en
 ---
 
@@ -19,7 +19,7 @@ body. This article distinguishes three relations across these scenes: provision
 that enables another life, feeding that uses a living body, and aggregation that
 reorganizes its members' powers. Care, appetite, predation, cruelty and metaphor
 intersect without becoming morally interchangeable. Copy-specific readings of
-four short poems, seven selected historical scans, local prophetic and prose
+four short poems, {{SELECTED_IMAGE_WITNESSES}} selected historical scans, local prophetic and prose
 passages, and bounded scholarship test this argument against rival readings.
 A reproducible concordance preserves the breadth that close reading necessarily
 selects: 102 query categories retrieve 36,039 category-source-span candidates
@@ -28,7 +28,7 @@ Blake-primary reading units. Within that primary scope, 82 name-family categorie
 contribute 1,239 candidates. Their pooled and equal nonempty-group compositions
 differ by total variation 0.222387 across 26 positive groups, whereas token-rate
 comparisons retain all 33 eligible groups. Twelve literal-pair experiments expose
-source dependence and distance. These are distributions of retrieval mass, not
+source dependence and distance. A purposive contextual extension validates {{CONTEXT_REVIEW_TOTAL}} authored decisions, including 36 new agent judgments, while retaining {{CONTEXT_REVIEW_REMAINING}} unreviewed candidates. These are distributions of retrieval mass, not
 an adjudicated animal census or complete oeuvre. Modern classification, lexical
 matching and material interpretation remain distinct. The resulting argument
 locates ethical force in particular acts of hearing, sustaining, injuring and
@@ -303,6 +303,24 @@ lines 3–26, especially 17–18 and 23–26; E27, record 37.
 The opening attack on pity that depends upon making another person poor prevents compassion from remaining an unexamined virtue. Read beside “A Dream,” it asks whether assistance answers a prior need or benefits from maintaining dependence. The feeding insects are implicated in a growth whose nourishment is morally compromised; they do not independently explain its origin. This distinction keeps appetite from becoming either automatic guilt or automatic innocence. What matters is the relation between feeding, the conditions that sustain it, and the voice that makes those conditions intelligible.
 
 ![The Human Abstract. Bentley plate 47; Archive object 47; Erdman E27; accession 17.10.47. An aged figure raises his arms among cord-like forms; neither a character name nor an insect web is inferred. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-348001-whole.png){#fig:songs_abstract height=155mm}
+
+## 4.5. Bodies on leaves, figures in flight: edition-specific witnesses
+
+Two leaves from *For Children: The Gates of Paradise*, copy E, complicate a reading of Blake's invertebrates as either zoological specimens or freely interchangeable symbols. Yale's frontispiece, *What is Man!* (B1978.43.1484), places an arched, segmented creature above a leaf bearing a human-faced, tapering body. The juxtaposition makes larval and human forms available to the same act of looking. It does not identify a species, demonstrate a biological transformation, or establish that the two bodies are successive states of one individual. The human face matters: comparison does not require an observer to erase the particular being whose vulnerability makes the comparison consequential [@ycba-gates-man-1793].
+
+The accompanying text must be kept specific to its witness. The inspected copy-E impression carries the question and a publication inscription dated 17 May 1793. It does not carry the light-and-organ couplet that ASU's Erdman transcription presents under the frontispiece of *For the Sexes* (E260). The latter transcription also places “The Catterpiller on the Leaf / Reminds thee of thy Mothers Grief” before the numbered *Keys* (E268). The spelling is already represented in the declared retrieval vocabulary; this reading supplies no newly discovered lexical form. More importantly, a later textual frame is not silently printed onto an earlier photographed leaf. The mother's grief directs attention to embodied dependence, while the face and leaf keep that dependence materially visible. Neither observation turns an emblematic body into a taxonomic identification [@blake-gates-asu].
+
+Yale's *Alas!* (B1978.43.1492) supplies a different difficulty. A larger human figure raises a hat; small airborne forms occupy the space above, while another small humanoid figure lies below. The gesture and the fallen body invite comparison with the casual force of the hand in *The Fly*, but that is a proposed reading across works, not proof that the smaller figures are flies. Human proportions, aerial movement and insect association can coexist without resolving into one literal animal referent. A record can preserve that association while declining a species or order-level assignment [@ycba-gates-alas-1793].
+
+Here, too, numbering and text diverge across documentary frames. The museum calls the object plate 9; the photographed leaf displays 7 below the image and a separate handwritten 8 above it. ASU's *For the Sexes* transcription labels the corresponding passage 7 (E263), surrounding *Alas!* with additional wording about the figures and the divine image. Those additions are not visible on the inspected copy-E leaf. A usable locator therefore records the work, copy, accession and numbering system together. “Plate 7” alone cannot do the work of all four.
+
+Höltgen places *Gates* beside emblem-book practices while stressing how its compressed captions complicate a conventional emblem's explanatory closure. That argument offers a relevant counterweight to treating the designs as illustrated natural history: a caption, an image and an interpretation are related evidence, not synonyms. The present comparison adopts neither a general influence claim nor a complete decoding of Blake's figures [@hoeltgen2002].
+
+Höltgen's specific reading gives the alternative more force: his butterfly-girls and the youth's capture place the scene within a mortal, spiritless material existence. That is a serious challenge to treating aerial motion as uncomplicated liberation. His quoted expanded wording is a different documentary frame from this early leaf's sparse caption. The photograph cannot settle his whole interpretation, nor can the interpretation establish a taxon. The conjunction of gesture, fallen body and later verbal framing remains a literary argument rather than a recovered observation of insects. [@hoeltgen2002]
+
+These two selected objects extend the visual casebook rather than the fixed corpus analysis. Their official photographs and object records have separate hashes, credits and rights statements. Museum-supplied recto crops retain the complete engraved designs and captions; the wider captures with calibration targets remain available for inspection. The two objects count as two witnesses, not as multiple witnesses for each digital rendition. They add no baseline text hits and no formal textual adjudications. Their methodological contribution is narrower: preserve an association when it is warranted, preserve an unresolved identity when it is not, and make the edition-specific evidence recoverable.
+
+![Two objects from *For Children: The Gates of Paradise*, copy E, catalogued 1793. Left: *What is Man!*, frontispiece, B1978.43.1484. Right: *Alas!*, museum plate 9, B1978.43.1492; the leaf displays 7 below the image and handwritten 8 above. The later wording discussed in the text is not present on these photographed leaves. Yale Center for British Art, Paul Mellon Collection; museum records label both Public Domain and link CC0. Museum-provided recto crops, with complete designs and captions; no author recolouring or reconstruction. These are selected literary and visual witnesses, not species identifications.](assets/gates-copy-e-comparison.jpg){#fig:gates_copy_e width=98%}
 
 # 5. Inventories of life around the wine-press
 
@@ -759,7 +777,11 @@ It cannot enlarge the number of Blake-authored animal attestations by simple
 addition. Mixed Erdman material, four mixed XML units and unverified reading
 documents remain separately reported, with their own token and unit denominators.
 
-![Query channels across source cohorts. Counts, within-cohort shares and positive/declared category totals distinguish 82 name families, four broad labels, fifteen associated channels and one motion channel. Every role/plane/author cohort retains source-unit and NFKC-token denominators. These disjoint cohorts describe retrieval populations, with markup and editorial language retained separately; they are not stages of complete-oeuvre coverage.](assets/04-query-channel-source-audit.png){#fig:query_channels width=98%}
+![Query channels across source cohorts. Panel counts and within-cohort shares distinguish 82 name families, four broad labels, fifteen associated channels and one motion channel. Every role/plane/author cohort retains source-unit and NFKC-token denominators. These disjoint cohorts describe retrieval populations, with markup and editorial language retained separately; they are not stages of complete-oeuvre coverage.](assets/04-query-channel-source-audit.png){#fig:query_channels width=98%}
+
+Positive/declared category totals are tabulated separately below; they are not printed within the preceding panel. Each entry is a count of positive categories divided by the complete declared channel. The bound data location is `assets/source-channels.csv`, columns `observed_categories` and `categories`; neither column counts reviewed animals.
+
+{{SOURCE_CHANNEL_TABLE}}
 
 ## 8.6. Reading coverage is a different denominator {#sec:reading_coverage}
 
@@ -769,10 +791,8 @@ The new casebook records {{CASEBOOK_CASES}} bounded interpretive cases and
 the inspected Milton and Thel passages and the modern catalog alternative.
 Ordered line IDs and selected-text hashes close those reading claims. These are
 reading receipts, not additional candidate decisions. The
-{{HISTORICAL_REVIEWED}} historical decisions remain on their original run, with
-{{HISTORICAL_UNREVIEWED}} candidates still unreviewed there; none has been
-reclassified or rebound to this atlas. The new atlas has zero authored decisions,
-and seven selected historical scans have now been inspected. The corpus-wide
+{{HISTORICAL_REVIEWED}} historical decisions remain on their original run.
+{{HISTORICAL_UNREVIEWED}} candidates were unreviewed in that historical eleven-decision epoch. None has been reclassified or rebound to this atlas. The atlas still has zero authored decisions. The additive baseline review described next reaches {{CONTEXT_REVIEW_TOTAL}} decisions and leaves {{CONTEXT_REVIEW_REMAINING}} candidates unreviewed. Across the visual casebook, {{SELECTED_IMAGE_WITNESSES}} selected historical originals have been inspected. The corpus-wide
 image inventory remains unreviewed. Four complete copy-Y poem transcriptions and
 selected Thel F/O passages belong to the additive expansion ledger; they inherit
 no credit from the earlier copy-A and Thel-B readings.
@@ -795,6 +815,80 @@ read, and preserves the places where it cannot yet support a claim.
     The broad reading-layer line ranges are unit locators, not exact verse-line
     locators for these hits. Neither inspection credits a complete work or design.
 
+## 8.7. Contextual decisions test the concordance without becoming a census {#sec:context_review}
+
+A new, declared batch of {{CONTEXT_REVIEW_NEW}} candidate IDs was inspected in
+bounded original-source windows and coded by a research agent on 29 October
+2026. Selection preceded coding and deliberately included personified animals,
+concrete animal senses, products, motion verbs and modern catalog descriptions.
+It was purposive rather than random. Each judgment names the reviewer,
+rationale, original interval, inspected window, window hash and exact historical
+run pin. It therefore supports inspection and disagreement, not a claim of
+specialist consensus, classifier accuracy or animal prevalence.
+
+The actual review command validates {{CONTEXT_REVIEW_TOTAL}} decisions after
+combining the new batch with the unchanged eleven historical decisions:
+{{CONTEXT_REVIEW_REMAINING}} of the original 36,039 candidates remain unreviewed.
+The combined dispositions are shown below. Literal and figurative animal codes
+retain their separate meanings; the distinction concerns the selected use of a
+word, not a division between scientifically true and false poetry.
+
+{{CONTEXT_REVIEW_TABLE}}
+
+![{{CONTEXT_REVIEW_CAPTION}}](assets/context-review.png){#fig:context_review width=98%}
+
+The new 36 IDs occupy 23 retained source units and 23 recorded work groups.
+The combined 47 occupy 28 source units and 25 groups. These are documentary
+counts, not independent poetic events. Two new same-source window pairs overlap:
+the busy-bee and spider/friendship proverbs in *The Marriage of Heaven and Hell*
+(E29-06/19), and the dungeon spiders and eternal worm in *The French Revolution*
+(E29-17/27). The *Milton* emmet returns to the wine-press inventory already
+represented by historical Erdman seeds; the new “Auguries” fly window also
+contains historical spider/bee aphorisms. Distinct candidate IDs and 36 distinct
+window hashes preserve these relations rather than converting repetition into
+independent observations. Selection IDs and exact memberships are in the dated
+study ledger.
+
+Disambiguation changes what a retrieval can support. Four new primary-reading
+candidates use *fly/flies* as a verb: personified Strife moves abroad, Hermes flies
+before Jupiter, Pestilence leaves a broken bottle, and the Genesis transcription
+speaks of fowl flying. Nearby insects or buzzing do not turn the selected verb
+into an animal noun. Four additional matches belong to modern XML design
+descriptions: birds, angels, Justice and an eagle supply the movement. These are
+coded editorial while their original source role remains unverified. A semantic
+judgment does not promote a catalog description into Blake-authored verse.
+
+Positive animal coding also needs a rival reading. The bee's lack of sorrow is
+an ethical proverb, not an assay of insect emotion; the wise emmet's dance in the
+wine-press belongs to a structure explicitly joined to war and printing. The
+selected dungeon spiders can have a concrete animal sense within political
+allegory without supplying a natural-history observation. Conversely, honey
+bees that sing in a transformed landscape, the Spider created to help the
+Daughters' labour of pity, and the eternal worm in a chained skeleton remain
+uncertain between available literal and figurative modes. Leaving those three
+new judgments open is a result of contextual reading rather than a missing
+keyword rule.
+
+The associated codes sharpen the article's account of provision and capture.
+Honey on infant lips and the Lilly's honey-bearing perfume connect nourishment
+to vulnerable bodies without asserting a bee at the matched span. Oothoon's
+silken nets, proposed for catching girls, make a different relation possible:
+a connective material can enable confinement. The Web of Life in *Gates*
+joins sexual strife, tears and kinship without identifying a spider. Thus neither
+material production nor a network is sufficient evidence of care. What matters
+is who can act, who is sustained, and who becomes an object of another's
+activity. The single disposition labels expose semantic boundaries; they do
+not exhaust the passages' literary functions.
+
+These decisions remain attached to the original baseline run. The later atlas,
+its 102-category/376-form vocabulary audit, and the 82-family composition epoch
+are unchanged and gain no retroactive adjudication. The new figure is a
+description of authored decisions and their source channels, not a validation of
+all candidates. The next defensible extension is an independently reviewed,
+explicitly designed batch across further works and senses, retaining the
+unresolved labels and the entire unreviewed denominator.
+
+
 # 9. What remains before a comprehensive account
 
 The software establishes complete matching of the declared forms within the
@@ -803,7 +897,7 @@ adjudication, work/copy reconciliation, examination of source boundaries,
 assessment of unlisted or unnamed animals, and a systematic visual inventory.
 Long-range discussion can exceed the saved 120-character context envelope;
 review must return to the complete source unit and, where necessary, its
-neighbours and physical object. Editorial animal decisions remain exploratory
+neighbours and physical object. Animal-coded candidates from editorial source cohorts remain exploratory
 until the quoted text's author and location have been established separately.
 
 Mike Goode's discussion of digital fragmentation is pertinent to the research
@@ -812,10 +906,9 @@ The present concordance is therefore a navigation instrument. An argument
 requires returning from its fragments to their material and textual relations.
 Only selected opening sections of Goode's essay were read here. [@goode-2016]
 
-Seven selected scans provide differential material witnesses, not a representative
+{{SELECTED_IMAGE_WITNESSES}} selected originals provide differential material witnesses, not a representative
 visual census. The unresolved corpus image identifiers, other copies and
-unnamed forms still require systematic inventory. No new animal decision follows
-from the new readings, figures or two sparse contextual controls.
+unnamed forms still require systematic inventory. The additional image readings create no textual decisions. The separate 36-case baseline batch supplies explicit, contestable decisions while preserving {{CONTEXT_REVIEW_REMAINING}} unreviewed candidates.
 
 The article's provisional claim is consequently bounded but substantive:
 invertebrate figures let these selected Blake passages test the relation between
@@ -858,6 +951,8 @@ selected paragraphs or ordered physical line IDs, source hashes and rival
 readings. Original failed accesses and earlier decisions remain intact. New
 source captures and binaries stay in private local custody.
 
+The present edition adds two selected copy-E Gates objects, bounded ASU E260/E263/E268 passages, and Höltgen's selected Gates discussion; none receives complete-book or complete-article credit. The 36 new candidate windows carry separate agent-review credit and do not extend these complete-poem claims. [@hoeltgen2002; @blake-gates-asu]
+
 # Appendix A. Complete name-family coverage
 
 The table covers all 82 name-family categories in the 199-unit primary reading
@@ -889,6 +984,8 @@ literal spellings do not inherit expanded category forms.
 | Thel F, III | 6 / plate 4 | 6 | LOC 1798A | Archive 1795; LOC ca. 1794 |
 | Thel O, III | 6 / plate 4 | 5 | LOC digital 1798B; bound volume 1810 | Archive c. 1818; LOC ca. 1815 |
 | Thel O, Clay exchange | 7 / plate 5 | 6 | LOC digital 1798B; bound volume 1810 | Archive c. 1818; LOC ca. 1815 |
+| What is Man!, Gates Children E | Museum plate 1; later E260 text separate | Not reconciled | YCBA B1978.43.1484 | Catalogued 1793; inscription 17 May 1793 |
+| Alas!, Gates Children E | Museum plate 9; printed 7; handwritten 8; later E263 passage 7 separate | Not reconciled | YCBA B1978.43.1492 | Catalogued 1793 |
 
 # Bibliography
 

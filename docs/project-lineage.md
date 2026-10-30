@@ -34,9 +34,15 @@ The current runtime selects Blake 0.4.0 at Git
 branch, so an application adopts an exact reviewed commit rather than silently
 following it.
 
-The retained 31-page paper and its installed analytical/figure/preparation epoch
-use `d020f47767996a061b6f60e93a82da9386a7926c`. The historical corpus pin and
-eleven decisions keep their producing identities. A later runtime or documentation
+The historical 31-page 0.2.0 paper and its installed analytical/figure/preparation
+epoch use `d020f47767996a061b6f60e93a82da9386a7926c`. The current 0.3.0
+paper preparation, contextual-review extension and installed production
+qualification use the exact 0.4.0 SDK above. Completed mathematical replay is
+retained only while every consumed source module, input and semantic export
+still matches; current figures and paper preparation receive fresh epochs. The historical corpus pin and
+eleven seed decisions keep their producing identities. The additive 36-decision
+study is recorded separately; the combined baseline review has 47 decisions and
+35,992 unreviewed candidates. The later atlas gains no retroactive decisions. A later runtime or documentation
 change does not retroactively alter them. A changed method or selection needs a
 new run; a changed capture additionally needs an independent import and deliberate
 new pin. See the [render and epoch guide](manuscript/README.md).

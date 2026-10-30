@@ -1,92 +1,59 @@
 {
   "coverage": {
     "application": {
-      "branch_aware_percent": 94.82625482625483,
-      "covered": 1228,
+      "branch_aware_percent": 94.70149253731343,
+      "covered": 1269,
       "floor": 90,
-      "total": 1295
+      "percent": 94.70149253731343,
+      "total": 1340
     },
     "tools": {
-      "branch_aware_percent": 74.76190476190476,
-      "covered": 628,
+      "branch_aware_percent": 79.22755741127348,
+      "covered": 759,
       "floor": 60,
-      "total": 840
+      "percent": 79.22755741127348,
+      "total": 958
     }
   },
-  "coverage_scope": "Fresh installed 239 tests plus actual installed composition CLI and four-figure production; pytest-only lower tools coverage and producer-fingerprint RED remain retained.",
+  "coverage_scope": "Fresh final-source pytest plus actual current four-figure, contextual, review and preparation workloads; no counters reused from changed tools. The final six-space prose derivative changes no program/data/figure bytes.",
   "delivery": {
-    "branch": "main",
-    "canonical_fast_forward_receipt": {
-      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-fast-forward.json",
-      "sha256": "0a444f159e0fc83eda953cf2e993b84b5a45d0b4b12256042852a59f5669e8cb"
-    },
-    "final_head_scope": "integration_commit identifies the verified main integration before this bounded documentation/receipt closure. The final ordinary push and exact local/remote HEAD are read back in the external final delivery receipt.",
-    "fresh_canonical_installation": {
-      "path": "Local/blake-private-alignment-20261029/receipts/entomology-canonical-installed.json",
-      "record": {
-        "all_installed_python_sources_equal_canonical_main": true,
-        "canonical_ignored_assets_unchanged": true,
-        "cli_help_exit": 0,
-        "environment": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
-        "head": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
-        "identity": {
-          "app": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blakean_entomology/__init__.py",
-          "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
-          "direct_url": {
-            "url": "https://github.com/docxology/blake.git",
-            "vcs_info": {
-              "commit_id": "45171a099a6a658c52ab689501de646a28485653",
-              "requested_revision": "45171a099a6a658c52ab689501de646a28485653",
-              "vcs": "git"
-            }
-          },
-          "installed_distributions": 32,
-          "prefix": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical",
-          "sdk": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/entomology-canonical/lib/python3.11/site-packages/blake/__init__.py"
-        },
-        "locked_install_exit": 0,
-        "locked_install_log_sha256": "027f83e96a9d6eebfe9869c83eec4a828dc23e77bec08b5c298857578a949521"
-      },
-      "sha256": "7376fff16ca751bd3e9d86b828904499c1d8f8a42681ddf877722005add5c075"
-    },
-    "independent_candidate_readiness": {
-      "path": "Local/blake-private-alignment-20261029/independent-review/entomology-readiness.md",
-      "scope": "Pre-main source/software/custody readiness only; final closure independently reviewed separately.",
-      "sha256": "5d4420e047bf7590ececf4b0f05a06f14dfd90518c8826f12a2dc1ca904625fb"
-    },
-    "integration_commit": "9b37fa7c958a62e9f10edd5524ba46ce5b4b120d",
-    "private_identity_immediately_before_merge": {
-      "defaultBranchRef": {
-        "name": "main"
-      },
-      "id": "R_kgDOVa1PXQ",
-      "nameWithOwner": "docxology/Blakean_Entomology",
-      "visibility": "PRIVATE"
-    },
-    "pull_request": "https://github.com/docxology/Blakean_Entomology/pull/1",
-    "pull_request_state": "MERGED",
-    "status": "PRIVATE_MAIN_INTEGRATED"
+    "final_readback": "Local/blake-paper-advancement-20261029/receipts/entomology-final-delivery.json",
+    "required_visibility": "PRIVATE",
+    "scope": "The final ordinary push, exact local/remote head and Downloads bytes are read back externally after this source commit, avoiding a recursive commit identity.",
+    "status_at_source_freeze": "QUALIFIED_FOR_AUTHORIZED_PRIVATE_MAIN_PUSH",
+    "target_branch": "main"
   },
-  "qualification": "research/main-alignment-20261029.json",
-  "qualification_epoch": "main-alignment-20261029",
+  "qualification": "research/paper-advancement-20261029.json",
+  "qualification_epoch": "paper-advancement-20261029",
   "reviewed_native": {
-    "current_native_render_performed": false,
-    "historical_shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
-    "native": {
-      "directory": "analysis_output/entomology-native-expansion-02",
-      "native_receipt_sha256": "d3f6b9ddd205fc406c60a5e1671aa0ca27fe89bff6df98e01e92c2cfcde17af2",
-      "pages": 31,
-      "pdf": "analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf",
-      "pdf_sha256": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3"
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "current_native_render_performed": true,
+    "epoch": "analysis_output/entomology-native-advancement-20261030-05",
+    "independent_acceptance": {
+      "bytes": 11074,
+      "path": "Local/blake-paper-advancement-20261029/independent-review-continuation-20261030/entomology-PREPUBLICATION-ACCEPTANCE.json",
+      "sha256": "ae0aa3d05e1e633db26b84880bcd66182583220e02ab68dfb956ec85ef1011af"
     },
-    "pages": 31,
-    "pdf": "Blakean_Entomology.pdf",
-    "sha256": "4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3"
+    "pages": 37,
+    "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-native-advancement-20261030-05/Blakean_Entomology.pdf",
+    "prepared": {
+      "manuscript_sha256": "3f71abdeb1450d40518967e6fc5f793808f5007669a039d3ea37477a2d618321",
+      "path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/analysis_output/article-advancement-20261030-05",
+      "receipt_sha256": "6d8d55c69b9fb34d8c283aa1f38318f8cb518b9eb36ef4e1c9cf53d3f6224e26"
+    },
+    "sha256": "64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05",
+    "source_inputs": {
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/blakean-entomology.md": "4ad6a3cd37fd687c7938852e3cf1385eb36a71aeb3e1647d51971ff38710425f",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/references.bib": "28fdd316193863a8179c03a11fdf345a11870012b8cb284183a22491f19827e9",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/uv.lock": "28007c59a89e093b1af2fbfeff6b6d51251954018e3c51e914482d9ac4923b06"
+    },
+    "writer": "Established standalone Pandoc citeproc and two actual XeLaTeX passes; no docxology/template Python writer execution is claimed."
   },
-  "schema_version": 21,
-  "scope": "Current software/core integration and documentation delivery. Retained manuscript bytes and historical input/decision/source epochs unchanged; no new native, browser, image-census, scholarly or scientific acceptance.",
-  "sha256": "0a5fd6ac80ca5be28bf3105603a7b6278b53bfc62e8dacf48fb5ddc1e09a7357",
+  "schema_version": 22,
+  "scope": "New domain contextual study, bounded selected-image and scholarly additions, current installed-source qualification, fresh native working paper and functional offline-workspace evidence. Root documentation/index/private-PDF closure is separate from unchanged program and rendered inputs. Retained mathematical execution is byte-revalidated, not newly rerun. No complete-oeuvre/image census, prevalence/accuracy estimate, accessibility certification, all-tools typing or specialist scientific acceptance.",
+  "sha256": "87272530fbbbda7fd0c5b0ae5c465bffda1810b92bf3eec5cacfb9b90af95f63",
   "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
-  "tests": 239,
-  "version": "0.2.0"
+  "tests": 248,
+  "version": "0.3.0"
 }
