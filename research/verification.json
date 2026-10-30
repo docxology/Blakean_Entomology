@@ -1,59 +1,158 @@
 {
   "coverage": {
     "application": {
-      "branch_aware_percent": 94.70149253731343,
-      "covered": 1269,
+      "branch_aware_percent": 94.8938321536906,
+      "covered": 1877,
+      "covered_branches": 292,
+      "covered_lines": 1585,
+      "denominator": 1978,
+      "excluded_lines": 0,
+      "files": 25,
       "floor": 90,
-      "percent": 94.70149253731343,
-      "total": 1340
+      "missing_branches": 28,
+      "missing_lines": 73,
+      "num_branches": 320,
+      "num_statements": 1658,
+      "numerator": 1877,
+      "percent": 94.8938321536906,
+      "total": 1978
     },
     "tools": {
-      "branch_aware_percent": 79.22755741127348,
-      "covered": 759,
+      "branch_aware_percent": 76.85810810810811,
+      "covered": 910,
+      "covered_branches": 155,
+      "covered_lines": 755,
+      "denominator": 1184,
+      "excluded_lines": 87,
+      "files": 12,
       "floor": 60,
-      "percent": 79.22755741127348,
-      "total": 958
+      "missing_branches": 65,
+      "missing_lines": 209,
+      "num_branches": 220,
+      "num_statements": 964,
+      "numerator": 910,
+      "percent": 76.85810810810811,
+      "total": 1184
     }
   },
-  "coverage_scope": "Fresh final-source pytest plus actual current four-figure, contextual, review and preparation workloads; no counters reused from changed tools. The final six-space prose derivative changes no program/data/figure bytes.",
+  "coverage_limits": "All missing lines/branches remain in full reports.87 pre-existing typed Protocol declaration lines are excluded by coverage defaults; no new exclusion or floor waiver. Native full writer success is actual recorded production, with separate native preflight/CSS tracing rather than an invented full-render counter segment.",
+  "coverage_scope": "Eight real unchanged-source segments with separate databases and independently recomputed executed-line/branch unions; excluded and unexecuted surfaces remain disclosed. Full native writer execution is separate from native preflight/CSS tracing.",
+  "current_source_sha256": "23ac495ca6956ca9b49d29deef6b7b27767040957e7e9f7ac7abb7de428b6dd5",
   "delivery": {
-    "final_readback": "Local/blake-paper-advancement-20261029/receipts/entomology-final-delivery.json",
+    "final_readback": "Local/blake-entomology-template-20261030/receipts/entomology-final-delivery.json",
     "required_visibility": "PRIVATE",
-    "scope": "The final ordinary push, exact local/remote head and Downloads bytes are read back externally after this source commit, avoiding a recursive commit identity.",
-    "status_at_source_freeze": "QUALIFIED_FOR_AUTHORIZED_PRIVATE_MAIN_PUSH",
+    "scope": "Final independent metadata acceptance and ordinary private push/remote/tracked-byte/Downloads readback are bound externally after the source freeze to avoid recursive commit identities.",
+    "status_at_source_freeze": "SOURCE_NATIVE_QUALIFIED_FOR_FINAL_METADATA_REVIEW_AND_AUTHORIZED_PRIVATE_PUSH",
     "target_branch": "main"
   },
-  "qualification": "research/paper-advancement-20261029.json",
-  "qualification_epoch": "paper-advancement-20261029",
+  "qualification": "research/template-native-20261030.json",
+  "qualification_epoch": "template-native-20261030",
   "reviewed_native": {
+    "admission": {
+      "bytes": 215312,
+      "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-stage.json",
+      "sha256": "1e26e1b38cb430b04a8c41a2a9b809dfbf4ee7c275191d206eadb46ef52fa06e"
+    },
     "canonical_pdf": "Blakean_Entomology.pdf",
     "current_native_render_performed": true,
-    "epoch": "analysis_output/entomology-native-advancement-20261030-05",
+    "epoch": "analysis_output/entomology-template-native-20261030-04",
+    "formal_counts": {
+      "definitions": 4,
+      "equations": 6,
+      "figures": 16,
+      "propositions": 2,
+      "tables": 9
+    },
+    "html": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/web/index.html",
+    "html_sha256": "3a78de6e01351be94150ef4d13a4d5cc1bfc136f253bfc6eb903ebee21431450",
     "independent_acceptance": {
-      "bytes": 11074,
-      "path": "Local/blake-paper-advancement-20261029/independent-review-continuation-20261030/entomology-PREPUBLICATION-ACCEPTANCE.json",
-      "sha256": "ae0aa3d05e1e633db26b84880bcd66182583220e02ab68dfb956ec85ef1011af"
+      "bytes": 12665,
+      "path": "Local/blake-entomology-template-20261030/independent-review-01/PREPUBLICATION-ACCEPTANCE.json",
+      "sha256": "caa4d6580d879fee60b61796cb2daf29c8eaf4f739e2294516956aaf96e14e36"
     },
-    "pages": 37,
-    "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-native-advancement-20261030-05/Blakean_Entomology.pdf",
-    "prepared": {
-      "manuscript_sha256": "3f71abdeb1450d40518967e6fc5f793808f5007669a039d3ea37477a2d618321",
-      "path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/analysis_output/article-advancement-20261030-05",
-      "receipt_sha256": "6d8d55c69b9fb34d8c283aa1f38318f8cb518b9eb36ef4e1c9cf53d3f6224e26"
+    "native_receipt": {
+      "bytes": 233631,
+      "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-render-receipt.json",
+      "sha256": "7d18d980545054ab3ddde92e244932010897633ec53fed1d54e04a8460104017"
     },
-    "sha256": "64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05",
+    "pages": 40,
+    "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/pdf/blakean_entomology_combined.pdf",
+    "physical_layout": {
+      "contents_start": 5,
+      "cover": 1,
+      "graphical_abstracts": [
+        2,
+        3,
+        4
+      ]
+    },
+    "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951",
     "source_inputs": {
-      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/blakean-entomology.md": "4ad6a3cd37fd687c7938852e3cf1385eb36a71aeb3e1647d51971ff38710425f",
-      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
-      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/references.bib": "28fdd316193863a8179c03a11fdf345a11870012b8cb284183a22491f19827e9",
-      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/uv.lock": "28007c59a89e093b1af2fbfeff6b6d51251954018e3c51e914482d9ac4923b06"
+      "docs/manuscript/blakean-entomology.md": "f9f3b4a85faea9a8126272ded998a34c88a0a09343db6314ea03c0863729b38a",
+      "docs/manuscript/config.yaml": "1c52be713e4617f8fd8217f4a6208bd69735cc30da57b01f2b04655ebf6f4a04",
+      "docs/manuscript/preamble.md": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
+      "docs/manuscript/references.bib": "f9dfa9d117f00d920f5892571a637f121b7fe4975502d8200e539e74ed71df06",
+      "docs/manuscript/web.css": "eb7882311a9879bf37531a98a9ff326cca16f3c8ca267949d5f63fd626f8d2c8"
     },
-    "writer": "Established standalone Pandoc citeproc and two actual XeLaTeX passes; no docxology/template Python writer execution is claimed."
+    "writer": {
+      "imported_template_sources": 257,
+      "runtime_base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.14-macos-aarch64-none",
+      "runtime_prefix": "/Volumes/GitVault/Username/docxology/Public/template/.venv",
+      "runtime_version": "3.14.8 (main, Oct  9 2026, 15:11:09) [Clang 22.1.3 ]",
+      "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+      "template_sources": 1626,
+      "writer_calls": [
+        "PDFRenderer.render_combined",
+        "EntomologyWebRenderer.render_combined (native base with admitted CSS hook)"
+      ]
+    }
   },
-  "schema_version": 22,
-  "scope": "New domain contextual study, bounded selected-image and scholarly additions, current installed-source qualification, fresh native working paper and functional offline-workspace evidence. Root documentation/index/private-PDF closure is separate from unchanged program and rendered inputs. Retained mathematical execution is byte-revalidated, not newly rerun. No complete-oeuvre/image census, prevalence/accuracy estimate, accessibility certification, all-tools typing or specialist scientific acceptance.",
-  "sha256": "87272530fbbbda7fd0c5b0ae5c465bffda1810b92bf3eec5cacfb9b90af95f63",
+  "schema_version": 23,
+  "scope": "Current normally installed application and bounded real controls; preserved corpus, decisions and analytical exports; actual pinned template PDF/web production and independent source/native working-draft acceptance. Source, software/runtime, native, scientific, accessibility, hosted-CI, custody and publication remain distinct claims.",
+  "sha256": "ecf5c1618664281ca3abb621e23620b847601d73117acff5053d1c0df50f3055",
   "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
-  "tests": 248,
-  "version": "0.3.0"
+  "strict_types": {
+    "result": "0errors/0warnings in these scopes; no new strict claim for untouched tools",
+    "scopes": [
+      "complete application package at3.11",
+      "tools/render_manuscript.py and tools/prepare_research_manuscript.py at3.11",
+      "tools/native_template_worker.py and tools/native_web.py at3.14 with pinned template/project tools import paths"
+    ]
+  },
+  "tests": 277,
+  "unexecuted_unchanged_tool_surfaces": {
+    "tools/audit_composition.py": {
+      "covered_branches": 0,
+      "covered_lines": 0,
+      "excluded_lines": 0,
+      "missing_branches": 2,
+      "missing_lines": 4,
+      "num_branches": 2,
+      "num_partial_branches": 0,
+      "num_statements": 4,
+      "percent_branches_covered": 0.0,
+      "percent_branches_covered_display": "0",
+      "percent_covered": 0.0,
+      "percent_covered_display": "0",
+      "percent_statements_covered": 0.0,
+      "percent_statements_covered_display": "0"
+    },
+    "tools/build_sensitivity_figure.py": {
+      "covered_branches": 0,
+      "covered_lines": 0,
+      "excluded_lines": 0,
+      "missing_branches": 20,
+      "missing_lines": 136,
+      "num_branches": 20,
+      "num_partial_branches": 0,
+      "num_statements": 136,
+      "percent_branches_covered": 0.0,
+      "percent_branches_covered_display": "0",
+      "percent_covered": 0.0,
+      "percent_covered_display": "0",
+      "percent_statements_covered": 0.0,
+      "percent_statements_covered_display": "0"
+    }
+  },
+  "version": "0.4.0"
 }

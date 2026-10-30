@@ -4,30 +4,41 @@ Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article source](docs/manuscript/blakean-entomology.md)
 and the [current private paper](Blakean_Entomology.pdf).
 
-The **0.3.0** application and **37-page** paper add a declared contextual
-review batch, source-bound figures and an edition-sensitive comparison of two
-1793 *Gates of Paradise* objects with later textual frames. The article now
-contains 13 figures, 24 references, nine selected original
-image objects and the complete 82-category appendix. Its modern reference tree
-is a captured classification with conditional lexical associations, not a
-sequence-inferred phylogeny or evidence of a literary species identity.
+The **0.4.0** application prepares its working paper through the actual pinned
+[docxology/template](https://github.com/docxology/template) hydration, validation,
+PDF and web writers. Its layout uses an authentic Blake cover, three distinct
+graphical abstracts on physical pages 2–4, and contents beginning on page 5.
+Native counters resolve sections, figures, tables, equations and justified
+formalisms. See the [native production contract](docs/manuscript/README.md).
 
-The executable shared core remains Blake 0.4.0 at
-`45171a099a6a658c52ab689501de646a28485653`. 248 tests pass; branch-aware
-coverage from the declared suite and actual production is 94.70%
-application and 79.23% tools. Strict package and changed-tool checks, Ruff,
-dependency checks, installed-source equality, exact analytical replay and real
-refusal controls are recorded in [the current qualification](research/paper-advancement-20261029.json).
-The fresh native PDF, independent page/source review and real-browser offline
-workspace checks retain their separate scopes.
+The article examines provision, feeding and collective embodiment while keeping
+their symbolic and ethical alternatives active. Baine's *The Scattered Portions:
+William Blake's Biological Symbolism* is cited as a bibliographic predecessor;
+the actual insect chapter remains unavailable for direct reading. Inspected
+Hoagwood criticism, selected Hutchings paragraphs and a copy-specific *Visions*
+transcription deepen the argument without creating contextual decisions or
+image-reading credit. [Sources and reading limits](docs/research/biological-symbolism.md).
 
-The earlier 31-page edition and analytical/preparation epoch used core
-`d020f47767996a061b6f60e93a82da9386a7926c`. Their original 239-test gate,
-coverage, failures and reviewed native bytes remain preserved in
-[the historical qualification](research/expansion-installed-20261028.json).
-See [composition methods](docs/research/composition-analysis.md),
-[visual evidence](docs/research/visual-evidence.md) and the
-[render guide](docs/manuscript/README.md).
+The executable shared core remains Blake 0.4.0 at exact Git
+`45171a099a6a658c52ab689501de646a28485653`. Its public repository may receive
+later guide-only commits without changing this selected code. The application
+retains its fixed corpus, 47-decision study and nine selected original objects.
+Its modern reference tree is conditional classification, with no inferred
+phylogeny or literary species identity.
+
+[Current verification](research/verification.json) binds the installed source,
+tests, separate application/tool coverage, actual native outputs and independent
+acceptance. The [dated qualification](research/template-native-20261030.json)
+keeps source, runtime, rendered-page and private-publication claims separate.
+The new presentation consumes retained analytical exports under their original
+producers; it does not claim a fresh composition analysis.
+
+The accepted 37-page 0.3.0 standalone edition, earlier 31-page 0.2.0 edition,
+their original qualification/failure receipts and analytical epochs remain
+preserved. A new native workflow does not relabel their producing environments.
+See [lineage](docs/project-lineage.md), [composition methods](docs/research/composition-analysis.md),
+[visual evidence](docs/research/visual-evidence.md) and
+[the historical qualification](research/paper-advancement-20261029.json).
 
 Private research on **invertebrate lives and imagery in William Blake**: worm,
 fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the wider
@@ -197,11 +208,18 @@ historical analysis producer.
 ## Verification and scope
 
 ```bash
-uv run --locked pytest tests -q --cov=blakean_entomology --cov-branch --cov-fail-under=90
+uv run --locked pytest -c pyproject.toml tests -q
 uv run --locked ruff check src tests tools
 uv run --locked ruff format --check src tests tools
 uv run --locked basedpyright
 ```
+
+The explicit project configuration and active `tests/` scope keep archived
+historical tests outside the current suite. Final branch-aware coverage combines
+the installed suite with the declared real publication workflows and checks
+application 90% and tools 60% separately; unit-suite-only counters do not establish
+that combined gate. Use the [native guide](docs/manuscript/README.md) and its
+current qualification receipt for the actual coverage databases and commands.
 
 Tests use real files, a real offline source recovery/import, real CLI invocations,
 and corruption/overwrite/role controls. Source and pin overlap guards are tested

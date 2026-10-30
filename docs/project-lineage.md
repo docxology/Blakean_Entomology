@@ -16,7 +16,8 @@ of transferred review credit.
 |---|---|
 | Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, annotation/run custody and offline workspace. |
 | Private `Blakean_Federalism` | Political query selections, institutional models and comparisons, interpretation, manuscript and its own fixed evidence epochs. |
-| Private `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings and manuscript. |
+| Public `docxology/template` | Generic manuscript hydration, pre-render validation, formalism/cross-reference filters and native PDF/web writers. |
+| Private `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings, frontmatter and manuscript. |
 
 Entomology imports `blake.applications`, `blake.studies` and explicit
 `blake.methods` modules. It consumes the public portable schema rather than an
@@ -35,11 +36,16 @@ branch, so an application adopts an exact reviewed commit rather than silently
 following it.
 
 The historical 31-page 0.2.0 paper and its installed analytical/figure/preparation
-epoch use `d020f47767996a061b6f60e93a82da9386a7926c`. The current 0.3.0
-paper preparation, contextual-review extension and installed production
-qualification use the exact 0.4.0 SDK above. Completed mathematical replay is
-retained only while every consumed source module, input and semantic export
-still matches; current figures and paper preparation receive fresh epochs. The historical corpus pin and
+epoch use `d020f47767996a061b6f60e93a82da9386a7926c`. The 0.3.0
+contextual-review extension and retained paper use the exact 0.4.0 SDK above.
+The 0.4.0 paper uses that same SDK and a new installed/native qualification;
+its docxology/template source is independently pinned to
+`efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`. The application calls the
+actual framework hydration, validation, PDF and web interfaces. Federalism's
+rendering precedent supplies no runtime dependency or transferred acceptance. The retained mathematical runs keep their actual recorded analytical producers.
+The 0.4.0 authoring rebuild consumes their exact hash-bound exports and creates
+new frontmatter/preparation/native epochs; it does not claim a new mathematical
+replay. A later numerical run requires a new producer closure and comparison. The historical corpus pin and
 eleven seed decisions keep their producing identities. The additive 36-decision
 study is recorded separately; the combined baseline review has 47 decisions and
 35,992 unreviewed candidates. The later atlas gains no retroactive decisions. A later runtime or documentation

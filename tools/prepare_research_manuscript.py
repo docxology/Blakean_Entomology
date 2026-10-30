@@ -9,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 
-# Legacy sibling adapters are also executable scripts; admit their source directory
+# Source tools are executable scripts; admit their source directory
 # for both direct execution and namespace imports without installing tool modules.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -91,7 +91,9 @@ def prepare(
     hydrated = hydrate_article(
         manuscript_raw.decode(), atlas, figures, book, len(model.taxa), extension
     )
-    citations = set(re.findall(r"@([a-z][a-z0-9-]+)", hydrated))
+    citations = {
+        m.group(1) for m in re.finditer(r"@([a-z][a-z0-9:_-]+)", hydrated) if ":" not in m.group(1)
+    }
     keys = set(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode()))
     if len(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode())) != len(keys):
         raise EvidenceError("manuscript_duplicate_citation_key", str(bibliography))

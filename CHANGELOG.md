@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0 — native template edition and critical inheritance
+
+- Use the actual pinned template hydration, validation, native filters and PDF/web writers through a modular application adapter.
+- Add an authentic Blake cover and three source-derived graphical abstracts before the contents; use native section, figure, table, equation and formalism counters.
+- Deepen the argument through Baine's verified bibliography, inspected Hoagwood criticism, selected Hutchings paragraphs and a source-specific Visions reading. Keep the unavailable book chapter and all reading ceilings explicit.
+- State four definitions, two propositions and six equations for existing counting contracts, with no new numerical inference or animal census.
+- Repair actual native preflight, cover-metadata, citation, capitalization and table-boundary defects, retaining every prior attempt and the accepted older edition.
+- Qualify current normally installed code, actual consumer/refusal workflows and native outputs separately from independent physical-page acceptance and private-main delivery.
+- Preserve the original corpus, vocabulary, 47 contextual decisions, nine selected originals and 35,992 unreviewed candidates.
+
 ## 0.3.0 — contextual decisions and material editions
 
 - Add 36 explicitly agent-authored decisions to the unchanged eleven-decision seed: 47 reviewed and 35,992 unreviewed, with uncertainty, overlap and source roles retained.

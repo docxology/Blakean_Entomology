@@ -1,0 +1,23 @@
+/* Entomology's wide evidence tables retain native captions and horizontal scroll.
+   The scrollport, rather than the intrinsic table width, bounds the caption. */
+.table-scroll {
+  container-type: inline-size;
+}
+
+.table-scroll > table {
+  display: table;
+  overflow: visible;
+}
+
+.table-scroll > table > caption {
+  box-sizing: border-box;
+  inline-size: 100cqw;
+  max-inline-size: 100cqw;
+  margin-inline: 0;
+  padding: 0.4rem 0.5rem 0.65rem;
+  position: sticky;
+  inset-inline-start: 0;
+  text-align: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

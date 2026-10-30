@@ -1,3 +1,3 @@
 """Application-specific questions and review on the shared Blake methods."""
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"

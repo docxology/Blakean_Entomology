@@ -11,7 +11,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
 |---|---|
 | Corpus, vocabulary, review decisions or count interpretation | [Research protocol](docs/research-protocol.md), [contextual batch contract](docs/research/context-review-20261029.md), [lineage](docs/project-lineage.md), and the exact input pin |
 | Composition, atlas, reference mappings or figures | [Composition contract](docs/research/composition-analysis.md), [reference and atlas](docs/research/invertebrate-advancement.md), [style guide](docs/style-guide.md) |
-| Scholarly prose, bibliography or images | [Style guide](docs/style-guide.md), [visual witnesses](docs/research/visual-evidence.md), source and reading ledgers |
+| Scholarly prose, bibliography or images | [Style guide](docs/style-guide.md), [biological-symbolism scholarship](docs/research/biological-symbolism.md), [visual witnesses](docs/research/visual-evidence.md), source and reading ledgers |
 | Manuscript preparation, PDF or delivery | [Render guide](docs/manuscript/README.md), [current verification](research/verification.json), [privacy](PRIVACY.md) |
 
 ## Work in the right layer
@@ -21,6 +21,10 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
   Put a reusable algorithm change upstream and qualify its exact new pin before
   adopting it here. Use explicit schema conversion from
   `blake.methods.schema_conversion`.
+- Use the actual pinned docxology/template hydration, validation, PDF and web
+  writers for current manuscripts. Keep native numbering and cross-references
+  in the authored grammar; the application owns its frontmatter and domain
+  diagrams. Read the render guide before changing that boundary.
 - Keep channel/category selections, ambiguous animal senses, review policy,
   domain visual encodings and literary interpretation in this application.
   Federalism is an architectural sibling, not a runtime dependency.
@@ -43,7 +47,11 @@ Use the repository's declared tools and scope coverage to the code exercised.
 Documentation edits need link, command and evidence-claim review rather than
 tests that pin prose.
 
-For a paper change, prepare and render a new epoch, check citations and every
+For a paper change, preserve the preceding source and prepare and render a new
+epoch through the actual template. The current layout requires an authentic
+Blake cover on physical page 1, three distinct graphical abstracts on pages
+2–4, and contents beginning on page 5. A reset printed page counter does not
+prove physical placement. Check citations, native counters and every
 affected physical page, and bind the new PDF separately from earlier outputs.
 The [status index](docs/PROJECT_STATUS.md) defines which research tasks remain
 open; code success does not close them. Verify private visibility and exact

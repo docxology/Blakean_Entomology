@@ -1,151 +1,167 @@
-# Reproduce the current Entomology manuscript
+# Native manuscript production
 
-## Current draft and historical evidence
+The 0.4 application prepares its private article and calls the actual pinned
+[docxology/template](https://github.com/docxology/template) framework. Blake owns
+corpus custody and reusable methods. Entomology owns source selection, animal
+judgments, literary interpretation, graphical abstracts and publication inputs.
 
-The [private root PDF](../../Blakean_Entomology.pdf) is the 0.3.0 working draft:
-37 pages, thirteen figures, twenty-four bibliography entries and the complete
-82-category appendix. Its final native SHA-256 is
-`64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05`. The exact native output is
-`analysis_output/entomology-native-advancement-20261030-05/Blakean_Entomology.pdf`;
-the prepared article is `analysis_output/article-advancement-20261030-05`.
+## Source and runtime contract
 
-Current software and preparation use Blake 0.4.0 at Git
-`45171a099a6a658c52ab689501de646a28485653`. The
-[current qualification](../../research/paper-advancement-20261029.json) binds
-the normal installation, exact source identities, real positive/refusal commands,
-native writers and independent acceptance separately. Read
-[current verification](../../research/verification.json) for the delivery state;
-a native completion receipt alone is not physical-page or scientific acceptance.
+Use the locked external CPython 3.11 environment for the application and an
+explicit compatible external template environment for native writers. Verify
+both interpreter prefixes on mounted GitVault. The clean template checkout must
+be at efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8; the application SDK is
+45171a099a6a658c52ab689501de646a28485653. Federalism is an architectural sibling,
+with no runtime dependency here.
 
-The additive [contextual study](../research/context-review-20261029.md) contains
-36 new agent judgments on the original baseline: 47 reviewed candidates and
-35,992 unreviewed. The new source-role figure, two copy-E Gates objects, bounded
-edition comparison and separate source-channel coverage table add to the earlier
-casebook. None changes the historical corpus pin, 102 categories/376 forms,
-eleven seed decisions, atlas or 82-family mathematical selections.
+Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
+uv/Python caches, Matplotlib and TeX paths external. Never overwrite a prepared
+or native epoch. Failed epochs retain raw errors and partial files.
 
-The completed 29 October installed composition execution is retained after
-revalidating every consumed SDK/application module, all seven input bindings,
-the portable bundle and all nine semantic exports against current bytes.
-It was not rerun on 30 October. Four analytical figures, the contextual figure
-and manuscript preparation were executed afresh under current source bindings.
-Coverage combines the fresh 248-test run with those actual current production
-commands: application 94.70% and tools 79.23%, measured separately with branches.
-Strict typing covers the package and the four changed tools, not every
-unmodified tool. Raw earlier warning holds and failed attempts remain retained.
+## Prepare and admit
 
-The historical 31-page 0.2.0 PDF remains at
-`analysis_output/entomology-native-expansion-02/Blakean_Entomology.pdf`,
-SHA-256 `4e244ef84d85324fc2b7bb742862c2c9c21be6574b10ed574b0f0f06e7a6f4a3`.
-Its actual SDK was `d020f47767996a061b6f60e93a82da9386a7926c`; its
-[installed expansion receipt](../../research/expansion-installed-20261028.json)
-retains that epoch's tests, native writer and review. The later advancement
-native epochs 01, 02, 03 and 04 are also preserved. Table/grammar, deterministic
-vector metadata, context-legend placement and query-label/footer spacing have
-separate derivative records. The earlier Figure 12 REVISE remains unchanged.
-Final epoch 05 additionally spaces six labels in the two new Appendix C rows;
-all code, data and figures remain unchanged from qualified epoch 04.
-No earlier verdict or failure has been rewritten.
+Run tools/prepare_research_manuscript.py with independently held atlas, reference,
+base-figure, casebook and additional-assets pins, the current authored Markdown
+and bibliography, and a fresh ignored analysis_output destination. Preparation
+publishes hydrated Markdown, copied assets, references and preparation.json.
+This is a source result, not a native render. Native admission requires its
+authored-source and bibliography hashes to remain current.
 
-## Input custody and preparation
+Create NativeRequest JSON using src/blakean_entomology/publication_contract.py.
+Every input has an explicit path and caller-held SHA256: preparation receipt,
+atlas, composition export, casebook, complete museum recto, object provenance,
+config, preamble and `web_css`. The stylesheet is a required pinned input.
+Retained mathematical exports keep their original producer receipt; a new
+presentation does not become a fresh numerical execution.
 
-Use GitVault's supported repository lease, external CPython 3.11 and external
-environment, cache and temporary directories. Verify both interpreter prefixes
-and install normally with `uv sync --locked --no-editable --python 3.11`.
-A source clone alone cannot reproduce this paper: restore the ignored corpus,
-reference captures, original image witnesses and closed asset directories from
-authorized private custody. Keep each new output name unoccupied.
-
-The final admitted input set is:
-
-| Input | Path or trusted identity |
-|---|---|
-| Atlas | `local_data/paper-advancement-20261029-v1/atlas.json` |
-| Atlas SHA-256 | `bdc5a760ab6f7335cfc58daf0cd63e8c599c94be81dd31c6a849ab79132e3bfd` |
-| Base figures | `local_data/paper-advancement-20261029-v1/base-figures` |
-| Base figure receipt SHA-256 | `d38848b0b2db048610fc6197d74fa2429d7a54e86a8426926a60f6b2c712533e` |
-| Casebook | `research/reading-ledger-advancement-v1.json` |
-| Casebook SHA-256 | `80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c` |
-| Reference | `research/reference-taxonomy-v1.json` |
-| Reference SHA-256 | `4f34c9bf080a2a3014bee83d7f0a477d1b12d2d4a70e778382b1286e84642bc9` |
-| Additional assets | `local_data/manuscript-advancement-20261030-v4` |
-| Additional asset manifest SHA-256 | `4c70cee6cf584d621a9ef1e80d78732944173d2d5e0c71451f3a3b655735909c` |
-| Final preparation receipt SHA-256 | `6d8d55c69b9fb34d8c283aa1f38318f8cb518b9eb36ef4e1c9cf53d3f6224e26` |
-
-Choose a new output before running the current preparer:
-
-~~~bash
-uv run --no-sync python tools/prepare_research_manuscript.py \
-  --manuscript docs/manuscript/blakean-entomology.md \
-  --bibliography docs/manuscript/references.bib \
-  --atlas local_data/paper-advancement-20261029-v1/atlas.json \
-  --atlas-sha256 bdc5a760ab6f7335cfc58daf0cd63e8c599c94be81dd31c6a849ab79132e3bfd \
-  --figures local_data/paper-advancement-20261029-v1/base-figures \
-  --figures-sha256 d38848b0b2db048610fc6197d74fa2429d7a54e86a8426926a60f6b2c712533e \
-  --casebook research/reading-ledger-advancement-v1.json \
-  --casebook-sha256 80034dbe07e9f857992e768404da74a21bf967f50cfda2f80ec066c2f6fa392c \
-  --reference research/reference-taxonomy-v1.json \
-  --reference-sha256 4f34c9bf080a2a3014bee83d7f0a477d1b12d2d4a70e778382b1286e84642bc9 \
-  --sources local_data/reference-sources \
-  --additional-assets local_data/manuscript-advancement-20261030-v4 \
-  --additional-assets-sha256 4c70cee6cf584d621a9ef1e80d78732944173d2d5e0c71451f3a3b655735909c \
-  --output analysis_output/article-new
+~~~sh
+uv run python tools/render_manuscript.py \
+  --request "$REQUEST" --request-sha256 "$REQUEST_SHA256" \
+  --template-root "$TEMPLATE_ROOT" --template-python "$TEMPLATE_PYTHON" \
+  --output analysis_output/new-native-epoch
 ~~~
 
-The preparer delegates typed receipt admission to `tools/manuscript_assets.py`
-and content hydration to `tools/manuscript_content.py`. Its receipt hashes
-both helpers. It verifies complete membership, source/data/figure closure,
-citations, resolved count tokens and all 82 appendix rows. An occupied or
-mismatched input/output refuses; learning a new hash from changed bytes is not a
-repair. Preserve the original expected pins and failed output epochs.
+The prepare-only option closes a fresh source stage without native acceptance.
+Wrong request/input/template pins, changed members and occupied destinations
+are refusing cases.
 
-## Actual native route
+## Actual framework execution
 
-The Entomology writer is standalone Pandoc citeproc followed by two actual
-XeLaTeX passes. It does not claim execution of the template Python writers.
-The project-specific print header remains `docs/manuscript/print-header.tex`.
-The renderer reads only the prepared epoch and that header, not this guide.
+The ordinary installed application produces the authentic-image cover and
+three source-derived graphical abstracts. A thin worker in the separately
+selected template runtime reads a hash-bound CSV/INI transport of the admitted
+plan. It uses real framework manuscript hydration, prevalidate_for_render, the
+shipped formalism.lua, pandoc-crossref and `PDFRenderer.render_combined`.
+`EntomologyWebRenderer` inherits the actual `WebRenderer.render_combined`; its
+only extension is the pinned CSS embedding step, which calls the native base
+step and framework `embed_css` with admitted `web.css`. The PDF writer owns
+Pandoc, BibTeX and TeX. HTML retains native citeproc, image/registry processing,
+MathJax and base styling; keep its complete web directory and assets.
 
-From the project root, reserve a new native directory and bind the caches to
-the external temporary root already chosen for this task. The fixed
-`SOURCE_DATE_EPOCH` is a reproducibility input, not the actual build date.
-Keep the UTC command start/end receipts separately.
+The framework hydrates Markdown and copies YAML. The adapter applies the real
+framework substitution and confined atomic writer to the resolved YAML, then
+runs native configuration/token validation. The admitted tokenized configuration
+stays unchanged. Checking only the missing-key list does not prove that the
+resolved configuration contains its values.
 
-~~~bash
-export SOURCE_DATE_EPOCH=1793145600
-export TZ=UTC
-export TEXMFVAR="$TMPDIR/entomology-native-new/texmf-var"
-export TEXMFCONFIG="$TMPDIR/entomology-native-new/texmf-config"
-mkdir -p "$TEXMFVAR" "$TEXMFCONFIG"
-mkdir analysis_output/native-new
-cd analysis_output/article-new
-pandoc blakean-entomology.md --standalone --citeproc \
-  --bibliography references.bib --resource-path . --to latex \
-  --include-in-header ../../docs/manuscript/print-header.tex \
-  --variable papersize=a4 --variable geometry:margin=20mm \
-  --variable fontsize=11pt --variable colorlinks=true \
-  --variable linkcolor=Maroon --variable urlcolor=Maroon \
-  --output ../native-new/Blakean_Entomology.tex
-xelatex -interaction=nonstopmode -halt-on-error -file-line-error \
-  -no-shell-escape -output-directory ../native-new ../native-new/Blakean_Entomology.tex
-xelatex -interaction=nonstopmode -halt-on-error -file-line-error \
-  -no-shell-escape -output-directory ../native-new ../native-new/Blakean_Entomology.tex
+Project CSS gives each wide table one horizontal scroll container. Native table
+layout, caption wrapping to the container width and a caption fixed at its left
+edge retain readable captions while the data scroll. Verify actual horizontal
+wheel behavior and settled frames at mobile and desktop widths; a desktop table
+that fits should remain unscrolled.
+
+Source configuration and preamble delay the native TOC until after the three
+abstracts. Verify physical cover1, abstracts2–4 and TOC5 in the actual PDF.
+Printed counters alone do not establish physical page order.
+
+## Native syntax
+
+Use stable sec:, fig:, tbl: and eq: labels and Pandoc bracket references.
+Let native counters number body sections, figures, tables and equations. Write
+formalism Divs and references as follows:
+
+~~~markdown
+::: {.definition #def:example title="A precise title"}
+A source-grounded definition.
+:::
+
+The preceding contract is [@def:example].
 ~~~
 
-Record every real exit and retain each pass's raw log. The final log contains
-five Underfull hbox warnings and an unused table-captionsetup warning; it is not
-warning-free. Inspect every physical page, including whole-plate reproductions,
-the matched Thel sheet, edition-specific Gates pair, source-role legend, complete
-appendix and bibliography locators. Source, installed-package, native,
-selected-image, physical-page, independent-review and scientific qualifications
-remain separate.
+Use proposition / prop: for justified propositions. Displayed equations use
+dollar-delimited math followed by an eq: ID. Cardinality and absolute values
+use \lvert...\rvert. Put a caption immediately beneath each table:
+: Caption {#tbl:example}. Keep appendix headings explicitly unnumbered with
+stable section labels. Do not create a second project numbering engine.
 
-## Private distribution
+Numbered targets use native ordinal references. Deliberately unnumbered
+appendices use descriptive Markdown anchor links, for example
+`[Appendix A](#sec:appendix_a)`; do not request their ordinal with
+`[@sec:appendix_a]`. The same distinction applies to other unnumbered headings.
 
-See [visual evidence](../research/visual-evidence.md) for nine selected original
-objects, exact edition/copy numbering, actual reading ceilings and rights evidence.
-Original provider captures, complete queues and analytical working data remain in
-ignored private custody. The manuscript's selected reproductions do not authorize
-a public source-data or image release. Follow [PRIVACY.md](../../PRIVACY.md)
-before changing any distribution surface. The current task index is
-[PROJECT_STATUS.md](../PROJECT_STATUS.md).
+One final unnumbered References heading and empty refs Div give both editions
+a bibliography location. The actual PDF injector suppresses natbib's duplicate
+heading. Duplicate/undeclared labels and undefined references must fail the
+real filter preflight even when an underlying native filter only warns.
+
+## Qualification and closure
+
+native-stage.json binds admitted inputs and project production code. The
+transport closes those bytes for the selected runtime. native-render-receipt.json
+is written only after both actual writers succeed, actual `pdfinfo` reports the
+admitted resolved title and a positive physical page count, PDF text and HTML
+contain no unresolved declared-token syntax, and every original stage, project
+and template source member revalidates. Raw reader outputs are retained. A
+valid PDF with a literal title token must fail specifically at the title check.
+The receipt records imported template modules, runtime prefixes, resolved
+manuscripts, output checks and artifact hashes.
+
+Run full normally installed tests, strict package and changed-tool checks,
+lint and separate application 90% / infrastructure 60% branch-aware coverage.
+Exercise actual native CLI success/refusal and native semantic controls.
+Inspect new source figures and every final physical page; obtain independent
+acceptance bound to the exact final receipt/PDF. These are distinct from
+specialist scientific review, complete image-corpus review or public release.
+
+## Reproduce the qualification scope
+
+Use `uv run --no-sync pytest -c pyproject.toml tests` for the normally installed
+suite. The explicit configuration prevents a parent GitVault pytest root from
+collecting historical project trees. Strict checks cover the package and the
+changed application tools `render_manuscript.py` and
+`prepare_research_manuscript.py`. Check `native_template_worker.py` and
+`native_web.py` at Python 3.14 with the selected project source/tools and
+pinned template on the checker's import path. This is not a strict-check claim
+for every unchanged tool.
+
+Keep unit, actual preparation/render-CLI, retained-data figure production and
+native-runtime preflight/CSS counters in separate databases. Trace real
+operations; the final PDF need not be rebuilt to obtain counters. Combine only
+segments whose consumed source bytes still match their before/after manifests,
+retaining every original database and report with `coverage combine --keep`.
+Map the normally installed application package to `src/blakean_entomology` in
+the coverage path aliases. Preserve older-source counters outside that union.
+
+The combined gate has separate branch-aware denominators: covered statements
+plus covered branches divided by all statements plus branches. The unit-only
+database is not the full production qualification. With the externally bound
+`COMBINED_COVERAGE` and `COVERAGE_CONFIG` paths, run:
+
+~~~sh
+uv run --no-sync coverage report --rcfile "$COVERAGE_CONFIG" \
+  --data-file "$COMBINED_COVERAGE" --include '*/blakean_entomology/*' \
+  --fail-under 90
+uv run --no-sync coverage report --rcfile "$COVERAGE_CONFIG" \
+  --data-file "$COMBINED_COVERAGE" --include '*/tools/*' \
+  --fail-under 60
+~~~
+
+Retain both the initial failing coverage union and its completed real-production
+qualification. Declare excluded and unexecuted surfaces, interpreter identities,
+source bindings, raw positive/refusal commands and both complete denominators
+in the current verification record. Retained analytical exports keep their
+historical producer; figure-only consumption does not become numerical replay.
+
+The retained 0.3 draft used a standalone print path. Its accepted 37-page PDF and
+sealed evidence keep that historical scope; they are never relabelled as a
+template-native build.

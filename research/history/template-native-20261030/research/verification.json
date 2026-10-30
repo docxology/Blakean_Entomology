@@ -1,0 +1,59 @@
+{
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 94.70149253731343,
+      "covered": 1269,
+      "floor": 90,
+      "percent": 94.70149253731343,
+      "total": 1340
+    },
+    "tools": {
+      "branch_aware_percent": 79.22755741127348,
+      "covered": 759,
+      "floor": 60,
+      "percent": 79.22755741127348,
+      "total": 958
+    }
+  },
+  "coverage_scope": "Fresh final-source pytest plus actual current four-figure, contextual, review and preparation workloads; no counters reused from changed tools. The final six-space prose derivative changes no program/data/figure bytes.",
+  "delivery": {
+    "final_readback": "Local/blake-paper-advancement-20261029/receipts/entomology-final-delivery.json",
+    "required_visibility": "PRIVATE",
+    "scope": "The final ordinary push, exact local/remote head and Downloads bytes are read back externally after this source commit, avoiding a recursive commit identity.",
+    "status_at_source_freeze": "QUALIFIED_FOR_AUTHORIZED_PRIVATE_MAIN_PUSH",
+    "target_branch": "main"
+  },
+  "qualification": "research/paper-advancement-20261029.json",
+  "qualification_epoch": "paper-advancement-20261029",
+  "reviewed_native": {
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "current_native_render_performed": true,
+    "epoch": "analysis_output/entomology-native-advancement-20261030-05",
+    "independent_acceptance": {
+      "bytes": 11074,
+      "path": "Local/blake-paper-advancement-20261029/independent-review-continuation-20261030/entomology-PREPUBLICATION-ACCEPTANCE.json",
+      "sha256": "ae0aa3d05e1e633db26b84880bcd66182583220e02ab68dfb956ec85ef1011af"
+    },
+    "pages": 37,
+    "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-native-advancement-20261030-05/Blakean_Entomology.pdf",
+    "prepared": {
+      "manuscript_sha256": "3f71abdeb1450d40518967e6fc5f793808f5007669a039d3ea37477a2d618321",
+      "path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/analysis_output/article-advancement-20261030-05",
+      "receipt_sha256": "6d8d55c69b9fb34d8c283aa1f38318f8cb518b9eb36ef4e1c9cf53d3f6224e26"
+    },
+    "sha256": "64366bf7baa20fc5132f314381024e38626cc646b19730e9f5cb248dba576d05",
+    "source_inputs": {
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/blakean-entomology.md": "4ad6a3cd37fd687c7938852e3cf1385eb36a71aeb3e1647d51971ff38710425f",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/docs/manuscript/references.bib": "28fdd316193863a8179c03a11fdf345a11870012b8cb284183a22491f19827e9",
+      "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/uv.lock": "28007c59a89e093b1af2fbfeff6b6d51251954018e3c51e914482d9ac4923b06"
+    },
+    "writer": "Established standalone Pandoc citeproc and two actual XeLaTeX passes; no docxology/template Python writer execution is claimed."
+  },
+  "schema_version": 22,
+  "scope": "New domain contextual study, bounded selected-image and scholarly additions, current installed-source qualification, fresh native working paper and functional offline-workspace evidence. Root documentation/index/private-PDF closure is separate from unchanged program and rendered inputs. Retained mathematical execution is byte-revalidated, not newly rerun. No complete-oeuvre/image census, prevalence/accuracy estimate, accessibility certification, all-tools typing or specialist scientific acceptance.",
+  "sha256": "87272530fbbbda7fd0c5b0ae5c465bffda1810b92bf3eec5cacfb9b90af95f63",
+  "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
+  "tests": 248,
+  "version": "0.3.0"
+}

@@ -86,8 +86,8 @@ in that captured object. It does not grant whole-book or physical-image credit.
 Neither prose interpretation nor mapping metadata automatically writes a review
 decision. Figure and prepared-manuscript completion receipts close their input
 and output hashes. Native page inspection and selected-original checks were
-completed for the historical 31-page working draft. The current 0.3.0 edition
-has separate native and physical-page evidence; their exact scopes are indexed
+completed for the historical 31-page working draft. Every subsequent edition
+needs separate native and physical-page evidence; their exact scopes are indexed
 in [project status](PROJECT_STATUS.md). New paper bytes require fresh native and
 physical-page qualification.
 
@@ -96,3 +96,12 @@ pinned snapshot. A comprehensive literary article additionally requires reviewin
 all relevant candidates, edition/object checks, an image inventory, and assessment
 of vocabulary omissions. None is inferred from a green software test. Report
 unreviewed candidates, unavailable sources and visual ambiguity explicitly.
+
+The current manuscript uses the actual pinned docxology/template pipeline. Its
+cover, three graphical abstracts and contents have an explicit physical-page
+contract in the [render guide](manuscript/README.md). Native numbered sections,
+figures, tables, equations and formalisms retain stable source identifiers.
+Their mathematical definitions describe existing counting contracts; they do
+not certify a literary interpretation or create a candidate decision. The
+[Baine and Hutchings source record](research/biological-symbolism.md) distinguishes
+book metadata, inspected criticism, selected primary text and unavailable chapters.

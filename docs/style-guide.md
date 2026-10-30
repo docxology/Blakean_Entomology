@@ -3,8 +3,9 @@
 Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
 claims. This private addendum owns biological vocabulary and literary readings.
-The current 0.3.0 application and its new native paper preparation use that
-0.4.0 source. The historical 0.2.0 paper and analytical epoch used
+The current 0.4.0 application uses that exact public 0.4.0 source. Its current
+PDF and HTML are built through the separately pinned docxology/template
+framework; a matching version number does not identify the same package. The historical 0.2.0 paper and analytical epoch used
 `d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
 byte-identical at those two commits. Keep the original producer attached to
 its retained bytes rather than transferring it to the current paper. See [project status](PROJECT_STATUS.md) for
@@ -60,17 +61,45 @@ counts. Keep PNG and SVG plus their generator, data and source hashes.
 
 ## Manuscript preparation
 
-The authored article keeps the earlier source-bound sections and uses strict
-`{{UPPERCASE_TOKENS}}` for new computed quantities and captions. Run
-`tools/prepare_research_manuscript.py` to produce a fresh hydrated Markdown input,
-copied figure assets, references and a completion manifest. Any unresolved token,
-missing citation key, changed figure or mismatched source binding is an error.
-Stable figure IDs use `{#fig:...}`. The standalone private renderer uses Markdown
-links to those IDs; it does not assume a cross-reference filter is installed.
-Use Pandoc bibliography citations for the new captured sources and `--citeproc`
-at root's final render. Keep native layout choices in the print header.
+Use the [native render guide](manuscript/README.md). Hydrate declared data tokens
+with pinned inputs, then call `tools/render_manuscript.py` with an admitted
+request and explicitly selected compatible template checkout/runtime. The
+request pins preparation, analyses, authentic recto/provenance, configuration,
+preamble and project web stylesheet. Verify resolved YAML values and actual
+PDF metadata as well as Markdown token substitution.
 
-Source-stage tests, aggregate figure inspection, installed-package replay,
-native-page inspection and independent acceptance are separate results. The
-maintainer binds version, SDK pin, native PDF and private delivery in the current
-verification receipt; historical handoffs retain their own scope.
+Keep cover, graphical abstracts and TOC choices in source configuration and
+preamble. Verify physical pages rather than relying on printed counter resets.
+The three graphical abstracts distinguish candidate retrieval/source facets,
+the retained seven-case literary argument and weighting/classification limits.
+An additional prose reading creates no casebook or adjudication record.
+
+Use native `sec:`, `fig:`, `tbl:` and `eq:` labels and Pandoc bracket
+references. Body headings have no manually typed number prefixes. Definition
+and proposition Divs use native classes and stable `def:`/`prop:` IDs. The
+framework assigns all formalism numbers. Use explicit math delimiters, including
+`\lvert...\rvert` for cardinality. One unnumbered References heading and
+`refs` target serve both editions; appendices retain stable unnumbered labels.
+
+Numbered targets use native ordinal references. Deliberately unnumbered
+appendices use descriptive Markdown anchor links, for example
+`[Appendix A](#sec:appendix_a)`; do not request their ordinal with
+`[@sec:appendix_a]`. The same distinction applies to other unnumbered headings.
+
+Keep source capitalization and copy identifiers intact in bibliography titles.
+Use explicit `n.d.` for a genuinely undated captured resource's publication
+date, distinguishing it from the historical work's imprint. Preserve known years
+and accurate volumeless-issue metadata rather than inventing missing fields.
+
+Actual template validation/filter calls must reject unresolved tokens,
+citations, duplicate/undefined labels and changed source members. Preserve
+native PDF natbib/BibTeX and HTML citeproc evidence separately. Inspect table
+captions before and during actual horizontal scrolling; project CSS retains
+one scroll container and a wrapped caption at its left edge through the native
+writer's pinned embedding seam.
+
+Source tests, normally installed checks, retained mathematical producers, native
+writer execution, physical-page/browser inspection and independent acceptance
+remain separate results. New presentation preserves the producer identity of
+retained mathematical exports. Historical sources and failed epochs stay
+attached to their original evidence.
