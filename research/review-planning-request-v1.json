@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source_run": "analysis_output/baseline-v3",
+  "source_run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "decisions": {
+    "path": "research/context-review-combined-20261029.jsonl",
+    "sha256": "581a53bef6642ee1420cdc312b4f10696293952bb696ae3f588e6833f4478755"
+  },
+  "scope": "blake_primary_reading",
+  "selection": {
+    "target_size": 25,
+    "seed": "blakean-entomology-review-planning-v1",
+    "strata_fields": [
+      "term_id",
+      "source_plane",
+      "text_role"
+    ],
+    "unit_field": "text_sha256",
+    "max_per_unit": 1
+  }
+}

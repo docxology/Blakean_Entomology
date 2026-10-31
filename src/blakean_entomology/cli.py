@@ -23,6 +23,7 @@ from .core import (
     write_new,
 )
 from .models import CorpusPin, EvidenceError
+from .review_planning_cli import register_review_planning_commands
 from .sensitivity import ProximityBinding
 from .taxonomy import load_reference, reference_tree
 from .workflows import proximity_workflow, sensitivity_workflow, workspace_workflow
@@ -255,6 +256,9 @@ def composition_command(
     except (OSError, ValueError, ResearchError) as exc:
         raise click.ClickException(str(exc)) from exc
     click.echo(f"{len(receipt.files)} text-free exports; source candidate. {output}")
+
+
+register_review_planning_commands(main)
 
 
 if __name__ == "__main__":

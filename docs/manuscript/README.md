@@ -1,6 +1,6 @@
 # Native manuscript production
 
-The 0.4 application prepares its private article and calls the actual pinned
+The retained 0.4 article was prepared through the actual pinned
 [docxology/template](https://github.com/docxology/template) framework. Blake owns
 corpus custody and reusable methods. Entomology owns source selection, animal
 judgments, literary interpretation, graphical abstracts and publication inputs.
@@ -10,8 +10,13 @@ judgments, literary interpretation, graphical abstracts and publication inputs.
 Use the locked external CPython 3.11 environment for the application and an
 explicit compatible external template environment for native writers. Verify
 both interpreter prefixes on mounted GitVault. The clean template checkout must
-be at efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8; the application SDK is
-45171a099a6a658c52ab689501de646a28485653. Federalism is an architectural sibling,
+be at efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8 for the recorded native
+profile. The retained paper's SDK is
+45171a099a6a658c52ab689501de646a28485653. Current 0.5.0 software selects
+36b874e76d7e0549d0ea6b9f0713ced7fb41afa8; its review-planning qualification performs
+no native render. Reproducing the retained epoch uses its recorded producer.
+A future run under current software needs a fresh request/stage, actual
+current SDK binding and its own native/output acceptance. Federalism is an architectural sibling,
 with no runtime dependency here.
 
 Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
@@ -165,3 +170,14 @@ historical producer; figure-only consumption does not become numerical replay.
 The retained 0.3 draft used a standalone print path. Its accepted 37-page PDF and
 sealed evidence keep that historical scope; they are never relabelled as a
 template-native build.
+
+## Software-only review-planning epoch
+
+Current software passed 303 installed tests and the declared
+separate application/tool coverage floors; its exact Git SDK and real
+planning/refusal commands are in
+[the software qualification](../../research/review-planning-20261030.json).
+The retained PDF/HTML and their original producer remain unchanged. No old
+coverage database, native receipt, page review or one-shot production grant
+is reassigned to this software epoch. Changed manuscript or renderer inputs
+require their own source, native and physical/browser-output qualification.

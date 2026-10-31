@@ -93,7 +93,7 @@ The recorded source-stage generic checks used external Python 3.9 and 3.11
 and isolated test configuration; the older full-stack/conftest failure remains
 in that historical evidence. For a new upstream pin, qualify the dependency-light
 SDK separately from this Python 3.11 private application and from optional full-stack
-capabilities. Consult the pinned upstream [verification scope](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/verification.md)
+capabilities. Consult the pinned upstream [verification scope](https://github.com/docxology/blake/blob/36b874e76d7e0549d0ea6b9f0713ced7fb41afa8/docs/verification.md)
 rather than treating an old failure or a focused pass as a current blanket verdict.
 Scope generic and private adapter coverage separately. Current private tests,
 Ruff format/lint and strict application/tool checks must pass. Real malformed,

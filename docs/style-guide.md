@@ -1,13 +1,15 @@
 # Entomology authoring and evidence guide
 
-Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/style-guide.md)
+Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/36b874e76d7e0549d0ea6b9f0713ced7fb41afa8/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
 claims. This private addendum owns biological vocabulary and literary readings.
-The current 0.4.0 application uses that exact public 0.4.0 source. Its current
-PDF and HTML are built through the separately pinned docxology/template
-framework; a matching version number does not identify the same package. The historical 0.2.0 paper and analytical epoch used
+The current 0.5.0 software selects the exact public 0.5.0 source linked above.
+The retained 0.4.0 PDF/HTML used public SDK
+`45171a099a6a658c52ab689501de646a28485653` and the separately pinned
+docxology/template framework. Matching version numbers do not identify the
+same package; review planning creates no new native edition. The historical 0.2.0 paper and analytical epoch used
 `d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
-byte-identical at those two commits. Keep the original producer attached to
+byte-identical at those two historical commits. Keep the original producer attached to
 its retained bytes rather than transferring it to the current paper. See [project status](PROJECT_STATUS.md) for
 current qualification and open research tasks.
 

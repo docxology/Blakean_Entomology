@@ -4,7 +4,8 @@ Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article source](docs/manuscript/blakean-entomology.md)
 and the [current private paper](Blakean_Entomology.pdf).
 
-The **0.4.0** application prepares its working paper through the actual pinned
+The **0.5.0** software adds request-pinned review planning. The retained
+**0.4.0 working paper** was prepared through the actual pinned
 [docxology/template](https://github.com/docxology/template) hydration, validation,
 PDF and web writers. Its layout uses an authentic Blake cover, three distinct
 graphical abstracts on physical pages 2–4, and contents beginning on page 5.
@@ -14,23 +15,25 @@ formalisms. See the [native production contract](docs/manuscript/README.md).
 The article examines provision, feeding and collective embodiment while keeping
 their symbolic and ethical alternatives active. Baine's *The Scattered Portions:
 William Blake's Biological Symbolism* is cited as a bibliographic predecessor;
-the actual insect chapter remains unavailable for direct reading. Inspected
+the relevant book chapter remains unavailable for direct reading; its formal
+title and boundaries remain unverified. Inspected
 Hoagwood criticism, selected Hutchings paragraphs and a copy-specific *Visions*
 transcription deepen the argument without creating contextual decisions or
 image-reading credit. [Sources and reading limits](docs/research/biological-symbolism.md).
 
-The executable shared core remains Blake 0.4.0 at exact Git
-`45171a099a6a658c52ab689501de646a28485653`. Its public repository may receive
-later guide-only commits without changing this selected code. The application
+The executable shared core is Blake 0.5.0 at exact Git
+`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`. The retained paper's producer remains
+Blake 0.4.0 at `45171a099a6a658c52ab689501de646a28485653`. The application
 retains its fixed corpus, 47-decision study and nine selected original objects.
 Its modern reference tree is conditional classification, with no inferred
 phylogeny or literary species identity.
 
-[Current verification](research/verification.json) binds the installed source,
-tests, separate application/tool coverage, actual native outputs and independent
-acceptance. The [dated qualification](research/template-native-20261030.json)
-keeps source, runtime, rendered-page and private-publication claims separate.
-The new presentation consumes retained analytical exports under their original
+[Current software verification](research/verification.json) binds the new
+installed source, tests, separate application/tool coverage and review workloads.
+The [retained native qualification](research/template-native-20261030.json)
+belongs to the 0.4.0 paper and its original producer. No new native render or
+scientific acceptance follows from this software addition.
+The retained presentation consumes analytical exports under their original
 producers; it does not claim a fresh composition analysis.
 
 The accepted 37-page 0.3.0 standalone edition, earlier 31-page 0.2.0 edition,
@@ -57,7 +60,7 @@ statistics now come from `blake.methods`. The application retains its vocabulary
 contextual policy and literary argument. Its code dependency is pinned separately
 from its unchanged historical corpus pin.
 
-The new article compares pooled and equal-work rates, exact-text repetition and
+The retained article compares pooled and equal-work rates, exact-text repetition and
 finite versus whole-unit co-occurrence. See [analytical extension](docs/research/shared-methods-analysis.md)
 and [current result identities](research/shared-methods-transition.json). The
 historical eleven decisions retain their original run. The later contextual
@@ -108,7 +111,7 @@ their own groups. Taxonomic and rhetorical classifications require context.
 
 Blake owns acquisition, recovery, portable schemas and conversion, normalization,
 distinct retrieval profiles, generic statistics/proximity/composition/concentration,
-hierarchy/layout and run/annotation custody. This application owns its
+hierarchy/layout, deterministic review planning and run/annotation custody. This application owns its
 vocabulary, review decisions, interpretations and paper. It imports
 `blake.applications`, `blake.studies` and `blake.methods`; it does not copy Federalism's SQLite
 reader, search code, institutional model or historical acceptance claims.
@@ -169,6 +172,24 @@ The shared-method package installs a small core. Acquisition, NLP and vision use
 Blake's explicit `full` extra. The methods-only profile supports portable-bundle
 analysis and review without loading that stack. The optional acquisition/NLP/vision workflow is qualified separately under Python 3.11.
 
+## Bounded contextual workloads
+
+The current software delegates deterministic ranking, unit caps and blank
+batch custody to public Blake. This application owns source admission,
+review labels, source scope and the independently pinned request. The
+[declared workload](docs/research/review-planning.md) selected **25**
+candidates from the 2,498 scoped source hits, with
+37 existing scoped decisions excluded and a target
+shortfall of 0. Each selected exact whole-text unit occurs
+at most once. Greedy ordering supplies no representative-sample or
+independent-observation claim. All decision cells remain blank.
+
+[Current software qualification](research/review-planning-20261030.json) binds the exact original
+run, request, existing decisions, full/scoped counts and real positive/refusal
+commands. Authored decisions must still cite the original run and hit IDs;
+a planning receipt supplies no reading credit. Preserve uncertainty,
+repeated witnesses and all omitted candidates.
+
 ## Review candidates
 
 The private run contains `hits.jsonl`, `counts.csv`, `summary.json`, `report.md`
@@ -215,11 +236,18 @@ uv run --locked basedpyright
 ```
 
 The explicit project configuration and active `tests/` scope keep archived
-historical tests outside the current suite. Final branch-aware coverage combines
-the installed suite with the declared real publication workflows and checks
-application 90% and tools 60% separately; unit-suite-only counters do not establish
-that combined gate. Use the [native guide](docs/manuscript/README.md) and its
-current qualification receipt for the actual coverage databases and commands.
+historical tests outside the current suite. The current 0.5.0 normal-installed
+suite passed 303 tests. Its fresh suite-only statement/branch coverage is
+90.57% for application code and 79.22% for tools, against separate 90% and
+60% floors. Additional operational counters remain separate. The
+[current software qualification](research/review-planning-20261030.json)
+binds the actual source, imports, coverage databases and commands.
+
+The retained 0.4.0 paper's combined suite/native-production coverage belongs
+to its original qualification and producer in the
+[native guide](docs/manuscript/README.md); it is not reused by this software
+gate. The declared strict typing command covers `src`, without an all-tools
+typing claim.
 
 Tests use real files, a real offline source recovery/import, real CLI invocations,
 and corruption/overwrite/role controls. Source and pin overlap guards are tested

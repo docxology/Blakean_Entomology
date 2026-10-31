@@ -14,7 +14,7 @@ of transferred review credit.
 
 | Owner | Responsibility |
 |---|---|
-| Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, annotation/run custody and offline workspace. |
+| Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, deterministic review planning, annotation/run custody and offline workspace. |
 | Private `Blakean_Federalism` | Political query selections, institutional models and comparisons, interpretation, manuscript and its own fixed evidence epochs. |
 | Public `docxology/template` | Generic manuscript hydration, pre-render validation, formalism/cross-reference filters and native PDF/web writers. |
 | Private `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings, frontmatter and manuscript. |
@@ -28,8 +28,8 @@ occurrence. See [project status](PROJECT_STATUS.md) and the
 
 ## Separate current runtime from captured evidence
 
-The current runtime selects Blake 0.4.0 at Git
-`45171a099a6a658c52ab689501de646a28485653` through `pyproject.toml` and
+The current 0.5.0 software selects Blake 0.5.0 at Git
+`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8` through `pyproject.toml` and
 `uv.lock`. Its installation and workflow qualification are recorded in
 [verification.json](../research/verification.json). Upstream `main` is a moving
 branch, so an application adopts an exact reviewed commit rather than silently
@@ -37,7 +37,8 @@ following it.
 
 The historical 31-page 0.2.0 paper and its installed analytical/figure/preparation
 epoch use `d020f47767996a061b6f60e93a82da9386a7926c`. The 0.3.0
-contextual-review extension and retained paper use the exact 0.4.0 SDK above.
+contextual-review extension uses Blake 0.4.0 at
+`45171a099a6a658c52ab689501de646a28485653`.
 The 0.4.0 paper uses that same SDK and a new installed/native qualification;
 its docxology/template source is independently pinned to
 `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`. The application calls the
