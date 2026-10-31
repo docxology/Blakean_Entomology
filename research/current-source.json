@@ -10,8 +10,9 @@
     "LICENSE": "87e643a73df2905cdbb1ea614eb476e43b5b0029421a410f8cbfb588c48877ab",
     "PRIVACY.md": "b5d6b91aa74682d088ae669ee53b4c9654b5a319936d4e5ebc3883c8220aa5ac",
     "README.md": "dfb6ba446b1060e48a4ed7b1c6d2bfdc6c70d7049fa59ea0c18962b43abbd5ad",
-    "docs/PROJECT_STATUS.md": "8f8b60ec1553152d1d646fcba4dfe3f077944aa00228adb77298beb9eaa3ce17",
-    "docs/manuscript/README.md": "375df47a444d6e6bc72148955308a509b29c3b7747700153b2e50f63833ae5e7",
+    "docs/PROJECT_STATUS.md": "b8aa12c3d5cb44d1b9d1447037c0311c0c3f470d312d1e26748b6d3526f8ee9f",
+    "docs/README.md": "bd1800db8edaf2278634791baed374f1c3b01362f5d09c0330694f58a096a46b",
+    "docs/manuscript/README.md": "9d4839ae940148c130cf96011eea6dde6113690907c59a1e448d03aa609f77ae",
     "docs/manuscript/assets/retrieval-sensitivity.png": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
     "docs/manuscript/blakean-entomology.md": "f9f3b4a85faea9a8126272ded998a34c88a0a09343db6314ea03c0863729b38a",
     "docs/manuscript/config.yaml": "1c52be713e4617f8fd8217f4a6208bd69735cc30da57b01f2b04655ebf6f4a04",
@@ -22,12 +23,13 @@
     "docs/manuscript/web.css": "eb7882311a9879bf37531a98a9ff326cca16f3c8ca267949d5f63fd626f8d2c8",
     "docs/project-lineage.md": "60c404c0cd0fc598ea6ca7f4434b6bd64174e11d7d01f7a05a99fb27370febad",
     "docs/research-protocol.md": "daf0ae51ffd1eb53c063a908d1d52c492cb70ad7e3307690877200cf528e2b83",
+    "docs/research/README.md": "eedf9fd6178ea35f53003257bc64ea34cdf012ed6af9de19721664a6c8ee54eb",
     "docs/research/biological-symbolism.md": "2708fe297fd262a23d73511eb9550127b896a7f4bf8fb0cc8b190eb1c834dfc1",
     "docs/research/composition-analysis.md": "945e532b19fa8cc904425cebd6720bcf5c6a86fe8f7fc4e109a182b80ae451ac",
     "docs/research/context-review-20261029.md": "7209d3893e572b83ba83102f66d4de88ef427e787dd8a8c0f199814b275235d3",
     "docs/research/invertebrate-advancement.md": "db28155eb22297c5df82a6b9a459c17a5cbf7c4f038216b492c0ec2f1fa9e33e",
-    "docs/research/review-planning.md": "8066f02299f3361419c595c2f67b93cd4d764cd11f79929613c704a90f089c39",
-    "docs/research/shared-methods-analysis.md": "8f0c1cbbde431a16d556d2ec857874489bf00ab671897a4bf18894a011d9ece8",
+    "docs/research/review-planning.md": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7",
+    "docs/research/shared-methods-analysis.md": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab",
     "docs/research/visual-evidence.md": "870108207a3a710f537680c440e8ebc4ef37b169d8d6a2b2f791838feb007536",
     "docs/style-guide.md": "cfa01768460a5457d21abec131e1d8689efa0721efdb1d3884477d2fd9b65866",
     "pyproject.toml": "ccc76681d0d56ee3838c20b961e60603cafd49606a68043250062e39675490e2",
@@ -42,6 +44,7 @@
     "research/context-review-study-20261029.json": "c075e2d1496920178240b19caddceb18f10f9a6a8a24d6cab6f390e755c9b3bc",
     "research/corpus-pin.json": "960a03c24cb43f66a2b6db4b774acffd87d79f3b647940cdc272bef521f2b5b6",
     "research/coverage-audit-v1.json": "5d0cf2ff06d7ca6ebab6dda1376e40b33df7c9fdfea7dcf793ef58724333343b",
+    "research/documentation-review-20261031.json": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e",
     "research/epoch-transition.json": "d86186056df7886ea8e9c0eb27925029f9fd59d1928d608cc3fd41c61c9ab067",
     "research/expansion-installed-20261028.json": "8d0001350355dfafe990174f7ae4206f65e323886d78159d65d10e83c7be440f",
     "research/federalism-parity.json": "14d95220ce348156c9b9051a6fd4878247e107b5985d677a1850710b7cac9029",
@@ -55,6 +58,8 @@
     "research/history/baseline-v2/baseline-summary.json": "f1d9f3482ea938f005a3ad0f5202d374af0cf0c3f04d0b67b35119cdda35fd55",
     "research/history/baseline-v2/seed-review-summary.json": "82742bcffabbc780001ceca692b5dbf6da42cc0b519851175b151f4e0cfbee9f",
     "research/history/baseline-v2/seed-review.jsonl": "90b2c08ea2be12094b7f4b525bdd2d27e0c168e128ae77890e63bc1ab94cf2b4",
+    "research/history/documentation-20261031/current-source.json": "2414b2d7eddb3bf026bce421b625158f69bd1901f5a926744564803777f1894b",
+    "research/history/documentation-20261031/verification.json": "b2351b05f2beff98118bc2d7379c12d9477716382f353e48d8213f1368f6a731",
     "research/history/expansion-installed-preimage/CHANGELOG.md": "55f4e08532c3646ccdeddbbada84d9c03de21ac3f889250685cfdbafabac611e",
     "research/history/expansion-installed-preimage/README.md": "5862913a121b85c1d2dfe44fe246b4d811f4c8a16ed06a059b704a1d525cb640",
     "research/history/expansion-installed-preimage/docs/manuscript/README.md": "43a2e839830fdf3bf26254225ebaf179599fb68857190271e9f1c3db24b7193d",
@@ -217,22 +222,22 @@
     "research/verification.json"
   ],
   "delivery": {
-    "final_readback": "Local/blake-review-planning-20261030T232019Z/final-delivery.json",
+    "final_readback": "Local/blake-docs-review-20261031T221651Z/DELIVERY.json",
     "required_visibility": "PRIVATE",
-    "status_at_source_freeze": "Software/source freeze; actual commit/push/remote and Downloads readback are recorded separately.",
+    "status_at_source_freeze": "Documentation source freeze; independent review, commit/push/remote and retained PDF/Downloads readback remain separately receipted.",
     "target_branch": "main"
   },
   "documentation_reconciliation": {
-    "path": "/Volumes/GitVault/Local/blake-review-planning-20261030T232019Z/root-documentation-repair-02/entomology/DOCUMENTATION-REPAIR.json",
-    "sha256": "d2d7139b58d6f2537a4008937ddecda34b51a4519ef6c37779aa8cf0f3bae328"
+    "path": "research/documentation-review-20261031.json",
+    "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e"
   },
   "previous_source": {
-    "research/history/review-planning-20261030/research/current-source.json": "23ac495ca6956ca9b49d29deef6b7b27767040957e7e9f7ac7abb7de428b6dd5",
-    "research/history/review-planning-20261030/research/verification.json": "b7c8444fa0413fe9089810cc0025739a8cbd193f03adf2c390914c6fa43b89a2"
+    "research/history/documentation-20261031/current-source.json": "2414b2d7eddb3bf026bce421b625158f69bd1901f5a926744564803777f1894b",
+    "research/history/documentation-20261031/verification.json": "b2351b05f2beff98118bc2d7379c12d9477716382f353e48d8213f1368f6a731"
   },
-  "qualification_epoch": "review-planning-20261030",
-  "receipt": "research/review-planning-20261030.json",
-  "receipt_sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52",
+  "qualification_epoch": "documentation-20261031",
+  "receipt": "research/documentation-review-20261031.json",
+  "receipt_sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e",
   "reviewed_native": {
     "canonical_pdf": "Blakean_Entomology.pdf",
     "current_native_render_performed": false,
@@ -303,7 +308,22 @@
     "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
     "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951"
   },
-  "schema_version": 24,
-  "scope": "Current normal-installed software and deterministic blank-review workload; source, run/request/decision custody, real CLI/refusal controls and separate application/tools coverage. No new authored decisions, corpus capture, mathematical analysis, main-manuscript/native render, scientific, accessibility or public rights acceptance. Retained papers and all historical producers/failures keep their original qualification.",
-  "shared_sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8"
+  "schema_version": 25,
+  "scope": "Complete docs inventory/review and bounded guide corrections. No code, dependency, corpus, adjudication, analytical, main-manuscript, native, scientific or release epoch is created.",
+  "shared_sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+  "software_qualification": {
+    "new_full_suite": false,
+    "prior_qualification": {
+      "path": "research/review-planning-20261030.json",
+      "sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52"
+    },
+    "qualification_scope": "Exact unchanged qualified package/SDK bytes and real verify-only CLI/refusal checked anew; full tests/coverage remain at the original qualification.",
+    "retained_coverage": {
+      "application": 90.57318806252961,
+      "tools": 79.22297297297297
+    },
+    "retained_tests": 303,
+    "sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+    "version": "0.5.0"
+  }
 }

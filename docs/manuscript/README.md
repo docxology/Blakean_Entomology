@@ -15,15 +15,14 @@ profile. The retained paper's SDK is
 45171a099a6a658c52ab689501de646a28485653. Current 0.5.0 software selects
 36b874e76d7e0549d0ea6b9f0713ced7fb41afa8; its review-planning qualification performs
 no native render. Reproducing the retained epoch uses its recorded producer.
-A future run under current software needs a fresh request/stage, actual
-current SDK binding and its own native/output acceptance. Federalism is an architectural sibling,
+The retained `NativeRequest`, `NativeStage` and worker transport currently admit only SDK `45171a099a6a658c52ab689501de646a28485653`. A request declaring the current `36b874…` pin is rejected. The transport's declared pin does not itself verify the actual imported SDK; do not relabel a current installation as the retained producer. A current-SDK native run first needs separately reviewed contract admission and actual SDK identity enforcement in `publication_contract.py`, `publication.py` and `publication_wire.py`, then fresh source/software/native/output qualification. A new request alone does not implement that prerequisite. Federalism is an architectural sibling,
 with no runtime dependency here.
 
 Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
 uv/Python caches, Matplotlib and TeX paths external. Never overwrite a prepared
 or native epoch. Failed epochs retain raw errors and partial files.
 
-## Prepare and admit
+## Retained native profile: prepare and admit
 
 Run tools/prepare_research_manuscript.py with independently held atlas, reference,
 base-figure, casebook and additional-assets pins, the current authored Markdown
@@ -128,7 +127,7 @@ Inspect new source figures and every final physical page; obtain independent
 acceptance bound to the exact final receipt/PDF. These are distinct from
 specialist scientific review, complete image-corpus review or public release.
 
-## Reproduce the qualification scope
+## Retained 0.4.0 production qualification
 
 Use `uv run --no-sync pytest -c pyproject.toml tests` for the normally installed
 suite. The explicit configuration prevents a parent GitVault pytest root from
@@ -164,7 +163,7 @@ uv run --no-sync coverage report --rcfile "$COVERAGE_CONFIG" \
 Retain both the initial failing coverage union and its completed real-production
 qualification. Declare excluded and unexecuted surfaces, interpreter identities,
 source bindings, raw positive/refusal commands and both complete denominators
-in the current verification record. Retained analytical exports keep their
+in the [retained native qualification](../../research/template-native-20261030.json). Retained analytical exports keep their
 historical producer; figure-only consumption does not become numerical replay.
 
 The retained 0.3 draft used a standalone print path. Its accepted 37-page PDF and

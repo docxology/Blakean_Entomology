@@ -1,0 +1,179 @@
+{
+  "baseline_head": "a051f62a7e179ed627a27314ba195a5869d2ce63",
+  "changed_guides": {
+    "docs/PROJECT_STATUS.md": {
+      "before_sha256": "8f8b60ec1553152d1d646fcba4dfe3f077944aa00228adb77298beb9eaa3ce17",
+      "sha256": "b8aa12c3d5cb44d1b9d1447037c0311c0c3f470d312d1e26748b6d3526f8ee9f"
+    },
+    "docs/README.md": {
+      "before_sha256": null,
+      "sha256": "bd1800db8edaf2278634791baed374f1c3b01362f5d09c0330694f58a096a46b"
+    },
+    "docs/manuscript/README.md": {
+      "before_sha256": "375df47a444d6e6bc72148955308a509b29c3b7747700153b2e50f63833ae5e7",
+      "sha256": "9d4839ae940148c130cf96011eea6dde6113690907c59a1e448d03aa609f77ae"
+    },
+    "docs/research/README.md": {
+      "before_sha256": null,
+      "sha256": "eedf9fd6178ea35f53003257bc64ea34cdf012ed6af9de19721664a6c8ee54eb"
+    },
+    "docs/research/review-planning.md": {
+      "before_sha256": "8066f02299f3361419c595c2f67b93cd4d764cd11f79929613c704a90f089c39",
+      "sha256": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7"
+    },
+    "docs/research/shared-methods-analysis.md": {
+      "before_sha256": "8f0c1cbbde431a16d556d2ec857874489bf00ab671897a4bf18894a011d9ece8",
+      "sha256": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab"
+    }
+  },
+  "checks": {
+    "controls": {
+      "altered_native_digest": "REFUSED",
+      "missing_anchor": "REFUSED",
+      "missing_file": "REFUSED",
+      "unexplained_native_exception": "REFUSED",
+      "wrong_filename_case": "REFUSED"
+    },
+    "external_url_access": "UNCHECKED: historical bibliography/URL availability does not receive new access or reading credit",
+    "ignored_local_artifact_targets": 0,
+    "installed_verify_only_commands": {
+      "path": "Local/blake-docs-review-20261031T221651Z/command-checks/entomology-03/RESULT.json",
+      "sha256": "06209035dc754077b590a06e0f99d5c1dffbd8b101ae50505341dd1b6237e0d3"
+    },
+    "link_checker_controls": {
+      "path": "Local/blake-docs-review-20261031T221651Z/evidence/LINK-CHECKER-CONTROLS.json",
+      "sha256": "ac3042bdc38137854a08698739093d8acc688403beaeda12024194d94b1ce8e7"
+    },
+    "local_link_assessment": {
+      "path": "Local/blake-docs-review-20261031T221651Z/LINK-ASSESSMENT02.json",
+      "sha256": "f47b6ddd46ed38710a4526a3b6ec3430d338ccacc48b3258679aa3d45996f2d9"
+    },
+    "native_exceptions": 14,
+    "raw_link_counts": {
+      "external_unchecked": 15,
+      "local_pass": 125,
+      "missing_heading_anchor": 2,
+      "missing_local_target": 12
+    },
+    "shell_examples": {
+      "path": "Local/blake-docs-review-20261031T221651Z/shell-examples02/RESULT.json",
+      "sha256": "ba9ec8ae9c73196109103bfdae8e29448a5e52773c97a651a628d454bf610e6d"
+    }
+  },
+  "epoch": "documentation-20261031",
+  "independent_acceptance": {
+    "scope": "Separate exact-candidate documentation review; not established by this owner receipt",
+    "task_packet": "Local/blake-docs-review-20261031T221651Z"
+  },
+  "original_docs": {
+    "binary_identity_accounting": 1,
+    "complete_text_readings": 19,
+    "files": 20,
+    "inventory": {
+      "path": "Local/blake-docs-review-20261031T221651Z/baseline/entomology/INVENTORY.json",
+      "sha256": "006fee0079e58c5172fc916988a5423846eebcae19b576ab21a17cd2c5d8cfad"
+    }
+  },
+  "preservation": "Old producer/source indexes, software tests, source/native receipts, failures and papers retain their exact epochs. No consumed native/recovery grant is renewed.",
+  "procedure_limits": "Owner probe/check failures and corrected harness assumptions are preserved separately: missing non-runtime build backend, UTF8 metadata parsing, and the distinct Typer exit2 versus Click exit1 refusing contracts. They are not silent retries or new software defects.",
+  "remaining_native_software_unit": {
+    "id": "E-N01",
+    "scope": "Native request/stage/transport admits retained SDK45171 only; actual imported SDK identity is not enforced by its declared wire pin. Admit/enforce the current SDK in a separate software unit with real installed mismatch refusal before any new native request or production."
+  },
+  "retained_native": {
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "current_native_render_performed": false,
+    "original_record": {
+      "admission": {
+        "bytes": 215312,
+        "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-stage.json",
+        "sha256": "1e26e1b38cb430b04a8c41a2a9b809dfbf4ee7c275191d206eadb46ef52fa06e"
+      },
+      "canonical_pdf": "Blakean_Entomology.pdf",
+      "current_native_render_performed": true,
+      "epoch": "analysis_output/entomology-template-native-20261030-04",
+      "formal_counts": {
+        "definitions": 4,
+        "equations": 6,
+        "figures": 16,
+        "propositions": 2,
+        "tables": 9
+      },
+      "html": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/web/index.html",
+      "html_sha256": "3a78de6e01351be94150ef4d13a4d5cc1bfc136f253bfc6eb903ebee21431450",
+      "independent_acceptance": {
+        "bytes": 12665,
+        "path": "Local/blake-entomology-template-20261030/independent-review-01/PREPUBLICATION-ACCEPTANCE.json",
+        "sha256": "caa4d6580d879fee60b61796cb2daf29c8eaf4f739e2294516956aaf96e14e36"
+      },
+      "native_receipt": {
+        "bytes": 233631,
+        "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-render-receipt.json",
+        "sha256": "7d18d980545054ab3ddde92e244932010897633ec53fed1d54e04a8460104017"
+      },
+      "pages": 40,
+      "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/pdf/blakean_entomology_combined.pdf",
+      "physical_layout": {
+        "contents_start": 5,
+        "cover": 1,
+        "graphical_abstracts": [
+          2,
+          3,
+          4
+        ]
+      },
+      "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951",
+      "source_inputs": {
+        "docs/manuscript/blakean-entomology.md": "f9f3b4a85faea9a8126272ded998a34c88a0a09343db6314ea03c0863729b38a",
+        "docs/manuscript/config.yaml": "1c52be713e4617f8fd8217f4a6208bd69735cc30da57b01f2b04655ebf6f4a04",
+        "docs/manuscript/preamble.md": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
+        "docs/manuscript/references.bib": "f9dfa9d117f00d920f5892571a637f121b7fe4975502d8200e539e74ed71df06",
+        "docs/manuscript/web.css": "eb7882311a9879bf37531a98a9ff326cca16f3c8ca267949d5f63fd626f8d2c8"
+      },
+      "writer": {
+        "imported_template_sources": 257,
+        "runtime_base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.14-macos-aarch64-none",
+        "runtime_prefix": "/Volumes/GitVault/Username/docxology/Public/template/.venv",
+        "runtime_version": "3.14.8 (main, Oct  9 2026, 15:11:09) [Clang 22.1.3 ]",
+        "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+        "template_sources": 1626,
+        "writer_calls": [
+          "PDFRenderer.render_combined",
+          "EntomologyWebRenderer.render_combined (native base with admitted CSS hook)"
+        ]
+      }
+    },
+    "producer_application_version": "0.4.0",
+    "producer_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
+    "qualification": "research/template-native-20261030.json",
+    "qualification_sha256": "ecf5c1618664281ca3abb621e23620b847601d73117acff5053d1c0df50f3055",
+    "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
+    "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951"
+  },
+  "review_corrections": {
+    "detail": "Describe authored assets/ links and their actual rewrite to staged ../figures/ targets.",
+    "previous_frozen_candidate": {
+      "path": "Local/blake-docs-review-20261031T221651Z/frozen/entomology/FREEZE.json",
+      "sha256": "b632a0511497510d6b733fbf302761975ff6454fade25fcb063bfd213f76806e"
+    },
+    "scope": "Root fixes following independent documentation findings; final exact-candidate acceptance remains separate"
+  },
+  "schema_version": 1,
+  "scope": "Complete docs inventory/review and bounded guide corrections. No code, dependency, corpus, adjudication, analytical, main-manuscript, native, scientific or release epoch is created.",
+  "software": {
+    "new_full_suite": false,
+    "prior_qualification": {
+      "path": "research/review-planning-20261030.json",
+      "sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52"
+    },
+    "qualification_scope": "Exact unchanged qualified package/SDK bytes and real verify-only CLI/refusal checked anew; full tests/coverage remain at the original qualification.",
+    "retained_coverage": {
+      "application": 90.57318806252961,
+      "tools": 79.22297297297297
+    },
+    "retained_tests": 303,
+    "sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+    "version": "0.5.0"
+  },
+  "status": "OWNER_DOCUMENTATION_CHECKS_PASS_INDEPENDENT_ACCEPTANCE_SEPARATE"
+}

@@ -1,9 +1,14 @@
 # Project status and scoped next work
 
-Status date: 30 October 2026. This is the operational task index. Historical
+Status date: 31 October 2026. This is the operational task index. Historical
 measurements, producers, failures and earlier accepted papers keep their own
 epochs. Current scientific, source, software, native and delivery claims remain
 separate.
+
+[Documentation map](README.md) separates operating guides, retained native inputs
+and historical study notes. [Documentation review](../research/documentation-review-20261031.json)
+binds this guide-only correction; prior software tests and native receipts retain
+their original source epochs.
 
 ## Current software and retained paper
 
@@ -56,6 +61,7 @@ inventory remains unreviewed.
 | E-R03 — corpus/edition researcher; major, staged | Begin with one vocabulary gap or work/copy reconciliation cohort and its zero/overlap controls. Use a two-hour discovery checkpoint before scoping a larger campaign; no automatic reacquisition. | New pins/epochs when inputs change; compare exact membership, source facets and counts. Exact-text equality does not establish independent editions. |
 | E-R04 — image researcher; major, staged | Declare one work/copy cohort beyond the nine originals. Start with availability/rights for 5–10 objects and a two-hour checkpoint before committing to full-image readings. | Bind inspected, unavailable and ambiguous objects against the declared denominator. Preserve originals and copy-specific readings; no visual census is inferred. |
 | E-R05 — scholarly reviewer; medium | Seek legitimate direct access to Baine's actual chapter, contents and framing, or one other consequential unavailable source. Limit initial access work to one hour, then scope a separate reading unit and counterargument. | Inspect exact pages, credit roles and chapter boundaries; add a new reading epoch. Search snippets/reviews never substitute for the chapter. An access failure stays explicit. |
+| E-N01 — native integration maintainer; medium | Qualify actual SDK identity and explicitly admit the current Git pin in the native request/stage/transport contract before planning a current-SDK render; budget 2–4 hours for the first software-only admission unit. | Reject a mismatched imported SDK before creating output, preserve the retained 45171 profile and five original native inputs, and test real installed provenance/refusal paths. New native production requires its own request, supported admission and independent PDF/HTML acceptance; this documentation change renews no old grant. |
 | E-R06 — accessibility maintainer; medium | Select one keyboard/assistive-technology path or changed-browser regression, one browser worker and an empty/refusing control. Allow 60–90 minutes for the first scenario and evidence. | Record real interactions and limits; reuse the upstream workspace, keeping generic repairs in Blake. Prior functional approval is not accessibility certification. |
 
 Choose owner, exact inputs, affected paths, unused output epoch and acceptance

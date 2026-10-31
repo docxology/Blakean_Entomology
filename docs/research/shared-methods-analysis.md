@@ -1,5 +1,7 @@
 # Shared-methods analytical extension: evidence and interpretation boundaries
 
+**Historical analytical migration note.** The preliminary recipes and seed reading ceilings below belong to their named producer epochs. The frozen [seed ledger](../../research/reading-ledger.json) recorded Perkins as unread; the later [additive reading ledger](../../research/reading-ledger-expansion-v1.json) records the complete article reading without rewriting that seed. Use [project status](../PROJECT_STATUS.md), [composition qualification](composition-analysis.md) and [current review planning](review-planning.md) for current installed workflows. Source overlays in the old recipe are not installed-consumer qualification.
+
 This note records a private, descriptive extension of the existing lexical
 experiment. The source corpus, vocabulary, historical baseline receipts and seed
 review were not changed. The manuscript supplement is
@@ -59,7 +61,7 @@ category changed by exact-text grouping, both input hashes, generator hash and
 the text-free proximity receipt. It contains no passage bodies, source contexts,
 provider images or newly authored review decisions.
 
-## Reproduction
+## Historical preliminary reproduction (source overlay)
 
 Run from the private project, using the admitted external environment and
 stage/public package binding used to create the receipts. Keep temporary files,
@@ -135,7 +137,7 @@ plotting script passes an unsuppressed strict-all type check. No source-level ty
 ignores or project-wide diagnostic suppression were introduced.
 
 
-The current article uses the independently copied installed receipts in
+The retained article uses the independently copied installed receipts in
 `analysis_output/shared-methods-v4/` and the portrait print figure in
 `analysis_output/shared-methods-figure-v5/`. The earlier preliminary renders above
 remain historical evidence. The current figure is 170.18 by 228.6 mm at 180 dpi;

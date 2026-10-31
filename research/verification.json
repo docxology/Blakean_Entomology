@@ -3,20 +3,20 @@
     "application": 90.57318806252961,
     "tools": 79.22297297297297
   },
-  "coverage_scope": "Current normal-installed full suite with real subprocess counters, separate full application/tools denominators and exact source identities; additional operational run/batch counters remain separate. No old-source union or exclusion waiver.",
-  "current_source_sha256": "2414b2d7eddb3bf026bce421b625158f69bd1901f5a926744564803777f1894b",
+  "coverage_scope": "Retained installed software suite/coverage at research/review-planning-20261030.json; no full rerun for this documentation-only change. Exact package/SDK and verify-only refusal evidence is separate.",
+  "current_source_sha256": "22e959ed7b6d99f3b8c218172d31ea18a552475bc62fd3a6cf581d9f37ec75c8",
   "delivery": {
-    "final_readback": "Local/blake-review-planning-20261030T232019Z/final-delivery.json",
+    "final_readback": "Local/blake-docs-review-20261031T221651Z/DELIVERY.json",
     "required_visibility": "PRIVATE",
-    "status_at_source_freeze": "Software/source freeze; actual commit/push/remote and Downloads readback are recorded separately.",
+    "status_at_source_freeze": "Documentation source freeze; independent review, commit/push/remote and retained PDF/Downloads readback remain separately receipted.",
     "target_branch": "main"
   },
   "documentation_reconciliation": {
-    "path": "/Volumes/GitVault/Local/blake-review-planning-20261030T232019Z/root-documentation-repair-02/entomology/DOCUMENTATION-REPAIR.json",
-    "sha256": "d2d7139b58d6f2537a4008937ddecda34b51a4519ef6c37779aa8cf0f3bae328"
+    "path": "research/documentation-review-20261031.json",
+    "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e"
   },
-  "qualification": "research/review-planning-20261030.json",
-  "qualification_epoch": "review-planning-20261030",
+  "qualification": "research/documentation-review-20261031.json",
+  "qualification_epoch": "documentation-20261031",
   "reviewed_native": {
     "canonical_pdf": "Blakean_Entomology.pdf",
     "current_native_render_performed": false,
@@ -87,10 +87,25 @@
     "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
     "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951"
   },
-  "schema_version": 24,
-  "scope": "Current normal-installed software and deterministic blank-review workload; source, run/request/decision custody, real CLI/refusal controls and separate application/tools coverage. No new authored decisions, corpus capture, mathematical analysis, main-manuscript/native render, scientific, accessibility or public rights acceptance. Retained papers and all historical producers/failures keep their original qualification.",
-  "sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52",
+  "schema_version": 25,
+  "scope": "Complete docs inventory/review and bounded guide corrections. No code, dependency, corpus, adjudication, analytical, main-manuscript, native, scientific or release epoch is created.",
+  "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e",
   "shared_sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+  "software_qualification": {
+    "new_full_suite": false,
+    "prior_qualification": {
+      "path": "research/review-planning-20261030.json",
+      "sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52"
+    },
+    "qualification_scope": "Exact unchanged qualified package/SDK bytes and real verify-only CLI/refusal checked anew; full tests/coverage remain at the original qualification.",
+    "retained_coverage": {
+      "application": 90.57318806252961,
+      "tools": 79.22297297297297
+    },
+    "retained_tests": 303,
+    "sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+    "version": "0.5.0"
+  },
   "tests": 303,
   "version": "0.5.0"
 }
