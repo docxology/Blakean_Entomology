@@ -11,7 +11,7 @@ from typing import override
 from infrastructure.rendering._web_assets import embed_css
 from infrastructure.rendering.web_renderer import WebRenderer
 
-from blakean_entomology.publication_wire import PublicationError
+from blakean_entomology.publication_transport_models import PublicationError
 
 
 class EntomologyWebRenderer(WebRenderer):

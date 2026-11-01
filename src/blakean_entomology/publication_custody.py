@@ -5,7 +5,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from .publication_wire import Member, PublicationError
+from .publication_transport_models import Member, PublicationError
 
 
 def file_hash(path: Path) -> str:

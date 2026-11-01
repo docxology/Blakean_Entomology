@@ -6,7 +6,7 @@ from typing import Final
 
 from PIL import Image, ImageDraw, ImageFont
 
-from .publication_wire import PublicationError
+from .publication_transport_models import PublicationError
 
 INK: Final = "#173239"
 PAPER: Final = "#fffdf7"

@@ -22,7 +22,7 @@ from blakean_entomology.publication_data import (
     CoverObject,
 )
 from blakean_entomology.publication_frontmatter import publish_frontmatter
-from blakean_entomology.publication_wire import PublicationError
+from blakean_entomology.publication_transport_models import PublicationError
 from blakean_entomology.review_contexts import ContextAudit
 
 

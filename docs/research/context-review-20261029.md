@@ -61,3 +61,7 @@ copy and within-work repetitions before any distributional claim; examine
 unnamed visual forms without assuming lexical absence; and obtain specialist
 critique of the rival literary readings. Preserve all uncertain labels and the
 entire unreviewed denominator.
+
+## Independent reassessment, 31 October 2026
+
+An independent agent reassessed eight existing decisions across all six labels; no new decision or source-role change follows. The [new audit note](contextual-audit-20261031.md) records purposive selection, rival readings, exact witness custody and bounded support. The retained 47/35,992 population and original study hashes remain unchanged.

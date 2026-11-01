@@ -6,7 +6,7 @@ from .models import Decision
 from .publication_canvas import INK, OCHRE, RED, TEAL, Box, Sheet, sheet
 from .publication_data import AbstractData
 from .publication_relations import RELATIONS
-from .publication_wire import PublicationError
+from .publication_transport_models import PublicationError
 
 
 def retrieval(sheet: Sheet, data: AbstractData) -> None:

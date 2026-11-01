@@ -4,24 +4,24 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-entomology"
-version = "0.5.0"
+version = "0.6.0"
 description = "A source-bound invertebrate concordance and research application of the Blake corpus"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Daniel Ari Friedman"}]
-dependencies = ["blake>=0.5.0", "click>=8.1", "pydantic==2.11.9"]
+dependencies = ["blake>=0.6.0", "click>=8.1", "pydantic==2.11.9"]
 
 [project.scripts]
 blake-entomology = "blakean_entomology.cli:main"
 
 [project.optional-dependencies]
-recovery = ["blake[recovery]>=0.5.0"]
+recovery = ["blake[recovery]>=0.6.0"]
 
 [dependency-groups]
-dev = ["pytest>=8,<10", "pytest-cov>=6", "ruff>=0.11", "basedpyright>=1.28", "blake[recovery]>=0.5.0", "matplotlib>=3.7"]
+dev = ["pytest>=8,<10", "pytest-cov>=6", "ruff>=0.11", "basedpyright>=1.28", "blake[recovery]>=0.6.0", "matplotlib>=3.7"]
 
 [tool.uv.sources]
-blake = {git = "https://github.com/docxology/blake.git", rev = "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8"}
+blake = {git = "https://github.com/docxology/blake.git", rev = "d34876e021a8f2e654b96f1c23f7ec43d8d958c2"}
 en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"}
 
 [tool.hatch.build.targets.wheel]

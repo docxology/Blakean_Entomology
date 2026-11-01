@@ -20,7 +20,7 @@ import click
 from blakean_entomology.publication import prepare_native_stage
 from blakean_entomology.publication_contract import NativeRequest, PinnedInput
 from blakean_entomology.publication_data import pinned_bytes
-from blakean_entomology.publication_wire import PublicationError
+from blakean_entomology.publication_transport_models import PublicationError
 
 
 @click.command()

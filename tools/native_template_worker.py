@@ -26,7 +26,8 @@ from blakean_entomology.publication_custody import (
     template_sources,
 )
 from blakean_entomology.publication_quality import inspect_pdf
-from blakean_entomology.publication_wire import PublicationError, read_transport
+from blakean_entomology.publication_transport_models import PublicationError
+from blakean_entomology.publication_wire import read_transport
 
 
 def main() -> None:
@@ -181,6 +182,11 @@ def main() -> None:
     }
     receipt = {
         "template_commit": plan.template_commit,
+        "declared_sdk_commit": plan.sdk_commit,
+        "host_sdk_commit": plan.sdk_commit if plan.sdk_identity is not None else None,
+        "host_sdk_identity_sha256": plan.sdk_identity.sha256
+        if plan.sdk_identity is not None
+        else None,
         "template_sources": before,
         "imported_template_sources": imported,
         "template_sources_unchanged": True,

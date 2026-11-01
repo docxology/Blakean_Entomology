@@ -10,15 +10,16 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
 | Change | Read before editing |
 |---|---|
 | Corpus, vocabulary, review decisions or count interpretation | [Research protocol](docs/research-protocol.md), [contextual batch contract](docs/research/context-review-20261029.md), [lineage](docs/project-lineage.md), and the exact input pin |
-| Planning a review workload | [Request-pinned planning](docs/research/review-planning.md), the exact request/source/decision pins and [current software qualification](research/review-planning-20261030.json); preserve the original run and all review labels. |
+| Planning a review workload | [Request-pinned planning](docs/research/review-planning.md), the exact request/source/decision pins and [retained workload qualification](research/review-planning-20261030.json); preserve the original run and all review labels. |
 | Composition, atlas, reference mappings or figures | [Composition contract](docs/research/composition-analysis.md), [reference and atlas](docs/research/invertebrate-advancement.md), [style guide](docs/style-guide.md) |
 | Scholarly prose, bibliography or images | [Style guide](docs/style-guide.md), [biological-symbolism scholarship](docs/research/biological-symbolism.md), [visual witnesses](docs/research/visual-evidence.md), source and reading ledgers |
+| Native SDK admission or transport | [Host SDK contract](docs/native-sdk.md), current source/lock pins, the upstream installed verifier and actual normal-install qualification; archived profiles retain their producers. |
 | Manuscript preparation, PDF or delivery | [Render guide](docs/manuscript/README.md), [current verification](research/verification.json), [privacy](PRIVACY.md) |
 
 ## Work in the right layer
 
 - Import generic acquisition, recovery, portable schemas, matching, statistics,
-  proximity, composition, concentration, hierarchy, review planning and custody from `blake`.
+  proximity, composition, concentration, hierarchy, review planning, installed provenance and custody from `blake`.
   Put a reusable algorithm change upstream and qualify its exact new pin before
   adopting it here. Use explicit schema conversion from
   `blake.methods.schema_conversion`.

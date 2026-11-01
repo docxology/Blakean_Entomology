@@ -28,8 +28,8 @@ occurrence. See [project status](PROJECT_STATUS.md) and the
 
 ## Separate current runtime from captured evidence
 
-The current 0.5.0 software selects Blake 0.5.0 at Git
-`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8` through `pyproject.toml` and
+The current 0.6.0 software selects Blake 0.6.0 at Git
+`d34876e021a8f2e654b96f1c23f7ec43d8d958c2` through `pyproject.toml` and
 `uv.lock`. Its installation and workflow qualification are recorded in
 [verification.json](../research/verification.json). Upstream `main` is a moving
 branch, so an application adopts an exact reviewed commit rather than silently

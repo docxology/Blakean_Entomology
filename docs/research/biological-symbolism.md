@@ -64,3 +64,7 @@ The packet's `DELIVERY.json` and detached SHA close 258 payload artifacts.
 Independent manuscript acceptance is a separate gate. The original corpus,
 102-category/376-form vocabulary, 36,039 candidates, 47 reviewed and 35,992
 unreviewed candidates, and nine selected original objects remain unchanged.
+
+## Bounded access refresh, 31 October 2026
+
+The [independent access/context audit](contextual-audit-20261031.md) revalidated the complete retained research packet and refreshed public catalog/open-copy routes. The [access record](../../research/baine-access-20261031.json) retains successful metadata responses and failures separately. Baine’s relevant chapter was not acquired or inspected; its formal heading and boundaries remain unverified. No chapter, framing, full-book or original-image reading credit is added.

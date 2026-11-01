@@ -12,11 +12,10 @@ explicit compatible external template environment for native writers. Verify
 both interpreter prefixes on mounted GitVault. The clean template checkout must
 be at efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8 for the recorded native
 profile. The retained paper's SDK is
-45171a099a6a658c52ab689501de646a28485653. Current 0.5.0 software selects
-36b874e76d7e0549d0ea6b9f0713ced7fb41afa8; its review-planning qualification performs
+45171a099a6a658c52ab689501de646a28485653. Current 0.6.0 software selects
+d34876e021a8f2e654b96f1c23f7ec43d8d958c2; its software qualification performs
 no native render. Reproducing the retained epoch uses its recorded producer.
-The retained `NativeRequest`, `NativeStage` and worker transport currently admit only SDK `45171a099a6a658c52ab689501de646a28485653`. A request declaring the current `36b874…` pin is rejected. The transport's declared pin does not itself verify the actual imported SDK; do not relabel a current installation as the retained producer. A current-SDK native run first needs separately reviewed contract admission and actual SDK identity enforcement in `publication_contract.py`, `publication.py` and `publication_wire.py`, then fresh source/software/native/output qualification. A new request alone does not implement that prerequisite. Federalism is an architectural sibling,
-with no runtime dependency here.
+Archived schema-1 requests, stages and results keep the retained SDK and remain readable. New host production refuses that historical profile. Schema 2 now carries the current source selection explicitly and checks actual installed SDK provenance before accessing producer inputs or writing output. Its structured host receipt, request and stage must agree through the separate-runtime transport. See the [host SDK contract](../native-sdk.md) and current software qualification. This software admission is not a new writer run, an automatic renewal of a consumed grant, or a replacement paper. A new current-SDK edition still requires its own request, supported admission and complete independent PDF/HTML acceptance. Federalism remains an architectural sibling with no runtime dependency here.
 
 Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
 uv/Python caches, Matplotlib and TeX paths external. Never overwrite a prepared
@@ -172,7 +171,7 @@ template-native build.
 
 ## Software-only review-planning epoch
 
-Current software passed 303 installed tests and the declared
+Retained 0.5.0 software passed 303 installed tests and the declared
 separate application/tool coverage floors; its exact Git SDK and real
 planning/refusal commands are in
 [the software qualification](../../research/review-planning-20261030.json).
@@ -180,3 +179,15 @@ The retained PDF/HTML and their original producer remain unchanged. No old
 coverage database, native receipt, page review or one-shot production grant
 is reassigned to this software epoch. Changed manuscript or renderer inputs
 require their own source, native and physical/browser-output qualification.
+
+## Current SDK software admission
+
+The [schema-2 host SDK contract](../native-sdk.md) adds actual installed provenance
+for new staging. The exact Blake 0.6.0 selection passed 353 normal-installed
+tests, strict package typing, Ruff/format and separate application/tool coverage
+floors; [the software receipt](../../research/native-sdk-admission-20261031.json)
+binds runtime, source, lock and refusing controls. Archived schema-1 inputs and
+this retained edition keep their exact original producer. The software-only gate
+does not invoke native writers or renew an earlier one-shot grant. A current-SDK
+replacement requires a new pinned request, supported admission and complete
+PDF/HTML acceptance under E-N02.

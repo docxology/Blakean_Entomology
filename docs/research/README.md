@@ -13,6 +13,7 @@ and additive scholarly reading epochs.
 | [Visual evidence](visual-evidence.md) | Selected originals, derivatives, rights and copy-specific readings |
 | [Biological symbolism](biological-symbolism.md) | Baine bibliography/access limits and bounded secondary-source context; no chapter-reading claim |
 | [Context review, 29 October](context-review-20261029.md) | Dated contextual-review epoch; retains its own input and decision denominator |
+| [Independent reassessment, 31 October](contextual-audit-20261031.md) | Eight fixed existing cases, rival readings, exact witness custody and finite Baine access refresh; zero new decisions |
 | [Shared-methods analysis](shared-methods-analysis.md) | Historical migration/seed note; its source-overlay recipe is distinct from installed-consumer evidence |
 
 The frozen seed ledger's unread Perkins entry remains an accurate record of

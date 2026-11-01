@@ -1,22 +1,22 @@
 {
   "coverage": {
-    "application": 90.57318806252961,
-    "tools": 79.22297297297297
+    "application": 91.0228744065602,
+    "tools": 79.15611814345992
   },
-  "coverage_scope": "Retained installed software suite/coverage at research/review-planning-20261030.json; no full rerun for this documentation-only change. Exact package/SDK and verify-only refusal evidence is separate.",
-  "current_source_sha256": "22e959ed7b6d99f3b8c218172d31ea18a552475bc62fd3a6cf581d9f37ec75c8",
+  "coverage_scope": "Fresh suite-only statement/branch coverage with complete separate application/tool denominators; no historical native or operational coverage union.",
+  "current_source_sha256": "87411eab35e52669360330458f0576d2581af1527897a750ba39a7d4cd001418",
   "delivery": {
-    "final_readback": "Local/blake-docs-review-20261031T221651Z/DELIVERY.json",
+    "final_readback": "Local/blake-sdk-scholarship-20261101T000147Z/DELIVERY.json",
     "required_visibility": "PRIVATE",
-    "status_at_source_freeze": "Documentation source freeze; independent review, commit/push/remote and retained PDF/Downloads readback remain separately receipted.",
+    "status_at_source_freeze": "Software/source freeze; independent final delta, canonical admission, commit/push and remote/Downloads completion remain separately receipted.",
     "target_branch": "main"
   },
   "documentation_reconciliation": {
     "path": "research/documentation-review-20261031.json",
     "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e"
   },
-  "qualification": "research/documentation-review-20261031.json",
-  "qualification_epoch": "documentation-20261031",
+  "qualification": "research/native-sdk-admission-20261031.json",
+  "qualification_epoch": "native-sdk-20261031",
   "reviewed_native": {
     "canonical_pdf": "Blakean_Entomology.pdf",
     "current_native_render_performed": false,
@@ -87,25 +87,51 @@
     "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
     "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951"
   },
-  "schema_version": 25,
-  "scope": "Complete docs inventory/review and bounded guide corrections. No code, dependency, corpus, adjudication, analytical, main-manuscript, native, scientific or release epoch is created.",
-  "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e",
-  "shared_sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+  "schema_version": 26,
+  "scope": "Installed SDK admission and explicit native host/transport contract; additive independent eight-case reassessment and finite Baine access refresh. Corpus, 47 decisions, analytical producers, five native inputs and retained paper remain unchanged. No current native render or scientific/release acceptance.",
+  "sha256": "aec98c2af251f416a7ac6235c84694ea75bc9fd6eb5c421b9f05ef6a3698e3df",
+  "shared_sdk_commit": "d34876e021a8f2e654b96f1c23f7ec43d8d958c2",
   "software_qualification": {
-    "new_full_suite": false,
-    "prior_qualification": {
-      "path": "research/review-planning-20261030.json",
-      "sha256": "5f4dd70761dcccc243e119f1d56f0f08cdc3824f7cf032252e4edabd07a52a52"
+    "coverage": {
+      "application": {
+        "branches": 398,
+        "covered_branches": 334,
+        "covered_lines": 1775,
+        "denominator": 2317,
+        "files": 30,
+        "floor": 90,
+        "numerator": 2109,
+        "pass": true,
+        "percent": 91.0228744065602,
+        "statements": 1919,
+        "unexecuted": []
+      },
+      "tools": {
+        "branches": 220,
+        "covered_branches": 141,
+        "covered_lines": 797,
+        "denominator": 1185,
+        "files": 12,
+        "floor": 60,
+        "numerator": 938,
+        "pass": true,
+        "percent": 79.15611814345992,
+        "statements": 965,
+        "unexecuted": [
+          "tools/audit_composition.py",
+          "tools/native_template_worker.py",
+          "tools/native_web.py"
+        ]
+      }
     },
-    "qualification_scope": "Exact unchanged qualified package/SDK bytes and real verify-only CLI/refusal checked anew; full tests/coverage remain at the original qualification.",
-    "retained_coverage": {
-      "application": 90.57318806252961,
-      "tools": 79.22297297297297
-    },
-    "retained_tests": 303,
-    "sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
-    "version": "0.5.0"
+    "new_full_suite": true,
+    "qualification_scope": "Normal-installed software/transport admission and additive contextual/access evidence; no native production, numerical replay, new decisions or scientific/release acceptance.",
+    "receipt": "research/native-sdk-admission-20261031.json",
+    "receipt_sha256": "aec98c2af251f416a7ac6235c84694ea75bc9fd6eb5c421b9f05ef6a3698e3df",
+    "sdk_commit": "d34876e021a8f2e654b96f1c23f7ec43d8d958c2",
+    "tests": 353,
+    "version": "0.6.0"
   },
-  "tests": 303,
-  "version": "0.5.0"
+  "tests": 353,
+  "version": "0.6.0"
 }

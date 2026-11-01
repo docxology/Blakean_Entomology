@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "epoch": "independent-context-audit-20261031",
+  "baseline_git": "e5c59654e061b08055d4292bbb72dc5fb8f608ba",
+  "scope": "Purposive audit, fixed before opening any selected raw context; all six labels, both literal cases, two differently structured figurative cases, one each associated/non_animal/uncertain/editorial. Not random, prevalence, agreement or error-rate estimation.",
+  "reviewer": "Independent Codex agent; source/window audit, not human or specialist consensus",
+  "new_decisions": 0,
+  "existing_decisions": 47,
+  "unreviewed_candidates": 35992,
+  "cases": [
+    {
+      "selection_id": "E29-03",
+      "audit_disposition": "supportable",
+      "rationale": "The complete selected window includes A Dream: the Emmet speaks about her children, the glow-worm answers as watchman and directs her toward the beetle's sound. Personification directly supports animal_figurative under the recorded rule. The ending offers a route home; it does not narrate completed rescue.",
+      "rival_reading": "An ant's particular need and ordinary insect activities remain present within the personified scene. A figurative label does not erase that animal reference.",
+      "needed_evidence": "An image or edition claim would require separate original/copy inspection. No code change is justified by this window.",
+      "reading_ceiling": "Entire selected window; all twenty verse lines of this captured A Dream transcription appear within it. No full-copy or image credit.",
+      "mode_resolution": "figurative function supported; literal animal reference can coexist"
+    },
+    {
+      "selection_id": "E29-04",
+      "audit_disposition": "supportable",
+      "rationale": "Honey of Bees is presented alongside milk and harvest produce. The matched name has a concrete animal/product sense, and the record expressly withholds an observed-natural-history claim.",
+      "rival_reading": "Albion's suffering body and transformed landscape give the whole sequence allegorical force. That does not by itself make the noun's local referent non-animal.",
+      "needed_evidence": "Further Jerusalem and copy/design reading would be needed for a wider account of the landscape. No species or empirical-behavior inference is supported.",
+      "reading_ceiling": "Complete bounded source window only; no whole-Jerusalem or image credit.",
+      "mode_resolution": "concrete animal sense supportable within the poetic/allegorical setting"
+    },
+    {
+      "selection_id": "E29-05",
+      "audit_disposition": "supportable",
+      "rationale": "The honey bees sing in the Argument's transformed landscape. The wording alone does not decide between conventional buzzing-as-song and stronger personification; retaining uncertain is justified.",
+      "rival_reading": "Singing may be ordinary poetic description of bee sound, or an animal voice participating in the altered scene. Neither alternative is forced by the selected text.",
+      "needed_evidence": "A clearer declared boundary for mixed modes and specialist argument could refine the label; a modern taxon would not resolve the literary ambiguity.",
+      "reading_ceiling": "Complete selected window, including the entire Argument text present in it; no whole-book or image credit.",
+      "mode_resolution": "unresolved literal/figurative mode; existing uncertainty preserved"
+    },
+    {
+      "selection_id": "E29-12",
+      "audit_disposition": "supportable",
+      "rationale": "The construction fowl that may fly makes the matched span a motion verb. It is not the name of an invertebrate, even though birds and other creatures occur nearby.",
+      "rival_reading": "The window is full of animal language, but the label concerns this matched span. The text is a captured Genesis transcription and must not become an undifferentiated claim about Blake's authored animal vocabulary.",
+      "needed_evidence": "No additional context is needed to refuse an invertebrate sense at this span. Broader authorship claims require separate source treatment.",
+      "reading_ceiling": "Complete selected Genesis source window only; no whole-manuscript, Bible or image credit.",
+      "mode_resolution": "non-animal lexical use at the matched span"
+    },
+    {
+      "selection_id": "E29-15",
+      "audit_disposition": "supportable",
+      "rationale": "Silken modifies nets that Oothoon proposes to spread to catch girls. Material/capture imagery supports an associated lead; this span names neither silkworm nor spider.",
+      "rival_reading": "Silken can describe softness, seduction or material rather than an asserted animal product. The association is a search lead, not an adjudicated organism.",
+      "needed_evidence": "An animal-production or species claim would need explicit additional evidence. Wider interpretation must retain the coercive possibility of catching/trapping and the speaker's proposal.",
+      "reading_ceiling": "Complete selected Visions window only; no whole-work or image credit.",
+      "mode_resolution": "associated product/material/structure lead; no organism asserted"
+    },
+    {
+      "selection_id": "E29-17",
+      "audit_disposition": "supportable",
+      "rationale": "Spiders' web-making belongs to the dungeon description. The concrete animal sense is compatible with the enclosing political scene, and the annotation does not assert a species or an observed dungeon.",
+      "rival_reading": "The tower named Order, grave comparison and neighboring emblematic prisoners make the setting figurative. A single mode cannot exhaust this passage's functions.",
+      "needed_evidence": "Original/design and broader work inspection would be needed for visual or comprehensive political claims. No reason to replace this local referent label emerges from the window.",
+      "reading_ceiling": "Complete selected French Revolution window only; no whole-work or image credit. Modern notes in raw XML were excluded from the primary reading.",
+      "mode_resolution": "concrete animal referent supportable within a figurative political scene"
+    },
+    {
+      "selection_id": "E29-32",
+      "audit_disposition": "supportable",
+      "rationale": "The opening animal address immediately becomes reciprocal fly/man questions, followed by conditional claims about thought, life and death. That explicit comparison supports the protocol's figurative label.",
+      "rival_reading": "The addressed fly and the speaker's destructive hand retain a possible literal encounter. The ending may also recentre the speaker rather than establish the animal's cognition or welfare.",
+      "needed_evidence": "The selected transcription supports the code; cognition, animal consciousness and the force of the ending remain interpretive questions requiring argument, not a count.",
+      "reading_ceiling": "Entire selected window; all twenty verse lines of this captured The Fly transcription appear within it. No full-copy or image credit.",
+      "mode_resolution": "explicit comparison supported; literal encounter remains a live dimension"
+    },
+    {
+      "selection_id": "E29-33",
+      "audit_disposition": "supportable",
+      "rationale": "The exact raw XML span lies in illusobjdesc describing birds flying above words, before the separate phystext verse. Editorial takes precedence under the declared authorship rule.",
+      "rival_reading": "If one considered lexical sense alone, fly is also a bird-motion verb. That does not justify promoting modern catalog expression into Blake's primary text.",
+      "needed_evidence": "Any claim about the depicted birds or a visual invertebrate would require inspecting the original object with its own rights/provenance record. No image was inspected here.",
+      "reading_ceiling": "Complete selected raw-XML window and element boundary only; no visual-object or verse-content reading credit from the catalog text.",
+      "mode_resolution": "modern editorial source boundary established; original source_role remains unverified"
+    }
+  ],
+  "evidence": {
+    "vault_relative_root": "Local/blake-sdk-scholarship-20261101T000147Z/review-scholarship",
+    "report_sha256": "275bb29e02eccc6ede58e4e435f33c5657c5b870b60b5e649d8b7ed20716ae00",
+    "context_audit_sha256": "9f40a888146073772e958903b5c99af5b97c0132e93dd937233274c52acca033",
+    "access_ledger_sha256": "984f67cb27c48702e20484224efbd53f4915f1319c7dc79e99ab069207bd5a37",
+    "verdict_sha256": "f271f11b395031ad40fe97937a7a5e2a7997abfe345b2b131d303a53f18f9ca2",
+    "manifest_sha256": "45f52dcece02f6d67fbaecab75c0493dfa636e772025f9ab30f9dc7933897a4e"
+  },
+  "limits": "Eight purposive existing decisions only. No count/label/source-role changes, accuracy estimate, representative agreement, whole-work/image/whole-oeuvre or scientific/release acceptance."
+}

@@ -16,7 +16,8 @@ from .publication_contract import NativeRequest, NativeStage
 from .publication_custody import checked_member, output_member, template_sources
 from .publication_data import load_abstract_data, pinned_bytes
 from .publication_frontmatter import frontmatter_markdown, publish_frontmatter
-from .publication_wire import Member, PublicationError
+from .publication_sdk import admit_native_sdk
+from .publication_transport_models import Member, PublicationError
 from .workflows import require_private_output
 
 
@@ -31,6 +32,7 @@ class PreparedArticle(BaseModel):
 
 def prepare_native_stage(request: NativeRequest, output: Path, template: Path) -> NativeStage:
     """Admit current source and prior exact data before reserving a new stage."""
+    sdk = admit_native_sdk(request)
     root = Path.cwd()
     require_private_output(output, request.prepared.path)
     raw = pinned_bytes(request.prepared)
@@ -104,6 +106,9 @@ def prepare_native_stage(request: NativeRequest, output: Path, template: Path) -
     )
     canonical_request = request.model_dump_json().encode()
     _ = (output / "native-request.json").write_bytes(canonical_request)
+    if sdk != admit_native_sdk(request):
+        raise PublicationError("native_sdk_changed", "SDK identity changed during staging")
+    _ = (output / "installed-sdk.json").write_text(sdk.model_dump_json(indent=2) + "\n")
     inputs = tuple(
         output_member(p, output)
         for base in (manuscripts, figures)
@@ -113,8 +118,12 @@ def prepare_native_stage(request: NativeRequest, output: Path, template: Path) -
         output_member(output / "manuscript_variables.csv", output),
         output_member(output / "native-request.json", output),
         output_member(web / "web.css", output),
+        output_member(output / "installed-sdk.json", output),
     )
     record = NativeStage(
+        schema_version=request.schema_version,
+        sdk_commit=request.sdk_commit,
+        sdk_identity=sdk,
         request_sha256=hashlib.sha256(canonical_request).hexdigest(),
         template_sources=template_map,
         source_order=("00_frontmatter.md", "10_article.md"),
@@ -132,12 +141,17 @@ def prepare_native_stage(request: NativeRequest, output: Path, template: Path) -
             writer.writerow(("template", name, (template / name).stat().st_size, sha))
     transport = configparser.ConfigParser(interpolation=None)
     transport["native"] = {
+        "schema_version": str(request.schema_version),
         "template_commit": request.template_commit,
         "sdk_commit": request.sdk_commit,
         "source_date_epoch": str(record.source_date_epoch),
         "source_order": ",".join(record.source_order),
         "wire_sha256": hashlib.sha256((output / "native-wire.csv").read_bytes()).hexdigest(),
         "stage_sha256": hashlib.sha256((output / "native-stage.json").read_bytes()).hexdigest(),
+        "sdk_identity_size": str((output / "installed-sdk.json").stat().st_size),
+        "sdk_identity_sha256": hashlib.sha256(
+            (output / "installed-sdk.json").read_bytes()
+        ).hexdigest(),
     }
     with (output / "native-transport.ini").open("x") as stream:
         transport.write(stream)

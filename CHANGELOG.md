@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 software — installed SDK admission and contextual reassessment
+
+- Delegate installed Git metadata, physical package/RECORD verification and imported-origin checks to public Blake; retain allowed pins and native policy here.
+- Add schema-2 host identity, explicit request/stage/transport pin propagation and structured receipt consistency; keep schema-1 archives readable while refusing new historical production.
+- Keep the template bridge free of SDK/Pydantic dependencies; use one stdlib transport owner and refuse noncanonical paths, malformed JSON and contradictory profiles.
+- Record an independent eight-case reassessment and bounded Baine access refresh, adding no decisions, source-role changes, chapter reading or manuscript output. Add exact ignored-witness custody without editing the historical study.
+- Qualify the exact public Git pin in a fresh normal locked installation: 353 tests, application 91.02%/tools 79.16% statement/branch coverage, strict package typing and formatting; both prefixes are external.
+- Preserve all five authored native inputs, the retained 40-page PDF and every prior source/runtime/native/review failure. This software unit renews no native grant.
+
 ## 0.5.0 software — request-pinned review workloads
 
 - Adopt the exact qualified Blake 0.5.0 Git source for shared deterministic ranking, unit caps, full-pool hashes and immutable blank batches.

@@ -5,7 +5,7 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
-from .publication_wire import PublicationError
+from .publication_transport_models import PublicationError
 
 
 @dataclass(frozen=True, slots=True)

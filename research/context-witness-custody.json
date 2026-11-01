@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "Additive custody pointer for the unchanged original contextual witnesses; closes SCH-CUSTODY-01 without editing the historical study.",
+  "historical_study": {
+    "path": "research/context-review-study-20261029.json",
+    "sha256": "c075e2d1496920178240b19caddceb18f10f9a6a8a24d6cab6f390e755c9b3bc"
+  },
+  "private_witnesses": {
+    "vault_relative_path": "Local/blake-paper-advancement-20261029/entomology/artifacts/review-witnesses.json",
+    "sha256": "65d56ee2c099b13c410aab21926547c3477cbc274978193d8b2674e34416e9be",
+    "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+    "custody": "Ignored raw source windows stay outside tracked private/public source; resolve this pointer only against the mounted GitVault collection."
+  },
+  "audit": "research/contextual-audit-20261031.json"
+}

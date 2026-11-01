@@ -10,7 +10,7 @@ from .atlas_models import AtlasReceipt
 from .casebook import Casebook
 from .composition import CompositionAudit
 from .publication_contract import NativeRequest, PinnedInput
-from .publication_wire import PublicationError
+from .publication_transport_models import PublicationError
 from .review_contexts import ContextAudit
 
 

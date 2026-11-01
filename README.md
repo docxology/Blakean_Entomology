@@ -4,7 +4,9 @@ Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article source](docs/manuscript/blakean-entomology.md)
 and the [current private paper](Blakean_Entomology.pdf).
 
-The **0.5.0** software adds request-pinned review planning. The retained
+The **0.6.0** software adds actual installed-SDK admission and a closed native
+host/transport profile. Request-pinned review planning remains active from
+0.5.0. The retained
 **0.4.0 working paper** was prepared through the actual pinned
 [docxology/template](https://github.com/docxology/template) hydration, validation,
 PDF and web writers. Its layout uses an authentic Blake cover, three distinct
@@ -21,8 +23,14 @@ Hoagwood criticism, selected Hutchings paragraphs and a copy-specific *Visions*
 transcription deepen the argument without creating contextual decisions or
 image-reading credit. [Sources and reading limits](docs/research/biological-symbolism.md).
 
-The executable shared core is Blake 0.5.0 at exact Git
-`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`. The retained paper's producer remains
+The [host SDK admission contract](docs/native-sdk.md) separates actual installed
+provenance from the template worker's own runtime. An
+[independent eight-case reassessment](docs/research/contextual-audit-20261031.md)
+preserves all 47 decisions and their rival readings; the new access attempt adds
+no Baine chapter credit.
+
+The executable shared core is Blake 0.6.0 at exact Git
+`d34876e021a8f2e654b96f1c23f7ec43d8d958c2`. The retained paper's producer remains
 Blake 0.4.0 at `45171a099a6a658c52ab689501de646a28485653`. The application
 retains its fixed corpus, 47-decision study and nine selected original objects.
 Its modern reference tree is conditional classification, with no inferred
@@ -184,7 +192,7 @@ shortfall of 0. Each selected exact whole-text unit occurs
 at most once. Greedy ordering supplies no representative-sample or
 independent-observation claim. All decision cells remain blank.
 
-[Current software qualification](research/review-planning-20261030.json) binds the exact original
+[Retained review-planning qualification](research/review-planning-20261030.json) binds the exact original
 run, request, existing decisions, full/scoped counts and real positive/refusal
 commands. Authored decisions must still cite the original run and hit IDs;
 a planning receipt supplies no reading credit. Preserve uncertainty,
@@ -236,12 +244,15 @@ uv run --locked basedpyright
 ```
 
 The explicit project configuration and active `tests/` scope keep archived
-historical tests outside the current suite. The current 0.5.0 normal-installed
-suite passed 303 tests. Its fresh suite-only statement/branch coverage is
-90.57% for application code and 79.22% for tools, against separate 90% and
+historical tests outside the current suite. The current 0.6.0 normal-installed
+suite passed 353 tests, with no failures, errors or skips. Its fresh suite-only
+statement/branch coverage is 91.02% for application code and 79.16% for tools,
+against separate 90% and
 60% floors. Additional operational counters remain separate. The
-[current software qualification](research/review-planning-20261030.json)
-binds the actual source, imports, coverage databases and commands.
+[current software qualification](research/native-sdk-admission-20261031.json)
+binds the exact public Git pin, 36-package lock, 32 installed distributions,
+private source, imports, coverage databases and real positive/refusing commands.
+The 303-test 0.5.0 qualification remains separately preserved.
 
 The retained 0.4.0 paper's combined suite/native-production coverage belongs
 to its original qualification and producer in the

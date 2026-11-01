@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "epoch": "baine-access-refresh-20261031",
+  "scope": "Finite legitimate public primary-catalog/open-copy investigation for Baine, within a 45-minute maximum; no payment, authentication change, borrowing, contact or bypass.",
+  "chapter_inspected": false,
+  "chapter_title_and_boundaries_verified": false,
+  "chapter_reading_credit": 0,
+  "accesses": [
+    {
+      "id": "bentley-current",
+      "url": "https://library.vicu.utoronto.ca/special/bentley/catalogue/1516-1697.html",
+      "purpose": "Institutional collection catalogue record1545; metadata only",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://library.vicu.utoronto.ca/special/bentley/catalogue/1516-1697.html"
+      ],
+      "receipt_sha256": "8bb746ed18e3a521b60677cb3a6cff5067ac2fbdd6be38e6ca3a1184bfb97b1d"
+    },
+    {
+      "id": "googlebooks-current",
+      "url": "https://books.google.com/books?id=9UlaAAAAMAAJ",
+      "purpose": "Public book record and exposed contents; no snippet reading credit",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://books.google.com/books?id=9UlaAAAAMAAJ"
+      ],
+      "receipt_sha256": "14e827c4700d6176b753ad450ee5261cfcd742216f08e2f4889122446e76ed43"
+    },
+    {
+      "id": "hathi-isbn-current",
+      "url": "https://catalog.hathitrust.org/api/volumes/brief/isbn/0935265104.json",
+      "purpose": "Current authoritative digitization/access metadata",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://catalog.hathitrust.org/api/volumes/brief/isbn/0935265104.json"
+      ],
+      "receipt_sha256": "0fe5b8717bad2cfa1b9558dc9362793daea99e16f6677fa213d769148077c250"
+    },
+    {
+      "id": "hoagwood-current",
+      "url": "https://bq.blakearchive.org/23.1.hoagwood",
+      "purpose": "Primary published review response; no direct book-reading credit",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://bq.blakearchive.org/23.1.hoagwood"
+      ],
+      "receipt_sha256": "f4f4798676b5ebaa1ba4dafab3555b741cd27a00837085224fed2992275c432c"
+    },
+    {
+      "id": "ia-metadata-current",
+      "url": "https://archive.org/metadata/scatteredportion0000bain",
+      "purpose": "Current access/rights/available public files; do not fetch restricted files",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://archive.org/metadata/scatteredportion0000bain"
+      ],
+      "receipt_sha256": "35757c1dc6ffbae565a2c45b5460cb7c4baf164186dac70dbcbae9c23aab3a3e"
+    },
+    {
+      "id": "ia-metadata-second-current",
+      "url": "https://archive.org/metadata/scatteredportion0000bain_v3p1",
+      "purpose": "Second item access/rights/available public files; do not fetch restricted files",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://archive.org/metadata/scatteredportion0000bain_v3p1"
+      ],
+      "receipt_sha256": "0ca4f35d0a34f1daefa562ccada47fae6fb7fb67fcb2ab0e92e727d0f39825e8"
+    },
+    {
+      "id": "ia-reader-config-current",
+      "url": "https://ia800602.us.archive.org/BookReader/BookReaderJSIA.php?id=scatteredportion0000bain&itemPath=/13/items/scatteredportion0000bain&server=ia800602.us.archive.org&format=jsonp&subPrefix=scatteredportion0000bain&requestUri=/details/scatteredportion0000bain",
+      "purpose": "Public reader access declaration and permitted preview leaves only",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://ia800602.us.archive.org/BookReader/BookReaderJSIA.php?id=scatteredportion0000bain&itemPath=/13/items/scatteredportion0000bain&server=ia800602.us.archive.org&format=jsonp&subPrefix=scatteredportion0000bain&requestUri=/details/scatteredportion0000bain"
+      ],
+      "receipt_sha256": "cbd1354a44eb30e3731fb71e00d29e88180ccc61296190a98176321541732871"
+    },
+    {
+      "id": "ia-search-current",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%22scattered%20portions%22%20AND%20creator%3ABaine&output=json",
+      "purpose": "Search for available distinct public item records; no restricted file acquisition",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://archive.org/advancedsearch.php?q=title%3A%22scattered%20portions%22%20AND%20creator%3ABaine&output=json"
+      ],
+      "receipt_sha256": "cde17d2aa74e1c3f1f79d7fb24aeff30b0442eca0ab4a0cabae71b2cd4495358"
+    },
+    {
+      "id": "loc-current",
+      "url": "https://www.loc.gov/item/85073258/?fo=json",
+      "purpose": "Authoritative bibliographic record; metadata only",
+      "curl_exit": 28,
+      "response": [
+        "200",
+        "https://www.loc.gov/item/85073258/?fo=json"
+      ],
+      "receipt_sha256": "b4923795c95459cfaa4b3b47334a22a7a7dc4b723e5bdc65af1ebacc4abdb7d4"
+    },
+    {
+      "id": "openlibrary-current",
+      "url": "https://openlibrary.org/isbn/0935265104.json",
+      "purpose": "Public edition responsibility statement; metadata only",
+      "curl_exit": 0,
+      "response": [
+        "200",
+        "https://openlibrary.org/books/OL2558914M.json"
+      ],
+      "receipt_sha256": "f2ff09b7f9a6c21e50e2e7e8cb991bb4b674ef1db7ee277924959bce432788a5"
+    }
+  ],
+  "bibliography": "Rodney M. Baine, with assistance of Mary R. Baine, The Scattered Portions: William Blake's Biological Symbolism (Athens, Georgia: distributed by the author, 1986), ISBN0935265104. No university-press or uninspected title-page claim.",
+  "limits": "Current public catalogs and restricted/search-only access do not establish that no legitimate copy exists elsewhere. Reviews/snippets do not supply direct chapter evidence. Timed-out LoC response and failed preview decoding remain failures.",
+  "evidence": {
+    "vault_relative_root": "Local/blake-sdk-scholarship-20261101T000147Z/review-scholarship",
+    "report_sha256": "275bb29e02eccc6ede58e4e435f33c5657c5b870b60b5e649d8b7ed20716ae00",
+    "context_audit_sha256": "9f40a888146073772e958903b5c99af5b97c0132e93dd937233274c52acca033",
+    "access_ledger_sha256": "984f67cb27c48702e20484224efbd53f4915f1319c7dc79e99ab069207bd5a37",
+    "verdict_sha256": "f271f11b395031ad40fe97937a7a5e2a7997abfe345b2b131d303a53f18f9ca2",
+    "manifest_sha256": "45f52dcece02f6d67fbaecab75c0493dfa636e772025f9ab30f9dc7933897a4e"
+  }
+}

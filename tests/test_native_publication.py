@@ -13,7 +13,8 @@ from blakean_entomology.publication_custody import checked_member, output_member
 from blakean_entomology.publication_data import (
     pinned_bytes,
 )
-from blakean_entomology.publication_wire import Member, PublicationError, read_transport
+from blakean_entomology.publication_transport_models import Member, PublicationError
+from blakean_entomology.publication_wire import read_transport
 
 
 @pytest.mark.parametrize("failure", ("hash", "missing", "symlink"))
@@ -38,7 +39,9 @@ def test_pinned_source_refuses_real_file_changes(tmp_path, failure) -> None:
     assert path.exists()
 
 
-@pytest.mark.parametrize("name", ("../escape", "/absolute", "", "a/../../escape"))
+@pytest.mark.parametrize(
+    "name", ("../escape", "/absolute", "", "a/../../escape", ".", "./a", "a//b", "a\\b", "a/./b")
+)
 def test_relative_member_refuses_escape(name) -> None:
     # Given an unsafe relative-path request.
     # When constructing the native transport member.
@@ -88,6 +91,7 @@ def test_native_transport_preserves_exact_source_and_input_roles(tmp_path) -> No
     # Then source-role and numerical metadata survive without loose JSON coercion.
     assert plan.inputs == (Member("source.md", 4, "a" * 64),)
     assert plan.source_order == ("00_frontmatter.md", "10_article.md")
+    assert plan.sdk_commit == "45171a099a6a658c52ab689501de646a28485653"
 
 
 @pytest.mark.parametrize("failure", ("pin", "wire", "stage", "row", "variables"))
@@ -148,6 +152,8 @@ def test_native_cli_refusal_preserves_typed_error_through_click(tmp_path) -> Non
         ("sdk_commit", "0" * 40),
         ("template_commit", "0" * 40),
         ("source_order", "../outside.md"),
+        ("schema_version", "broken"),
+        ("source_date_epoch", "0"),
     ),
 )
 def test_native_transport_refuses_declared_pin_and_order_changes(

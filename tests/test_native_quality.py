@@ -3,7 +3,7 @@
 import pytest
 
 from blakean_entomology.publication_quality import PDFMetadata, parse_pdfinfo, require_title
-from blakean_entomology.publication_wire import PublicationError
+from blakean_entomology.publication_transport_models import PublicationError
 
 
 def test_actual_metadata_fields_are_parsed() -> None:
