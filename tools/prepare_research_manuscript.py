@@ -25,6 +25,7 @@ from blakean_entomology.core import vocabulary
 from blakean_entomology.taxonomy import load_reference
 from blakean_entomology.workflows import require_private_output
 from tools.build_reference_figures import FigureReceipt
+from tools.geometry_asset_contract import verify_geometry_assets
 from tools.manuscript_assets import AdditionalInput, PreparationReceipt
 from tools.manuscript_content import casebook_markdown, hydrate_article
 
@@ -64,6 +65,10 @@ def prepare(
     if digest(atlas_raw) != atlas_sha256 or digest(figure_raw) != figures_sha256:
         raise EvidenceError("manuscript_input_pin", "Atlas or figure receipt changed")
     atlas = AtlasReceipt.model_validate_json(atlas_raw)
+    if extension is not None and extension.geometry_binding is not None and additional is not None:
+        captions = verify_geometry_assets(additional.directory, extension.geometry_binding, atlas)
+        if any(extension.replacements.get(k) != v for k, v in captions.items()):
+            raise EvidenceError("geometry_asset_caption_binding", "Figure captions differ")
     figures = FigureReceipt.model_validate_json(figure_raw)
     if (
         figures.atlas_sha256 != atlas_sha256
@@ -144,6 +149,7 @@ def prepare(
             Path(__file__),
             Path(__file__).with_name("manuscript_assets.py"),
             Path(__file__).with_name("manuscript_content.py"),
+            Path(__file__).with_name("geometry_asset_contract.py"),
             Path(__file__).with_name("reference_plotting.py"),
             Path(__file__).with_name("build_reference_figures.py"),
         )
@@ -179,7 +185,11 @@ def prepare(
         additional_assets=extension,
         helper_sources=tuple(
             FileReceipt(path=name, size=len(raw), sha256=digest(raw))
-            for name in ("manuscript_assets.py", "manuscript_content.py")
+            for name in (
+                "manuscript_assets.py",
+                "manuscript_content.py",
+                "geometry_asset_contract.py",
+            )
             for raw in (read_regular(Path(__file__).with_name(name)),)
         ),
     )

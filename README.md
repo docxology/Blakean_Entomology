@@ -1,274 +1,176 @@
 # Blakean Entomology
 
-Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
-[agent guidance](AGENTS.md), the [article source](docs/manuscript/blakean-entomology.md)
-and the [current private paper](Blakean_Entomology.pdf).
-
-The **0.6.0** software adds actual installed-SDK admission and a closed native
-host/transport profile. Request-pinned review planning remains active from
-0.5.0. The retained
-**0.4.0 working paper** was prepared through the actual pinned
-[docxology/template](https://github.com/docxology/template) hydration, validation,
-PDF and web writers. Its layout uses an authentic Blake cover, three distinct
-graphical abstracts on physical pages 2–4, and contents beginning on page 5.
-Native counters resolve sections, figures, tables, equations and justified
-formalisms. See the [native production contract](docs/manuscript/README.md).
-
-The article examines provision, feeding and collective embodiment while keeping
-their symbolic and ethical alternatives active. Baine's *The Scattered Portions:
-William Blake's Biological Symbolism* is cited as a bibliographic predecessor;
-the relevant book chapter remains unavailable for direct reading; its formal
-title and boundaries remain unverified. Inspected
-Hoagwood criticism, selected Hutchings paragraphs and a copy-specific *Visions*
-transcription deepen the argument without creating contextual decisions or
-image-reading credit. [Sources and reading limits](docs/research/biological-symbolism.md).
-
-The [host SDK admission contract](docs/native-sdk.md) separates actual installed
-provenance from the template worker's own runtime. An
-[independent eight-case reassessment](docs/research/contextual-audit-20261031.md)
-preserves all 47 decisions and their rival readings; the new access attempt adds
-no Baine chapter credit.
-
-The executable shared core is Blake 0.6.0 at exact Git
-`d34876e021a8f2e654b96f1c23f7ec43d8d958c2`. The retained paper's producer remains
-Blake 0.4.0 at `45171a099a6a658c52ab689501de646a28485653`. The application
-retains its fixed corpus, 47-decision study and nine selected original objects.
-Its modern reference tree is conditional classification, with no inferred
-phylogeny or literary species identity.
-
-[Current software verification](research/verification.json) binds the new
-installed source, tests, separate application/tool coverage and review workloads.
-The [retained native qualification](research/template-native-20261030.json)
-belongs to the 0.4.0 paper and its original producer. No new native render or
-scientific acceptance follows from this software addition.
-The retained presentation consumes analytical exports under their original
-producers; it does not claim a fresh composition analysis.
-
-The accepted 37-page 0.3.0 standalone edition, earlier 31-page 0.2.0 edition,
-their original qualification/failure receipts and analytical epochs remain
-preserved. A new native workflow does not relabel their producing environments.
-See [lineage](docs/project-lineage.md), [composition methods](docs/research/composition-analysis.md),
-[visual evidence](docs/research/visual-evidence.md) and
-[the historical qualification](research/paper-advancement-20261029.json).
-
 Private research on **invertebrate lives and imagery in William Blake**: worm,
-fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the wider
-field of small, creeping, collective and uncertain bodies.
+fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the
+wider field of small, creeping, collective and uncertain bodies. “Entomology”
+is the research heading; the scope includes all invertebrates.
 
-Read the [working article](docs/manuscript/blakean-entomology.md),
-[research protocol](docs/research-protocol.md), and
-[source intake](research/source-intake-2026-10-28.md). This project adapts the
-evidence architecture of [Blakean Federalism](https://github.com/docxology/Blakean_Federalism)
-and uses the [shared Blake corpus and methods](https://github.com/docxology/blake).
+Start with [project status](docs/PROJECT_STATUS.md),
+[agent guidance](AGENTS.md), the [article](docs/manuscript/blakean-entomology.md),
+the [current private working-draft PDF](Blakean_Entomology.pdf) and
+the [documentation map](docs/README.md).
 
-## Shared-method application
+## Current application and paper
 
-Generic annotation custody, run verification, search, proximity and descriptive
-statistics now come from `blake.methods`. The application retains its vocabulary,
-contextual policy and literary argument. Its code dependency is pinned separately
-from its unchanged historical corpus pin.
+Entomology **0.7.0** selects public Blake **0.7.0**, exact Git
+`263d7c83abe6f1309a64af3285a683c1b7672269`, through
+[pyproject.toml](pyproject.toml) and [uv.lock](uv.lock).
+Blake supplies reusable corpus custody and methods. This application owns
+vocabulary, query-channel policy, contextual judgments, conditional reference
+mappings, domain graphics, image readings and literary argument.
+Federalism is an architectural sibling, with no runtime dependency.
+[Lineage and responsibility](docs/project-lineage.md).
 
-The retained article compares pooled and equal-work rates, exact-text repetition and
-finite versus whole-unit co-occurrence. See [analytical extension](docs/research/shared-methods-analysis.md)
-and [current result identities](research/shared-methods-transition.json). The
-historical eleven decisions retain their original run. The later contextual
-study adds 36 separately authored decisions on that same pinned baseline; see
-[the review contract](docs/research/context-review-20261029.md). The retrieval
-sensitivity run itself does not adjudicate candidates.
+The new [original-codepoint geometry](docs/research/interval-geometry.md)
+separates candidate records, occupied text, overlap depth, overlapping pairs
+and documented reading windows. It retains every source facet and zero-hit
+unit. Two analytical figures show source support and the bounded exposure of
+existing reviewed candidates. The analysis creates no new decision, animal
+attestation, complete-work reading or image inspection.
 
-```bash
-uv run blake-entomology sensitivity --bundle local_data/corpus/v1 \
-  --pin research/corpus-pin.json --output analysis_output/sensitivity-new.json
-uv run blake-entomology proximity-study --bundle local_data/corpus/v1 \
-  --binding research/proximity-binding.json --output analysis_output/proximity-new.json
-uv run blake-entomology build-search-workspace --bundle local_data/corpus/v1 \
-  --binding research/proximity-binding.json --output analysis_output/workspace-new
-```
+The paper develops provision, feeding, webs, prisons and collective embodiment
+through copy-specific contexts and live alternatives. Rodney M. Baine's
+*The Scattered Portions: William Blake's Biological Symbolism* is cited as a
+verified bibliographic predecessor. **Its relevant chapter remains unread and
+unavailable; its formal title and boundaries remain unverified.**
+The complete Hoagwood review and selected Hutchings material have their own
+reading ceilings. [Scholarship and access record](docs/research/biological-symbolism.md).
 
-The first two outputs are text-free, profile-labeled receipts. The workspace
-contains full texts and stays private and ignored. Install the optional `recovery`
-extra for recovered-source export; ordinary analysis and review use the small
-shared core. The development group includes recovery and plotting dependencies
-needed by the complete test suite.
+Current manuscript production uses the actual pinned
+[docxology/template](https://github.com/docxology/template) hydration,
+validation, formalism/cross-reference filters and PDF/web writers. Physical
+page 1 is an authentic complete-recto Blake cover; distinct graphical abstracts
+occupy pages 2–4, followed by contents on page 5.
+The [native contract](docs/manuscript/README.md) and
+[host SDK profiles](docs/native-sdk.md) bind each new edition independently.
+The corrected native02 historicizes the old producer statement and preserves
+natural image proportions in responsive HTML. The final independent review
+accepts all 44 replacement pages and the current desktop/mobile article for
+bounded working-draft use. [Project status](docs/PROJECT_STATUS.md) and the
+verification index separate that acceptance from installed qualification and
+delivery. The earlier CHANGES_REQUIRED verdict remains attached to native01.
 
-## What runs now
+The retained 40-page 0.4.0 native edition and earlier standalone editions keep
+their original [native qualification](research/template-native-20261030.json),
+[analytical producers](research/paper-advancement-20261029.json) and failures.
+A later SDK or documentation update does not relabel those bytes.
 
-- A pinned independent corpus snapshot with **2,067 source units** in three planes.
-- **102 search categories and 376 explicit forms**, including historical spelling
-  and compound families, plus separately labeled contextual imagery.
-- Uncapped retrieval: **36,039 category/source/span candidates**, including
-  **2,498 Blake-primary candidates**. These include non-animal senses and are
-  not animal or species totals.
-- All **918 category/role/plane cells**, including zero-result categories, exact
-  source offsets, provenance, denominators and a complete private review queue.
-- **47 reviewed candidates and 35,992 unreviewed**, combining the unchanged
-  eleven-decision seed with 36 new agent-authored decisions. Combined labels are
-  2 literal animals, 27 figurative animals, 4 associated, 6 non-animal, 4 editorial
-  and 4 uncertain. Twenty-five animal decisions are primary and four remain
-  exploratory. The batch is purposive, contains overlapping contexts and repeated
-  witnesses, and supplies no prevalence or accuracy estimate. [Context study](docs/research/context-review-20261029.md).
-- A source-grounded article draft covering “A Dream,” “The Fly,” “The Sick Rose,”
-  “The Human Abstract,” *Thel*, the wine-press inventories, *Four Zoas*, *An Island
-  in the Moon*, *Auguries*, and Polypus.
+## Corpus and review denominator
 
-“Entomology” is the research title; the operational scope includes all
-invertebrates. Spiders, worms, molluscs and uncertain historical forms retain
-their own groups. Taxonomic and rhetorical classifications require context.
+- **2,067 retained source units**, with source-author, role and plane distinctions.
+- **102 search categories / 376 explicit forms**, including historical spelling
+  and compound families.
+- **36,039 category-source-span candidates**, including **2,498** in the declared
+  Blake-primary reading scope. These are not animal, species or unique-scene totals.
+- All **918 category/role/plane cells**, including zeros, original offsets,
+  denominators and the complete private queue.
+- **47 reviewed / 35,992 unreviewed**, retaining the eleven-decision seed plus the
+  additive 36-decision study. The recorded labels are 2 literal animal,
+  27 figurative animal, 4 associated, 6 non-animal, 4 editorial and 4 uncertain.
+  [Contextual review](docs/research/context-review-20261029.md).
+- Nine selected original objects with bounded image readings.
+  [Visual witnesses](docs/research/visual-evidence.md). The wider image inventory
+  remains unreviewed.
 
-## Corpus and methods belong upstream
-
-Blake owns acquisition, recovery, portable schemas and conversion, normalization,
-distinct retrieval profiles, generic statistics/proximity/composition/concentration,
-hierarchy/layout, deterministic review planning and run/annotation custody. This application owns its
-vocabulary, review decisions, interpretations and paper. It imports
-`blake.applications`, `blake.studies` and `blake.methods`; it does not copy Federalism's SQLite
-reader, search code, institutional model or historical acceptance claims.
-[Detailed lineage](docs/project-lineage.md).
-
-The [corpus pin](research/corpus-pin.json) binds the exported manifest, source
-capture, recovered projection and index. The
-[baseline summary](research/baseline-summary.json) contains text-free aggregates;
-[baseline run receipt](research/baseline-run.json) binds all private outputs.
-The [seed review](research/seed-review.jsonl) and
-[its summary](research/seed-review-summary.json) bind decisions to that exact run.
-Provider expression and the full review queue remain ignored.
+The purposive review contains overlapping windows and repeated witnesses; it
+supplies no prevalence, classifier accuracy, independent-sample or
+specialist-consensus estimate. A reference lineage is conditional modern
+classification, not a sequence-inferred phylogeny or a species identification
+in Blake. [Research protocol](docs/research-protocol.md).
 
 ## Run locally
 
-Keep source, Python, environments, caches and temporary files on the mounted
-GitVault. Acquire the supported repository lease, then run from the canonical
-`Username/docxology/Private/Blakean_Entomology` checkout:
+Keep source, environments, both Python prefixes, caches and temporary files on
+mounted GitVault. Use the existing external Python 3.11 runtime and supported
+repository admission. Bind external `TMPDIR`, outer `TMPPREFIX`,
+`UV_CACHE_DIR` and `UV_LINK_MODE=copy` before source-work commands.
 
-```bash
-export GITVAULT_ROOT="$(cd ../../../.. && pwd)"
-export UV_PYTHON_INSTALL_DIR="$GITVAULT_ROOT/Local/runtimes/uv-python"
-export UV_CACHE_DIR="$GITVAULT_ROOT/Local/caches/uv"
-export TMPDIR="$GITVAULT_ROOT/Local/tmp"
-export UV_LINK_MODE=copy
+~~~bash
 uv sync --locked --python 3.11
-uv run --locked --python 3.11 python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
-```
+uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
+~~~
 
-Both reported prefixes must resolve on the mounted GitVault. A clone alone
-contains no provider corpus. Restore the exact ignored application bundle from
-authorized local custody to replay the baseline:
+Both prefixes must resolve on GitVault. The default development group includes
+the plotting/recovery dependencies needed by the complete tests. A clone contains
+source and authored research, not the ignored provider corpus. Restore the exact
+authorized bundle to replay the baseline:
 
-```bash
-uv run blake-entomology analyze \
-  --bundle local_data/corpus/v1 \
-  --pin research/corpus-pin.json \
-  --vocabulary research/vocabulary.json \
-  --output analysis_output/replay-001
-uv run blake-entomology verify-run analysis_output/replay-001
-```
+~~~bash
+uv run --locked blake-entomology analyze --bundle local_data/corpus/v1 \
+  --pin research/corpus-pin.json --vocabulary research/vocabulary.json \
+  --output analysis_output/replay-new
+uv run --locked blake-entomology verify-run analysis_output/replay-new
+~~~
 
-For a deliberately new corpus epoch, prepare a recovered projection in the
-upstream Blake environment, then import to a new directory and new pin:
+A deliberately new capture needs a new upstream recovery/export, portable import,
+pin and unused destination. Preserve the old producer and
+[corpus pin](research/corpus-pin.json). Blake's active acquisition/NLP/vision
+capabilities use its separately qualified `full` extra; portable methods do not
+load that stack.
 
-```bash
-uv run blake-entomology import-corpus \
-  --source ../../Public/blake/blake_data \
-  --destination local_data/corpus/new-epoch \
-  --pin-output local_data/new-corpus-pin.json
-```
+## Geometry, composition and review
 
-The recovered projection is bound to its producer runtime and lock. If those
-differ, export from the qualified upstream environment using
-`python -m blake.applications export`; loading the portable bundle does not
-require the old producer runtime. Never replace the baseline pin silently.
-The shared-method package installs a small core. Acquisition, NLP and vision use
-Blake's explicit `full` extra. The methods-only profile supports portable-bundle
-analysis and review without loading that stack. The optional acquisition/NLP/vision workflow is qualified separately under Python 3.11.
+For geometry, obtain the request SHA from the independently retained admission
+record and the documented-window file from its bound custody. Use an unused
+output epoch:
 
-## Bounded contextual workloads
+~~~bash
+uv run --locked blake-entomology geometry \
+  --request research/geometry-study-20261101.json \
+  --request-sha256 "$GEOMETRY_REQUEST_SHA256" \
+  --bundle local_data/corpus/v1 --run analysis_output/baseline-v3 \
+  --decisions research/context-review-combined-20261029.jsonl \
+  --windows "$DOCUMENTED_WINDOWS" --vocabulary research/vocabulary.json \
+  --output analysis_output/geometry-new --figures
+~~~
 
-The current software delegates deterministic ranking, unit caps and blank
-batch custody to public Blake. This application owns source admission,
-review labels, source scope and the independently pinned request. The
-[declared workload](docs/research/review-planning.md) selected **25**
-candidates from the 2,498 scoped source hits, with
-37 existing scoped decisions excluded and a target
-shortfall of 0. Each selected exact whole-text unit occurs
-at most once. Greedy ordering supplies no representative-sample or
-independent-observation claim. All decision cells remain blank.
+[The geometry contract](docs/research/interval-geometry.md) defines original
+Python-codepoint coordinates, source-local grouping, multiplicity and the
+difference between missing reading-window custody and zero exposure.
+Retained [composition](docs/research/composition-analysis.md),
+[proximity and sensitivity](docs/research/shared-methods-analysis.md) outputs
+keep their original producers and distinct denominators.
 
-[Retained review-planning qualification](research/review-planning-20261030.json) binds the exact original
-run, request, existing decisions, full/scoped counts and real positive/refusal
-commands. Authored decisions must still cite the original run and hit IDs;
-a planning receipt supplies no reading credit. Preserve uncertainty,
-repeated witnesses and all omitted candidates.
+The [request-pinned planner](docs/research/review-planning.md) selected a blank
+25-candidate workload from 2,498 scoped hits, excluding 37 existing scoped
+decisions. Planning adds no adjudication. For authored review, copy the immutable
+queue and preserve its header and evidence columns. Animal decisions require a
+verification locator as well as reviewer and rationale:
 
-## Review candidates
-
-The private run contains `hits.jsonl`, `counts.csv`, `summary.json`, `report.md`
-and `review-queue.csv`. A completion `run.json` binds every artifact. Existing
-output directories and files are refused. Candidate IDs are stable for the
-category, source identity, text hash and span. Inspect full source context before
-writing separate decisions in the
-[JSONL decision format](research/seed-review.jsonl).
-
-You can also copy `review-queue.csv` outside the immutable run directory and edit
-that copy in a spreadsheet. Keep the header and evidence columns unchanged; fill
-`decision`, `reviewer`, `rationale` and, for animal decisions,
-`verification_locator`. Pass the edited `.csv` to the same `--decisions` option
-with the exact `--run-sha256`. Blank annotation cells remain unreviewed. Altered
-source fields, duplicate or unknown candidate IDs, and partial annotations without
-a decision are refused. Never edit the queue inside the original run.
-
-```bash
-uv run blake-entomology review \
+~~~bash
+uv run --locked blake-entomology review \
   --run analysis_output/baseline-v3 \
   --run-sha256 12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633 \
-  --decisions research/seed-review.jsonl \
-  --output analysis_output/seed-review-replay.json
-```
+  --decisions research/context-review-combined-20261029.jsonl \
+  --output analysis_output/context-review-replay-new.json
+~~~
 
-The current 47-decision replay uses
-`research/context-review-combined-20261029.jsonl` with the same trusted baseline
-run pin and a fresh output path. The command above deliberately demonstrates the
-unchanged historical seed. [Current batch and figure commands](docs/research/context-review-20261029.md).
-
-Each decision requires an explicit reviewer and rationale. Animal decisions also
-require a verification locator. Wrong-run, duplicate and unknown IDs are refused;
-no decision changes an upstream authorship role. A blank decision is unreviewed.
-Review summaries record the current application producer separately from the
-historical analysis producer.
+Blank cells remain unreviewed. Wrong-run, duplicate/unknown IDs, altered source
+fields and partial annotations refuse. A decision never changes source authorship.
 
 ## Verification and scope
 
-```bash
+~~~bash
 uv run --locked pytest -c pyproject.toml tests -q
 uv run --locked ruff check src tests tools
 uv run --locked ruff format --check src tests tools
 uv run --locked basedpyright
-```
+~~~
 
-The explicit project configuration and active `tests/` scope keep archived
-historical tests outside the current suite. The current 0.6.0 normal-installed
-suite passed 353 tests, with no failures, errors or skips. Its fresh suite-only
-statement/branch coverage is 91.02% for application code and 79.16% for tools,
-against separate 90% and
-60% floors. Additional operational counters remain separate. The
-[current software qualification](research/native-sdk-admission-20261031.json)
-binds the exact public Git pin, 36-package lock, 32 installed distributions,
-private source, imports, coverage databases and real positive/refusing commands.
-The 303-test 0.5.0 qualification remains separately preserved.
+The current normal-installed suite passed **436 tests**. Separate
+statement-and-branch coverage is **92.47% application / 80.36% tools**, against
+90% / 60% floors. The explicit project configuration keeps historical test
+trees outside collection. Full package typing and the changed-tool scopes have
+their own records; the default strict command covers `src`.
 
-The retained 0.4.0 paper's combined suite/native-production coverage belongs
-to its original qualification and producer in the
-[native guide](docs/manuscript/README.md); it is not reused by this software
-gate. The declared strict typing command covers `src`, without an all-tools
-typing claim.
+The [verification index](research/verification.json) and
+[current-source index](research/current-source.json) locate published
+qualification records. Unit coverage, real analytical production, actual native
+writers and output acceptance remain separate evidence; no old counters or
+one-shot grant are reassigned. New paper bytes require fresh PDF/HTML inspection.
 
-Tests use real files, a real offline source recovery/import, real CLI invocations,
-and corruption/overwrite/role controls. Source and pin overlap guards are tested
-with controls that fail when those guards are removed. The shared engine also
-rejects a deliberately introduced 1,000-hit cap.
-
-The [reading ledger](research/reading-ledger.json) states actual reading ceilings
-and unavailable sources. Images have not received a systematic visual census.
-Lexical completeness within the declared snapshot, contextual review completion,
-edition reconciliation and iconographic coverage remain separate claims.
-[Privacy and custody](PRIVACY.md). Completed engineering and remaining contextual,
-image, edition, editorial and scientific work are separated in the
-[project status](docs/PROJECT_STATUS.md).
+Remaining work includes contextual adjudication, edition reconciliation, the
+image inventory, direct Baine access, specialist criticism, accessibility and
+venue decisions. [Scoped tasks](docs/PROJECT_STATUS.md) give useful next units.
+Private-main publication supplies no public item-level rights clearance.
+[Privacy and custody](PRIVACY.md).

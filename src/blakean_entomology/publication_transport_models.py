@@ -52,3 +52,4 @@ class NativeTransport:
     sources: tuple[Member, ...]
     template_sources: dict[str, str]
     variables: dict[str, str]
+    schema_version: int = 1

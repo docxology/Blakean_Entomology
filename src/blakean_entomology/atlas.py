@@ -1,9 +1,9 @@
 """Audit the full vocabulary and stratify source roles through shared statistics."""
 
 from collections import Counter, defaultdict
-from heapq import heappop, heappush
 from pathlib import Path
 
+from blake.methods.intervals import Interval, count_overlapping_pairs
 from blake.methods.profiles import RetrievalProfile, runtime_profile
 from blake.methods.runs import digest, read_regular, write_new
 from blake.methods.statistics import analyze_inventory
@@ -45,17 +45,10 @@ def atlas_from_passages(
         (h.term_id, tokens(h.expression)) for h in study.hits if h.blake_primary
     )
     spans = Counter((h.passage_id, h.start, h.end) for h in study.hits)
-    active_ends: list[int] = []
-    previous_passage = ""
-    overlapping_pairs = 0
-    for hit in sorted(study.hits, key=lambda h: (h.passage_id, h.start, h.end)):
-        if hit.passage_id != previous_passage:
-            active_ends.clear()
-            previous_passage = hit.passage_id
-        while active_ends and active_ends[0] <= hit.start:
-            _ = heappop(active_ends)
-        overlapping_pairs += len(active_ends)
-        heappush(active_ends, hit.end)
+    source_spans: defaultdict[str, list[Interval]] = defaultdict(list)
+    for hit in study.hits:
+        source_spans[hit.passage_id].append(Interval(start=hit.start, end=hit.end))
+    overlapping_pairs = sum(count_overlapping_pairs(records) for records in source_spans.values())
     query_ids = tuple(t.term_id for t in spec.terms)
     inventories: defaultdict[tuple[str, str, str], list[SourceUnit]] = defaultdict(list)
     for p in passages:

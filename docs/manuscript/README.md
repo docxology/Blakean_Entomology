@@ -7,21 +7,31 @@ judgments, literary interpretation, graphical abstracts and publication inputs.
 
 ## Source and runtime contract
 
-Use the locked external CPython 3.11 environment for the application and an
-explicit compatible external template environment for native writers. Verify
-both interpreter prefixes on mounted GitVault. The clean template checkout must
-be at efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8 for the recorded native
-profile. The retained paper's SDK is
-45171a099a6a658c52ab689501de646a28485653. Current 0.6.0 software selects
-d34876e021a8f2e654b96f1c23f7ec43d8d958c2; its software qualification performs
-no native render. Reproducing the retained epoch uses its recorded producer.
-Archived schema-1 requests, stages and results keep the retained SDK and remain readable. New host production refuses that historical profile. Schema 2 now carries the current source selection explicitly and checks actual installed SDK provenance before accessing producer inputs or writing output. Its structured host receipt, request and stage must agree through the separate-runtime transport. See the [host SDK contract](../native-sdk.md) and current software qualification. This software admission is not a new writer run, an automatic renewal of a consumed grant, or a replacement paper. A new current-SDK edition still requires its own request, supported admission and complete independent PDF/HTML acceptance. Federalism remains an architectural sibling with no runtime dependency here.
+Use the locked external CPython 3.11 application environment and a separately
+selected compatible external template environment. Verify both Python prefixes
+on mounted GitVault. The recorded template source is exactly
+`efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`; the current qualified
+writer environment is Python 3.14 with its own locked rendering dependencies.
+
+Current Entomology 0.7.0 selects Blake 0.7.0 at
+`263d7c83abe6f1309a64af3285a683c1b7672269`. New production uses native
+schema 3. Historical schemas 1 and 2 remain readable with their exact original
+pins and are refused for new host production. The
+[host SDK contract](../native-sdk.md) is the authoritative profile table.
+The host checks actual normal installed Git/RECORD/import-origin provenance
+before producer access/output and closes that receipt through the request,
+stage and separate-runtime transport.
+
+The retained 0.4.0 paper and earlier analytical exports keep their actual
+producers. A new source preparation, mathematical run, native writer result,
+complete page/browser review and delivery are different evidence objects.
+Federalism remains an independent sibling, with no runtime dependency here.
 
 Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
 uv/Python caches, Matplotlib and TeX paths external. Never overwrite a prepared
 or native epoch. Failed epochs retain raw errors and partial files.
 
-## Retained native profile: prepare and admit
+## Prepare and admit the current native profile
 
 Run tools/prepare_research_manuscript.py with independently held atlas, reference,
 base-figure, casebook and additional-assets pins, the current authored Markdown
@@ -34,11 +44,12 @@ Create NativeRequest JSON using src/blakean_entomology/publication_contract.py.
 Every input has an explicit path and caller-held SHA256: preparation receipt,
 atlas, composition export, casebook, complete museum recto, object provenance,
 config, preamble and `web_css`. The stylesheet is a required pinned input.
-Retained mathematical exports keep their original producer receipt; a new
-presentation does not become a fresh numerical execution.
+Retained composition/proximity exports keep their original producer receipts.
+The new geometry run has its own analytical receipt; consuming it in a paper
+is not a second numerical replay.
 
 ~~~sh
-uv run python tools/render_manuscript.py \
+uv run --locked python tools/render_manuscript.py \
   --request "$REQUEST" --request-sha256 "$REQUEST_SHA256" \
   --template-root "$TEMPLATE_ROOT" --template-python "$TEMPLATE_PYTHON" \
   --output analysis_output/new-native-epoch
@@ -47,6 +58,33 @@ uv run python tools/render_manuscript.py \
 The prepare-only option closes a fresh source stage without native acceptance.
 Wrong request/input/template pins, changed members and occupied destinations
 are refusing cases.
+
+## Geometry assets and current candidate
+
+The [geometry contract](../research/interval-geometry.md) defines the new
+source-support and review-exposure figures. Run
+`python -m tools.extend_geometry_assets` with explicit parent, geometry
+request/report/receipt and atlas pins to create an unused additional-assets
+epoch. The builder verifies exact file membership, source joins, masters and
+derived captions, preserves retained parent bytes, and refuses collisions.
+Preparation rechecks these bindings before writing its own completion marker.
+
+The current source preparation is
+`analysis_output/article-geometry-20261101-03`. Its schema-3 native epoch,
+`analysis_output/geometry-template-native-20261101-02`, completed both actual
+writers after historicizing the old producer statement and repairing responsive
+image proportions. Owner inspection covers all 44 new page overviews and actual
+desktop/mobile output checks. Final independent correction review accepts
+the exact 44-page replacement and current article for bounded working-draft
+use; review01's CHANGES_REQUIRED verdict stays attached to native01.
+[Project status](../PROJECT_STATUS.md) holds exact PDF/HTML identities and
+[verification](../../research/verification.json) records delivery separately.
+Do not borrow an earlier edition's page acceptance or infer canonical/main or
+Downloads delivery from an ordinary staging copy.
+
+The stage's fixed `SOURCE_DATE_EPOCH` is a reproducibility timestamp, not
+the actual execution date. The original command/native receipts retain run
+time and process completion separately.
 
 ## Actual framework execution
 
@@ -72,6 +110,11 @@ layout, caption wrapping to the container width and a caption fixed at its left
 edge retain readable captions while the data scroll. Verify actual horizontal
 wheel behavior and settled frames at mobile and desktop widths; a desktop table
 that fits should remain unscrolled.
+
+A physical PDF height attribute must not distort an image when the HTML width
+shrinks. The current project CSS preserves natural proportions; verify every
+loaded image at actual desktop and mobile widths, including material witnesses
+and both geometry figures. File dimensions alone do not qualify browser layout.
 
 Source configuration and preamble delay the native TOC until after the three
 abstracts. Verify physical cover1, abstracts2–4 and TOC5 in the actual PDF.
@@ -180,10 +223,10 @@ coverage database, native receipt, page review or one-shot production grant
 is reassigned to this software epoch. Changed manuscript or renderer inputs
 require their own source, native and physical/browser-output qualification.
 
-## Current SDK software admission
+## Retained schema-2 software admission
 
-The [schema-2 host SDK contract](../native-sdk.md) adds actual installed provenance
-for new staging. The exact Blake 0.6.0 selection passed 353 normal-installed
+The 0.6.0 schema-2 contract introduced actual installed provenance
+for its new staging. [Current profile policy](../native-sdk.md) now selects schema 3. The exact Blake 0.6.0 selection passed 353 normal-installed
 tests, strict package typing, Ruff/format and separate application/tool coverage
 floors; [the software receipt](../../research/native-sdk-admission-20261031.json)
 binds runtime, source, lock and refusing controls. Archived schema-1 inputs and

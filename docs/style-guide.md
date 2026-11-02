@@ -1,17 +1,13 @@
 # Entomology authoring and evidence guide
 
-Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/d34876e021a8f2e654b96f1c23f7ec43d8d958c2/docs/style-guide.md)
+Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/263d7c83abe6f1309a64af3285a683c1b7672269/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
-claims. This private addendum owns biological vocabulary and literary readings.
-The current 0.6.0 software selects the exact public 0.6.0 source linked above.
-The retained 0.4.0 PDF/HTML used public SDK
-`45171a099a6a658c52ab689501de646a28485653` and the separately pinned
-docxology/template framework. Matching version numbers do not identify the
-same package; review planning creates no new native edition. The historical 0.2.0 paper and analytical epoch used
-`d020f47767996a061b6f60e93a82da9386a7926c`; the shared guide body is
-byte-identical at those two historical commits. Keep the original producer attached to
-its retained bytes rather than transferring it to the current paper. See [project status](PROJECT_STATUS.md) for
-current qualification and open research tasks.
+claims. Current Entomology 0.7.0 selects that exact Blake 0.7.0 source.
+This private addendum owns biological vocabulary, source grouping, documented
+reading-window policy and literary interpretation. The retained 0.4.0 paper
+keeps SDK `45171a099a6a658c52ab689501de646a28485653` and its original
+native qualification. See [project status](PROJECT_STATUS.md) for each current
+source, software, native and delivery scope.
 
 ## Biological language
 
@@ -60,6 +56,27 @@ associations spatially and encode ambiguity in both line style and words, with
 colour as a secondary cue. State incomplete branch sampling and nonexhaustive
 alternatives. Captions come from the bound atlas and reference, never hand-entered
 counts. Keep PNG and SVG plus their generator, data and source hashes.
+
+## Original-codepoint support and reading exposure
+
+Use the [geometry contract](research/interval-geometry.md). Measure half-open
+integer intervals in original `Passage.text` Python codepoints. Do not substitute
+UTF-8 bytes, grapheme clusters or normalized matcher coordinates. Group by
+original source before interval operations and retain all source facets,
+zero-hit units and repeated copies.
+
+Distinguish candidate records, summed match lengths, occupied union, support at
+depth two or more, multiplicity excess and overlapping record pairs. Their
+denominators and meanings differ. Unstack overlapping channels and label the
+within-source intersection explicitly. Pooled, equal-unit and equal-recorded-work
+occupancy are separate weighting policies, with zeros retained.
+
+A contextual decision is an identity-bound judgment. A documented reading
+window is bounded custody of text exposure, not measured attention or complete
+reading. Show missing window coordinates as unavailable, never as zero.
+Overlapping windows are not independent readings. Geometry creates no new
+decision, animal attestation, original-image inspection or whole-work credit.
+Captions and numerical labels must derive from the bound report.
 
 ## Manuscript preparation
 

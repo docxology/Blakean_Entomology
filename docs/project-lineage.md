@@ -14,7 +14,7 @@ of transferred review credit.
 
 | Owner | Responsibility |
 |---|---|
-| Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, deterministic review planning, annotation/run custody and offline workspace. |
+| Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, exact interval geometry, deterministic review planning, annotation/run custody and offline workspace. |
 | Private `Blakean_Federalism` | Political query selections, institutional models and comparisons, interpretation, manuscript and its own fixed evidence epochs. |
 | Public `docxology/template` | Generic manuscript hydration, pre-render validation, formalism/cross-reference filters and native PDF/web writers. |
 | Private `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings, frontmatter and manuscript. |
@@ -26,10 +26,17 @@ the classification reference neither infers a phylogeny nor adjudicates a Blake
 occurrence. See [project status](PROJECT_STATUS.md) and the
 [private style guide](style-guide.md).
 
+The [geometry workflow](research/interval-geometry.md) reuses public interval
+arithmetic. Entomology retains original-source grouping, channel eligibility,
+documented-window interpretation and domain visual encodings. Federalism can
+reuse that arithmetic for person-specific exposure while retaining its own
+clocks, filing rules and duties. Shared mathematics transfers no literary
+decision or political warrant between the applications.
+
 ## Separate current runtime from captured evidence
 
-The current 0.6.0 software selects Blake 0.6.0 at Git
-`d34876e021a8f2e654b96f1c23f7ec43d8d958c2` through `pyproject.toml` and
+The current 0.7.0 software selects Blake 0.7.0 at Git
+`263d7c83abe6f1309a64af3285a683c1b7672269` through `pyproject.toml` and
 `uv.lock`. Its installation and workflow qualification are recorded in
 [verification.json](../research/verification.json). Upstream `main` is a moving
 branch, so an application adopts an exact reviewed commit rather than silently

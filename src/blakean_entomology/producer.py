@@ -37,6 +37,7 @@ SHARED_SOURCES: Final = (
     "methods/models.py",
     "methods/hierarchy.py",
     "methods/common.py",
+    "methods/intervals.py",
     "methods/bundle_models.py",
     "methods/projection_models.py",
     "methods/profiles.py",

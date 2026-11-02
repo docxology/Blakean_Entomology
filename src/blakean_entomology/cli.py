@@ -22,6 +22,7 @@ from .core import (
     vocabulary,
     write_new,
 )
+from .geometry_cli import geometry
 from .models import CorpusPin, EvidenceError
 from .review_planning_cli import register_review_planning_commands
 from .sensitivity import ProximityBinding
@@ -259,6 +260,7 @@ def composition_command(
 
 
 register_review_planning_commands(main)
+main.add_command(geometry)
 
 
 if __name__ == "__main__":

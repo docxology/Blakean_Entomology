@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import TypeAlias
 
 from .publication_custody import checked_member, file_hash
+from .publication_profiles import sdk_version
 from .publication_transport_models import Member, PublicationError
 
 JSONValue: TypeAlias = "None | bool | int | float | str | list[JSONValue] | JSONObject"
@@ -61,15 +62,15 @@ def _integer(value: JSONValue) -> int:
     return value
 
 
-def _selection(record: JSONObject, commit: str) -> None:
+def _selection(record: JSONObject, schema: int, commit: str) -> None:
     if (
-        _integer(record.fields.get("schema_version")) != 2
+        _integer(record.fields.get("schema_version")) != schema
         or _text(record.fields.get("sdk_commit")) != commit
     ):
         raise PublicationError("native_profile_selection", "Request/stage SDK selection differs")
 
 
-def _identity(record: JSONObject, commit: str) -> None:
+def _identity(record: JSONObject, schema: int, commit: str) -> None:
     fields = record.fields
     if set(fields) != {
         "distribution",
@@ -88,6 +89,7 @@ def _identity(record: JSONObject, commit: str) -> None:
         fields["commit"] != commit
         or fields["package"] != "blake"
         or fields["distribution"] != "blake"
+        or fields["version"] != sdk_version(schema, commit)
     ):
         raise PublicationError("native_profile_identity", "SDK identity differs")
     _ = _text(fields["version"])
@@ -114,8 +116,10 @@ def _identity(record: JSONObject, commit: str) -> None:
         raise PublicationError("native_profile_identity", "Incomplete SDK inventory")
 
 
-def verify_host_profile(stage: Path, commit: str, inputs: tuple[Member, ...]) -> None:
+def verify_host_profile(stage: Path, schema: int, commit: str, inputs: tuple[Member, ...]) -> None:
     """Refuse malformed or contradictory closed host/request/stage evidence."""
+    if schema not in (2, 3) or sdk_version(schema, commit) is None:
+        raise PublicationError("native_profile_selection", "Unsupported host-receipt profile")
     for name in ("installed-sdk.json", "native-request.json"):
         selected = tuple(member for member in inputs if member.path == name)
         if len(selected) != 1:
@@ -124,9 +128,9 @@ def verify_host_profile(stage: Path, commit: str, inputs: tuple[Member, ...]) ->
     identity = _load(stage / "installed-sdk.json")
     request = _load(stage / "native-request.json")
     plan = _load(stage / "native-stage.json")
-    _identity(identity, commit)
-    _selection(request, commit)
-    _selection(plan, commit)
+    _identity(identity, schema, commit)
+    _selection(request, schema, commit)
+    _selection(plan, schema, commit)
     if _object(plan.fields.get("sdk_identity")) != identity:
         raise PublicationError("native_profile_identity", "Stage and host receipt differ")
     if plan.fields.get("request_sha256") != file_hash(stage / "native-request.json"):

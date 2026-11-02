@@ -13,6 +13,7 @@ eligibility, contextual decisions, reference-taxonomy interpretation and paper.
 | [Research protocol](research-protocol.md) | Inputs, vocabulary, roles and review boundaries |
 | [Style guide](style-guide.md) | Syntax, formalism, figure and scholarship requirements |
 | [Research dossier map](research/README.md) | Current methods guides and explicitly historical notes |
+| [Original-codepoint geometry](research/interval-geometry.md) | Match support, record multiplicity, source weighting and documented-window custody |
 | [Review planning](research/review-planning.md) | Verify the retained blank batch; create new epochs only at unused destinations |
 | [Manuscript workflow](manuscript/README.md) | Retained pinned template profile and native/output qualification |
 | [Native host SDK admission](native-sdk.md) | Actual installed provenance, current versus historical profiles and separate template-runtime evidence |
@@ -30,7 +31,7 @@ access and interpretive ceiling.
 
 | Source | Status |
 |---|---|
-| [Blakean Entomology](manuscript/blakean-entomology.md) | Retained 0.4.0 native article; current software has its own 0.6.0 admission/installation qualification |
+| [Blakean Entomology](manuscript/blakean-entomology.md) | Current 0.7.0 authored source, adding geometry and contextual development; retained 0.4.0 native bytes keep their original qualification |
 | [Configuration](manuscript/config.yaml), [preamble](manuscript/preamble.md), [BibTeX](manuscript/references.bib), [web style](manuscript/web.css) | The article's other four authored native inputs |
 | [Sensitivity supplement](manuscript/sensitivity-supplement.md) | Earlier analytical fragment; not an extra section of the current native article |
 | [Sensitivity image](manuscript/assets/retrieval-sensitivity.png) | Retained fragment asset; a byte/dimension check alone supplies no new visual acceptance |
@@ -41,11 +42,15 @@ targets during preparation, where source hashes bind the actual payloads. Explic
 and native cross-references also use that rendering contract; raw GitHub
 Markdown is not the complete publication view. Preserve old stages and failures.
 
-The current schema-2 host contract checks the exact installed Blake 0.6.0 Git
-selection before producer access/output, and closes its receipt through the
-request, stage and stdlib template transport. Schema-1 archives keep their
-retained `45171…` SDK profile readable; new host production refuses that profile.
-[Software qualification](../research/native-sdk-admission-20261031.json) closes
-E-N01. E-N02 in [project status](PROJECT_STATUS.md) separately scopes a new
-current-SDK native edition and complete PDF/HTML acceptance. This software unit
-changes no paper, grant, source role, decision or scientific/release acceptance.
+The current schema-3 host contract checks exact installed Blake 0.7.0 at
+`263d7c83abe6f1309a64af3285a683c1b7672269` before producer input access
+or output. Its host receipt closes through the request, stage and stdlib
+template transport. Schemas 1 and 2 remain readable with their original pins
+but are refused for new production. [Native SDK contract](native-sdk.md).
+
+The new native candidate has its own actual writer receipt; complete output
+acceptance and publication remain indexed separately in
+[project status](PROJECT_STATUS.md). Preserve the earlier
+[0.6.0 software qualification](../research/native-sdk-admission-20261031.json)
+and all old paper/review/failure epochs. No source role, decision, scientific
+acceptance or public rights warrant follows from a software or writer pass.

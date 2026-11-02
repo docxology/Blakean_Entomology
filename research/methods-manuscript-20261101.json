@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "epoch": "methods-manuscript-20261101",
+  "application_version": "0.7.0",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "scope": "Public reusable interval methods with private domain policy/manuscript. Fresh canonical normal-wheel/source/metadata qualification, full suite-only coverage and current native working-draft acceptance are separately bound. Previous producers and failed attempts retain their original bytes and scopes.",
+  "software": {
+    "application": "blakean_entomology",
+    "version": "0.7.0",
+    "canonical": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology",
+    "tests": {
+      "tests": 436,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "coverage": {
+      "application": {
+        "covered_lines": 2321,
+        "num_statements": 2472,
+        "covered_branches": 442,
+        "num_branches": 516,
+        "files": 41,
+        "numerator": 2763,
+        "denominator": 2988,
+        "percent": 92.46987951807229,
+        "floor": 90
+      },
+      "tools": {
+        "covered_lines": 921,
+        "num_statements": 1100,
+        "covered_branches": 180,
+        "num_branches": 270,
+        "files": 14,
+        "numerator": 1101,
+        "denominator": 1370,
+        "percent": 80.36496350364963,
+        "floor": 60
+      }
+    },
+    "commands": {
+      "locked_sync": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/locked-sync",
+        "returncode": 0,
+        "completion_sha256": "3bf690f70bfca6ae7aa3acfb4dc1729d7471ea8cfe0a47e147c06860660c6eb0"
+      },
+      "build": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/build-wheel",
+        "returncode": 0,
+        "completion_sha256": "c9b52777ae9a228c1e5c29bf9166ceea0f2b0dd0f1ce31dc67e93a34ac156069"
+      },
+      "install": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/normal-wheel-install",
+        "returncode": 0,
+        "completion_sha256": "4b592d67e75d9c10437f993eea190935c015b6f6a1fc0ebb10cc184f411ceaf2"
+      },
+      "identity": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/normal-installed-identity",
+        "returncode": 0,
+        "completion_sha256": "6aedade71b12cb5a495a8090e9a585843d20a302d7a9a2885d5d99617b1fa210"
+      },
+      "wrong_wheel_pin": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/wrong-wheel-pin-refusal",
+        "returncode": 1,
+        "completion_sha256": "1ad2f012bdb273c28c6cb3d082c200cc996c8cd86badcc70cf78dcd26eb7e982"
+      },
+      "compatibility": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/dependency-compatibility",
+        "returncode": 0,
+        "completion_sha256": "a12d7928e5b1a848c4768d82dcbdfde9b3a8aad03b6572d0948b008f35dd7fa6"
+      },
+      "full_tests": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/full-tests",
+        "returncode": 0,
+        "completion_sha256": "9c4ea621affc1da18eace5d2c9241eda19631b11d576beac16a3f2d14c3de042"
+      },
+      "application_floor": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/application-coverage-floor",
+        "returncode": 0,
+        "completion_sha256": "2c1fcdc9d550a860c421149db9982ea85c2253b3553200596f0cf651abf04d0b"
+      },
+      "tools_floor": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/tools-coverage-floor",
+        "returncode": 0,
+        "completion_sha256": "fd45794cb7c6d99a97d256e398d9995f76e5588436aa7b9745ca0e2eb351be8b"
+      },
+      "ruff": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/ruff",
+        "returncode": 0,
+        "completion_sha256": "b758c05bc67615df383ce83d59fac789cfabe53cf9332a62353e69128b32a41f"
+      },
+      "format": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/format",
+        "returncode": 0,
+        "completion_sha256": "00c5467e586a1a6110e59432edcd9f9f75c2ba47ba26586f2f371c508d6f6c74"
+      },
+      "types": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/evidence/entomology-canonical-install-commands01/types",
+        "returncode": 0,
+        "completion_sha256": "ed50de33aa96c9009964aa712000803b3a4055cfd08672a6e4ec4fc413f1fb5a"
+      }
+    },
+    "wheel": "Local/blake-manuscript-advance-20261101T212248Z/artifacts/canonical-wheels-01/entomology/blakean_entomology-0.7.0-py3-none-any.whl",
+    "wheel_sha256": "99424ab2fddcc4f415485ed4bdbf0d891d70060d181ada72ace5683cf5fe1309",
+    "identity": "Local/blake-manuscript-advance-20261101T212248Z/coordination/entomology-canonical-installed-identity01.json",
+    "identity_sha256": "432b18b743e5e0cdb2ac665c0fba1835aa21e78ae59ec31ffe56c0b94d1522f1",
+    "source_files": {
+      "README.md": "a003bc12b2560507c7cde113ac77001189cfe9839a7af0e4e20a69c0b590a25f",
+      "pyproject.toml": "21e3b0d601e27add340bc7a7eae46e6e37e791c93221d5ae7121f10f084d367f",
+      "src/blakean_entomology/__init__.py": "6aba7c49e7360274fa1ae378c8e115f4092e5c32dd69a915dfa8cea0dd24d2a2",
+      "src/blakean_entomology/atlas.py": "b798d2eb1b14b8c99e68689b18563cc71008d6633e26ace3aa6c92076f26267c",
+      "src/blakean_entomology/atlas_models.py": "f1c02155216df81e25f6e20a53e15be2e21101ac3a9cbe3ecdcab9d67547c5e4",
+      "src/blakean_entomology/casebook.py": "74d55d130cd7b929ffac0f61b367751c03c9e9961ab52115240e685b2e38373e",
+      "src/blakean_entomology/cli.py": "2e0448074589055f56349053eb983eb83716ea9cbd09b3d6120c00217e3ecd02",
+      "src/blakean_entomology/composition.py": "1fff711673d09fedd06d28ab0d34d26fcdd36fb8c6373133bad2c1147b7161d1",
+      "src/blakean_entomology/composition_workflow.py": "8b2ec282009f120ea5ce0909af889cbac1047500616d2da4fea76d8f70c87853",
+      "src/blakean_entomology/core.py": "6f3f0a2c0824d896832778821d80caf97d005908cb997b6068d436e387129b4d",
+      "src/blakean_entomology/geometry.py": "541e6a6e230233b0f38a1ac63b4c6262fe783ce14a97d1e52cf628493302102d",
+      "src/blakean_entomology/geometry_cli.py": "1cedbbcfb53baa4563c762a381d87d8d46f8c9efa7ae06361cca6672fed8c126",
+      "src/blakean_entomology/geometry_figures.py": "8f75d30e12bb0b0b2d1f4d5485314b37a13451a39de03bb6a1f749f452a23bb7",
+      "src/blakean_entomology/geometry_inputs.py": "e1b30a16092d78c573cd001ae84513158b7a0bf9542f8b2ce36d0ba67b31eb67",
+      "src/blakean_entomology/geometry_io.py": "f05a48fc387cb1cc0f9192ef9dc76ad1678ac0ae3d8b490c7157f424d699ea7c",
+      "src/blakean_entomology/geometry_models.py": "c2bee0fe60a4181938a253c57b6d66c18f699a528fe0e9bd48a5d93725c26f43",
+      "src/blakean_entomology/geometry_plotting.py": "8e239d19d53db60d407c06f856f92f000816230a1e56f92662fa476df0d674d6",
+      "src/blakean_entomology/geometry_producer.py": "1885262efb487b62228e5271db77503d6cb7d64ca272a405fda74c6daa93d14e",
+      "src/blakean_entomology/geometry_review_figure.py": "c04cb6467e3d3a75329e28cfdb1a0d091eb61171b9e7a0a8fccd5fd939c84e95",
+      "src/blakean_entomology/geometry_run.py": "9d463117c945d36c5de8b9d3a89c10a901e99d1b89becf0ba3da87a8154aa423",
+      "src/blakean_entomology/models.py": "42e5bbb227591e8972a68af4f80477014dc9f94a057f4ae660c10767f9e1957b",
+      "src/blakean_entomology/producer.py": "d174eb71d62eb1521071b38ab618ef207c8f9302a10eb39e8b61da2a3f9f8a4d",
+      "src/blakean_entomology/publication.py": "6fa15ade3c73d433255f3e9188e4e331b5124240b260f9183fea1b046d338fc2",
+      "src/blakean_entomology/publication_canvas.py": "05b32eccc71a5d78fe5518c6c162ef37739c1f1acf8215ab8333bdd6ec369774",
+      "src/blakean_entomology/publication_contract.py": "0d0be5855d779d6832693a9db2c461921f6f69c04b4f83794c84aefbb68e6cd8",
+      "src/blakean_entomology/publication_custody.py": "69e077837a95de7288c98bd8820050cb24330279e656c94f2c668b13fac2c9b2",
+      "src/blakean_entomology/publication_data.py": "2c3839c4c24a8eb908c27b3e4b0eaecd48a6416a07513cd34b77f27dbca17eb5",
+      "src/blakean_entomology/publication_frontmatter.py": "d61c4a811d24a425c3ab07cdf15a39f300801493f8abd5c590095f6441e12dd2",
+      "src/blakean_entomology/publication_graphics.py": "f87453536e1328f4424da53f79fc1f41107d5c82a5fca444d743bc613c73db7b",
+      "src/blakean_entomology/publication_profile.py": "27aee25ea627bbadae4539b483b35d0a755ccf916dc157534ac396cae53e9e16",
+      "src/blakean_entomology/publication_profiles.py": "52f1fcaf4a0832e9ad8a9d32ff40584b4928b0ce8c6008447382e14a1d4537df",
+      "src/blakean_entomology/publication_quality.py": "b71ec37ca42330793f1f50d5dc3513d4c6e695e61af403f698e5d4d62c4185ba",
+      "src/blakean_entomology/publication_relations.py": "fd747859ce1ec94dde93524d095245490d60828ce907295a87b4065582195c36",
+      "src/blakean_entomology/publication_sdk.py": "8709c97ebe811a876c253f3c9849fb2c3db22a948c20a097394ea94f25f21f8f",
+      "src/blakean_entomology/publication_transport_models.py": "910af51a5e5c1dcc67a4bcb0932ab7e0e8883bafa64e0515d7db66803f884fea",
+      "src/blakean_entomology/publication_wire.py": "657a3d4f3d7112f2c5db51445f8540c11ebb94e3eaab3aa0f6bd7d636ce40aa4",
+      "src/blakean_entomology/review_contexts.py": "9bd2fb3263da2dcce147d4d0efec751ce4d47feb3ac4864c2a21743a7112a8dc",
+      "src/blakean_entomology/review_planning.py": "ae7cdbfc7974412468992a901947479e03e5872960ba9665b51ed08e3fe428bd",
+      "src/blakean_entomology/review_planning_cli.py": "fd600818e4169bf9fb1796338de1710936fda7581ba0a1a0210d70530f417d41",
+      "src/blakean_entomology/sensitivity.py": "15d05723eaa7047699538a5dc5848268d809d487375df36593a72f53516eb92d",
+      "src/blakean_entomology/taxonomy.py": "1e764719dd9410a3c8d6dd6801841126a5ead8aa165de085c529dae7f02fe9c5",
+      "src/blakean_entomology/taxonomy_models.py": "c0450846b310c57748bf43cb0eb7c472076f3b49588799c1307353b6664cc4d8",
+      "src/blakean_entomology/workflows.py": "e009ad1d3ab868caf3cf3640f644dad6e5dd9b62e848176db6fac2a0dc5abf50",
+      "tests/test_application.py": "45c37319ca856ccf1fb5c29eed39749c3129e1292da75da9ab7d996db420d9e3",
+      "tests/test_atlas.py": "35ab25b7747372c2fc9551e82e23b776154fad263b7d08186425305e901f1ee3",
+      "tests/test_casebook.py": "f604bc8bafcf4a466b2751447b7b0d791d554a0662ce779c8d35091b7878197a",
+      "tests/test_composition.py": "8be0f43fbe82c3a7844239107be2a8a63ed46145a0faaa8b2814c1db960ce101",
+      "tests/test_composition_tools.py": "8c5112336af2b0f810e8fc08cada2f366365103c5287171d20752efb0e2ef3c5",
+      "tests/test_context_review.py": "9809b30544d395d42dee646be3b7961403e0221d63181d5295a09db919f11c63",
+      "tests/test_expanded_manuscript.py": "e09d2c4b92ff7bc2a0b28491492720fc4c4a6b45375dc7c7976118cd9a6c9ef4",
+      "tests/test_extend_geometry_assets.py": "4d7db1d7490801117f570f4da4873e409e1e554e795aac295b778c3340b65370",
+      "tests/test_geometry.py": "be8de1e6f8ac48700115737669994d4fd63599a7270013bae91ac6865d3e5394",
+      "tests/test_geometry_assets.py": "fa47fc453ac49bbca90f4a560bfc4ae4035077809b8dc37ca380d26535e2e775",
+      "tests/test_geometry_boundaries.py": "e8e51621468b92e49360efb619f7e927f57ef4d5fd5f39599be6b6888633d6d5",
+      "tests/test_geometry_figures.py": "3dc653591b7d90d7d31336b3db100e91be10c7da8d8098dc558cea198486ffa7",
+      "tests/test_geometry_workflow.py": "b02ac89695d79f1cbc458801ee8467b981d1f27cc6ef60dd1f699614b606e84f",
+      "tests/test_methods_adapter.py": "641486cb6e1e630913cda2d63823d21a12098faf301c49cc2f4afcc6ffe0df33",
+      "tests/test_native_graphics.py": "c6d74bf35c2a4be5d063dfda1727585f67179d5537f159d2a07575a830a69418",
+      "tests/test_native_profile.py": "5f2829cd974408cf3c5c95c3a3480dcb34c491da98c8ab44a82e3314c173b240",
+      "tests/test_native_publication.py": "d3afae88fa035951848dc2cc28c2126a3d01f172d4a9bb0872d5a8055a94c7eb",
+      "tests/test_native_quality.py": "6c4aff37d30e2eae4e9ba79516ef43507676d6dbecd4a621db800f53fa844859",
+      "tests/test_native_schema3.py": "cf4229e338f3670b6c1f9643f1438cd6a63590ede025c61f71742ac797600133",
+      "tests/test_native_sdk.py": "a71d5d5e1b2a5bb91a1dd4b1d694389ab5a2fb2370409e25820e31432b09644e",
+      "tests/test_research_figures.py": "b5e9a9a17005aa56437ed6cf2d312d836cf70b20ce919c028c5a119f9f0f0b61",
+      "tests/test_review_planning.py": "3e744fee72bcc9dc0bc874171ca72d715dd86d5c4d20d34bcf5903e8453d6efe",
+      "tests/test_review_planning_cli.py": "aa7c29a850298a496cbf56a70f1a05320004ccc1e98daf071b7d731713826ca5",
+      "tests/test_run_snapshots.py": "f4fea188b2f77aaa4366a285562d7af13b633b8373ce4b9dba09d217ddb3ee1c",
+      "tests/test_sensitivity.py": "fc051d300c9c32805444b25343b6b968122beb5ea29634856eca7302fec32a98",
+      "tests/test_sensitivity_figure.py": "dca90893198c76e94811811621aa7ebdedbf1b6de6edd575703d217f087225b6",
+      "tests/test_taxonomy.py": "f80188c73cda37cc5530512304fac7c58a36c1a5fbf89a09cec128ddd5740777",
+      "tests/test_workflows.py": "ec2862097700f8485c6357b2c2c8e05a7360940c23b23f9d3152081de327b6a1",
+      "tools/audit_composition.py": "0bcb991e5c08c01764484601381442b62e5b0fedfdb98b481b1c161dddff26e9",
+      "tools/build_composition_figures.py": "2aed12f1efb65d03e372dc63219d58c33bb8379b41e2508c518245377573a534",
+      "tools/build_context_review_figure.py": "26d7e4316c097f183a5f86c199eab056e4b3ab84778dde5b48e773a9800033b8",
+      "tools/build_reference_figures.py": "640581400e074969b01061c071f5c53015adb15e896b8a988a5578e795cadaa0",
+      "tools/build_sensitivity_figure.py": "c1c6f8d39cb4d86a128b357af424e3344fa20e170710425b566790375dbced2a",
+      "tools/extend_geometry_assets.py": "c878ae135d7717191681e319fea06b3a51346b51a9ce7a32fec284cb5ba33494",
+      "tools/geometry_asset_contract.py": "f95aef322db64a2429da60ec0b63070ddcf3302639d8f7f5530ab4c8bc02ae7e",
+      "tools/manuscript_assets.py": "58d20f996697e08194f17f45a6a717c9f20d7a63c4592040d00f5e1f95f48921",
+      "tools/manuscript_content.py": "cef78404c043e4b7bd4e42ea754a10de5ca54e8bd58fd472f747ca810f5d3cfe",
+      "tools/native_template_worker.py": "d8337d15b4d83a8bf8fbc187bcac30e35a534972e1660e45fa3f4bab3f0171bb",
+      "tools/native_web.py": "67187c82cf2aa894bffc80124d22a6f46a9b8a0fd9446581c04841c3fe83657b",
+      "tools/prepare_research_manuscript.py": "f35d92aabd64710a79beaf08793141ab06161ecfe70d3cf4f060ab9d0f7650b0",
+      "tools/reference_plotting.py": "be5d62eb11881188b1b9ea3d35ce9e07e4563c2058579a13e0bc54b6ed854f5b",
+      "tools/render_manuscript.py": "ee8ede360be9c68fe049b81559e4a2e66e20b5c07d3f862d5165a07808b18657",
+      "uv.lock": "95fe3953236b0c48f583730360ca60fa64d031729561d91e6415b748e672dd03"
+    },
+    "source_unchanged": true,
+    "scope": "Fresh locked canonical normal-wheel/installed-Git consumer and full suite-only software gates. Native output and independent working-draft acceptance retain separate exact receipts."
+  },
+  "installed_identity": {
+    "path": "Local/blake-manuscript-advance-20261101T212248Z/coordination/entomology-canonical-installed-identity01.json",
+    "bytes": 40245,
+    "sha256": "432b18b743e5e0cdb2ac665c0fba1835aa21e78ae59ec31ffe56c0b94d1522f1"
+  },
+  "data_scope": {
+    "candidates": 36039,
+    "reviewed": 47,
+    "unreviewed": 35992,
+    "primary_reading_candidates": 2498,
+    "recorded_windows": 36,
+    "window_source_units": 23,
+    "reviewed_source_units": 28,
+    "reviewed_identities_without_window_coordinates": 11,
+    "baine_chapter": "unread/unavailable; formal heading, boundaries and framing unverified",
+    "image_scope": "nine selected originals; no corpus-wide image census"
+  },
+  "reviewed_native": {
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "sha256": "05e400f5b5da75ccee0fbcd55e97e6ff9a849765a178dbf6c9eb7500cedcf063",
+    "pages": 44,
+    "html": "analysis_output/geometry-template-native-20261101-02/output/web/index.html",
+    "html_sha256": "47417cefbbdc590f4c0b97310642b4052ecb5524c5ee8e81cc902227ef879df6",
+    "current_native_render_performed": true,
+    "native_receipt": {
+      "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/geometry-template-native-20261101-02/native-render-receipt.json",
+      "bytes": 233898,
+      "sha256": "133d5de7eab3fab2fa3cb9d7af01c460d6cd028eb0964770f0df1796b14136b6"
+    },
+    "producer_application_version": "0.7.0",
+    "producer_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+    "physical_layout": {
+      "cover": 1,
+      "graphical_abstracts": [
+        2,
+        3,
+        4
+      ],
+      "contents_start": 5
+    },
+    "independent_acceptance": {
+      "status": "BOUNDED_WORKING_DRAFT_PASS_WITH_LIMITATIONS",
+      "verdict": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/review/final-corrections-review03/VERDICT.json",
+        "bytes": 3550,
+        "sha256": "3a70b52a305fcdad95ae574c2f09b8a83d354f82e946eb414b1512f67220f15e"
+      },
+      "closure_sha256": "213ce0a71b7842176a5adbfc3eca20b90870c1861481e43138b6529682f192ad"
+    },
+    "scope": "Exact current pinned-template native edition and complete independent working-draft page/HTML review; scientific, rights, specialist accessibility, hosted-CI and public-release acceptance remain separate."
+  },
+  "independent_review": {
+    "path": "Local/blake-manuscript-advance-20261101T212248Z/review/final-corrections-review03/VERDICT.json",
+    "bytes": 3550,
+    "sha256": "3a70b52a305fcdad95ae574c2f09b8a83d354f82e946eb414b1512f67220f15e"
+  },
+  "postreview_nonbody_documentation": {
+    "docs/PROJECT_STATUS.md": {
+      "before_sha256": "cd52f5c544db7b20602470fd55426928bc7b5ad7e43047176189229bfee05013",
+      "sha256": "c45743148edc41edff920f7c9f41e51735d2c3eba2a5a0157bf0a19d3c1ece48"
+    }
+  },
+  "earlier_documentation_closure": {
+    "path": "Local/blake-manuscript-advance-20261101T212248Z/coordination/entomology-postreview-documentation01.json",
+    "bytes": 1173,
+    "sha256": "9842791a0a13c4df7132a21f70870584175df5419eb074357583e97cb8a41cb3"
+  },
+  "canonical_source_admission": {
+    "path": "Local/blake-manuscript-advance-20261101T212248Z/coordination/entomology-canonical-source-copy01.json",
+    "bytes": 14523,
+    "sha256": "e2e3f98700aab04301383ce241b57302ff05d4032d967799479251d884f66990"
+  },
+  "canonical_copy_mode_repair": {
+    "path": "Local/blake-manuscript-advance-20261101T212248Z/coordination/entomology-canonical-copy-mode-repair01.json",
+    "bytes": 196749,
+    "sha256": "e7c7f8437f39a0cc811c18b40b8b03c442e2bad3906342bbfe8909c2292d75cd"
+  },
+  "previous_indexes": {
+    "research/history/methods-manuscript-20261101/current-source.json": "87411eab35e52669360330458f0576d2581af1527897a750ba39a7d4cd001418",
+    "research/history/methods-manuscript-20261101/verification.json": "a2d19cfea857e39d11d34ccfb2845840eab3206a18e422ab165c017bdfbb88fe"
+  },
+  "remaining_gates": [
+    "specialist scientific/scholarly acceptance",
+    "specialist accessibility and every-device behavior",
+    "public item-level rights and release",
+    "hosted CI reported separately from local tests"
+  ],
+  "delivery_scope": "This source freeze precedes commit. The final Local packet DELIVERY.json records actual commit/push/remote/Downloads events after they occur; no cyclic future commit identity is embedded."
+}

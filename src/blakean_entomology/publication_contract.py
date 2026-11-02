@@ -6,8 +6,8 @@ from typing import Annotated, ClassVar, Literal, Self
 from blake.methods.installed_models import InstalledGitPackage
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+from .publication_profiles import CURRENT_SDK_COMMIT, TEMPLATE_COMMIT, sdk_profile, sdk_version
 from .publication_transport_models import Member
-from .publication_wire import CURRENT_SDK_COMMIT, TEMPLATE_COMMIT, sdk_profile
 
 SHA256 = Annotated[str, Field(pattern=r"^[0-9a-f]{64}$")]
 
@@ -26,7 +26,7 @@ class PinnedInput(Contract):
 class NativeRequest(Contract):
     """Join a closed preparation to its independently pinned graphical inputs."""
 
-    schema_version: Literal[1, 2] = 2
+    schema_version: Literal[1, 2, 3] = 3
     prepared: PinnedInput
     atlas: PinnedInput
     composition: PinnedInput
@@ -49,7 +49,7 @@ class NativeRequest(Contract):
 class NativeStage(Contract):
     """The native worker's complete admitted source inventory."""
 
-    schema_version: Literal[1, 2] = 2
+    schema_version: Literal[1, 2, 3] = 3
     template_commit: Literal["efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8"] = TEMPLATE_COMMIT
     sdk_commit: str = CURRENT_SDK_COMMIT
     sdk_identity: InstalledGitPackage | None = None
@@ -73,6 +73,7 @@ class NativeStage(Contract):
             or self.sdk_identity.commit != self.sdk_commit
             or self.sdk_identity.package != "blake"
             or self.sdk_identity.distribution != "blake"
+            or self.sdk_identity.version != sdk_version(self.schema_version, self.sdk_commit)
         ):
             raise ValueError("native_sdk_identity: require the selected installed Blake receipt")
         return self

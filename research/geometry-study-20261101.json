@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "corpus_pin": {
+    "schema_version": 1,
+    "bundle_manifest_sha256": "dda0706cecfb449a4084b7cec95036ce0efa181d2a89b15c2b5511c01f840e9b",
+    "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+    "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+    "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+    "source_repository": "https://github.com/docxology/blake",
+    "scope": "Pinned captured source units; not a complete-oeuvre or image inventory."
+  },
+  "run_sha256": "12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633",
+  "decisions_sha256": "581a53bef6642ee1420cdc312b4f10696293952bb696ae3f588e6833f4478755",
+  "windows_sha256": "65d56ee2c099b13c410aab21926547c3477cbc274978193d8b2674e34416e9be",
+  "vocabulary_sha256": "e490350472adc235c27a5534dc6144333d843943633b2c2184effebbf40b16f2",
+  "sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "illustrative_source_ids": [
+    "archive:songsie.a",
+    "archive:mhh.a",
+    "archive:bb49.a"
+  ],
+  "window_pairs": [
+    [
+      "E29-17",
+      "E29-27"
+    ],
+    [
+      "E29-06",
+      "E29-19"
+    ]
+  ],
+  "coordinate_space": "original Passage.text Python codepoints"
+}

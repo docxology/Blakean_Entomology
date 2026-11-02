@@ -2,7 +2,7 @@
 title: "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention"
 author:
   - Daniel Ari Friedman
-date: "30 October 2026 · Private research draft 0.4.0"
+date: "1 November 2026 · Private research draft 0.7.0"
 lang: en
 ---
 
@@ -31,7 +31,9 @@ comparisons retain all 33 eligible groups. Twelve literal-pair experiments expos
 source dependence and distance. A purposive contextual extension validates {{CONTEXT_REVIEW_TOTAL}} authored decisions, including 36 new agent judgments, while retaining {{CONTEXT_REVIEW_REMAINING}} unreviewed candidates. These are distributions of retrieval mass, not
 an adjudicated animal census or complete oeuvre. Engagement with the history of biological symbolism keeps the
 strongest rival reading in view: relation, analogy and emblem can coexist.
-Modern classification, lexical matching and material interpretation remain distinct. The resulting argument
+An additional source-geometry analysis distinguishes matched support from the
+recorded extent of contextual reading, preserving overlapping windows and
+unavailable coordinates. Modern classification, lexical matching and material interpretation remain distinct. The resulting argument
 locates ethical force in particular acts of hearing, sustaining, injuring and
 joining, while its explicit zeros and unresolved cases direct further reading.
 
@@ -458,6 +460,45 @@ Historical lexicography remains an acquisition task. The comparison advanced
 here asks what joining permits and suppresses in a particular scene. It does not
 equate Blake's changing collective figures with modern political institutions.
 
+## Webs, prisons and the allocation of danger {#sec:political_webs}
+
+The prison towers of *The French Revolution* make it difficult to attach one
+moral value to a creature or its structure. Within the selected passage, a man
+is confined for prophetic writing, another has refused to sign papers of
+abhorrence, and a woman has resisted a minister. The named towers assign
+institutional categories to persons whose acts the narrative also preserves.
+The old man in the tower called Order occupies a den as narrow as a child's
+grave, among webs and the slime of ancient horrors. The surrounding snakes and
+scorpions, however, are described as harmless companions sharing his sorrowful
+breath. The grammar does not extend that description automatically to every
+spider. It nevertheless prevents the tower's animal occupants from simply
+bearing the blame for its confinement. [@blake-french-revolution-retained,
+bounded Archive reading windows E29-17 and E29-27]
+
+This is a local test of the relation between biological symbolism and
+institutional entrapment reported in Hoagwood's review of Baine. A web can make
+the prison's accumulated enclosure visible without making a spider the author
+of the prison. Conversely, retaining an animal sense does not turn the webs
+into a natural-history observation. Material habitation, political analogy and
+the narrator's allocation of suffering coexist. The adjacent eternal worm in
+the tower Bloody introduces another relation to the confined body; its
+eschatological and bodily senses remain unresolved in the existing uncertain
+decision. The two retrieved categories therefore lead into overlapping
+context, but neither their proximity nor their shared setting makes them one
+symbolic function. [@hoagwood-1989-baine, pp. 40–42]
+
+The distinction matters beside the practical assistance in “A Dream” and the
+joined body of *Milton*. Association can answer distress, accompany it without
+remedy, or reorganize the powers of those joined. The old man's companions do
+not release him; their harmlessness cannot establish the harmlessness of Order.
+Nor does the glow-worm's office establish that every assigned social place
+enables another life. What an association does must be read in its sequence and
+distribution of powers. This comparison proposes no equivalence between these
+poetic institutions and a modern constitutional procedure, and it does not
+resolve the unread Baine chapter. Its narrower result is that naming a web,
+finding an animal sense and identifying the agent of an injury are different
+interpretive operations.
+
 # Seeing, injuring and judging {#sec:instruments}
 
 ## Microscopic display and the failure of demonstration {#sec:microscopy}
@@ -524,10 +565,14 @@ windows. Both have immutable source-bound receipts; their different profiles and
 denominators remain separately named. The historical baseline and its eleven
 authored decisions retain their original run identity. The recorded installed replay for application 0.3.0 left the five analytical
 baseline artifacts byte-identical; its producer receipt did not repin those
-decisions or add contextual animal classifications. This 0.4.0 authoring rebuild
-uses the same pinned Blake SDK and consumes the retained analytical outputs
-under their exact hashes. It does not claim a fresh mathematical replay or
-transfer those outputs to a new analytical producer.
+decisions or add contextual animal classifications. The historical 0.4.0
+authoring rebuild consumed the retained analytical outputs under their exact
+hashes and its then-current SDK pin. It did not claim a fresh mathematical
+replay or transfer those outputs to a new analytical producer. The present
+0.7.0 edition preserves those producer identities while consuming the retained
+exports. Its schema 3 native host and the new source-support analysis below use
+the separately verified Blake SDK 0.7.0 pin, with distinct receipts for their
+current execution.
 
 ## A retrieval candidate is not an animal observation {#sec:counting_unit}
 
@@ -1098,6 +1143,152 @@ explicitly designed batch across further works and senses, retaining the
 unresolved labels and the entire unreviewed denominator.
 
 
+## The text occupied by a match and by a reading {#sec:geometry}
+
+The preceding counts locate candidates and judgments. They leave a different
+question open: how much of a retained source do overlapping matches occupy,
+and what extent of contextual reading is actually documented? A new analysis
+uses the original baseline hits and the unchanged 47-decision ledger. It does
+not rerun matching, merge copies, infer decisions from surrounding text or
+alter source authorship. Its coordinates belong to the exact captured
+`Passage.text`, measured in Python Unicode codepoints. They are not tokens,
+graphemes, verse lines, printed page area or a measure of interpretive attention.
+
+::: {.definition #def:source_support title="Source-local matched support"}
+For the candidates $T_s$ in one retained source $s$, let $I_h=[a_h,b_h)$ be
+candidate $h$'s original interval and let $L_s=\lvert x_s\rvert>0$. Define the
+union of matched support $G_s(T_s)$, its length $g_s(T_s)$ and summed length
+$B_s(T_s)$ by the following expressions. Here $[a,b)$ denotes the finite set
+of integer codepoint positions $a,\ldots,b-1$, so cardinality is text length.
+
+$$
+G_s(T_s)=\bigcup_{h\in T_s}I_h,\qquad
+g_s(T_s)=\lvert G_s(T_s)\rvert,\qquad
+B_s(T_s)=\sum_{h\in T_s}(b_h-a_h).
+$$ {#eq:source_support}
+
+All unions are taken within this source frame. A copy with identical text is
+still another source; its coordinates are never overlaid on the first copy.
+The overlap area is the number of codepoints covered by at least two records.
+Excess length is $B_s-g_s$. The number of overlapping record pairs counts pairs
+with a positive-length intersection, rather than occupied positions.
+:::
+
+These quantities answer different questions. Three identical intervals of
+length two have union length two, overlap area two, excess length four and
+three overlapping pairs. The example is a mathematical control, not a corpus
+result. It shows why subtracting the union from summed lengths cannot in
+general replace a calculation of overlap area. In every admitted source,
+$0\leq\text{overlap area}\leq g_s\leq B_s$ and $g_s\leq L_s$.
+The reusable interval operations belong to public Blake; this application
+owns the source grouping, eligible author/role/plane, channel meanings and
+literary consequences of the measurement.
+
+Across the 2,067 retained units, the 36,039 candidates have summed length
+193,634 codepoints and source-local union length 191,443. The overlap area is
+2,191 codepoints; 550 record pairs overlap, agreeing with the retained atlas's
+pair count. Here excess length also equals 2,191, an equality specific to these
+inputs rather than a definition. The five nonempty source facets remain
+separate in [@fig:source_footprint]. A large XML denominator includes markup,
+apparatus and modern descriptions, whereas the reading projection has its own
+line-break and whitespace choices. The facet percentages consequently describe
+captured representations, rather than comparable densities of animal reference
+in Blake's verse.
+
+The identified primary reading scope contains 2,498 candidates, 4,661,524
+codepoints and 12,310 occupied codepoints. Its name-family union is 6,443;
+associated terms occupy 5,177, motion forms 666 and broad labels 110.
+Name-family and associated support intersect in 86 codepoints. The channel
+bars are therefore deliberately unstacked. They cannot be added as though
+they partition the text, and none turns a motion verb or material association
+into an adjudicated animal.
+
+Weighting also changes this measurement. Let $S$ contain all 199 eligible
+source units, including zero-hit units, and let $S_w$ be the units in recorded
+work group $w$, for all 33 eligible groups $W$. Write $g_s=g_s(H_s)$. Then
+
+$$
+p_{\mathrm{pool}}=\frac{\sum_{s\in S}g_s}{\sum_{s\in S}L_s},\qquad
+p_{\mathrm{unit}}=\frac{1}{\lvert S\rvert}\sum_{s\in S}\frac{g_s}{L_s},\qquad
+p_{\mathrm{work}}=\frac{1}{\lvert W\rvert}\sum_{w\in W}
+ \frac{1}{\lvert S_w\rvert}\sum_{s\in S_w}\frac{g_s}{L_s}.
+$$ {#eq:support_weighting}
+
+| Weighting of occupied primary text | Occupancy | Denominator retained |
+|---|---:|---|
+| Pooled codepoints | 0.264077% | All primary codepoints |
+| Equal source units | 0.330366% | All 199 primary units |
+| Equal recorded work groups | 0.347154% | All 33 groups; units equally weighted within each |
+
+: Alternative weights on the same original-codepoint support. Zero-hit units and groups remain in scope, and copies remain separate. These are representation-dependent occupancies, not animal prevalence or corrected independent editions. {#tbl:support_weights}
+
+Equal weighting changes which parts of the captured collection have more
+influence; it does not repair incomplete acquisition, establish independent
+copies or remove polysemy. It also differs from the earlier name-family
+composition, which conditions on retrieved category mass. Here a source with
+no hit contributes zero occupied support and still contributes its denominator.
+
+![{{GEOMETRY_SOURCE_CAPTION}}](assets/source-footprint.png){#fig:source_footprint height=195mm}
+
+::: {.definition #def:documented_windows title="Documented contextual-window support"}
+Let $R_s$ be the reviewed IDs in source $s$ and let $D_s$ contain the retained
+window records with verified original endpoints. If record $k$ covers
+$J_k=[u_k,v_k)$, its documented window support is
+
+$$
+V_s=\bigcup_{k\in D_s}J_k,\qquad
+\sum_s\lvert V_s\rvert\leq\sum_s\sum_{k\in D_s}(v_k-u_k).
+$$ {#eq:window_support}
+
+Each record must reproduce its exact source slice, contain its selected hit
+and join to an existing valid decision on the original run. A reviewed ID
+without equivalent window coordinates remains explicitly unavailable for this
+measurement. Its absence is neither zero reading nor an inferred window.
+:::
+
+The fixed 36-record witness inventory from the 29 October extension has summed
+window length 61,922 codepoints and source-local union length 60,083 across 23
+units. The full decision ledger reaches 28 source units; the eleven seed IDs
+lack equivalent machine-readable window custody. [@fig:review_exposure] shows
+every source unit containing a decision, including those unavailable windows.
+The two enlarged pairs explain the difference between records and extent.
+In the selected *French Revolution* source, E29-17 and E29-27 occupy 2,417
+codepoints jointly, rather than their summed 3,611. In *The Marriage of Heaven
+and Hell*, E29-06 and E29-19 jointly occupy 2,964 rather than 3,609. Their
+overlap does not make the bee and spider the same candidate or an independent
+pair of literary scenes. Reinspection of one retained window adds no new area
+to this fixed inventory; separately bounded poem transcriptions keep their own
+reading records rather than receiving invented source coordinates.
+
+::: {.proposition #prop:review_support title="An ID partition need not partition text"}
+For the disjoint reviewed and unreviewed ID sets $R_s$ and $U_s$ of
+[@def:adjudication], the matched support satisfies
+$G_s(H_s)=G_s(R_s)\cup G_s(U_s)$. Its length is
+$g_s(H_s)=g_s(R_s)+g_s(U_s)-\lvert G_s(R_s)\cap G_s(U_s)\rvert$.
+Disjoint IDs therefore need not imply disjoint occupied text.
+
+*Justification.* Each hit belongs to exactly one ID set, so their intervals
+give the stated union. Finite-set inclusion–exclusion gives its length.
+Different IDs can nevertheless have intersecting original intervals.
+:::
+
+In these inputs, reviewed matches occupy 220 codepoints and unreviewed matches
+191,240. Their supports overlap in 17 codepoints. Neither reading a larger
+window nor finding an unreviewed candidate inside it assigns that candidate a
+disposition. The fixed review ledger, the intervals actually exposed to a
+reader and the literary argument therefore retain different denominators.
+
+![{{GEOMETRY_REVIEW_CAPTION}}](assets/review-exposure.png){#fig:review_exposure height=195mm}
+
+The resulting picture makes selection inspectable without turning it into an
+attention score. A narrow mark identifies where a word was found; its window
+retains more context but can still stop before a poem's resolution, a speaker
+transition or a neighbouring design. In the overlapping *French Revolution*
+windows, the prison and its animal occupants already complicate a single
+symbolic classification. Geometry shows where those readings share material;
+the narrative and its rival interpretations determine what that material can
+support. The 35,992 unreviewed candidates remain available for further reading.
+
 # Attention, symbolic inheritance and unfinished readings {#sec:conclusion}
 
 The software establishes complete matching of the declared forms within the
@@ -1185,8 +1376,8 @@ adds four complete copy-Y poem transcriptions and seven selected scans, plus
 local *Thel* F/O, *Island* and “Auguries” passages. It does not credit a complete
 book, all copies or a comprehensive visual inventory.
 
-Perkins (1999) and Srigley (1992) have now been read as complete journal articles
-by the research owner. The earlier Perkins fetch failure remains in the frozen
+Perkins (1999) and Srigley (1992) were read as complete journal articles
+in the retained agent research pass. The earlier Perkins fetch failure remains in the frozen
 ledger as acquisition history. Essick and Viscomi (2002) are used only for selected
 opening and registration sections (pp. 74–76, 90–92); Dauphin's extended reading
 covers paragraphs 7–28 and 49–50 alongside the earlier 3–6 and 21–25. Fara is
@@ -1235,6 +1426,15 @@ contexts corroborate their inherited local reading limits. No new image,
 contextual decision or historical influence chain follows from these readings.
 The dated source/reading/access ledger preserves the captures, source hashes and
 unavailable routes. [@hutchings-2001-gender; @blake-vda-a-2026]
+
+The 1 November source-geometry pass rereads eight retained contextual windows,
+two complete copy-A poems and four bounded *Milton* A / *Thel* B selections.
+Three further window reinspections check the enlarged bee/spider and
+worm/spider pairs. These are additive agent reading events, not Daniel's
+personal-reading credit. They change no contextual decision and inspect no new
+original image. The analysis uses the fixed 36-record window inventory; the
+additional reading ledger is not silently joined to its geometric denominator.
+Baine's chapter remains unavailable and unread.
 
 # References {#sec:references .unnumbered}
 

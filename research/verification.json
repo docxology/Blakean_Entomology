@@ -1,137 +1,95 @@
 {
+  "schema_version": 27,
+  "version": "0.7.0",
+  "qualification_epoch": "methods-manuscript-20261101",
+  "scope": "Public reusable interval methods with private domain policy/manuscript. Fresh canonical normal-wheel/source/metadata qualification, full suite-only coverage and current native working-draft acceptance are separately bound. Previous producers and failed attempts retain their original bytes and scopes.",
+  "qualification": "research/methods-manuscript-20261101.json",
+  "sha256": "d50122cd1c5bf2d07f0d1885f2e01d59097426bbc11baf74692aa0ea6fbd5f4d",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "tests": 436,
   "coverage": {
-    "application": 91.0228744065602,
-    "tools": 79.15611814345992
+    "application": 92.46987951807229,
+    "tools": 80.36496350364963
   },
-  "coverage_scope": "Fresh suite-only statement/branch coverage with complete separate application/tool denominators; no historical native or operational coverage union.",
-  "current_source_sha256": "87411eab35e52669360330458f0576d2581af1527897a750ba39a7d4cd001418",
-  "delivery": {
-    "final_readback": "Local/blake-sdk-scholarship-20261101T000147Z/DELIVERY.json",
-    "required_visibility": "PRIVATE",
-    "status_at_source_freeze": "Software/source freeze; independent final delta, canonical admission, commit/push and remote/Downloads completion remain separately receipted.",
-    "target_branch": "main"
+  "coverage_scope": "Fresh canonical suite-only statement/branch denominators, separately enforced at application90/tools60; no historical native database union.",
+  "current_source_sha256": "61329e24836261ff20f4509754b0422eefe235c92883aea85631180aa5243ef3",
+  "source_map_algorithm": "SHA256 of UTF-8 json.dumps(bindings,sort_keys=True,separators=(',',':'))",
+  "reviewed_native": {
+    "canonical_pdf": "Blakean_Entomology.pdf",
+    "sha256": "05e400f5b5da75ccee0fbcd55e97e6ff9a849765a178dbf6c9eb7500cedcf063",
+    "pages": 44,
+    "html": "analysis_output/geometry-template-native-20261101-02/output/web/index.html",
+    "html_sha256": "47417cefbbdc590f4c0b97310642b4052ecb5524c5ee8e81cc902227ef879df6",
+    "current_native_render_performed": true,
+    "native_receipt": {
+      "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/geometry-template-native-20261101-02/native-render-receipt.json",
+      "bytes": 233898,
+      "sha256": "133d5de7eab3fab2fa3cb9d7af01c460d6cd028eb0964770f0df1796b14136b6"
+    },
+    "producer_application_version": "0.7.0",
+    "producer_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+    "physical_layout": {
+      "cover": 1,
+      "graphical_abstracts": [
+        2,
+        3,
+        4
+      ],
+      "contents_start": 5
+    },
+    "independent_acceptance": {
+      "status": "BOUNDED_WORKING_DRAFT_PASS_WITH_LIMITATIONS",
+      "verdict": {
+        "path": "Local/blake-manuscript-advance-20261101T212248Z/review/final-corrections-review03/VERDICT.json",
+        "bytes": 3550,
+        "sha256": "3a70b52a305fcdad95ae574c2f09b8a83d354f82e946eb414b1512f67220f15e"
+      },
+      "closure_sha256": "213ce0a71b7842176a5adbfc3eca20b90870c1861481e43138b6529682f192ad"
+    },
+    "scope": "Exact current pinned-template native edition and complete independent working-draft page/HTML review; scientific, rights, specialist accessibility, hosted-CI and public-release acceptance remain separate."
+  },
+  "software_qualification": {
+    "version": "0.7.0",
+    "sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+    "tests": 436,
+    "coverage": {
+      "application": {
+        "covered_lines": 2321,
+        "num_statements": 2472,
+        "covered_branches": 442,
+        "num_branches": 516,
+        "files": 41,
+        "numerator": 2763,
+        "denominator": 2988,
+        "percent": 92.46987951807229,
+        "floor": 90
+      },
+      "tools": {
+        "covered_lines": 921,
+        "num_statements": 1100,
+        "covered_branches": 180,
+        "num_branches": 270,
+        "files": 14,
+        "numerator": 1101,
+        "denominator": 1370,
+        "percent": 80.36496350364963,
+        "floor": 60
+      }
+    },
+    "new_full_suite": true,
+    "receipt": "research/methods-manuscript-20261101.json",
+    "receipt_sha256": "d50122cd1c5bf2d07f0d1885f2e01d59097426bbc11baf74692aa0ea6fbd5f4d",
+    "qualification_scope": "Fresh canonical full suite over normal app wheel and exact public Git source; no historical coverage union or scientific/release promotion."
   },
   "documentation_reconciliation": {
     "path": "research/documentation-review-20261031.json",
     "sha256": "174031797ee726aaff3f539b8918202d90a060bf2ab6d8f2b16d7e797d4e002e"
   },
-  "qualification": "research/native-sdk-admission-20261031.json",
-  "qualification_epoch": "native-sdk-20261031",
-  "reviewed_native": {
-    "canonical_pdf": "Blakean_Entomology.pdf",
-    "current_native_render_performed": false,
-    "original_record": {
-      "admission": {
-        "bytes": 215312,
-        "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-stage.json",
-        "sha256": "1e26e1b38cb430b04a8c41a2a9b809dfbf4ee7c275191d206eadb46ef52fa06e"
-      },
-      "canonical_pdf": "Blakean_Entomology.pdf",
-      "current_native_render_performed": true,
-      "epoch": "analysis_output/entomology-template-native-20261030-04",
-      "formal_counts": {
-        "definitions": 4,
-        "equations": 6,
-        "figures": 16,
-        "propositions": 2,
-        "tables": 9
-      },
-      "html": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/web/index.html",
-      "html_sha256": "3a78de6e01351be94150ef4d13a4d5cc1bfc136f253bfc6eb903ebee21431450",
-      "independent_acceptance": {
-        "bytes": 12665,
-        "path": "Local/blake-entomology-template-20261030/independent-review-01/PREPUBLICATION-ACCEPTANCE.json",
-        "sha256": "caa4d6580d879fee60b61796cb2daf29c8eaf4f739e2294516956aaf96e14e36"
-      },
-      "native_receipt": {
-        "bytes": 233631,
-        "path": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/native-render-receipt.json",
-        "sha256": "7d18d980545054ab3ddde92e244932010897633ec53fed1d54e04a8460104017"
-      },
-      "pages": 40,
-      "pdf": "Username/docxology/Private/Blakean_Entomology/analysis_output/entomology-template-native-20261030-04/output/pdf/blakean_entomology_combined.pdf",
-      "physical_layout": {
-        "contents_start": 5,
-        "cover": 1,
-        "graphical_abstracts": [
-          2,
-          3,
-          4
-        ]
-      },
-      "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951",
-      "source_inputs": {
-        "docs/manuscript/blakean-entomology.md": "f9f3b4a85faea9a8126272ded998a34c88a0a09343db6314ea03c0863729b38a",
-        "docs/manuscript/config.yaml": "1c52be713e4617f8fd8217f4a6208bd69735cc30da57b01f2b04655ebf6f4a04",
-        "docs/manuscript/preamble.md": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
-        "docs/manuscript/references.bib": "f9dfa9d117f00d920f5892571a637f121b7fe4975502d8200e539e74ed71df06",
-        "docs/manuscript/web.css": "eb7882311a9879bf37531a98a9ff326cca16f3c8ca267949d5f63fd626f8d2c8"
-      },
-      "writer": {
-        "imported_template_sources": 257,
-        "runtime_base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.14-macos-aarch64-none",
-        "runtime_prefix": "/Volumes/GitVault/Username/docxology/Public/template/.venv",
-        "runtime_version": "3.14.8 (main, Oct  9 2026, 15:11:09) [Clang 22.1.3 ]",
-        "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
-        "template_sources": 1626,
-        "writer_calls": [
-          "PDFRenderer.render_combined",
-          "EntomologyWebRenderer.render_combined (native base with admitted CSS hook)"
-        ]
-      }
-    },
-    "producer_application_version": "0.4.0",
-    "producer_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
-    "qualification": "research/template-native-20261030.json",
-    "qualification_sha256": "ecf5c1618664281ca3abb621e23620b847601d73117acff5053d1c0df50f3055",
-    "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
-    "sha256": "f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951"
-  },
-  "schema_version": 26,
-  "scope": "Installed SDK admission and explicit native host/transport contract; additive independent eight-case reassessment and finite Baine access refresh. Corpus, 47 decisions, analytical producers, five native inputs and retained paper remain unchanged. No current native render or scientific/release acceptance.",
-  "sha256": "aec98c2af251f416a7ac6235c84694ea75bc9fd6eb5c421b9f05ef6a3698e3df",
-  "shared_sdk_commit": "d34876e021a8f2e654b96f1c23f7ec43d8d958c2",
-  "software_qualification": {
-    "coverage": {
-      "application": {
-        "branches": 398,
-        "covered_branches": 334,
-        "covered_lines": 1775,
-        "denominator": 2317,
-        "files": 30,
-        "floor": 90,
-        "numerator": 2109,
-        "pass": true,
-        "percent": 91.0228744065602,
-        "statements": 1919,
-        "unexecuted": []
-      },
-      "tools": {
-        "branches": 220,
-        "covered_branches": 141,
-        "covered_lines": 797,
-        "denominator": 1185,
-        "files": 12,
-        "floor": 60,
-        "numerator": 938,
-        "pass": true,
-        "percent": 79.15611814345992,
-        "statements": 965,
-        "unexecuted": [
-          "tools/audit_composition.py",
-          "tools/native_template_worker.py",
-          "tools/native_web.py"
-        ]
-      }
-    },
-    "new_full_suite": true,
-    "qualification_scope": "Normal-installed software/transport admission and additive contextual/access evidence; no native production, numerical replay, new decisions or scientific/release acceptance.",
-    "receipt": "research/native-sdk-admission-20261031.json",
-    "receipt_sha256": "aec98c2af251f416a7ac6235c84694ea75bc9fd6eb5c421b9f05ef6a3698e3df",
-    "sdk_commit": "d34876e021a8f2e654b96f1c23f7ec43d8d958c2",
-    "tests": 353,
-    "version": "0.6.0"
-  },
-  "tests": 353,
-  "version": "0.6.0"
+  "delivery": {
+    "required_visibility": "PRIVATE",
+    "target_branch": "main",
+    "final_readback": "Local/blake-manuscript-advance-20261101T212248Z/DELIVERY.json",
+    "status_at_source_freeze": "Current source/software/native working draft qualified for authorized ordinary main publication. Actual Git/remote/Downloads events are separately recorded after they occur."
+  }
 }

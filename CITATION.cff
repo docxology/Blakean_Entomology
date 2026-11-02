@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Cite this research application together with the pinned Blake corpus and methods."
 type: software
 title: "Blakean Entomology: Invertebrates in William Blake"
-version: 0.6.0
-date-released: 2026-10-31
+version: 0.7.0
+date-released: 2026-11-01
 authors:
   - family-names: Friedman
     given-names: Daniel Ari

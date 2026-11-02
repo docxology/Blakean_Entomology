@@ -27,7 +27,7 @@ from blakean_entomology.publication_wire import (
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def request(schema: int = 2, commit: str = CURRENT_SDK_COMMIT) -> NativeRequest:
+def request(schema: int = 3, commit: str = CURRENT_SDK_COMMIT) -> NativeRequest:
     pin = PinnedInput(path=Path("absent-input"), sha256="a" * 64)
     return NativeRequest.model_validate(
         {
@@ -56,7 +56,7 @@ def identity(commit: str = CURRENT_SDK_COMMIT) -> InstalledGitPackage:
     return InstalledGitPackage(
         distribution="blake",
         package="blake",
-        version="0.6.0",
+        version="0.7.0",
         commit=commit,
         package_root=Path("/fixture"),
         direct_url_sha256="a" * 64,
@@ -101,7 +101,7 @@ def test_request_refuses_crossed_or_unselected_profiles(schema, commit) -> None:
 
 def test_current_stage_carries_selected_pin_and_host_identity() -> None:
     current = NativeStage.model_validate({**stage_fields(), "sdk_identity": identity()})
-    assert current.schema_version == 2
+    assert current.schema_version == 3
     assert current.sdk_commit == current.sdk_identity.commit == CURRENT_SDK_COMMIT
 
 
@@ -120,11 +120,18 @@ def test_stage_refuses_missing_or_crossed_host_identity(change) -> None:
         NativeStage.model_validate(raw)
 
 
-def write_current_transport(root: Path) -> str:
-    payload = identity().model_dump_json().encode()
+def write_current_transport(
+    root: Path,
+    *,
+    schema: int = 3,
+    commit: str = CURRENT_SDK_COMMIT,
+    version: str = "0.7.0",
+) -> str:
+    sdk = identity(commit).model_copy(update={"version": version})
+    payload = sdk.model_dump_json().encode()
     (root / "installed-sdk.json").write_bytes(payload)
     digest = hashlib.sha256(payload).hexdigest()
-    request_bytes = request().model_dump_json().encode()
+    request_bytes = request(schema, commit).model_dump_json().encode()
     (root / "native-request.json").write_bytes(request_bytes)
     request_sha = hashlib.sha256(request_bytes).hexdigest()
     with (root / "native-wire.csv").open("w", newline="") as stream:
@@ -137,9 +144,9 @@ def write_current_transport(root: Path) -> str:
     (root / "native-stage.json").write_text(
         json.dumps(
             {
-                "schema_version": 2,
-                "sdk_commit": CURRENT_SDK_COMMIT,
-                "sdk_identity": identity().model_dump(mode="json"),
+                "schema_version": schema,
+                "sdk_commit": commit,
+                "sdk_identity": sdk.model_dump(mode="json"),
                 "request_sha256": request_sha,
             }
         )
@@ -147,9 +154,9 @@ def write_current_transport(root: Path) -> str:
     (root / "manuscript_variables.csv").write_text("PAPER_TITLE,Fixture\n")
     config = configparser.ConfigParser(interpolation=None)
     config["native"] = {
-        "schema_version": "2",
+        "schema_version": str(schema),
         "template_commit": TEMPLATE_COMMIT,
-        "sdk_commit": CURRENT_SDK_COMMIT,
+        "sdk_commit": commit,
         "source_date_epoch": "1793318400",
         "source_order": "00_frontmatter.md,10_article.md",
         "wire_sha256": hashlib.sha256((root / "native-wire.csv").read_bytes()).hexdigest(),

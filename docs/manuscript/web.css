@@ -1,5 +1,12 @@
 /* Entomology's wide evidence tables retain native captions and horizontal scroll.
    The scrollport, rather than the intrinsic table width, bounds the caption. */
+/* Physical print heights must not stretch museum plates or analytical diagrams
+   when the HTML viewport constrains their widths. */
+figure img,
+.figure img {
+  height: auto !important;
+}
+
 .table-scroll {
   container-type: inline-size;
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0 — source-support geometry and expanded native working draft
+
+- Adopt the exact public Blake 0.7.0 interval methods without copying generic arithmetic; keep source grouping, channel assignments, documented-window custody and literary interpretation here.
+- Add source-support and review-exposure analyses, two derived figures, explicit original-codepoint contracts, two definitions, three equations and one conditional proposition. Preserve all 36,039 candidates, 47 decisions, 35,992 unreviewed candidates and eleven unavailable window identities.
+- Extend the manuscript's contextual argument and figure captions while retaining the nine selected originals and Baine chapter access/reading limits. The modern lineage reference is not a sequence phylogeny or literary species allocation.
+- Use schema 3 for new native production; retain historical schemas and their pins while refusing them for new production.
+- Render the 44-page edition through the pinned template PDF/web APIs, with authentic cover, graphical abstracts on pages 2–4, contents on page 5 and automatic formal counters. Repair the historical-producer wording and proportional HTML images; preserve the failed/superseded epoch and final independent working-draft acceptance separately from scientific/release gates.
+
 ## 0.6.0 software — installed SDK admission and contextual reassessment
 
 - Delegate installed Git metadata, physical package/RECORD verification and imported-origin checks to public Blake; retain allowed pins and native policy here.

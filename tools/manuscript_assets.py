@@ -8,7 +8,9 @@ from typing import ClassVar, Literal
 from blake.methods.models import Digest, EvidenceError, FileReceipt, FrozenModel
 from blake.methods.runs import digest, read_regular, safe_directory
 from blake.methods.storage import verify_file
-from pydantic import ConfigDict, Field
+from pydantic import ConfigDict, Field, model_validator
+
+from tools.geometry_asset_contract import GEOMETRY_TOKENS, GeometryAssetBinding
 
 
 class AssetFile(FileReceipt):
@@ -20,7 +22,7 @@ class AssetFile(FileReceipt):
 class AdditionalAssets(FrozenModel):
     """Explicit caller-pinned assets and their source/provenance closure."""
 
-    schema_version: Literal[1] = 1
+    schema_version: Literal[1, 2] = 1
     epoch: str = Field(min_length=1)
     atlas_sha256: Digest
     files: tuple[AssetFile, ...] = Field(min_length=1)
@@ -28,6 +30,7 @@ class AdditionalAssets(FrozenModel):
     source_files: tuple[AssetFile, ...] = Field(min_length=1)
     producer_receipts: tuple[str, ...] = Field(min_length=1)
     source_ledgers: tuple[str, ...] = Field(min_length=1)
+    geometry_binding: GeometryAssetBinding | None = None
     replacements: dict[
         Literal[
             "NAME_COVERAGE_TABLE",
@@ -39,9 +42,20 @@ class AdditionalAssets(FrozenModel):
             "CONTEXT_REVIEW_REMAINING",
             "CONTEXT_REVIEW_NEW",
             "SELECTED_IMAGE_WITNESSES",
+            "GEOMETRY_SOURCE_CAPTION",
+            "GEOMETRY_REVIEW_CAPTION",
         ],
         str,
     ] = Field(default_factory=dict)
+
+    @model_validator(mode="after")
+    def geometry_profile(self) -> "AdditionalAssets":
+        if (self.schema_version == 2) != (self.geometry_binding is not None) or (
+            self.geometry_binding is None
+            and any(token in self.replacements for token in GEOMETRY_TOKENS)
+        ):
+            raise EvidenceError("geometry_asset_profile", "Geometry requires a schema-2 binding")
+        return self
 
 
 @dataclass(frozen=True, slots=True)

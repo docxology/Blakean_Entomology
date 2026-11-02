@@ -21,7 +21,8 @@ NAME_GROUPS: Final = frozenset(
         "ambiguous_life",
     }
 )
-CHANNELS: Final = {
+ChannelName = Literal["name_family", "broad_label", "associated", "motion"]
+CHANNELS: Final[dict[str, ChannelName]] = {
     **dict.fromkeys(NAME_GROUPS, "name_family"),
     "generic": "broad_label",
     "associated": "associated",

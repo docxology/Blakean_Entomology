@@ -1,58 +1,81 @@
 # Native host SDK admission
 
-The native workflow has two explicit profiles. Archived schema-1 requests,
-stages and transports retain SDK `45171a099a6a658c52ab689501de646a28485653`.
-They remain readable for custody, while the current staging API refuses new
-production from that historical request before reading inputs or writing output.
-Schema 2 is bound to this release's current Git pin in `publication_wire.CURRENT_SDK_COMMIT`,
-which must agree with `pyproject.toml`, `uv.lock` and the actual normal install.
-Crossed schema/pin pairs refuse.
+Native records have three explicit schema/SDK profiles. The schema is a
+transport contract, not the application's paper version.
 
-Before a new stage, application policy calls public
-`blake.methods.installed.verify_installed_git`. The shared verifier checks the
-actual Git installation metadata, complete package RECORD bytes and imported
-module origins. Entomology owns the allowed pin and stage policy; no generic
-provenance algorithm is duplicated here. Editable installs and source overlays
-cannot qualify this production boundary.
+| Native schema | Exact SDK Git selection | SDK version in the profile | New production |
+|---|---|---|---|
+| 1 | `45171a099a6a658c52ab689501de646a28485653` | 0.5.0 | Refused; retained records remain readable |
+| 2 | `d34876e021a8f2e654b96f1c23f7ec43d8d958c2` | 0.6.0 | Refused; retained records remain readable |
+| 3 | `263d7c83abe6f1309a64af3285a683c1b7672269` | 0.7.0 | Current production profile |
+
+[The source registry](../src/blakean_entomology/publication_profiles.py) owns
+these immutable pairs. Booleans, unsupported future schemas and crossed
+schema/pin pairs refuse. Current `pyproject.toml`, `uv.lock` and the actual
+normal installation must agree with profile 3. Historical records retain their
+original evidence; a declared profile supplies no retroactive installed proof.
+
+## Host admission
+
+Before producer input access or output reservation, application policy calls
+public `blake.methods.installed.verify_installed_git`. That reusable verifier
+checks actual Git installation metadata, complete package RECORD bytes and
+imported-module origins. Entomology owns the allowed profile and staging policy.
+Editable installs and source overlays cannot qualify this production boundary.
 
 After locked installation, the bounded host check is:
 
-```bash
-uv run --locked python -c 'from blake.methods.installed import verify_installed_git; from blakean_entomology.publication_wire import CURRENT_SDK_COMMIT; print(verify_installed_git("blake", CURRENT_SDK_COMMIT).model_dump_json())'
-```
+~~~bash
+uv run --locked python -c 'from blake.methods.installed import verify_installed_git; from blakean_entomology.publication_profiles import CURRENT_SDK_COMMIT; print(verify_installed_git("blake", CURRENT_SDK_COMMIT).model_dump_json())'
+~~~
 
-This command checks software identity only. A new stage requires a freshly
-source-pinned schema-2 request, an unused private output epoch and supported
-admission. `prepare_native_stage` checks the SDK before touching producer inputs,
-rechecks it before closing the stage, writes `installed-sdk.json`, and carries
-the request's selected pin and exact host receipt into `native-stage.json` and
-the hash-bound transport inventory. An identity change or malformed/missing
-transport member refuses; failed epochs remain retained.
+A new stage needs a freshly source-pinned **schema-3 request**, unused private
+output epoch and applicable supported admission. `prepare_native_stage`
+checks the SDK before inputs and again before closing the stage, writes
+`installed-sdk.json`, and binds the exact request, host receipt and stage in
+the transport inventory. Missing/malformed members or identity changes refuse;
+failed epochs stay retained.
 
-The staging policy compares complete before/after SDK observations, including the imported-module set. A larger import footprint conservatively refuses that stage; this is not a claim that package bytes changed. A later SDK adoption must introduce another explicit profile while retaining prior profile bindings.
+The staging policy compares complete before/after SDK observations, including
+the imported-module set. A larger import footprint conservatively refuses that
+stage; it does not prove package bytes changed. A later SDK adoption requires a
+new explicit profile and qualification, preserving all preceding profiles.
 
-The separately selected template runtime intentionally imports neither Blake
-nor Pydantic. Its stdlib transport verifies the host receipt's bound membership,
-size and bytes, while existing template/source checks remain in force. The
-native result distinguishes the declared SDK selection from observed host-SDK
-evidence. Schema 1 has no installed host receipt and earns no inferred host
-verification. The template worker's own runtime/imported-template checks are
-separate evidence.
+## Separate template runtime
 
-Git metadata and RECORD supply local consistency, not authenticated proof of a
-remote tree or protection from a malicious same-user writer. Installed-source
-equality is qualified separately against the reviewed Git source. A host check
-does not qualify future imports, graphical output, PDF/HTML, scientific claims, rights or release readiness.
+The selected template worker intentionally imports neither Blake nor Pydantic.
+Its stdlib transport receives the exact schema, checks the profile and verifies
+the host receipt's membership, size, bytes, version and pin. Schemas 2 and 3
+require their own selected installed receipt. Schema 1 has no host receipt and
+earns no inferred host verification.
 
-This software change preserves the five authored native inputs and retained
-40-page PDF byte-for-byte. It invokes no native writer, renews no consumed grant
-and does not relabel that edition's producer. The next current-SDK render must
-have its own request/admission/output epoch, actual pinned template API run and
-independent complete PDF/HTML acceptance before any replacement in Downloads.
-See the [render guide](manuscript/README.md) and [current status](PROJECT_STATUS.md).
+The template source is separately pinned at
+`efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`.
+Actual writer runtime prefixes and imported-template sources are distinct from
+host-SDK evidence. The result records the declared and observed SDK selections,
+actual writers, resolved metadata, input checks and output hashes.
 
-The [0.6.0 software qualification](../research/native-sdk-admission-20261031.json)
-records the exact published Git selection, fresh normal installation and 353
-tests. Actual installed admission succeeds; a real shadow-import child and
-crossed request/stage/receipt profiles refuse. These checks close E-N01, while a
-current-SDK render and physical/browser acceptance remain E-N02.
+Git metadata and RECORD establish local consistency, not authenticated remote
+tree identity or protection from a malicious same-user writer. Installed-source
+equality against reviewed Git bytes is a separate check. Host admission does
+not qualify future imports, PDF/HTML layout, scientific interpretation,
+accessibility, rights or release readiness.
+
+## Current and retained qualifications
+
+The 0.7.0 normal installation passed 436 tests and the separate application/tool
+coverage floors; [project status](PROJECT_STATUS.md) identifies that software
+epoch and the new geometry/native work. Real installed admission and
+shadow-import/crossed-profile refusals remain separate controls.
+
+The [0.6.0 qualification](../research/native-sdk-admission-20261031.json)
+retains its exact schema-2 source selection, installation, 353 tests and
+refusing controls. Earlier schema-1 paper and producer records remain unchanged.
+None is relabelled as profile 3.
+
+For a replacement paper, follow [native production](manuscript/README.md):
+prepare a new closed article, declare all nine pinned native inputs, execute the
+actual template API, and obtain complete physical-page and HTML acceptance.
+A software pass or an old one-shot admission does not authorize or qualify a
+new native epoch. Downloads replacement and private-main publication have
+separate exact-byte delivery records.

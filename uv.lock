@@ -44,8 +44,8 @@ wheels = [
 
 [[package]]
 name = "blake"
-version = "0.6.0"
-source = { git = "https://github.com/docxology/blake.git?rev=d34876e021a8f2e654b96f1c23f7ec43d8d958c2#d34876e021a8f2e654b96f1c23f7ec43d8d958c2" }
+version = "0.7.0"
+source = { git = "https://github.com/docxology/blake.git?rev=263d7c83abe6f1309a64af3285a683c1b7672269#263d7c83abe6f1309a64af3285a683c1b7672269" }
 dependencies = [
     { name = "click" },
     { name = "packaging" },
@@ -62,7 +62,7 @@ recovery = [
 
 [[package]]
 name = "blakean-entomology"
-version = "0.6.0"
+version = "0.7.0"
 source = { editable = "." }
 dependencies = [
     { name = "blake" },
@@ -87,8 +87,8 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "blake", git = "https://github.com/docxology/blake.git?rev=d34876e021a8f2e654b96f1c23f7ec43d8d958c2" },
-    { name = "blake", extras = ["recovery"], marker = "extra == 'recovery'", git = "https://github.com/docxology/blake.git?rev=d34876e021a8f2e654b96f1c23f7ec43d8d958c2" },
+    { name = "blake", git = "https://github.com/docxology/blake.git?rev=263d7c83abe6f1309a64af3285a683c1b7672269" },
+    { name = "blake", extras = ["recovery"], marker = "extra == 'recovery'", git = "https://github.com/docxology/blake.git?rev=263d7c83abe6f1309a64af3285a683c1b7672269" },
     { name = "click", specifier = ">=8.1" },
     { name = "pydantic", specifier = "==2.11.9" },
 ]
@@ -97,7 +97,7 @@ provides-extras = ["recovery"]
 [package.metadata.requires-dev]
 dev = [
     { name = "basedpyright", specifier = ">=1.28" },
-    { name = "blake", extras = ["recovery"], git = "https://github.com/docxology/blake.git?rev=d34876e021a8f2e654b96f1c23f7ec43d8d958c2" },
+    { name = "blake", extras = ["recovery"], git = "https://github.com/docxology/blake.git?rev=263d7c83abe6f1309a64af3285a683c1b7672269" },
     { name = "matplotlib", specifier = ">=3.7" },
     { name = "pytest", specifier = ">=8,<10" },
     { name = "pytest-cov", specifier = ">=6" },

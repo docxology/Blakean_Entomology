@@ -7,6 +7,7 @@ and additive scholarly reading epochs.
 
 | Note | Role and boundary |
 |---|---|
+| [Original-codepoint geometry](interval-geometry.md) | Current match support, source weighting and documented-window exposure; no new decisions or reading credit |
 | [Review planning](review-planning.md) | Current installed blank-batch planning/verification; no additional mention decisions |
 | [Composition analysis](composition-analysis.md) | Declared group weighting, analytical exports and installed qualification |
 | [Invertebrate advancement](invertebrate-advancement.md) | Reference taxonomy, category mapping and casebook; a reference hierarchy is not an inferred Blake phylogeny |

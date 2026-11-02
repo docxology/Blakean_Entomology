@@ -4,19 +4,25 @@ import configparser
 import csv
 import hashlib
 from pathlib import Path
-from typing import Final, assert_never
+from typing import assert_never
 
 from .publication_profile import verify_host_profile
+from .publication_profiles import (
+    CURRENT_SDK_COMMIT as CURRENT_SDK_COMMIT,
+)
+from .publication_profiles import (
+    SCHEMA2_SDK_COMMIT as SCHEMA2_SDK_COMMIT,
+)
+from .publication_profiles import (
+    SDK_COMMIT as SDK_COMMIT,
+)
+from .publication_profiles import (
+    TEMPLATE_COMMIT as TEMPLATE_COMMIT,
+)
+from .publication_profiles import (
+    sdk_profile,
+)
 from .publication_transport_models import Member, NativeTransport, PublicationError, Role
-
-TEMPLATE_COMMIT: Final = "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8"
-SDK_COMMIT: Final = "45171a099a6a658c52ab689501de646a28485653"
-CURRENT_SDK_COMMIT: Final = "d34876e021a8f2e654b96f1c23f7ec43d8d958c2"
-
-
-def sdk_profile(schema: int, commit: str) -> bool:
-    """Historical bytes stay readable; new staging has an explicit current profile."""
-    return (schema, commit) in ((1, SDK_COMMIT), (2, CURRENT_SDK_COMMIT))
 
 
 def read_transport(stage: Path, expected: str) -> NativeTransport:
@@ -74,7 +80,7 @@ def _read_transport(stage: Path, expected: str) -> NativeTransport:
                 raise PublicationError("native_variable_row", str(row))
             variables[row[0]] = row[1]
     identity = None
-    if schema == 2:
+    if schema in (2, 3):
         identity = Member(
             "installed-sdk.json", int(meta["sdk_identity_size"]), meta["sdk_identity_sha256"]
         )
@@ -86,7 +92,7 @@ def _read_transport(stage: Path, expected: str) -> NativeTransport:
             or hashlib.sha256(path.read_bytes()).hexdigest() != identity.sha256
         ):
             raise PublicationError("native_sdk_identity", str(stage))
-        verify_host_profile(stage, meta["sdk_commit"], tuple(inputs))
+        verify_host_profile(stage, schema, meta["sdk_commit"], tuple(inputs))
     return NativeTransport(
         meta["template_commit"],
         meta["sdk_commit"],
@@ -97,4 +103,5 @@ def _read_transport(stage: Path, expected: str) -> NativeTransport:
         tuple(sources),
         templates,
         variables,
+        schema_version=schema,
     )
