@@ -12,6 +12,7 @@ from .composition import CompositionAudit
 from .publication_contract import NativeRequest, PinnedInput
 from .publication_transport_models import PublicationError
 from .review_contexts import ContextAudit
+from .visual_models import IllustratedEvidence, load_visuals
 
 
 def pinned_bytes(source: PinnedInput) -> bytes:
@@ -79,6 +80,7 @@ class AbstractData:
     casebook: Casebook
     cover: CoverObject
     selected_originals: int
+    visuals: IllustratedEvidence | None = None
 
 
 def load_abstract_data(request: NativeRequest) -> AbstractData:
@@ -120,4 +122,5 @@ def load_abstract_data(request: NativeRequest) -> AbstractData:
         book,
         candidates[0],
         provenance.current_selected_original_objects,
+        load_visuals(prepared / "assets"),
     )

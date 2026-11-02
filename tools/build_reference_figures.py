@@ -5,19 +5,22 @@
 # Run with the existing external E interpreter and the contract's source PYTHONPATH.
 """Publication schematics from verified private taxonomy and atlas receipts."""
 
+import sys
 from pathlib import Path
 from typing import Literal
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import click
 from blake.methods.models import Digest, EvidenceError, FileReceipt, FrozenModel, ResearchError
 from blake.methods.runs import digest, read_regular, reserve, write_new
 from blake.methods.storage import publish_bytes
-from reference_plotting import atlas_figure, image_bytes, primary_cohort, tree_figure
 
 from blakean_entomology.atlas_models import AtlasReceipt
 from blakean_entomology.core import vocabulary
 from blakean_entomology.taxonomy import load_reference
 from blakean_entomology.workflows import require_private_output
+from tools.reference_plotting import atlas_figure, image_bytes, primary_cohort, tree_figure
 
 
 class FigureReceipt(FrozenModel):
@@ -26,6 +29,8 @@ class FigureReceipt(FrozenModel):
     reference_sha256: Digest
     generator_sha256: Digest
     presentation_sha256: Digest
+    plotting_port_sha256: Digest | None = None
+    lexical_guide_sha256: Digest | None = None
     count_unit: Literal["category-source-span candidates"] = "category-source-span candidates"
     files: tuple[FileReceipt, ...]
     tree_caption: str
@@ -55,7 +60,7 @@ def build_figures(
         raise EvidenceError("atlas_vocabulary_binding", str(atlas_path))
     primary = primary_cohort(atlas)
     tree_caption = (
-        f"Selected NCBI reference classification with conditional lexical associations. "
+        f"Animal words lead to classification only through a contextual reading. "
         f"The {primary.source_units} primary reading units supply {atlas.primary_candidates:,} "
         f"category-source-span candidates across all {atlas.category_count} categories. "
         "Displayed counts name individual categories and are never allocated or summed to taxa. "
@@ -63,16 +68,22 @@ def build_figures(
         "Teal dashed links are conditional animal senses; amber dotted links are ambiguous. "
         "Worm spans several lineages; Polypus and other historical forms retain "
         "unresolved alternatives. This is not a sequence-inferred phylogeny, identification, "
-        "complete animal tree or monophyly claim."
+        "complete animal tree, language genealogy or monophyly claim. "
+        "The emmet’s need in A Dream, the reciprocal questions in The Fly, and the "
+        "Worm/infant comparison in Thel remain different literary acts "
+        "[@blake-songs-y-2026; @blake-thel-f-2026; @ncbi-taxonomy-2026]."
     )
     atlas_caption = (
-        f"Source-role corpus atlas: {atlas.scanned_units:,} captured units, "
+        f"Follow a name back to its source population. "
+        f"The atlas retains {atlas.scanned_units:,} captured units, "
         f"{atlas.candidates:,} overlapping category-span candidates; "
         f"{primary.source_units} primary reading units in {primary.work_groups} work groups. "
         "A prints raw counts with log(1+n) colour; B shows within-work matched-unit fractions, "
         "with equal-work and pooled coverage at right. Work groups with zero matches remain. "
         f"Exact whole-text grouping leaves {primary.exact_text_units} primary units. "
-        "No contextual decisions transfer to this atlas; corpus images remain unreviewed."
+        "A large XML count may include apparatus or description; it cannot settle the fly’s "
+        "status in a poem. No contextual decisions transfer to this atlas; corpus images "
+        "remain unreviewed."
     )
     figures = (tree_figure(reference, atlas), atlas_figure(atlas))
     payloads = tuple(
@@ -92,6 +103,8 @@ def build_figures(
         reference_sha256=reference_sha256,
         generator_sha256=digest(Path(__file__).read_bytes()),
         presentation_sha256=digest(Path(__file__).with_name("reference_plotting.py").read_bytes()),
+        plotting_port_sha256=digest(Path(__file__).with_name("reference_canvas.py").read_bytes()),
+        lexical_guide_sha256=digest(Path(__file__).with_name("reference_terms.py").read_bytes()),
         files=artifacts,
         tree_caption=tree_caption,
         atlas_caption=atlas_caption,

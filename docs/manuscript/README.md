@@ -7,13 +7,20 @@ judgments, literary interpretation, graphical abstracts and publication inputs.
 
 ## Source and runtime contract
 
-Use the locked external CPython 3.11 application environment and a separately
+The default application pin is the actually qualified Python 3.11.17. The
+peer Python 3.15 default was preserved in history and tested in a separate SSD
+environment: its locked `pydantic-core==2.33.2` has no usable binary on this
+platform. No full source build or 3.15 qualification is inferred. The
+[runtime record](../../research/runtime-profile-20261102.json) scopes that
+follow-up; the template writer keeps its separate pinned Python 3.14 profile.
+
+Use the locked external CPython 3.11.17 application environment and a separately
 selected compatible external template environment. Verify both Python prefixes
 on mounted GitVault. The recorded template source is exactly
 `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`; the current qualified
 writer environment is Python 3.14 with its own locked rendering dependencies.
 
-Current Entomology 0.7.0 selects Blake 0.7.0 at
+Current Entomology 0.8.0 selects Blake 0.7.0 at
 `263d7c83abe6f1309a64af3285a683c1b7672269`. New production uses native
 schema 3. Historical schemas 1 and 2 remain readable with their exact original
 pins and are refused for new host production. The
@@ -69,18 +76,21 @@ epoch. The builder verifies exact file membership, source joins, masters and
 derived captions, preserves retained parent bytes, and refuses collisions.
 Preparation rechecks these bindings before writing its own completion marker.
 
-The current source preparation is
-`analysis_output/article-geometry-20261101-03`. Its schema-3 native epoch,
-`analysis_output/geometry-template-native-20261101-02`, completed both actual
-writers after historicizing the old producer statement and repairing responsive
-image proportions. Owner inspection covers all 44 new page overviews and actual
-desktop/mobile output checks. Final independent correction review accepts
-the exact 44-page replacement and current article for bounded working-draft
-use; review01's CHANGES_REQUIRED verdict stays attached to native01.
-[Project status](../PROJECT_STATUS.md) holds exact PDF/HTML identities and
-[verification](../../research/verification.json) records delivery separately.
-Do not borrow an earlier edition's page acceptance or infer canonical/main or
-Downloads delivery from an ordinary staging copy.
+The current preparation is `analysis_output/illustrated-article-20261102-04`;
+the current schema-3 native epoch is
+`analysis_output/illustrated-template-native-20261102-03` (45 pages).
+The [illustrated-argument contract](../research/illustrated-arguments.md)
+specifies the primary quotations, whole images, typed ledger, figure helper
+bindings and measured overflow controls. Earlier 0.7 geometry/native epochs
+retain their original inputs and acceptance; they do not accept the new edition.
+[Project status](../PROJECT_STATUS.md) owns exact output hashes, current
+independent-review state and separate canonical/Downloads delivery.
+
+A noneditable qualification must explicitly rebuild the local package with
+`uv sync --locked --no-editable --reinstall-package blakean-entomology`
+and compare every installed member with its selected source. An unchanged
+version label or a new environment does not prove that a local cached wheel
+contains the current edits.
 
 The stage's fixed `SOURCE_DATE_EPOCH` is a reproducibility timestamp, not
 the actual execution date. The original command/native receipts retain run

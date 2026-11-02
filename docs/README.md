@@ -54,3 +54,7 @@ acceptance and publication remain indexed separately in
 [0.6.0 software qualification](../research/native-sdk-admission-20261031.json)
 and all old paper/review/failure epochs. No source role, decision, scientific
 acceptance or public rights warrant follows from a software or writer pass.
+
+Current visual-method contract: [Illustrated arguments and conditional classification](research/illustrated-arguments.md).
+
+The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.

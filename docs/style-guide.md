@@ -122,3 +122,14 @@ writer execution, physical-page/browser inspection and independent acceptance
 remain separate results. New presentation preserves the producer identity of
 retained mathematical exports. Historical sources and failed epochs stay
 attached to their original evidence.
+
+## Illustrated arguments
+
+Keep a complete historical impression beside an exact, copy-specific quotation.
+State the proposed relation, its strongest local alternative and the limit of a
+conditional biological association. Repeat the quotation as real caption text;
+name its physical transcription lines and primary citation. Do not classify
+ornament or imply that an analogy diagnoses an organism. Body captions should
+lead with the interpretive question or measured comparison while retaining
+copy, object, accession, credit and rights qualifications. See the
+[illustrated-argument contract](research/illustrated-arguments.md).

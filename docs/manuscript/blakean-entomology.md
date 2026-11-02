@@ -2,7 +2,7 @@
 title: "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention"
 author:
   - Daniel Ari Friedman
-date: "1 November 2026 · Private research draft 0.7.0"
+date: "2 November 2026 · Private research draft 0.8.0"
 lang: en
 ---
 
@@ -12,30 +12,29 @@ remains incomplete.
 
 # Abstract {#sec:abstract .unnumbered .unlisted}
 
-William Blake's small lives make relations consequential: a lost emmet needs a
-route home; a fly becomes a human analogy after injury; feeding insects inhabit
-a tree rooted in the human brain; and a Polypus joins persons within a collective
-body. This article distinguishes three relations across these scenes: provision
-that enables another life, feeding that uses a living body, and aggregation that
-reorganizes its members' powers. Care, appetite, predation, cruelty and metaphor
-intersect without becoming morally interchangeable. Copy-specific readings of
-four short poems, {{SELECTED_IMAGE_WITNESSES}} selected historical scans, local prophetic and prose
-passages, and bounded scholarship test this argument against rival readings.
-A reproducible concordance preserves the breadth that close reading necessarily
-selects: 102 query categories retrieve 36,039 category-source-span candidates
-across 2,067 captured units, including 2,498 candidates in 199 identified
-Blake-primary reading units. Within that primary scope, 82 name-family categories
-contribute 1,239 candidates. Their pooled and equal nonempty-group compositions
-differ by total variation 0.222387 across 26 positive groups, whereas token-rate
-comparisons retain all 33 eligible groups. Twelve literal-pair experiments expose
-source dependence and distance. A purposive contextual extension validates {{CONTEXT_REVIEW_TOTAL}} authored decisions, including 36 new agent judgments, while retaining {{CONTEXT_REVIEW_REMAINING}} unreviewed candidates. These are distributions of retrieval mass, not
-an adjudicated animal census or complete oeuvre. Engagement with the history of biological symbolism keeps the
-strongest rival reading in view: relation, analogy and emblem can coexist.
-An additional source-geometry analysis distinguishes matched support from the
-recorded extent of contextual reading, preserving overlapping windows and
-unavailable coordinates. Modern classification, lexical matching and material interpretation remain distinct. The resulting argument
-locates ethical force in particular acts of hearing, sustaining, injuring and
-joining, while its explicit zeros and unresolved cases direct further reading.
+How do Blake’s small lives make another being’s needs matter? This article
+argues that provision, feeding and aggregation give different forms to that
+question: help can enable another life, appetite can use it, and a collective
+body can redistribute its powers. Copy-specific readings of four short poems,
+{{SELECTED_IMAGE_WITNESSES}} selected historical scans and bounded prophetic and prose passages
+test this account against symbolic, spiritual and human-centered alternatives.
+The emmet’s offered route, the fly’s reciprocal likeness and the Worm/infant
+comparison become visual arguments in which the complete impression remains
+beside the exact words, a rival reading and a limit on biological identification.
+A reproducible concordance supplies breadth without turning retrieval into a
+bestiary: 102 categories yield 36,039 category-source-span candidates in 2,067
+captured units; 2,498 belong to 199 identified Blake-primary reading units.
+Within that scope, 82 name-family categories supply 1,239 candidates. Pooled
+and equal nonempty-group compositions differ by total variation 0.222387 across
+26 positive groups. Source-role contrasts, finite proximity experiments and
+recorded reading windows expose dependence on particular inputs. The contextual
+ledger contains {{CONTEXT_REVIEW_TOTAL}} authored decisions and leaves {{CONTEXT_REVIEW_REMAINING}} candidates unreviewed.
+These measures describe a search and its selective examination, not animal
+prevalence or complete-oeuvre coverage. Baine’s biological-symbolic scholarship,
+accessed here through a contemporary review, makes contextual variability a
+continuing challenge. The argument locates ethical force in particular acts of
+hearing, sustaining, injuring and joining; neither a shared name nor a modern
+lineage determines that force.
 
 # Small lives and the work of attention {#sec:introduction}
 
@@ -270,6 +269,27 @@ taxon target. No category total is allocated to a taxon by this policy, and
 
 ![{{REFERENCE_CAPTION}}](assets/invertebrate-reference.png){#fig:invertebrate_reference width=96%}
 
+The lineage diagram is one side of a three-part inquiry: identify the printed
+expression, read its local use, and only then consider a modern classification.
+These relations are neither a linguistic family tree nor a history of influence.
+Similar spelling can join unlike bodies; unlike words can name an animal family.
+The opening visual arguments make these distinctions concrete in the same
+material witnesses used for their quotations.
+
+| Printed expression | Local operation | Conditional biological lead | What remains unresolved |
+|---|---|---|---|
+| *Emmet*, “A Dream,” Songs Y 26.05 | A named wanderer needs a route home | Ant family, Formicidae | No species or completed rescue |
+| *glow-worm*, Songs Y 26.16 | A compound name; a speaker offers light | Context must precede a narrower assignment | The suffix does not supply an earthworm lineage |
+| “A fly like thee?” Songs Y 40.08 | A reciprocal human/animal comparison | Diptera only for the animal sense | Neither the speaker nor every likeness becomes a fly |
+| “That flies in the night” Songs Y 39.05 | A verb qualifies the invisible worm | No additional fly identification | Motion does not determine the worm’s anatomy |
+| *Catterpiller and Fly*, Songs Y 47.17 | Feeding on the tree of Mystery | Conditional insect associations | Poetic feeding does not diagnose an ecological interaction |
+| “like an infant” Thel F 06.04 | Thel compares the Worm with infancy | No allocation to a worm lineage | Comparison and depicted form remain distinct evidence |
+
+: Words, local acts and conditional reference. Physical transcription locators retain
+copy Y or F; the table makes interpretive distinctions, not new corpus decisions.
+[@blake-songs-y-2026; @blake-thel-f-2026]. {#tbl:word_sense_lineage}
+
+
 # Provision and injury in the Songs and Gates {#sec:lyric_encounters}
 
 The earlier casebook read all verse lines of these four poems in copy A.
@@ -295,7 +315,7 @@ In copy Y's “A Dream,” orange-brown lettering occupies almost the entire des
 
 William Gould's *An Account of English Ants* supplies a historically available contrast, without establishing that Blake read this book. At the beginning of chapter VIII, Gould presents ant labour as an example of public care and an admonition to human indolence. But that moral use coexists with a demand for repeated observation. Later in the chapter he disputes inherited accounts of winter granaries among the English ants he has examined, while reserving the possibility of different behaviour elsewhere. [@gould-1747, pp. 66–68, 78–81] Natural history here is capable both of making social examples and of correcting exemplary stories. Blake's lost mother need not be reduced to either a lesson in industriousness or a report about ant behaviour. Her interrupted journey places need before usefulness, although the glow-worm's assigned watch still permits a reading through established social offices.
 
-![A Dream. Bentley plate 26; Archive object 26; Erdman E16; accession 17.10.26. Vegetation passes around and between the stanzas; the small lower-right figure remains uncertain. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347935-whole.png){#fig:songs_dream height=155mm}
+![Hearing precedes help in A Dream [@blake-songs-y-2026]. Bentley plate 26; Archive object 26; Erdman E16; accession 17.10.26. Vegetation passes around and between the stanzas; the small lower-right figure remains uncertain. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347935-whole.png){#fig:songs_dream height=155mm}
 
 ## The Fly: consolation after the creature's injury {#sec:fly}
 
@@ -315,7 +335,7 @@ credit does not include the design, other copies or all of *Songs*.
 
 “The Fly” makes the relation between text and design more difficult. In copy Y, a large adult figure bends towards a small child and holds its raised hands. At the left another figure raises a racket towards a shuttlecock-like object. Trees enclose the group, and the poem occupies two upper columns. The most legible bodies are thus human bodies engaged in play and support, not an anatomically resolved fly. [@blake-songs-y-2026, plate 40, object 40, physical lines 3–22; Met 17.10.40] These actions can intensify the analogy between human and insect play. They can also expose a disparity: the child is visibly supported, whereas the creature brushed away has no comparable helper within the depicted scene. Neither possibility proves that the adult illustrates the speaking “I.” The design instead keeps care, diversion and vulnerability beside a poem whose ending returns to the speaker's happiness. The fly's fate remains less fully told than the human argument made from it.
 
-![The Fly. Bentley plate 40; Archive object 40; Erdman E23; accession 17.10.40. Human support and racket play coexist with the poem’s named fly; the shuttlecock-like mark is not identified as a fly. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347974-whole.png){#fig:songs_fly height=155mm}
+![Reciprocal likeness follows the speaker’s injury in The Fly [@blake-songs-y-2026]. Bentley plate 40; Archive object 40; Erdman E23; accession 17.10.40. Human support and racket play coexist with the poem’s named fly; the shuttlecock-like mark is not identified as a fly. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347974-whole.png){#fig:songs_fly height=155mm}
 
 ## The Sick Rose: secrecy, desire and uncertain embodiment {#sec:rose}
 
@@ -337,7 +357,7 @@ Michael Srigley supplies a substantial counterreading to a straightforward encou
 
 That alternative need not expel the animal word from consideration. The poem can be an invertebrate passage precisely because the worm's available senses are being made unstable. A literal animal reading must explain the secret love; a sexual or psychological reading must explain why this injury takes worm-like, nocturnal and mobile form. The two stanzas are not a code with one expendable noun. Their second-person address also matters: the rose is told of its sickness and destruction, but does not answer. The reader hears an attribution of harm rather than an exchange in which both parties describe their relation.
 
-![The Sick Rose. Bentley plate 39; Archive object 39; Erdman E23; accession 17.10.39. Human, floral and narrow bent forms overlap; the design does not diagnose the invisible worm. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347973-whole.png){#fig:songs_rose height=155mm}
+![An invisible agent resists visual diagnosis in The Sick Rose [@blake-songs-y-2026]. Bentley plate 39; Archive object 39; Erdman E23; accession 17.10.39. Human, floral and narrow bent forms overlap; the design does not diagnose the invisible worm. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-347973-whole.png){#fig:songs_rose height=155mm}
 
 ## The Human Abstract: pity and the nourishment of cruelty {#sec:human_abstract}
 
@@ -356,7 +376,7 @@ lines 3–26, especially 17–18 and 23–26; E27, record 37.
 
 The opening attack on pity that depends upon making another person poor prevents compassion from remaining an unexamined virtue. Read beside “A Dream,” it asks whether assistance answers a prior need or benefits from maintaining dependence. The feeding insects are implicated in a growth whose nourishment is morally compromised; they do not independently explain its origin. This distinction keeps appetite from becoming either automatic guilt or automatic innocence. What matters is the relation between feeding, the conditions that sustain it, and the voice that makes those conditions intelligible.
 
-![The Human Abstract. Bentley plate 47; Archive object 47; Erdman E27; accession 17.10.47. An aged figure raises his arms among cord-like forms; neither a character name nor an insect web is inferred. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-348001-whole.png){#fig:songs_abstract height=155mm}
+![Feeding belongs to a human-made tree in The Human Abstract [@blake-songs-y-2026]. Bentley plate 47; Archive object 47; Erdman E27; accession 17.10.47. An aged figure raises his arms among cord-like forms; neither a character name nor an insect web is inferred. William Blake, Songs of Innocence and of Experience, copy Y; work [1794], printed ca. 1825 (Archive: 1825). The Metropolitan Museum of Art, Rogers Fund, 1917. Public Domain / Open Access (CC0). Whole captured scan proportionally resized; no recolouring, rotation or taxon identification from ornament.](assets/met-348001-whole.png){#fig:songs_abstract height=155mm}
 
 ## Gates of Paradise: bodies between copies and captions {#sec:gates}
 
@@ -374,7 +394,7 @@ Höltgen's specific reading gives the alternative more force: his butterfly-girl
 
 These two selected objects extend the visual casebook rather than the fixed corpus analysis. Their official photographs and object records have separate hashes, credits and rights statements. Museum-supplied recto crops retain the complete engraved designs and captions; the wider captures with calibration targets remain available for inspection. The two objects count as two witnesses, not as multiple witnesses for each digital rendition. They add no baseline text hits and no formal textual adjudications. Their methodological contribution is narrower: preserve an association when it is warranted, preserve an unresolved identity when it is not, and make the edition-specific evidence recoverable.
 
-![Two objects from *For Children: The Gates of Paradise*, copy E, catalogued 1793. Left: *What is Man!*, frontispiece, B1978.43.1484. Right: *Alas!*, museum plate 9, B1978.43.1492; the leaf displays 7 below the image and handwritten 8 above. The later wording discussed in the text is not present on these photographed leaves. Yale Center for British Art, Paul Mellon Collection; museum records label both Public Domain and link CC0. Museum-provided recto crops, with complete designs and captions; no author recolouring or reconstruction. These are selected literary and visual witnesses, not species identifications.](assets/gates-copy-e-comparison.jpg){#fig:gates_copy_e width=98%}
+![Human likeness and transformation in two objects from *For Children: The Gates of Paradise*, copy E, catalogued 1793. Left: *What is Man!*, frontispiece, B1978.43.1484. Right: *Alas!*, museum plate 9, B1978.43.1492; the leaf displays 7 below the image and handwritten 8 above. The later wording discussed in the text is not present on these photographed leaves. Yale Center for British Art, Paul Mellon Collection; museum records label both Public Domain and link CC0. Museum-provided recto crops, with complete designs and captions; no author recolouring or reconstruction. These are selected literary and visual witnesses, not species identifications.](assets/gates-copy-e-comparison.jpg){#fig:gates_copy_e width=98%}
 
 # The wine-press: abundance beside unequal suffering {#sec:winepress}
 
@@ -432,9 +452,9 @@ Perkins places the infant Worm within a contemporary rhetoric that mobilized ten
 
 The copies themselves also require different forms of attention. Rosenwald 1798A is copy F, object 6; Rosenwald 1798B is copy O, object 5. Both are Bentley plate 6, corresponding to Erdman plate 4. Object 6 in O is instead Bentley plate 7. In the matched reproductions, F gives the standing figure a conspicuous yellow gown against a relatively continuous ochre upper field, while O shows a paler gown and a more extensively lined and coloured setting. O's painted enclosure is more pronounced. These are observations about the captured images. Unequal reproduction conditions, paper condition and colour management prevent attributing every tonal difference to an intentional revision. The repeated arrangement is an anchor for comparison, not permission to merge the two impressions into a single generic image of *Thel*.
 
-![One plate in two material witnesses. William Blake, The Book of Thel (work imprint 1789), Bentley plate 6 / Erdman plate 4. Left: copy F, Archive object 6, LOC Rosenwald 1798A; Archive printing 1795, LOC ca. 1794 (1794 watermark). Right: copy O, Archive object 5, LOC digital Rosenwald 1798B; Archive c. 1818, LOC ca. 1815 (1815 watermarks). O is bound with Milton D under Archive catalogue no. 1810; that volume number differs from its digital subresource. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC states no known US copyright or other restrictions, with user determination required. Whole scans proportionally resized; neither physical scale nor photographic colour is calibrated.](assets/thel-bentley6-two-copies.png){#fig:thel_copies width=98%}
+![The Worm/infant comparison in two material witnesses [@blake-thel-f-2026; @blake-thel-o-2026]. William Blake, The Book of Thel (work imprint 1789), Bentley plate 6 / Erdman plate 4. Left: copy F, Archive object 6, LOC Rosenwald 1798A; Archive printing 1795, LOC ca. 1794 (1794 watermark). Right: copy O, Archive object 5, LOC digital Rosenwald 1798B; Archive c. 1818, LOC ca. 1815 (1815 watermarks). O is bound with Milton D under Archive catalogue no. 1810; that volume number differs from its digital subresource. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC states no known US copyright or other restrictions, with user determination required. Whole scans proportionally resized; neither physical scale nor photographic colour is calibrated.](assets/thel-bentley6-two-copies.png){#fig:thel_copies width=98%}
 
-![Care beyond the prohibition of injury. William Blake, The Book of Thel (imprint 1789), copy O, Archive object 6, Bentley plate 7 / Erdman plate 5; LOC digital Rosenwald 1798B, bound with Milton D, Archive catalogue no. 1810. Archive printing c. 1818; LOC ca. 1815. A reclining figure reaches towards an infant-like body beneath the selected Clay/Worm exchange. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC no-known-US-restrictions statement retains user-determination qualification. Whole captured scan proportionally resized. This is the following plate, not a second copy of Bentley plate 6.](assets/thel-o-006-whole.png){#fig:thel_care height=165mm}
+![Care extends beyond the prohibition of injury [@blake-thel-o-2026]. William Blake, The Book of Thel (imprint 1789), copy O, Archive object 6, Bentley plate 7 / Erdman plate 5; LOC digital Rosenwald 1798B, bound with Milton D, Archive catalogue no. 1810. Archive printing c. 1818; LOC ca. 1815. A reclining figure reaches towards an infant-like body beneath the selected Clay/Worm exchange. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Historical public-domain artwork; LOC no-known-US-restrictions statement retains user-determination qualification. Whole captured scan proportionally resized. This is the following plate, not a second copy of Bentley plate 6.](assets/thel-o-006-whole.png){#fig:thel_care height=165mm}
 
 ## Polypus: joining and the powers of a body {#sec:collective_body}
 
@@ -569,8 +589,8 @@ decisions or add contextual animal classifications. The historical 0.4.0
 authoring rebuild consumed the retained analytical outputs under their exact
 hashes and its then-current SDK pin. It did not claim a fresh mathematical
 replay or transfer those outputs to a new analytical producer. The present
-0.7.0 edition preserves those producer identities while consuming the retained
-exports. Its schema 3 native host and the new source-support analysis below use
+0.8.0 edition preserves those producer identities while consuming the retained
+exports. Its schema 3 native host and the source-support analysis below use
 the separately verified Blake SDK 0.7.0 pin, with distinct receipts for their
 current execution.
 
@@ -818,7 +838,7 @@ of its candidates. These numbers locate concentrations in this retained
 collection. They do not count distinct literary episodes or establish the
 independence of copies.
 
-![Composition and group influence. The sixteen largest share shifts compare the pooled name-channel profile with the mean of 26 nonempty-group profiles (1,239 category candidates); all 33 groups remain eligible for omission. The twelve largest omission distances describe redistribution of this finite inventory. Parentheses retain candidate counts. Complete data and all omissions are supplemental; no sampling inference or animal adjudication is implied.](assets/02-composition-influence.png){#fig:composition_influence width=98%}
+![Which names dominate depends on how the sources are weighted. The sixteen largest share shifts compare the pooled name-channel profile with the mean of 26 nonempty-group profiles (1,239 category candidates); all 33 groups remain eligible for omission. The twelve largest omission distances describe redistribution of this finite inventory. Parentheses retain candidate counts. Complete data and all omissions are supplemental; no sampling inference or animal adjudication is implied.](assets/02-composition-influence.png){#fig:composition_influence width=98%}
 
 ## What exact-text equality leaves unresolved {#sec:deduplication}
 
@@ -920,7 +940,7 @@ and a whole-unit search makes that requirement visible before co-occurrence is
 mistaken for an interpretive association.
 
 
-![Retrieval sensitivity within the pinned primary reading inventory. A compares pooled and equal-work category rates; B shows each category's largest work-group share; C counts source units for literal singular pairs across finite windows and whole-unit scope. Counts retain copies and overlapping categories. No panel measures independent reading positions or adjudicated animals.](assets/retrieval-sensitivity.png){#fig:retrieval_sensitivity width=98%}
+![A frequent word, a concentrated source and a nearby pair answer different questions. A compares pooled and equal-work category rates; B shows each category's largest work-group share; C counts source units for literal singular pairs across finite windows and whole-unit scope. Counts retain copies and overlapping categories. No panel measures independent reading positions or adjudicated animals.](assets/retrieval-sensitivity.png){#fig:retrieval_sensitivity width=98%}
 
 ### Twelve literal-pair controls {#sec:literal_pairs}
 
@@ -1001,7 +1021,7 @@ It cannot enlarge the number of Blake-authored animal attestations by simple
 addition. Mixed Erdman material, four mixed XML units and unverified reading
 documents remain separately reported, with their own token and unit denominators.
 
-![Query channels across source cohorts. Panel counts and within-cohort shares distinguish 82 name families, four broad labels, fifteen associated channels and one motion channel. Every role/plane/author cohort retains source-unit and NFKC-token denominators. These disjoint cohorts describe retrieval populations, with markup and editorial language retained separately; they are not stages of complete-oeuvre coverage.](assets/04-query-channel-source-audit.png){#fig:query_channels width=98%}
+![Animal names and associated expressions travel through different source channels. Panel counts and within-cohort shares distinguish 82 name families, four broad labels, fifteen associated channels and one motion channel. Every role/plane/author cohort retains source-unit and NFKC-token denominators. These disjoint cohorts describe retrieval populations, with markup and editorial language retained separately; they are not stages of complete-oeuvre coverage.](assets/04-query-channel-source-audit.png){#fig:query_channels width=98%}
 
 [@tbl:source_channels] supplies the positive/declared category totals omitted
 from the figure: each cell counts observed categories against the full channel

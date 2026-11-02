@@ -1,0 +1,25 @@
+{
+  "finding": "SRC-01",
+  "status": "OWNER_REGRESSION_CLOSED",
+  "test_functions_ast_identical": true,
+  "source_files": {
+    "tests/test_research_figures.py": {
+      "pure_lines": 229,
+      "sha256": "aac18815f940b141eff2e7f9b0907f7c45bb69162e735241452e3c6dd8e2ac67"
+    },
+    "tests/test_reference_cli.py": {
+      "pure_lines": 35,
+      "sha256": "57258b2b748ec0739a3d8eec724fe752da6d09519e31e90d636421a203af79ac"
+    }
+  },
+  "affected_tests": {
+    "passed": 20,
+    "evidence": "evidence/175-corrected-module-tests",
+    "actual_terminal_control": "evidence/186-owner-size-finding-closure"
+  },
+  "production_package_changed_by_fix": false,
+  "independent_software_reapproval": false,
+  "original_request_changes_preserved": "review/independent-final02/VERDICT.json",
+  "scope": "Only the two unchanged test functions were moved; original failing size input and source preimages retained.",
+  "correction_note": "Corrected the predecessor owner record's mistaken evidence-directory spelling; original record retained."
+}

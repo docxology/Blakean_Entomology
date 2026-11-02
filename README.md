@@ -12,7 +12,7 @@ the [documentation map](docs/README.md).
 
 ## Current application and paper
 
-Entomology **0.7.0** selects public Blake **0.7.0**, exact Git
+Entomology **0.8.0** selects public Blake **0.7.0**, exact Git
 `263d7c83abe6f1309a64af3285a683c1b7672269`, through
 [pyproject.toml](pyproject.toml) and [uv.lock](uv.lock).
 Blake supplies reusable corpus custody and methods. This application owns
@@ -43,12 +43,16 @@ page 1 is an authentic complete-recto Blake cover; distinct graphical abstracts
 occupy pages 2–4, followed by contents on page 5.
 The [native contract](docs/manuscript/README.md) and
 [host SDK profiles](docs/native-sdk.md) bind each new edition independently.
-The corrected native02 historicizes the old producer statement and preserves
-natural image proportions in responsive HTML. The final independent review
-accepts all 44 replacement pages and the current desktop/mobile article for
-bounded working-draft use. [Project status](docs/PROJECT_STATUS.md) and the
-verification index separate that acceptance from installed qualification and
-delivery. The earlier CHANGES_REQUIRED verdict remains attached to native01.
+The current 45-page candidate replaces the three schematic opening graphics
+with quotation-led arguments using complete impressions of *The Fly*, *A Dream*
+and *Thel*. A word/context/lineage table and clearer reference/atlas figures keep
+historical names, grammatical uses and conditional modern classification
+distinct. The abstracts and interpretive captions are revised. The
+[illustrated-argument contract](docs/research/illustrated-arguments.md) closes
+quotation/image joins and their real refusing controls. Native production has
+completed. The exact 45-page PDF/HTML passed independent working-draft output review, and both dated and current PDFs were copied byte-for-byte to Downloads. Source review's test-size finding was closed by an AST-preserving split and 20 passing affected tests; this owner correction is not fresh independent software reapproval. Publication and exact scopes are recorded in
+[project status](docs/PROJECT_STATUS.md). The accepted 44-page 0.7 edition and
+its earlier correction verdicts remain historical evidence.
 
 The retained 40-page 0.4.0 native edition and earlier standalone editions keep
 their original [native qualification](research/template-native-20261030.json),
@@ -78,15 +82,17 @@ specialist-consensus estimate. A reference lineage is conditional modern
 classification, not a sequence-inferred phylogeny or a species identification
 in Blake. [Research protocol](docs/research-protocol.md).
 
+The final canonical normal-installed gate passed **464 tests**, with **90.80% application / 67.33% tools** suite-only statement/branch coverage. Typing, lint, formatting and dependency checks pass. [Exact current qualification](research/visual-installed-20261102.json).
+
 ## Run locally
 
 Keep source, environments, both Python prefixes, caches and temporary files on
-mounted GitVault. Use the existing external Python 3.11 runtime and supported
+mounted GitVault. Use the existing external Python 3.11.17 runtime and supported
 repository admission. Bind external `TMPDIR`, outer `TMPPREFIX`,
 `UV_CACHE_DIR` and `UV_LINK_MODE=copy` before source-work commands.
 
 ~~~bash
-uv sync --locked --python 3.11
+uv sync --locked --python 3.11.17
 uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 ~~~
 
@@ -157,8 +163,8 @@ uv run --locked ruff format --check src tests tools
 uv run --locked basedpyright
 ~~~
 
-The current normal-installed suite passed **436 tests**. Separate
-statement-and-branch coverage is **92.47% application / 80.36% tools**, against
+The current normal-installed suite passed **464 tests**. Separate
+statement-and-branch coverage is **90.80% application / 67.33% tools**, against
 90% / 60% floors. The explicit project configuration keeps historical test
 trees outside collection. Full package typing and the changed-tool scopes have
 their own records; the default strict command covers `src`.

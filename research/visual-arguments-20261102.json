@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "epoch": "illustrated-arguments-20261102",
+  "witnesses": [
+    {
+      "key": "fly",
+      "title": "The Fly: likeness after injury",
+      "source": {
+        "path": "sources/research-images/sources/songsie.y.xml",
+        "size": 584036,
+        "sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb"
+      },
+      "selection": {
+        "selection_id": "visual-fly",
+        "source_id": "songsie.y",
+        "object_id": "songsie.y.illbk.40",
+        "line_ids": [
+          "songsie.y.illbk.40.07",
+          "songsie.y.illbk.40.08",
+          "songsie.y.illbk.40.09",
+          "songsie.y.illbk.40.10"
+        ],
+        "credit": "bounded_passage",
+        "selected_text_sha256": "7be805d0149d8c52fbd20fd0e29e39a12f746b98bd38b5b68602df41c24baea7",
+        "locator": "The Fly; Songs Y, Bentley plate / object 40, E23. Physical transcription lines 7-10.",
+        "limit": "Selected quotation and local context; no new candidate decision or whole-work credit."
+      },
+      "quotation": "Am not I\nA fly like thee?\nOr art not thou\nA man like me?",
+      "image": {
+        "path": "sources/research-images/images/originals/met-347974.jpg",
+        "size": 1860206,
+        "sha256": "f5cdd12ebb9ffa1caf332d214baa71a5df746253880bb7892a0e58edd123bdfd"
+      },
+      "image_name": "fly-abstract-recto.jpg",
+      "locator": "The Fly; Songs Y, Bentley plate / object 40, E23. Physical transcription lines 7-10.",
+      "credit": "William Blake, Songs Y, printed ca. 1825. The Met, Rogers Fund, 1917; 17.10.40. Public Domain / CC0. Complete scan.",
+      "citation_key": "blake-songs-y-2026",
+      "reading": "A thoughtless injury is followed by reciprocal questions. Likeness changes the speaker's relation to a vulnerable other.",
+      "alternative": "The later consolation can also displace the injured fly. Its happiness and consent are not reported.",
+      "classification_limit": "A modern animal sense may lead to Diptera. The analogy supplies neither a species identification nor evidence of insect thought."
+    },
+    {
+      "key": "dream",
+      "title": "A Dream: capacities in relation",
+      "source": {
+        "path": "sources/research-images/sources/songsie.y.xml",
+        "size": 584036,
+        "sha256": "ac4739eeb98bf818f75ba09743331814004fb03e3196025280c00e0fbdae53cb"
+      },
+      "selection": {
+        "selection_id": "visual-dream",
+        "source_id": "songsie.y",
+        "object_id": "songsie.y.illbk.26",
+        "line_ids": [
+          "songsie.y.illbk.26.19",
+          "songsie.y.illbk.26.20",
+          "songsie.y.illbk.26.21",
+          "songsie.y.illbk.26.22"
+        ],
+        "credit": "bounded_passage",
+        "selected_text_sha256": "b68588705812aa4182dc9050f18638391439e0932b5bb46da16c58aa39882db7",
+        "locator": "A Dream; Songs Y, Bentley plate / object 26, E16. Physical transcription lines 19-22.",
+        "limit": "Selected quotation and local context; no new candidate decision or whole-work credit."
+      },
+      "quotation": "I am set to light the ground,\nWhile the beetle goes his round:\nFollow now the beetles hum,\nLittle wanderer hie thee home.",
+      "image": {
+        "path": "sources/research-images/images/originals/met-347935.jpg",
+        "size": 2147416,
+        "sha256": "f7211eb0b8e980562bcf7d28354ddf4b658d9fb07b3a3c4d65dfd28cdbd9748b"
+      },
+      "image_name": "dream-abstract-recto.jpg",
+      "locator": "A Dream; Songs Y, Bentley plate / object 26, E16. Physical transcription lines 19-22.",
+      "credit": "William Blake, Songs Y, printed ca. 1825. The Met, Rogers Fund, 1917; 17.10.26. Public Domain / CC0. Complete scan.",
+      "citation_key": "blake-songs-y-2026",
+      "reading": "The emmet is heard before help is offered. Light and the beetle's hum supply different capacities for finding a way home.",
+      "alternative": "The watchman's appointed role can imply ordered offices. The final invitation does not narrate arrival.",
+      "classification_limit": "Emmet can lead conditionally to Formicidae. Glow-worm cannot be allocated to an earthworm lineage by its suffix."
+    },
+    {
+      "key": "thel",
+      "title": "Thel: a Worm is not a lineage",
+      "source": {
+        "path": "sources/research-images/sources/thel.f.xml",
+        "size": 80551,
+        "sha256": "b2dd8f89287f497456a0692c421a236978de2911f8dff4d8568a15c9d283b08d"
+      },
+      "selection": {
+        "selection_id": "visual-thel",
+        "source_id": "thel.f",
+        "object_id": "thel.f.illbk.06",
+        "line_ids": [
+          "thel.f.illbk.06.03",
+          "thel.f.illbk.06.04"
+        ],
+        "credit": "bounded_passage",
+        "selected_text_sha256": "00b77e43974cafda5713c9b17d5bc40cd7ff1a6da609ec7d7f4ca5f4d301a63c",
+        "locator": "The Book of Thel F, object 6; Bentley 6 / Erdman plate 4. Physical transcription lines 3-4.",
+        "limit": "Selected quotation and local context; no new candidate decision or whole-work credit."
+      },
+      "quotation": "Art thou a Worm? image of weakness. art thou but a Worm?\nI see thee like an infant wrapped in the Lillys leaf:",
+      "image": {
+        "path": "sources/research-images/images/originals/thel-f-006.jpg",
+        "size": 796967,
+        "sha256": "5ba629e80b719675e31834807a4c012602f3d5c528fcc53ada1b7ba4cd5836b6"
+      },
+      "image_name": "thel-abstract-recto.jpg",
+      "locator": "The Book of Thel F, object 6; Bentley 6 / Erdman plate 4. Physical transcription lines 3-4.",
+      "credit": "William Blake, Thel (1789), copy F. Library of Congress, Rosenwald 1798A. Printing dates differ. Complete scan; retained LOC rights qualification.",
+      "citation_key": "blake-thel-f-2026",
+      "reading": "Thel sees helpless infancy; the Clay hears a voice and responds. The following plate distinguishes cherishing from punishment of injury.",
+      "alternative": "The infant and the Worm are compared, not anatomically diagnosed. Maternal and nuptial language makes this account of care particular.",
+      "classification_limit": "Worm is a historical body-word, not a clade. Annelid, nematode, flatworm and larval alternatives require context; none is allocated here."
+    }
+  ],
+  "new_candidate_decisions": 0,
+  "new_taxonomic_identifications": 0
+}

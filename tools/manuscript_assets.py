@@ -1,9 +1,11 @@
 """Typed admission of explicitly pinned manuscript assets and source ledgers."""
 
+from __future__ import annotations
+
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar, Literal
+from typing import TYPE_CHECKING, ClassVar, Literal
 
 from blake.methods.models import Digest, EvidenceError, FileReceipt, FrozenModel
 from blake.methods.runs import digest, read_regular, safe_directory
@@ -11,6 +13,9 @@ from blake.methods.storage import verify_file
 from pydantic import ConfigDict, Field, model_validator
 
 from tools.geometry_asset_contract import GEOMETRY_TOKENS, GeometryAssetBinding
+
+if TYPE_CHECKING:
+    from tools.build_reference_figures import FigureReceipt
 
 
 class AssetFile(FileReceipt):
@@ -49,7 +54,7 @@ class AdditionalAssets(FrozenModel):
     ] = Field(default_factory=dict)
 
     @model_validator(mode="after")
-    def geometry_profile(self) -> "AdditionalAssets":
+    def geometry_profile(self) -> AdditionalAssets:
         if (self.schema_version == 2) != (self.geometry_binding is not None) or (
             self.geometry_binding is None
             and any(token in self.replacements for token in GEOMETRY_TOKENS)
@@ -131,3 +136,28 @@ class PreparationReceipt(FrozenModel):
     qualification: Literal["prepared Markdown only; no native PDF or independent acceptance"] = (
         "prepared Markdown only; no native PDF or independent acceptance"
     )
+
+
+def figure_payloads(figures: FigureReceipt, directory: Path) -> dict[str, bytes]:
+    """Admit exact reference artifacts and their current declared presentation helpers."""
+    if figures.plotting_port_sha256 is not None and figures.plotting_port_sha256 != digest(
+        Path(__file__).with_name("reference_canvas.py").read_bytes()
+    ):
+        raise EvidenceError("figure_plotting_port", "Reference presentation source changed")
+    if figures.lexical_guide_sha256 is not None and figures.lexical_guide_sha256 != digest(
+        Path(__file__).with_name("reference_terms.py").read_bytes()
+    ):
+        raise EvidenceError("figure_lexical_guide", "Reference selection source changed")
+    expected_assets = {
+        "invertebrate-reference.png",
+        "invertebrate-reference.svg",
+        "corpus-atlas.png",
+        "corpus-atlas.svg",
+        "captions.md",
+    }
+    if {f.path for f in figures.files} != expected_assets or len(figures.files) != 5:
+        raise EvidenceError("figure_artifact_membership", str(directory))
+    payloads = {
+        f.path: verify_file(directory, f.path, f.size, f.sha256).read_bytes() for f in figures.files
+    }
+    return payloads

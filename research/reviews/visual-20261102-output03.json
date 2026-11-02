@@ -1,0 +1,62 @@
+{
+  "overall": "PASS_WITH_LIMITATIONS",
+  "scope": "Exact Entomology native03 PDF/HTML working draft only",
+  "independent": true,
+  "candidate_edits": false,
+  "source_software_review": "NOT_REAUDITED; independent-final02 REQUEST_CHANGES/SRC-01 remains unchanged",
+  "software_suite_rerun": false,
+  "federalism": "Outside this review; previous exact-edition verdict unchanged",
+  "manifest_sha256": "faf914816b82e15ca77196a1856e43e32b113d5794c86202cb17b9e889323314",
+  "members": 165,
+  "inputs": {
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/pdf/blakean_entomology_combined.pdf",
+    "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/web/index.html",
+    "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453",
+    "native_receipt_sha256": "8ab356aaa7306b0fbb497358ee4ff0eb497ecadfe54716f178e3a3322933b432",
+    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+    "host_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269"
+  },
+  "page_acceptance": {
+    "pages": 45,
+    "byte_identical_parent_pages": 44,
+    "raster_dpi": 72,
+    "changed_pages": [
+      9
+    ],
+    "changed_page_inspected_pixels": 2200,
+    "evidence": "page-acceptance-chain.json"
+  },
+  "html_delta": "Exactly two editorial commas removed; no other raw HTML differences",
+  "browser": {
+    "widths": [
+      1440,
+      390
+    ],
+    "images_each": 18,
+    "math_containers_each": 74,
+    "math_errors": 0,
+    "missing_anchors": 0,
+    "duplicate_ids": 0,
+    "negative_control": "Actual gate refused injected dangling anchor at both widths",
+    "normal_close": "browser/CLOSED.json"
+  },
+  "blocking_output_findings": [],
+  "limitations": [
+    "software source reapproval",
+    "whole-paper science",
+    "specialist Blake scholarship",
+    "whole-oeuvre/image-corpus review",
+    "new taxonomic/contextual adjudication",
+    "item-level rights clearance",
+    "accessibility certification",
+    "offline MathJax",
+    "hosted CI",
+    "Git publication",
+    "Downloads delivery",
+    "release"
+  ],
+  "report": "REPORT.md",
+  "evidence_manifest": "EVIDENCE-MANIFEST.json",
+  "terminal": true
+}
