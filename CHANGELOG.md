@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — 2 November 2026
+
+Canonical installed qualification: 464 tests; separate suite-only coverage 90.80% application / 67.33% tools; strict typing, lint, format and dependencies pass. Both independently accepted working-draft PDFs are copied to Downloads. Private-main integration has a separate actual Git receipt.
+
+Replaced the three schematic opening graphics with source-bound illustrated arguments; improved conditional classification, atlas presentation, primary-source captions and abstract. Added exact XML/image admission, typed plotting/helper custody, real PDF-reader and figure API controls; removed the unused text-card relation duplicate. Corpus and decisions are unchanged.
+
+
 ## 0.7.0 — source-support geometry and expanded native working draft
 
 - Adopt the exact public Blake 0.7.0 interval methods without copying generic arithmetic; keep source grouping, channel assignments, documented-window custody and literary interpretation here.

@@ -208,7 +208,18 @@ def test_preparation_roundtrip_and_real_cli(figure_data, tmp_path) -> None:
 
 @pytest.mark.parametrize(
     "failure",
-    ["pin", "binding", "figure_bytes", "token", "token_syntax", "citation", "figure_membership"],
+    [
+        "pin",
+        "binding",
+        "figure_bytes",
+        "token",
+        "token_syntax",
+        "citation",
+        "figure_membership",
+        "plotting_port",
+        "lexical_guide",
+        "duplicate_citation",
+    ],
 )
 def test_rejects_false_manuscript_inputs(figure_data, tmp_path, failure) -> None:
     # Given an independently generated figure packet and one corrupt input.
@@ -222,6 +233,18 @@ def test_rejects_false_manuscript_inputs(figure_data, tmp_path, failure) -> None
         raw["atlas_sha256"] = "0" * 64
         (figures / "figures.json").write_text(json.dumps(raw))
         args[5] = digest((figures / "figures.json").read_bytes())
+    elif failure in ("plotting_port", "lexical_guide"):
+        raw = json.loads((figures / "figures.json").read_bytes())
+        raw[f"{failure}_sha256"] = "0" * 64
+        (figures / "figures.json").write_text(json.dumps(raw))
+        args[5] = digest((figures / "figures.json").read_bytes())
+    elif failure == "duplicate_citation":
+        bibliography = tmp_path / "references.bib"
+        bibliography.write_text(
+            (STAGE / "docs/manuscript/references.bib").read_text()
+            + "\n@book{ncbi-taxonomy-2026, title={Conflicting entry}}\n"
+        )
+        args[1] = bibliography
     elif failure == "figure_bytes":
         (figures / "corpus-atlas.png").write_bytes(b"changed")
     else:
@@ -240,28 +263,3 @@ def test_rejects_false_manuscript_inputs(figure_data, tmp_path, failure) -> None
         prepare(*args)
     # Then no renderable output packet is published.
     assert not (tmp_path / "analysis_output/rejected").exists()
-
-
-def test_real_figure_cli_rejects_changed_pin(figure_data, tmp_path) -> None:
-    # Given a valid atlas and wrong caller-held digest.
-    command = [
-        sys.executable,
-        str(STAGE / "tools/build_reference_figures.py"),
-        "--atlas",
-        str(figure_data),
-        "--atlas-sha256",
-        "0" * 64,
-        "--reference",
-        str(REFERENCE),
-        "--reference-sha256",
-        digest(REFERENCE.read_bytes()),
-        "--sources",
-        str(SOURCES),
-        "--output",
-        str(tmp_path / "analysis_output/rejected"),
-    ]
-    # When driving the actual executable script.
-    result = subprocess.run(command, cwd=tmp_path, capture_output=True, text=True)
-    # Then failure is explicit and nonzero.
-    assert result.returncode != 0
-    assert "atlas_pin" in result.stderr

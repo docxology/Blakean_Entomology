@@ -22,3 +22,5 @@ that epoch. The later [reading expansion](../../research/reading-ledger-expansio
 records the article reading additively; it does not rewrite the seed or provide
 reading credit for other unavailable sources. Publication inputs and selected
 image readings retain the limits in [the manuscript workflow](../manuscript/README.md).
+
+Current visual-method contract: [Illustrated arguments and conditional classification](illustrated-arguments.md).

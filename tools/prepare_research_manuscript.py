@@ -26,8 +26,8 @@ from blakean_entomology.taxonomy import load_reference
 from blakean_entomology.workflows import require_private_output
 from tools.build_reference_figures import FigureReceipt
 from tools.geometry_asset_contract import verify_geometry_assets
-from tools.manuscript_assets import AdditionalInput, PreparationReceipt
-from tools.manuscript_content import casebook_markdown, hydrate_article
+from tools.manuscript_assets import AdditionalInput, PreparationReceipt, figure_payloads
+from tools.manuscript_content import casebook_markdown, hydrate_article, validate_citations
 
 
 def prepare(
@@ -76,19 +76,7 @@ def prepare(
         or atlas.reference_sha256 != reference_sha256
     ):
         raise EvidenceError("manuscript_binding", "Reference/data/figures differ")
-    expected_assets = {
-        "invertebrate-reference.png",
-        "invertebrate-reference.svg",
-        "corpus-atlas.png",
-        "corpus-atlas.svg",
-        "captions.md",
-    }
-    if {f.path for f in figures.files} != expected_assets or len(figures.files) != 5:
-        raise EvidenceError("figure_artifact_membership", str(figure_directory))
-    payloads = {
-        f.path: verify_file(figure_directory, f.path, f.size, f.sha256).read_bytes()
-        for f in figures.files
-    }
+    payloads = figure_payloads(figures, figure_directory)
     book = load_casebook(casebook_path, sources, casebook_sha256)
     model = load_reference(reference, sources, reference_sha256, vocabulary())
     manuscript_raw = read_regular(manuscript)
@@ -96,14 +84,7 @@ def prepare(
     hydrated = hydrate_article(
         manuscript_raw.decode(), atlas, figures, book, len(model.taxa), extension
     )
-    citations = {
-        m.group(1) for m in re.finditer(r"@([a-z][a-z0-9:_-]+)", hydrated) if ":" not in m.group(1)
-    }
-    keys = set(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode()))
-    if len(re.findall(r"@\w+\{([^,]+),", bibliography_raw.decode())) != len(keys):
-        raise EvidenceError("manuscript_duplicate_citation_key", str(bibliography))
-    if not citations.issubset(keys):
-        raise EvidenceError("manuscript_citation", str(sorted(citations - keys)))
+    validate_citations(hydrated, bibliography_raw.decode())
     links = re.findall(r"!\[(?:[^\[\]]|\[[^\[\]]*\])*\]\(([^\)]+)\)", hydrated)
     expected = {"retrieval-sensitivity.png", "invertebrate-reference.png", "corpus-atlas.png"}
     if extension is not None:
@@ -151,6 +132,8 @@ def prepare(
             Path(__file__).with_name("manuscript_content.py"),
             Path(__file__).with_name("geometry_asset_contract.py"),
             Path(__file__).with_name("reference_plotting.py"),
+            Path(__file__).with_name("reference_canvas.py"),
+            Path(__file__).with_name("reference_terms.py"),
             Path(__file__).with_name("build_reference_figures.py"),
         )
     ]
@@ -189,6 +172,8 @@ def prepare(
                 "manuscript_assets.py",
                 "manuscript_content.py",
                 "geometry_asset_contract.py",
+                "reference_canvas.py",
+                "reference_terms.py",
             )
             for raw in (read_regular(Path(__file__).with_name(name)),)
         ),

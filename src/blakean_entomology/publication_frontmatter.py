@@ -9,6 +9,7 @@ from PIL import Image
 from .publication_canvas import Box, sheet
 from .publication_data import AbstractData
 from .publication_graphics import draw_abstracts
+from .publication_transport_models import PublicationError
 
 
 def cover(data: AbstractData, source: Path, target: Path, font: Path) -> None:
@@ -36,23 +37,18 @@ def cover(data: AbstractData, source: Path, target: Path, font: Path) -> None:
 
 def frontmatter_markdown(data: AbstractData) -> str:
     """Use native figure counters and source-only page hooks before the native TOC."""
-    captions = (
-        "String retrieval, source eligibility and contextual judgment are separate operations. "
-        + f"The explicitly reviewed {data.context.summary.reviewed_hits} decisions are purposive, "
-        + f"and {data.context.summary.unreviewed_hits:,} candidates remain unreviewed.",
-        "The retained seven-case book supplies the graphical readings and alternatives; "
-        + "concise paraphrases are tied to exact case IDs. Full readings and "
-        + "source windows remain in the article and contextual casebook.",
-        f"Primary name-family profiles use {len(data.composition.category_ids)} "
-        + "declared categories "
-        + f"and {data.composition.name_category_candidates:,} category-source-span candidates. "
-        + "The upper bars pool candidates; lower bars weight nonempty recorded groups equally. "
-        + "These are compositional descriptions, not biological abundance or significance tests.",
+    if data.visuals is None:
+        raise PublicationError("illustrated_source_required", "Frontmatter")
+    captions = tuple(
+        f"{w.title}. “{' / '.join(w.quotation.splitlines())}” "
+        + f"{w.locator} {w.credit} [@{w.citation_key}]. "
+        + "The panels distinguish a reading, a rival and a conditional classification."
+        for w in data.visuals.manifest.witnesses
     )
     titles = (
-        "From names to contextual judgment",
-        "Encounters and counterreadings",
-        "Weighting and the limits of classification",
+        "The Fly: likeness and injury",
+        "A Dream: hearing and a route home",
+        "Thel: comparison, care and classification",
     )
     lines = [r"\setcounter{page}{2}", r"\thispagestyle{plain}", ""]
     for number, (title, caption) in enumerate(zip(titles, captions, strict=True), start=1):
@@ -83,6 +79,7 @@ def publish_frontmatter(data: AbstractData, destination: Path, resources: tuple[
         "casebook": data.casebook.model_dump(mode="json"),
         "cover": data.cover.model_dump(mode="json"),
         "selected_originals": data.selected_originals,
+        "visual_witnesses": data.visuals.manifest.model_dump(mode="json") if data.visuals else None,
         "reading_scope": (
             "Retained bounded data/readings; no new decisions, species or prevalence claim"
         ),

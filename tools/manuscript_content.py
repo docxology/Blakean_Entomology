@@ -92,3 +92,16 @@ def casebook_markdown(book: Casebook) -> str:
             ]
         lines += [""]
     return "\n".join(lines)
+
+
+def validate_citations(hydrated: str, bibliography: str) -> None:
+    """Reject missing keys or duplicate bibliography entries before preparation."""
+    citations = {
+        m.group(1) for m in re.finditer(r"@([a-z][a-z0-9:_-]+)", hydrated) if ":" not in m.group(1)
+    }
+    entries = re.findall(r"@\w+\{([^,]+),", bibliography)
+    keys = set(entries)
+    if len(entries) != len(keys):
+        raise EvidenceError("manuscript_duplicate_citation_key", "Bibliography contains duplicates")
+    if not citations.issubset(keys):
+        raise EvidenceError("manuscript_citation", str(sorted(citations - keys)))

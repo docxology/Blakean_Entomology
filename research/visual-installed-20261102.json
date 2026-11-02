@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "tests": 464,
+  "environment": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology/.venv",
+  "identity": "coordination/entomology-canonical-installed-identity.json",
+  "coverage": {
+    "coverage": {
+      "application": {
+        "numerator": 2782,
+        "denominator": 3064,
+        "percent": 90.79634464751958,
+        "floor": 90,
+        "files": 43
+      },
+      "tools": {
+        "numerator": 1012,
+        "denominator": 1503,
+        "percent": 67.33200266134398,
+        "floor": 60,
+        "files": 17
+      }
+    },
+    "negative_control": "Impossible 101% application floor refused",
+    "scope": "Only this suite's statement-plus-branch counters; no native/historical union.",
+    "report": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/artifacts/entomology-canonical-tests03.json"
+  },
+  "strict_types": "0 errors / 0 warnings",
+  "lint": "PASS",
+  "format": "PASS",
+  "dependencies": "PASS",
+  "scope": "Fresh canonical installed software only; exact native03 retains its independent output verdict.",
+  "raw_gate": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/entomology-canonical-gates04.json",
+    "sha256": "331405e81f187adc106f723c8c10badb5d37b72009c9f0a621c14e2d8c36b559"
+  },
+  "installed_identity": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/entomology-canonical-installed-identity.json",
+    "sha256": "ece3f104289a49cfe24e2c2236bc0ab2380c2c2eeb3ba38fe081bf6ee11a32cf"
+  },
+  "evidence_root": "Local/blake-visual-revision-20261102T164814Z",
+  "post_gate_edit_scope": "Qualification/status/index documentation only; all Python program and test bytes remain identical to the completed gate."
+}

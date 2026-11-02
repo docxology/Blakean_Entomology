@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "application_version": "0.8.0",
+  "epoch": "visual-revision-20261102",
+  "sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native": {
+    "epoch": "analysis_output/illustrated-template-native-20261102-03",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/pdf/blakean_entomology_combined.pdf",
+    "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/web/index.html",
+    "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453",
+    "pages": 45,
+    "title": "Blakean Entomology",
+    "receipt_sha256": "8ab356aaa7306b0fbb497358ee4ff0eb497ecadfe54716f178e3a3322933b432"
+  },
+  "native_receipt": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/native-render-receipt.json",
+    "sha256": "8ab356aaa7306b0fbb497358ee4ff0eb497ecadfe54716f178e3a3322933b432"
+  },
+  "installed_identity": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/entomology-canonical-installed-identity.json",
+    "sha256": "ece3f104289a49cfe24e2c2236bc0ab2380c2c2eeb3ba38fe081bf6ee11a32cf"
+  },
+  "browser": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/inspection/browser-owner01/BROWSER.json",
+    "bytes": 114906,
+    "sha256": "a8439575e30618cf8002a7c7b28bebf7f0574655f9be6f3235d8ebccdb532cda"
+  },
+  "software": {
+    "tests": 464,
+    "coverage": {
+      "application": {
+        "numerator": 2782,
+        "denominator": 3064,
+        "percent": 90.79634464751958,
+        "floor": 90,
+        "files": 43
+      },
+      "tools": {
+        "numerator": 1012,
+        "denominator": 1503,
+        "percent": 67.33200266134398,
+        "floor": 60,
+        "files": 17
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "lint": "PASS",
+    "format": "PASS",
+    "dependencies": "PASS",
+    "scope": "Fresh canonical installed software only; exact native03 retains its independent output verdict.",
+    "canonical_normal_install": true
+  },
+  "independent_review": {
+    "source": {
+      "verdict": "REQUEST_CHANGES / SRC-01",
+      "path": "research/reviews/visual-20261102-independent02.json",
+      "owner_closure": "research/reviews/visual-20261102-src01-owner-closure.json",
+      "fresh_software_reapproval": false
+    },
+    "current_output": {
+      "verdict": "PASS_WITH_LIMITATIONS",
+      "path": "research/reviews/visual-20261102-output03.json",
+      "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+      "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453"
+    }
+  },
+  "delivery": {
+    "downloads": "COPIED_AND_BYTE_VERIFIED",
+    "receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/downloads-delivery01.json",
+    "git_publication_receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/entomology-publication-final.json",
+    "target_branch": "main",
+    "required_visibility": "PRIVATE",
+    "route": "Protected-main pull request; actual Git events are separate from this source qualification."
+  },
+  "limits": [
+    "No new contextual decisions, species identifications or complete-oeuvre claim",
+    "No scientific, specialist, rights, hosted-CI or release acceptance inferred"
+  ],
+  "preserved": {
+    "status": "research/history/visual-revision-20261102/PROJECT_STATUS.md",
+    "verification": "research/history/visual-revision-20261102/verification.json",
+    "current_source": "research/history/visual-revision-20261102/current-source.json"
+  },
+  "runtime": "research/runtime-profile-20261102.json",
+  "canonical_qualification": "research/visual-installed-20261102.json"
+}

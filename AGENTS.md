@@ -13,6 +13,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
 | Planning a review workload | [Request-pinned planning](docs/research/review-planning.md), the exact request/source/decision pins and [retained workload qualification](research/review-planning-20261030.json); preserve the original run and all review labels. |
 | Original-codepoint geometry or reading-window exposure | [Geometry contract](docs/research/interval-geometry.md), exact request/run/window pins and [style guide](docs/style-guide.md); keep category multiplicity separate from occupied text. |
 | Composition, atlas, reference mappings or figures | [Composition contract](docs/research/composition-analysis.md), [reference and atlas](docs/research/invertebrate-advancement.md), [style guide](docs/style-guide.md) |
+| Illustrated graphical abstracts and word/context/lineage figures | [Illustrated arguments](docs/research/illustrated-arguments.md), exact visual ledger and existing source/image rights records |
 | Scholarly prose, bibliography or images | [Style guide](docs/style-guide.md), [biological-symbolism scholarship](docs/research/biological-symbolism.md), [visual witnesses](docs/research/visual-evidence.md), source and reading ledgers |
 | Native SDK admission or transport | [Host SDK contract](docs/native-sdk.md), current source/lock pins, the upstream installed verifier and actual normal-install qualification; archived profiles retain their producers. |
 | Manuscript preparation, PDF or delivery | [Render guide](docs/manuscript/README.md), [current verification](research/verification.json), [privacy](PRIVACY.md) |
@@ -28,7 +29,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
   writers for current manuscripts. Keep native numbering and cross-references
   in the authored grammar; the application owns its frontmatter and domain
   diagrams. Read the render guide before changing that boundary.
-- Current 0.7.0 production selects Blake 0.7.0 at Git
+- Current 0.8.0 production selects Blake 0.7.0 at Git
   `263d7c83abe6f1309a64af3285a683c1b7672269`. Native schema 3 is
   the current profile; schemas 1 and 2 remain readable with their original pins
   and are refused for new production. Follow [the profile contract](docs/native-sdk.md).
