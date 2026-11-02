@@ -26,9 +26,13 @@ silently overwritten. Git alone is not a backup of ignored research data.
 
 The explicitly selected working-paper PDF, [Blakean_Entomology.pdf](Blakean_Entomology.pdf),
 is tracked here as a PRIVATE research deliverable. Its exact reviewed SHA-256 is
-`f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951`; the current native, analytical and selected-reading identities are recorded in
-the manuscript guide and [current template-native qualification](research/template-native-20261030.json). Earlier editions, corpus
-pins, reading ceilings and failures remain retained separately.
+`363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95`
+for the current 45-page edition. [Current verification](research/verification.json)
+and [native qualification](research/visual-revision-20261102.json) bind its
+software, selected-reading and output evidence separately. The earlier selected
+PDF `f62316506658d5576e422fbff987a79e3d77625d8271a3ebdc38e73eb2011951`
+keeps its [historical template qualification](research/template-native-20261030.json).
+Earlier editions, corpus pins, reading ceilings and failures remain retained.
 
 This narrow exception covers the reviewed paper with its attributed selected
 image witnesses and project-authored aggregate figures; it does not authorize

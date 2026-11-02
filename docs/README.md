@@ -6,6 +6,9 @@ application's relation to public Blake and Federalism. Blake supplies reusable
 corpus/custody/methods; this application owns invertebrate vocabulary,
 eligibility, contextual decisions, reference-taxonomy interpretation and paper.
 
+[Documentation reconciliation](../research/documentation-review-20261102.json)
+records the complete current documentation scope and its retained limitations.
+
 ## Operating and scholarly contracts
 
 | Document | Use |
@@ -31,7 +34,7 @@ access and interpretive ceiling.
 
 | Source | Status |
 |---|---|
-| [Blakean Entomology](manuscript/blakean-entomology.md) | Current 0.7.0 authored source, adding geometry and contextual development; retained 0.4.0 native bytes keep their original qualification |
+| [Blakean Entomology](manuscript/blakean-entomology.md) | Current 0.8.0 authored article, with Fly/Dream/Thel illustrated arguments; the 45-page output and earlier editions keep their separate qualifications |
 | [Configuration](manuscript/config.yaml), [preamble](manuscript/preamble.md), [BibTeX](manuscript/references.bib), [web style](manuscript/web.css) | The article's other four authored native inputs |
 | [Sensitivity supplement](manuscript/sensitivity-supplement.md) | Earlier analytical fragment; not an extra section of the current native article |
 | [Sensitivity image](manuscript/assets/retrieval-sensitivity.png) | Retained fragment asset; a byte/dimension check alone supplies no new visual acceptance |
@@ -48,8 +51,8 @@ or output. Its host receipt closes through the request, stage and stdlib
 template transport. Schemas 1 and 2 remain readable with their original pins
 but are refused for new production. [Native SDK contract](native-sdk.md).
 
-The new native candidate has its own actual writer receipt; complete output
-acceptance and publication remain indexed separately in
+The current native edition has its own actual writer receipt and bounded
+independent PDF/HTML acceptance; publication remains indexed separately in
 [project status](PROJECT_STATUS.md). Preserve the earlier
 [0.6.0 software qualification](../research/native-sdk-admission-20261031.json)
 and all old paper/review/failure epochs. No source role, decision, scientific

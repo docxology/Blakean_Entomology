@@ -15,6 +15,13 @@ schema/pin pairs refuse. Current `pyproject.toml`, `uv.lock` and the actual
 normal installation must agree with profile 3. Historical records retain their
 original evidence; a declared profile supplies no retroactive installed proof.
 
+The schema-1 table records the registry's declared version 0.5.0. The original
+installed receipt at that Git selection observed Blake 0.4.0, as retained in
+[project lineage](project-lineage.md) and the
+[earlier native qualification](../research/template-native-20261030.json).
+Keep declared legacy profile metadata separate from the observed historical
+producer; neither is a new installation claim. Current schema 3 is unchanged.
+
 ## Host admission
 
 Before producer input access or output reservation, application policy calls
@@ -63,10 +70,16 @@ accessibility, rights or release readiness.
 
 ## Current and retained qualifications
 
-The 0.7.0 normal installation passed 436 tests and the separate application/tool
-coverage floors; [project status](PROJECT_STATUS.md) identifies that software
-epoch and the new geometry/native work. Real installed admission and
-shadow-import/crossed-profile refusals remain separate controls.
+Current software and its normal installed qualification are identified by
+[project status](PROJECT_STATUS.md) and
+[the canonical installed record](../research/visual-installed-20261102.json).
+
+The retained 0.7.0 normal installation passed 436 tests and the separate
+application/tool floors. Its
+[preserved status](../research/history/visual-revision-20261102/PROJECT_STATUS.md)
+and [methods/manuscript record](../research/methods-manuscript-20261101.json)
+identify that exact epoch. Installed admission and shadow-import/crossed-profile
+refusals remain separate controls.
 
 The [0.6.0 qualification](../research/native-sdk-admission-20261031.json)
 retains its exact schema-2 source selection, installation, 353 tests and
