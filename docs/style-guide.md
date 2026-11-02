@@ -2,7 +2,8 @@
 
 Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/263d7c83abe6f1309a64af3285a683c1b7672269/docs/style-guide.md)
 for method profiles, source roles, immutable epochs, count units and evidence
-claims. Current Entomology 0.7.0 selects that exact Blake 0.7.0 source.
+claims. [Project status](PROJECT_STATUS.md) identifies the current Entomology
+edition and its exact Blake 0.7.0 source selection.
 This private addendum owns biological vocabulary, source grouping, documented
 reading-window policy and literary interpretation. The retained 0.4.0 paper
 keeps SDK `45171a099a6a658c52ab689501de646a28485653` and its original
@@ -89,8 +90,11 @@ PDF metadata as well as Markdown token substitution.
 
 Keep cover, graphical abstracts and TOC choices in source configuration and
 preamble. Verify physical pages rather than relying on printed counter resets.
-The three graphical abstracts distinguish candidate retrieval/source facets,
-the retained seven-case literary argument and weighting/classification limits.
+The three current graphical arguments pair complete Fly, Dream and Thel
+impressions with copy-specific quotations, proposed readings, local alternatives
+and biological limits. Follow [illustrated arguments](research/illustrated-arguments.md)
+for the actual selection and caption contract. The seven-case casebook and
+analytical weighting/classification figures remain distinct evidence objects.
 An additional prose reading creates no casebook or adjudication record.
 
 Use native `sec:`, `fig:`, `tbl:` and `eq:` labels and Pandoc bracket

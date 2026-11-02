@@ -1,10 +1,10 @@
 {
-  "schema_version": 28,
+  "schema_version": 29,
   "current_version": "0.8.0",
-  "qualification_epoch": "visual-revision-20261102",
-  "scope": "Exact current source; normal installed software, native output, bounded independent output acceptance and Git publication retain their separate receipts.",
-  "receipt": "research/visual-revision-20261102.json",
-  "receipt_sha256": "3d12d37d0c5f08036fbccfafcccdfb39de876586f76d3c1446810a5b6d005107",
+  "qualification_epoch": "documentation-review-20261102",
+  "scope": "Documentation/source reconciliation only; no implementation, corpus, authored article, native output or installed runtime replacement.",
+  "receipt": "research/documentation-review-20261102.json",
+  "receipt_sha256": "a86d6afcd80a87a47ae470956e88dcd9db188f134c719515e3bcb0a871924363",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
   "current_source_bindings": {
     ".gitattributes": "7c090e2d2095a3b709516e7246c1a0274c9024058df6537d5573b27d10f68d56",
@@ -16,11 +16,11 @@
     "CHANGELOG.md": "9724559c546c06534380422eb04d945980f03e28d9dc7f83fab6e0bff5714591",
     "CITATION.cff": "19aa444a86017c20b35091b84f4a00b3c0a833f7bb16477b10c0efd7b39d8c23",
     "LICENSE": "87e643a73df2905cdbb1ea614eb476e43b5b0029421a410f8cbfb588c48877ab",
-    "PRIVACY.md": "b5d6b91aa74682d088ae669ee53b4c9654b5a319936d4e5ebc3883c8220aa5ac",
+    "PRIVACY.md": "041a070dee34337f03df482ca39e00b1384638abd48d27d14997843265f9e783",
     "README.md": "381bd645b00601e28e22101e949286dc60cd9e948810aea1ed4dacc27f6fb5a7",
-    "docs/PROJECT_STATUS.md": "467cf1827f8da6adb4d36e54d2b11d9cc940e4c40b780a5ea4ae4924b7200a2a",
-    "docs/README.md": "6f25005767855ed0b44ed125c74561a836ec8ad889b5b2e28fd966de658fca2c",
-    "docs/manuscript/README.md": "9d34f653e41c66ff727f9b9fbbfb46e31aac9e8e310947d22a85b9aa3517bd6d",
+    "docs/PROJECT_STATUS.md": "7fea7a8be16d3f8b1945300ab6a42f764b010ff25fb4134847c35d6aa1ca5dce",
+    "docs/README.md": "8b6d6790771e41518e9937654c34c30df06379215c604e85efbf0fda3d1892c2",
+    "docs/manuscript/README.md": "76b2f19a80b79b926c11d003ddc7ad1c2dd82333c1e5c08b9660ea2f5a924214",
     "docs/manuscript/assets/retrieval-sensitivity.png": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
     "docs/manuscript/blakean-entomology.md": "cd714e4d17019f19bb3b6445e9434210fb035dcc624123d3f90170e0187a73af",
     "docs/manuscript/config.yaml": "2ab9f1153ab75a6151c520760037bc9509c80d221d9f95b8bf0882768b0649a5",
@@ -29,7 +29,7 @@
     "docs/manuscript/references.bib": "55e5f04a8c0c086611210d859d0dc2ef909dc6bbfecf41e59755fb7bd291ba4f",
     "docs/manuscript/sensitivity-supplement.md": "38dba98c7095c3ba1d25c4c13e9946104a4c7939c5dee536576519fa85f7f65e",
     "docs/manuscript/web.css": "cb99d46c6cd1c42f9de8aadf5635e39fbcdbf8c5287477348a543ff892fb0273",
-    "docs/native-sdk.md": "f223db31ec179be03e2bb9d8cfa85002e93145ef15a930ae17457dc39f7d72ce",
+    "docs/native-sdk.md": "80d141342db4556cf36c0b19070719170bff48cc27eb1407c375aabd71a5bc0d",
     "docs/project-lineage.md": "ce888ff0ed22f4b3c0f0edfa6aa6c81f6348abf8b2645b3e096efdd573009ab4",
     "docs/research-protocol.md": "daf0ae51ffd1eb53c063a908d1d52c492cb70ad7e3307690877200cf528e2b83",
     "docs/research/README.md": "233f3d5183aa0e39eeb765e8ee3ea25b96fac8d0e3ab132a4da645eec7297fad",
@@ -43,7 +43,7 @@
     "docs/research/review-planning.md": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7",
     "docs/research/shared-methods-analysis.md": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab",
     "docs/research/visual-evidence.md": "870108207a3a710f537680c440e8ebc4ef37b169d8d6a2b2f791838feb007536",
-    "docs/style-guide.md": "0ce59e84732cbe4ed45bfb0fcc71ff73182b9d89112eb7c5b85f8f5197808bcb",
+    "docs/style-guide.md": "b3106d7b72218a35e2f333415b0eda52037196fcc90363f53747e87b0f69e052",
     "pyproject.toml": "3571130f13099803c8d71088b2d35dd05be3641d3a09a326f9976619c1d84aa8",
     "research/advancement-bindings-v1.json": "68db3da9a0d07433ea2169c701cfd2b3699c5adf01f7f0b5dacbae739d9e4004",
     "research/advancement-installed-20261028.json": "c834d1d73dd4cd52f9384f3002b143fa961331be45961c8dc9b03691dca4cfcd",
@@ -283,14 +283,19 @@
     "tools/reference_plotting.py": "08873f055c8d5caa58df29bdcc3914270450d446ec1764a58a631ee69d060107",
     "tools/reference_terms.py": "43d9af7766118229538c4101b5786004e7bbfa9b494c0bc605c145665b9f5668",
     "tools/render_manuscript.py": "ee8ede360be9c68fe049b81559e4a2e66e20b5c07d3f862d5165a07808b18657",
-    "uv.lock": "d7678b625d4ad40824329b2f6b37b1689cfa1ae897a098c1bc80675993ff9486"
+    "uv.lock": "d7678b625d4ad40824329b2f6b37b1689cfa1ae897a098c1bc80675993ff9486",
+    "research/history/documentation-review-20261102/current-source.json": "71dd5ffdc947b00f3ae164896d760bc53d8040a9e9b115a8736829f6a1d8e1fb",
+    "research/history/documentation-review-20261102/verification.json": "2d777bf68b1729da57ef4e0328461ffe4dc639e094677a87add5fdbb271c79ac"
   },
   "source_map_algorithm": "SHA256 of UTF-8 json.dumps(bindings,sort_keys=True,separators=(',',':'))",
-  "current_source_sha256": "26967b3b546638e50af348f656cddb86c3524f27b8d102bb3653d50255ae3fc8",
+  "current_source_sha256": "c2b86fbe8eabb481c4697c8e855f2dea4ee5cd4322c81fe005edaf6c8b87b2a2",
   "source_map_excludes": [
     "research/current-source.json",
     "research/verification.json",
-    "research/visual-revision-20261102.json"
+    "research/visual-revision-20261102.json",
+    "research/documentation-review-20261102.json"
   ],
-  "canonical_qualification": "research/visual-installed-20261102.json"
+  "canonical_qualification": "research/visual-installed-20261102.json",
+  "preserved_previous_index": "research/history/documentation-review-20261102/current-source.json",
+  "retained_native_qualification": "research/visual-revision-20261102.json"
 }

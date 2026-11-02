@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "epoch": "documentation-review-20261102",
+  "scope": "Documentation/source reconciliation only; no implementation, corpus, authored article, native output or installed runtime replacement.",
+  "reviewed_base": "f77d0852760bd85c9978964288fb4ccbe7e1cd2f",
+  "original_docs_files": 26,
+  "original_review": {
+    "report": "Local/blake-docs-delivery-20261102T213043Z/review/entomology/REPORT.md",
+    "sha256": "b4e249c237c58119951c3f0781064c1ac5347e753c0566a71a7592822bbef2d5",
+    "status": "REQUEST_CHANGES",
+    "findings": [
+      "DOC-01",
+      "DOC-02",
+      "DOC-03",
+      "DOC-04"
+    ],
+    "limits": "Original frozen findings and reviewer procedure exceptions remain retained; no software/scientific acceptance inferred."
+  },
+  "owner_corrections": [
+    "DOC-01",
+    "DOC-02",
+    "DOC-03",
+    "DOC-04"
+  ],
+  "evidence_root": "Local/blake-docs-delivery-20261102T213043Z",
+  "qualification_layers": "Owner documentation controls and subsequent bounded review are separate from retained software, native, scientific, accessibility, rights and publication evidence.",
+  "publication": "Ordinary main integration events are recorded separately after completion; this source record alone supplies no publication fact.",
+  "current_docs_files": 26,
+  "current_source_sha256": "c2b86fbe8eabb481c4697c8e855f2dea4ee5cd4322c81fe005edaf6c8b87b2a2",
+  "source_map_excludes": [
+    "research/current-source.json",
+    "research/verification.json",
+    "research/visual-revision-20261102.json",
+    "research/documentation-review-20261102.json"
+  ],
+  "retained_software_qualification": "research/visual-installed-20261102.json",
+  "retained_native_qualification": "research/visual-revision-20261102.json",
+  "current_native": {
+    "epoch": "analysis_output/illustrated-template-native-20261102-03",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/pdf/blakean_entomology_combined.pdf",
+    "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/web/index.html",
+    "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453",
+    "pages": 45,
+    "title": "Blakean Entomology",
+    "receipt_sha256": "8ab356aaa7306b0fbb497358ee4ff0eb497ecadfe54716f178e3a3322933b432"
+  },
+  "previous_indexes": "research/history/documentation-review-20261102/",
+  "unchanged_scopes": [
+    "All Python implementation/tests/tools",
+    "Dependency and corpus pins",
+    "Authored article/configuration/figures",
+    "Native PDF/HTML",
+    "Original installed and independent-output receipts"
+  ],
+  "scope_limit": "Complete file/link/operating-contract reconciliation; no new scholarly adjudication of cited sources or historical dossier claims."
+}

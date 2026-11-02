@@ -1,6 +1,6 @@
 # Native manuscript production
 
-The retained 0.4 article was prepared through the actual pinned
+The current 0.8.0 article uses the actual pinned
 [docxology/template](https://github.com/docxology/template) framework. Blake owns
 corpus custody and reusable methods. Entomology owns source selection, animal
 judgments, literary interpretation, graphical abstracts and publication inputs.
@@ -243,4 +243,6 @@ binds runtime, source, lock and refusing controls. Archived schema-1 inputs and
 this retained edition keep their exact original producer. The software-only gate
 does not invoke native writers or renew an earlier one-shot grant. A current-SDK
 replacement requires a new pinned request, supported admission and complete
-PDF/HTML acceptance under E-N02.
+PDF/HTML acceptance under the current native contract and
+[scoped task index](../PROJECT_STATUS.md). The former E-N02 identifier belongs
+to its historical planning epoch.
