@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "status": "INDEPENDENTLY_QUALIFIED_FOR_PRIVATE_AUTHOR_REVIEW",
+  "qualification_epoch": "doi-graphical-review-20261102",
+  "evidence_root": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "software": {
+    "tests": 474,
+    "normal_installed": true,
+    "location": "Independent ordinary GitVault source staging",
+    "coverage": {
+      "application": {
+        "covered": 2854,
+        "total": 3134,
+        "percent": 91.06573069559668,
+        "floor": 90
+      },
+      "tools": {
+        "covered": 1012,
+        "total": 1503,
+        "percent": 67.33200266134398,
+        "floor": 60
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "ruff": "PASS",
+    "format": "PASS",
+    "identity": "research/doi-review-20261103/installed-staging-identity.json"
+  },
+  "native": {
+    "epoch": "analysis_output/doi-review-native-1.0.0-20261103-03",
+    "pdf": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/source/entomology/analysis_output/doi-review-native-1.0.0-20261103-03/output/pdf/blakean_entomology_combined.pdf",
+    "pdf_sha256": "fc99a3dd629646a6e7cb1b41e0b6290388cbb4a09d7c0f91526e0c413dddf73a",
+    "html": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/source/entomology/analysis_output/doi-review-native-1.0.0-20261103-03/output/web/index.html",
+    "html_sha256": "7f36f6a36b3a3f319d9fb1ecedbcd71b23897dcdb8591fabd89e3a3e927af4af",
+    "pages": 42,
+    "title": "Blakean Entomology",
+    "receipt_sha256": "2297610198607c696f8b0aa9bc90d6bde2c377ef627cc3e19d0107bbd9950c0b"
+  },
+  "owner_output_review": "research/doi-review-20261103/owner-output-review.json",
+  "doi": {
+    "deposition_id": 23900583,
+    "doi": "10.5281/zenodo.23900583",
+    "record_id": 23900583,
+    "title": "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention",
+    "state": "unsubmitted",
+    "submitted": false,
+    "file_count": 0,
+    "action": "reused_existing_unpublished_reservation",
+    "approval_required_before_publication": true,
+    "api_receipt_sha256": "8e36699daf8bf6a968d0429bb459376e8e9cabb0f3f6f0b471a369673c2430d9",
+    "future_release": "v1.0.0 only after Daniel's explicit final approval",
+    "permission_scope": "Reservation only. No upload, public metadata release, license selection, repository visibility change, tag, or release.",
+    "prior_api_attempts": "Initial oversized-list 400 and unsubmitted-state refusal preserved; original Entomology reservation reused without duplication."
+  },
+  "independent_review": {
+    "status": "APPROVE_FOR_PRIVATE_AUTHOR_REVIEW",
+    "verdict": "research/reviews/doi-graphical-1.0.0.json",
+    "report": "research/reviews/doi-graphical-1.0.0.md",
+    "verdict_sha256": "36f67df6170aaddbbfc9c3a1c8d72d473584301941ebb6ea936929726f02277c",
+    "source_map": "1d9478a9792cbf4e2f7c381d8724207158754506e38f0a06e2cd1f8c038d15c2",
+    "scope": "Frozen unpublished private-author-review candidates only",
+    "nonblocking_notes": [
+      "Federalism inset curve-operator count is representation-coupled; final graphic values independently recomputed.",
+      "No separate current skill-perspective code review report; direct gate pass supplies coverage."
+    ]
+  },
+  "canonical_consumer": {
+    "status": "PASS",
+    "receipt": "research/doi-review-installed-20261103.json",
+    "sha256": "99423afb45ab1c187217076ac7eccf80a51c47df505c6cb416bfc889503d1227",
+    "installed_refusing_tests": 10,
+    "scope": "Actual canonical feature installation and bounded installed controls before ordinary protected-main integration; full software suites retain their original staging source/runtime evidence."
+  },
+  "publication": {
+    "required_visibility": "PRIVATE",
+    "author_approval": "REQUIRED",
+    "zenodo_publication": "HELD",
+    "files_uploaded": 0,
+    "tags_and_releases": "HELD",
+    "core_versioned_release": "HELD_SEPARATELY"
+  },
+  "delivery": {
+    "downloads": {
+      "alias": "/Users/4d/Downloads/Blakean_Entomology.pdf",
+      "versioned": "/Users/4d/Downloads/Blakean_Entomology-1.0.0-review-2026-11-02.pdf",
+      "sha256": "fc99a3dd629646a6e7cb1b41e0b6290388cbb4a09d7c0f91526e0c413dddf73a",
+      "size": 58073976,
+      "previous_sha256": null,
+      "retained_previous": null,
+      "review": "APPROVE_FOR_PRIVATE_AUTHOR_REVIEW",
+      "publication": "Unpublished; author approval required before any public release",
+      "verified": true
+    },
+    "private_main": {
+      "receipt": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/coordination/entomology-publication-final.json",
+      "scope": "Actual later merge/remote/currentness event; do not infer completion before its receipt exists"
+    },
+    "public_release": "HELD for final author approval"
+  }
+}

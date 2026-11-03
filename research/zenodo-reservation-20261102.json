@@ -1,0 +1,15 @@
+{
+  "deposition_id": 23900583,
+  "doi": "10.5281/zenodo.23900583",
+  "record_id": 23900583,
+  "title": "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention",
+  "state": "unsubmitted",
+  "submitted": false,
+  "file_count": 0,
+  "action": "reused_existing_unpublished_reservation",
+  "approval_required_before_publication": true,
+  "api_receipt_sha256": "8e36699daf8bf6a968d0429bb459376e8e9cabb0f3f6f0b471a369673c2430d9",
+  "future_release": "v1.0.0 only after Daniel's explicit final approval",
+  "permission_scope": "Reservation only. No upload, public metadata release, license selection, repository visibility change, tag, or release.",
+  "prior_api_attempts": "Initial oversized-list 400 and unsubmitted-state refusal preserved; original Entomology reservation reused without duplication."
+}

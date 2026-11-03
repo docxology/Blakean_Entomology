@@ -29,7 +29,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
   writers for current manuscripts. Keep native numbering and cross-references
   in the authored grammar; the application owns its frontmatter and domain
   diagrams. Read the render guide before changing that boundary.
-- Current 0.8.0 production selects Blake 0.7.0 at Git
+- Current unpublished 1.0.0 production selects Blake 0.7.0 at Git
   `263d7c83abe6f1309a64af3285a683c1b7672269`. Native schema 3 is
   the current profile; schemas 1 and 2 remain readable with their original pins
   and are refused for new production. Follow [the profile contract](docs/native-sdk.md).
@@ -65,3 +65,10 @@ The [status index](docs/PROJECT_STATUS.md) defines which research tasks remain
 open; code success does not close them. Verify private visibility and exact
 local/remote `main` identity at delivery. Keep raw provider expression and source
 captures in their ignored private custody.
+
+## Public release hold
+
+The 1.0.0 edition is an unpublished private review candidate. Its cover DOI is
+reserved, not a published deposit. Final author approval is required before
+Zenodo upload/publication, changing visibility, or creating v1.0.0 tags/releases.
+Core Blake release approval is separate. Follow the [publication plan](docs/publication-plan.md).

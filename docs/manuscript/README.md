@@ -1,6 +1,6 @@
 # Native manuscript production
 
-The current 0.8.0 article uses the actual pinned
+The current unpublished 1.0.0 article uses the actual pinned
 [docxology/template](https://github.com/docxology/template) framework. Blake owns
 corpus custody and reusable methods. Entomology owns source selection, animal
 judgments, literary interpretation, graphical abstracts and publication inputs.
@@ -20,7 +20,7 @@ on mounted GitVault. The recorded template source is exactly
 `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`; the current qualified
 writer environment is Python 3.14 with its own locked rendering dependencies.
 
-Current Entomology 0.8.0 selects Blake 0.7.0 at
+Current Entomology 1.0.0 selects Blake 0.7.0 at
 `263d7c83abe6f1309a64af3285a683c1b7672269`. New production uses native
 schema 3. Historical schemas 1 and 2 remain readable with their exact original
 pins and are refused for new host production. The
@@ -76,15 +76,18 @@ epoch. The builder verifies exact file membership, source joins, masters and
 derived captions, preserves retained parent bytes, and refuses collisions.
 Preparation rechecks these bindings before writing its own completion marker.
 
-The current preparation is `analysis_output/illustrated-article-20261102-04`;
-the current schema-3 native epoch is
-`analysis_output/illustrated-template-native-20261102-03` (45 pages).
-The [illustrated-argument contract](../research/illustrated-arguments.md)
-specifies the primary quotations, whole images, typed ledger, figure helper
-bindings and measured overflow controls. Earlier 0.7 geometry/native epochs
-retain their original inputs and acceptance; they do not accept the new edition.
-[Project status](../PROJECT_STATUS.md) owns exact output hashes, current
-independent-review state and separate canonical/Downloads delivery.
+The current preparation is `analysis_output/doi-review-article-1.0.0-20261103-01`.
+Its native schema-3 stage is recorded with exact hashes in
+[the current qualification](../../research/review-candidate-1.0.0.json).
+The new 42-page edition has a reserved DOI on the authentic cover and richer
+quotation-led graphical abstracts on physical pages 2–4. Geometry is
+`letterpaper,margin=11mm,footskip=4mm`; body type remains 10 pt. The original
+17 mm edition and the clipped-footer native01 remain retained. The real physical
+bounds check rejects that failed output and accepts the corrected edition.
+The current article corrects only its edition signposts in the body; analytical
+producers, source records, review decisions and reading ceilings remain unchanged.
+[Project status](../PROJECT_STATUS.md) distinguishes output review, canonical
+consumer checks and actual delivery.
 
 A noneditable qualification must explicitly rebuild the local package with
 `uv sync --locked --no-editable --reinstall-package blakean-entomology`
