@@ -2,7 +2,7 @@
 
 Entomology is an application of the public
 [Blake corpus and methods](https://github.com/docxology/blake). The upstream
-[corpus-and-methods working paper](https://doi.org/10.5281/zenodo.23770249)
+[corpus-and-methods working paper](https://doi.org/10.5281/zenodo.23921364)
 describes infrastructure and evidence limits; this application's animal
 vocabulary, contextual decisions and literary argument remain local.
 

@@ -4,7 +4,7 @@ Apply the [shared Blake conventions](https://github.com/docxology/blake/blob/263
 for method profiles, source roles, immutable epochs, count units and evidence
 claims. [Project status](PROJECT_STATUS.md) identifies the current Entomology
 edition and its exact Blake 0.7.0 source selection.
-This private addendum owns biological vocabulary, source grouping, documented
+This application-specific addendum owns biological vocabulary, source grouping, documented
 reading-window policy and literary interpretation. The retained 0.4.0 paper
 keeps SDK `45171a099a6a658c52ab689501de646a28485653` and its original
 native qualification. See [project status](PROJECT_STATUS.md) for each current

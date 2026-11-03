@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased maintenance — 3 November 2026
+
+Current guides distinguish public publication, exact installed source and
+retained producers; post-install examples preserve normal environments.
+See [maintenance](docs/maintenance.md) and the
+[documentation binding](research/documentation-maintenance-20261103.json).
+The published PDF, release tag, corpus and reading ledgers are unchanged.
+
+
 ## Public release — 3 November 2026
 
 Author-approved 1.0.0 GitHub/Zenodo distribution of the unchanged reviewed PDF.

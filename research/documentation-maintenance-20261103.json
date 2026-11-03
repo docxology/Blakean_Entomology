@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "SOURCE_DOCUMENTATION_QUALIFIED",
+  "scope": "Dated current-source maintenance; independent integration and actual Git publication are separate records.",
+  "base_commit": "b3bc9bf4e6e2d67316175eaa4f11eaa1e5cddd40",
+  "record_identity": "New epoch; earlier current-source, publication and qualification records remain unchanged.",
+  "documentation": {
+    "all_tracked_docs_files": {
+      "docs/PROJECT_STATUS.md": {
+        "sha256": "a6281da83a457719b9a04cfb0b397fbf2bc9d5b1905fbd10cb8c9cb84657fa70",
+        "bytes": 5933
+      },
+      "docs/README.md": {
+        "sha256": "586995b94b10b4e3968309ce5f379c07e7b32c94144df53909f4901bc0322963",
+        "bytes": 5326
+      },
+      "docs/maintenance.md": {
+        "sha256": "3d3aab8b6de9a2ae00df8d5462953a4285767490c041dadc2cde9a905db3082a",
+        "bytes": 4731
+      },
+      "docs/manuscript/README.md": {
+        "sha256": "4b38a9a171cdcd6371183a916c93f7b0a6f6655b9e3ac2fb37aebc003abdd36b",
+        "bytes": 11358
+      },
+      "docs/manuscript/assets/retrieval-sensitivity.png": {
+        "sha256": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
+        "bytes": 177412
+      },
+      "docs/manuscript/blakean-entomology.md": {
+        "sha256": "b84044f775d8f553e9ad59bb573ce29844600dfbae7bb3258211eb4e7027cef8",
+        "bytes": 115384
+      },
+      "docs/manuscript/config.yaml": {
+        "sha256": "5a239fbff8528b5a5f1a1cbf05010c0624f4235887c57d1c0f9cf5261411b35e",
+        "bytes": 1310
+      },
+      "docs/manuscript/preamble.md": {
+        "sha256": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
+        "bytes": 1131
+      },
+      "docs/manuscript/print-header.tex": {
+        "sha256": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+        "bytes": 214
+      },
+      "docs/manuscript/references.bib": {
+        "sha256": "55e5f04a8c0c086611210d859d0dc2ef909dc6bbfecf41e59755fb7bd291ba4f",
+        "bytes": 14713
+      },
+      "docs/manuscript/sensitivity-supplement.md": {
+        "sha256": "38dba98c7095c3ba1d25c4c13e9946104a4c7939c5dee536576519fa85f7f65e",
+        "bytes": 9338
+      },
+      "docs/manuscript/web.css": {
+        "sha256": "cb99d46c6cd1c42f9de8aadf5635e39fbcdbf8c5287477348a543ff892fb0273",
+        "bytes": 752
+      },
+      "docs/native-sdk.md": {
+        "sha256": "44760d95d225b0b4ccedcd7fae78f3c9e8393ab2a1da5125a616c8a70a52d0d6",
+        "bytes": 5352
+      },
+      "docs/project-lineage.md": {
+        "sha256": "1c21a3fffd310eddb32ab445d903650bc1db71ab53db62368f098eb394023ae3",
+        "bytes": 5014
+      },
+      "docs/public-reproduction.md": {
+        "sha256": "39e5acaaf74e271d0247bacacf5145ee00d97c7f711a908b70c1399b3a36d321",
+        "bytes": 3176
+      },
+      "docs/publication-plan.md": {
+        "sha256": "1773e78b3a2b86c6edf97e58b8f5bdba96ccf28e3208743d59dc327774222302",
+        "bytes": 2475
+      },
+      "docs/research-protocol.md": {
+        "sha256": "790498e3e633ce6ea04d90f8ac558bf5f2819f2ed87d98bf4ffded3a27d9cbfd",
+        "bytes": 6356
+      },
+      "docs/research/README.md": {
+        "sha256": "233f3d5183aa0e39eeb765e8ee3ea25b96fac8d0e3ab132a4da645eec7297fad",
+        "bytes": 2191
+      },
+      "docs/research/biological-symbolism.md": {
+        "sha256": "0730c7ddbb12ffbedea261bbe9ee90190a606164783993b3c4e36689d544142a",
+        "bytes": 4494
+      },
+      "docs/research/composition-analysis.md": {
+        "sha256": "6b7188a95e9dea3ac1cd8102f853d3c72cf696ebcfeb4638f42a07a9e40ff9ed",
+        "bytes": 6076
+      },
+      "docs/research/context-review-20261029.md": {
+        "sha256": "05b83a8ac82a3ba93222cc4ebe3da3947bb2c9ff5bdc8fa96b25e822fd9554d4",
+        "bytes": 3923
+      },
+      "docs/research/contextual-audit-20261031.md": {
+        "sha256": "d0f2c96d9f02a13c1b8a239421e5ceab8f4ce1bef1ca7305269fe2aced19d0c1",
+        "bytes": 3080
+      },
+      "docs/research/illustrated-arguments.md": {
+        "sha256": "58d0da6d6221b8eb625f153a00fe3529635c6f0078a3c9b81b46dcd237740df2",
+        "bytes": 3993
+      },
+      "docs/research/interval-geometry.md": {
+        "sha256": "1fb20ba8e8115aeb6e8c398fa89950967ce0a4b6191065a395016e8edec6fb8c",
+        "bytes": 5833
+      },
+      "docs/research/invertebrate-advancement.md": {
+        "sha256": "db28155eb22297c5df82a6b9a459c17a5cbf7c4f038216b492c0ec2f1fa9e33e",
+        "bytes": 6380
+      },
+      "docs/research/review-planning.md": {
+        "sha256": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7",
+        "bytes": 6199
+      },
+      "docs/research/shared-methods-analysis.md": {
+        "sha256": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab",
+        "bytes": 9099
+      },
+      "docs/research/visual-evidence.md": {
+        "sha256": "3db7692afd6b2d6cb1e44c732090ddade722554a4126e0fbf5435fe72346960b",
+        "bytes": 5906
+      },
+      "docs/style-guide.md": {
+        "sha256": "8547e5175fa483254fc92e840b6b261f8724e9ad5413544806f3f5ab8f19518d",
+        "bytes": 8367
+      }
+    },
+    "root_entry_files": {
+      "README.md": {
+        "sha256": "e14b4c4bfb55ccfb1bf7147416804a15db65b3a659d84a795944b1ed1b7fb033",
+        "bytes": 11440
+      },
+      "AGENTS.md": {
+        "sha256": "ae4a8a46acff398b2b26f92af9477dd9668f32038b150081659e8cb997da0d25",
+        "bytes": 6206
+      },
+      "CHANGELOG.md": {
+        "sha256": "00d4842d9ddae8cdf0ea83720afcb9b7bf80b55b2fde866505308d240ac1d69c",
+        "bytes": 9533
+      },
+      "PRIVACY.md": {
+        "sha256": "01e8406241785d5e16c78097ed81da03ad18bb42abf647a5abd2d807270bf24e",
+        "bytes": 1916
+      }
+    },
+    "markdown_documents": 28,
+    "references": 265,
+    "classification_counts": {
+      "external": 36,
+      "prepared_native_target": 14,
+      "tracked": 215
+    },
+    "errors": [],
+    "validation": {
+      "sha256": "6c64fd340fe4d1594a53c3a5ae8c0d3924485d34f51536885f99cd5f750c1618",
+      "bytes": 57465
+    },
+    "positive": {
+      "directory": "140-entomology-documentation-final",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:37:28.014205+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "6a89465f273ff625f3dbc26fbbad4c9fb128b31814868c26d7fd47fd8f1af707",
+          "bytes": 3864
+        },
+        "pid.json": {
+          "sha256": "ef731c272d2312205dec024614834507b658ee92deed2efc0f86979c92e3d648",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "3def0d37fe6f3dba399cb7750f92f7bc3d66f6e8ca68c6393df95a117f7ec93e",
+          "bytes": 189
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "8e3c2e556c30b7d63f75bc1aa60fec5b00e974840f7bd5b375ca1851a3f76b6f",
+          "bytes": 61
+        }
+      }
+    },
+    "rejecting_missing_link": {
+      "directory": "141-entomology-documentation-refusal",
+      "returncode": 1,
+      "completed_utc": "2026-11-03T18:37:29.280170+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "8848799de05710898f388d1e5b40c5436859a0c19be668c57bd6108d23305ba7",
+          "bytes": 3879
+        },
+        "pid.json": {
+          "sha256": "fe115e66d03673b31f6d2342e7a441fe67a366d6f579a95a1160d2ec15028eb3",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "f7fa461933e5983f4df6cbb1ea51265e2af603f498f2281b99d3451ef45da013",
+          "bytes": 417
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "b66e9f6ce5089c012c9d09956cee71f7f3f269dfb6ce2bf455915bb0d3f0dea2",
+          "bytes": 61
+        }
+      }
+    },
+    "limits": "Markdown targets and selected source/command claims checked; native and private targets classified explicitly."
+  },
+  "installed_source": {
+    "python": "3.11.17 (main, Oct 14 2026, 00:55:17) [Clang 23.1.3 ]",
+    "prefixes_external": true,
+    "normal_installation": true,
+    "application_runtime_resource_members": 45,
+    "sdk_git": "263d7c83abe6f1309a64af3285a683c1b7672269",
+    "sdk_runtime_resource_members": 163,
+    "identity_receipt": {
+      "sha256": "fdc63a10ce4fab24833d6f4b667acb6f98abe4bbbb3cc59faf4d6251c3eb8ca4",
+      "bytes": 33159
+    },
+    "source_only_tests": 21,
+    "source_only_receipt": {
+      "directory": "101-entomology-public-source-profile",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T17:48:44.388616+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "9aa665ede8522ccb308c000f660f8437d00f1aacd33f9a709239dae05795284d",
+          "bytes": 4049
+        },
+        "pid.json": {
+          "sha256": "4986aee7febdb5a7feea230acb0f6f3f81e1a0037037b0b5b83b482055e4db2e",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "f6e11ceb98b4f675d232ebcb541e4c54c90f90271ddde85ade281a2598447cdf",
+          "bytes": 100
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "05f7f04634d8756e90903c25ef72db4382228b0fc0b27590a72fa3415291ddac",
+          "bytes": 61
+        }
+      }
+    },
+    "source_only_scope": "No local_data/ or analysis_output/. Bounded profile does not substitute for retained-fixture qualification."
+  },
+  "published_edition_unchanged": {
+    "pdf": "Blakean_Entomology.pdf",
+    "sha256": "fc99a3dd629646a6e7cb1b41e0b6290388cbb4a09d7c0f91526e0c413dddf73a",
+    "pages": 42,
+    "tag": "v1.0.0",
+    "source_scope": "Tracked source outside the declared maintenance delta is separately bound before integration."
+  },
+  "branches": {
+    "removed_remote": [
+      "refs/heads/cur11/drop-inert-dependabot",
+      "refs/heads/cur12/point-at-the-source-of-truth",
+      "refs/heads/docs/verified-guidance-20261102",
+      "refs/heads/docs/verified-publication-20261103",
+      "refs/heads/feat/illustrated-reading-20261102",
+      "refs/heads/feat/shared-methods-0.2.0",
+      "refs/heads/release/public-editions-20261103",
+      "refs/heads/review/doi-graphical-1.0.0-20261103"
+    ],
+    "preserved_recovery_namespace": "refs/archive/documentation-maintenance-20261103/",
+    "verified_bundle": "63aae3ef43a17364e2f6dac2b9906b62ede7787198235276a224637b7ba033b2",
+    "retained_worktrees": 1,
+    "blocked_removal": "Supported GitVault archive plan refused external/shared Git stores; Federalism additionally has seven locked review worktrees. No bypass, deletion or unlock."
+  },
+  "historical_preimages": {
+    "docs/manuscript/README.md": {
+      "sha256": "578e9a382adc3957e9e9ba1c2b409ad676638444cf4ad3efca2cccc4e16a821b",
+      "bytes": 13929
+    }
+  },
+  "unqualified_attempts": {
+    "wrong_oracle": "A later release wheel was not the exact application Git-pin metadata oracle.",
+    "cwd_diagnostic": "A python -c probe from the core checkout imported source, not the installed SDK.",
+    "interpretation": "Neither attempt establishes an SDK packaging defect. The retained old package recipe also succeeded.",
+    "old_package_recipe": {
+      "directory": "095-retained-sdk-layout-recipe-red",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T17:41:32.052792+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "ece287c6f7e33a09dbc3e2ce38b34209d3d24495f457046253bcb8ab775232e4",
+          "bytes": 3665
+        },
+        "pid.json": {
+          "sha256": "9b2c51acba47e99f9479291c24cf81aac822fa7f625ae3487450ea8b9dff3400",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "a284d6deaeb4350338d2a6b42830e0476d9f160f959b64f8191be9304e26d18c",
+          "bytes": 161
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "c51c70a417c88264d36c5e34844867ca720d0084a4e2fa10fae87c930a1296b5",
+          "bytes": 61
+        }
+      }
+    },
+    "current_recipe": {
+      "directory": "096-installed-sdk-recipe-green",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T17:41:33.988714+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "867e2c4159344635621211ae261f6fbcfc1b79db1da88622462f9309bcfbe858",
+          "bytes": 4736
+        },
+        "pid.json": {
+          "sha256": "6e9f3d8064350ad581b30665666f0f03422e00368be08e5626bc2e5e6f683501",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "b7cfee2203f7fc1f4eea77d6e28d5a6db9961c9330c15ec121aaaca64e64c495",
+          "bytes": 615
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "b3753618d248ffbe9ae0ad1087cce9b71b76428e295c72273e1e145a707ff6c8",
+          "bytes": 61
+        }
+      }
+    },
+    "actual_missing_license_fixture": {
+      "directory": "118-installed-metadata-fixture-refusal",
+      "returncode": 1,
+      "completed_utc": "2026-11-03T18:12:54.927521+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "4256dab87a127737a198b46d28470b90519df1981250c48015cfca45430522e2",
+          "bytes": 3599
+        },
+        "pid.json": {
+          "sha256": "e4d85a97c549087ffa9d33f7f844fbc54e3903c1b32368b5228997ff20a6b0b3",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr.log": {
+          "sha256": "302091b5add1f48d3e9f492993b6b40dba687a8521b44f02cd9a669206f5f013",
+          "bytes": 961
+        },
+        "completion.json": {
+          "sha256": "0de70a05b9a0b941e8c150f7b0340080d97f452baaaeb212113978e954fedbcd",
+          "bytes": 61
+        }
+      }
+    }
+  },
+  "evidence_packet": "blake-application-docs-20261103T164526Z",
+  "self_binding_exclusion": "This record and companion methods qualification are excluded from their own content maps; final integration manifest binds both.",
+  "not_claimed": [
+    "New manuscript, native render, release, DOI or Downloads replacement",
+    "New scientific adjudication, reading credit, image census or rights clearance",
+    "Browser or accessibility certification",
+    "Deletion or qualification of protected worktree contents",
+    "Every external URL fetched or every historical dependency alert cleared"
+  ],
+  "software_scope": "Application code/resources unchanged; 474-test complete qualification remains attached to the published source."
+}

@@ -19,7 +19,7 @@ The schema-1 table records the registry's declared version 0.5.0. The original
 installed receipt at that Git selection observed Blake 0.4.0, as retained in
 [project lineage](project-lineage.md) and the
 [earlier native qualification](../research/template-native-20261030.json).
-Keep declared legacy profile metadata separate from the observed historical
+Keep declared historical profile metadata separate from the observed historical
 producer; neither is a new installation claim. Current schema 3 is unchanged.
 
 ## Host admission
@@ -33,7 +33,7 @@ Editable installs and source overlays cannot qualify this production boundary.
 After locked installation, the bounded host check is:
 
 ~~~bash
-uv run --locked python -c 'from blake.methods.installed import verify_installed_git; from blakean_entomology.publication_profiles import CURRENT_SDK_COMMIT; print(verify_installed_git("blake", CURRENT_SDK_COMMIT).model_dump_json())'
+uv run --locked --no-sync python -c 'from blake.methods.installed import verify_installed_git; from blakean_entomology.publication_profiles import CURRENT_SDK_COMMIT; print(verify_installed_git("blake", CURRENT_SDK_COMMIT).model_dump_json())'
 ~~~
 
 A new stage needs a freshly source-pinned **schema-3 request**, unused private
@@ -70,9 +70,11 @@ accessibility, rights or release readiness.
 
 ## Current and retained qualifications
 
-Current software and its normal installed qualification are identified by
-[project status](PROJECT_STATUS.md) and
-[the canonical installed record](../research/visual-installed-20261102.json).
+The published Public installation and its exact software qualification are
+recorded in [the publication receipt](../research/publication-20261103.json).
+[Project status](PROJECT_STATUS.md) identifies current work. The
+[2 November installed record](../research/visual-installed-20261102.json)
+belongs to the earlier Private-path epoch; its source and counts stay unchanged.
 
 The retained 0.7.0 normal installation passed 436 tests and the separate
 application/tool floors. Its
@@ -90,5 +92,5 @@ For a replacement paper, follow [native production](manuscript/README.md):
 prepare a new closed article, declare all nine pinned native inputs, execute the
 actual template API, and obtain complete physical-page and HTML acceptance.
 A software pass or an old one-shot admission does not authorize or qualify a
-new native epoch. Downloads replacement and private-main publication have
+new native epoch. Downloads replacement and public-main integration have
 separate exact-byte delivery records.

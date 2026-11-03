@@ -4,11 +4,11 @@ Current SDK, retained paper-epoch identities, completed qualification and scoped
 next work are indexed in [PROJECT_STATUS.md](../PROJECT_STATUS.md). The contracts
 below apply when creating a new analytical epoch.
 
-This layer adds a private query-channel policy over
+This layer adds an application-specific query-channel policy over
 `blake.methods.composition`. The public API owns all composition, concentration,
 rational-mass thresholds and group-omission mathematics. Existing SDK methods own
 NFKC category matching, literal word envelopes, token denominators and exact whole
-text deduplication. The private adapter selects the unchanged registry's seven
+text deduplication. The domain adapter selects the unchanged registry's seven
 name-family groups and twelve explicit singular literal pairs at 8, 32 and 64
 words, plus separate whole-unit scope.
 
@@ -21,7 +21,7 @@ bound to their original run; no text/image reading credits are created here.
 
 ## Explicit portable inputs
 
-Run from the private project root, using an already provisioned environment.
+Run from the project root, using an already provisioned environment.
 Set the variables to the intended input files; no epoch or machine path is inferred.
 
 ```sh
@@ -92,10 +92,10 @@ root's native manuscript sizing, rendering and independent visual acceptance.
 The recorded source-stage generic checks used external Python 3.9 and 3.11
 and isolated test configuration; the older full-stack/conftest failure remains
 in that historical evidence. For a new upstream pin, qualify the dependency-light
-SDK separately from this Python 3.11 private application and from optional full-stack
+SDK separately from this Python 3.11 application and from optional full-stack
 capabilities. Consult the pinned upstream [verification scope](https://github.com/docxology/blake/blob/263d7c83abe6f1309a64af3285a683c1b7672269/docs/verification.md)
 rather than treating an old failure or a focused pass as a current blanket verdict.
-Scope generic and private adapter coverage separately. Current private tests,
+Scope generic and domain-adapter coverage separately. Current application tests,
 Ruff format/lint and strict `src` application typing must pass. Record affected-tool
 typing separately with its exact scope. Real malformed,
 mismatched, occupied, linked and out-of-root inputs must fail before completion

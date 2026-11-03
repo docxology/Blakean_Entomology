@@ -9,6 +9,8 @@ Start with [project status](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article](docs/manuscript/blakean-entomology.md),
 the [published 1.0.0 working-paper PDF](Blakean_Entomology.pdf) and
 the [documentation map](docs/README.md).
+[Maintenance and retained evidence](docs/maintenance.md) distinguish current
+instructions from immutable release sources and protected worktrees.
 
 ## Public 1.0.0 edition
 
@@ -20,7 +22,7 @@ judgments, conditional classification, domain figures and literary argument.
 Federalism remains an independent sibling, with no runtime dependency.
 [Lineage and responsibility](docs/project-lineage.md).
 
-The 42-page native candidate has an authentic whole-recto Blake cover,
+The published 42-page native edition has an authentic whole-recto Blake cover,
 three distinct graphical abstracts on physical pages 2–4, and contents on page 5.
 The Fly joins injury and reciprocal questions to the full review denominator;
 A Dream distinguishes the emmet, glow-worm and beetle's offered capacities;
@@ -39,12 +41,11 @@ Rodney M. Baine's *The Scattered Portions: William Blake's Biological Symbolism*
 remains cited as a verified bibliographic predecessor; its relevant chapter
 remains unavailable and unread. [Reading and access limits](docs/research/biological-symbolism.md).
 
-The normally installed Python 3.11.17 candidate passes **474 tests**,
-strict typing, Ruff and formatting. Separate suite-only statement/branch
-coverage is **91.07% application / 67.33% tools**; all 45
-application and 163 exact SDK runtime/resource members match their sources.
-Native, independent review, canonical consumer and delivery evidence remain
-separate in the [current qualification](research/review-candidate-1.0.0.json) and [project status](docs/PROJECT_STATUS.md).
+The [verification section](#verification-and-scope) records the published
+software qualification. Native, independent review, canonical consumer and
+delivery evidence remain separate in the
+[published-edition qualification](research/review-candidate-1.0.0.json)
+and [project status](docs/PROJECT_STATUS.md).
 The earlier 45-page 0.8.0 edition and failed footer attempt retain their own
 bytes and receipts; this revision does not rename an analytical producer.
 
@@ -71,8 +72,6 @@ specialist-consensus estimate. A reference lineage is conditional modern
 classification, not a sequence-inferred phylogeny or a species identification
 in Blake. [Research protocol](docs/research-protocol.md).
 
-The current normal-installed candidate passes **474 tests**. See the [current qualification](research/review-candidate-1.0.0.json) for exact source, runtime, output and independent-review bindings.
-
 ## Run locally
 
 Keep source, environments, both Python prefixes, caches and temporary files on
@@ -81,20 +80,23 @@ repository admission. Bind external `TMPDIR`, outer `TMPPREFIX`,
 `UV_CACHE_DIR` and `UV_LINK_MODE=copy` before source-work commands.
 
 ~~~bash
-uv sync --locked
-uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
+uv sync --locked --no-editable --python 3.11.17
+uv run --locked --no-sync python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 ~~~
 
-Both prefixes must resolve on GitVault. The default development group includes
+Both prefixes must resolve on GitVault. For a fresh source-only clone, first
+use the [public verification profile](docs/public-reproduction.md); its bounded
+checks do not need the ignored corpus. The complete suite below requires the
+retained fixtures described there. The default development group includes
 the plotting/recovery dependencies needed by the complete tests. A clone contains
 source and authored research, not the ignored provider corpus. Restore the exact
 authorized bundle to replay the baseline:
 
 ~~~bash
-uv run --locked blake-entomology analyze --bundle local_data/corpus/v1 \
+uv run --locked --no-sync blake-entomology analyze --bundle local_data/corpus/v1 \
   --pin research/corpus-pin.json --vocabulary research/vocabulary.json \
   --output analysis_output/replay-new
-uv run --locked blake-entomology verify-run analysis_output/replay-new
+uv run --locked --no-sync blake-entomology verify-run analysis_output/replay-new
 ~~~
 
 A deliberately new capture needs a new upstream recovery/export, portable import,
@@ -110,7 +112,7 @@ record and the documented-window file from its bound custody. Use an unused
 output epoch:
 
 ~~~bash
-uv run --locked blake-entomology geometry \
+uv run --locked --no-sync blake-entomology geometry \
   --request research/geometry-study-20261101.json \
   --request-sha256 "$GEOMETRY_REQUEST_SHA256" \
   --bundle local_data/corpus/v1 --run analysis_output/baseline-v3 \
@@ -133,7 +135,7 @@ queue and preserve its header and evidence columns. Animal decisions require a
 verification locator as well as reviewer and rationale:
 
 ~~~bash
-uv run --locked blake-entomology review \
+uv run --locked --no-sync blake-entomology review \
   --run analysis_output/baseline-v3 \
   --run-sha256 12d0312378460493f894618e6dfc44b36593d8c9f85dfd2cf45f443a09af2633 \
   --decisions research/context-review-combined-20261029.jsonl \
@@ -146,20 +148,38 @@ fields and partial annotations refuse. A decision never changes source authorshi
 ## Verification and scope
 
 ~~~bash
-uv run --locked pytest -c pyproject.toml tests -q
-uv run --locked ruff check src tests tools
-uv run --locked ruff format --check src tests tools
-uv run --locked basedpyright
+: "${COVERAGE_FILE:?Select an unused external coverage database}"
+export COVERAGE_FILE
+BLAKE_APP_PACKAGE_DIR="$(uv run --locked --no-sync python -c 'from pathlib import Path; import blakean_entomology; print(Path(blakean_entomology.__file__).resolve().parent)')"
+uv run --locked --no-sync pytest -c pyproject.toml tests -q \
+  --cov=blakean_entomology --cov=tools --cov-branch --cov-report=term-missing
+uv run --locked --no-sync coverage report --data-file "$COVERAGE_FILE" \
+  --include "$BLAKE_APP_PACKAGE_DIR/*" --fail-under 90
+uv run --locked --no-sync coverage report --data-file "$COVERAGE_FILE" \
+  --include "$PWD/tools/*" --fail-under 60
+uv run --locked --no-sync ruff check src tests tools
+uv run --locked --no-sync ruff format --check src tests tools
+uv run --locked --no-sync basedpyright
 ~~~
 
-The current normal-installed suite passed **474 tests**. Separate
+The application report includes the exact normally installed package; the tool
+report includes this checkout's complete tools directory. Retain the full raw
+database, including deliberately changed source-overlay fixtures, but do not
+merge their counters into the unchanged product's denominator. No excluded
+product modules or lower floors are introduced. Post-install commands use
+--no-sync to preserve the qualified normal environment.
+
+The published Public installation passed **474 tests** on Python 3.11.17;
+45 application and 163 SDK runtime/resource members matched their selected
+sources. The [publication receipt](research/publication-20261103.json)
+records that installation separately from later documentation. Separate
 statement-and-branch coverage is **91.07% application / 67.33% tools**, against
 90% / 60% floors. The explicit project configuration keeps historical test
 trees outside collection. Full package typing and the changed-tool scopes have
 their own records; the default strict command covers `src`.
 
 The [verification index](research/verification.json) and
-[current-source index](research/current-source.json) locate published
+[release-delivery source map](research/current-source.json) locate published
 qualification records. Unit coverage, real analytical production, actual native
 writers and output acceptance remain separate evidence; no old counters or
 one-shot grant are reassigned. New paper bytes require fresh PDF/HTML inspection.
