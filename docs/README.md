@@ -63,3 +63,6 @@ Current visual-method contract: [Illustrated arguments and conditional classific
 The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.
 
 [Public release guide](publication-plan.md) records the approved edition, distribution scope and future-release requirements.
+
+[Public edition and verification](public-reproduction.md) records the completed publication and separates
+immutable release inputs from later documentation and remaining research.
