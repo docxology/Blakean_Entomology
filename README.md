@@ -80,7 +80,7 @@ repository admission. Bind external `TMPDIR`, outer `TMPPREFIX`,
 `UV_CACHE_DIR` and `UV_LINK_MODE=copy` before source-work commands.
 
 ~~~bash
-uv sync --locked --no-editable --python 3.11.17
+uv sync --locked --no-editable
 uv run --locked --no-sync python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 ~~~
 
