@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "LOCAL_CONFIGURATION_AND_DOCUMENTATION_QUALIFIED_WITH_LIVE_GITHUB_READBACK",
+  "scope": "Current GitHub guide/configuration and entry pointers; protected-main integration and future hosted automation remain separate.",
+  "base_commit": "67582a060dbd8717479818ff7e561870ab1ed0fa",
+  "documentation": {
+    "all_tracked_docs_files": {
+      "docs/PROJECT_STATUS.md": {
+        "sha256": "a6281da83a457719b9a04cfb0b397fbf2bc9d5b1905fbd10cb8c9cb84657fa70",
+        "bytes": 5933
+      },
+      "docs/README.md": {
+        "sha256": "c7ea9d5814ee0ff2d1dbfdee19b39a4256b099f7b486d82f78f36a2cef45951e",
+        "bytes": 5460
+      },
+      "docs/github.md": {
+        "sha256": "693f6aa6e39bb906895cf3486aa597eaf56be89f18a1bb8f6ea943c1b5d247a9",
+        "bytes": 4679
+      },
+      "docs/maintenance.md": {
+        "sha256": "3d3aab8b6de9a2ae00df8d5462953a4285767490c041dadc2cde9a905db3082a",
+        "bytes": 4731
+      },
+      "docs/manuscript/README.md": {
+        "sha256": "4b38a9a171cdcd6371183a916c93f7b0a6f6655b9e3ac2fb37aebc003abdd36b",
+        "bytes": 11358
+      },
+      "docs/manuscript/assets/retrieval-sensitivity.png": {
+        "sha256": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
+        "bytes": 177412
+      },
+      "docs/manuscript/blakean-entomology.md": {
+        "sha256": "b84044f775d8f553e9ad59bb573ce29844600dfbae7bb3258211eb4e7027cef8",
+        "bytes": 115384
+      },
+      "docs/manuscript/config.yaml": {
+        "sha256": "5a239fbff8528b5a5f1a1cbf05010c0624f4235887c57d1c0f9cf5261411b35e",
+        "bytes": 1310
+      },
+      "docs/manuscript/preamble.md": {
+        "sha256": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
+        "bytes": 1131
+      },
+      "docs/manuscript/print-header.tex": {
+        "sha256": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+        "bytes": 214
+      },
+      "docs/manuscript/references.bib": {
+        "sha256": "55e5f04a8c0c086611210d859d0dc2ef909dc6bbfecf41e59755fb7bd291ba4f",
+        "bytes": 14713
+      },
+      "docs/manuscript/sensitivity-supplement.md": {
+        "sha256": "38dba98c7095c3ba1d25c4c13e9946104a4c7939c5dee536576519fa85f7f65e",
+        "bytes": 9338
+      },
+      "docs/manuscript/web.css": {
+        "sha256": "cb99d46c6cd1c42f9de8aadf5635e39fbcdbf8c5287477348a543ff892fb0273",
+        "bytes": 752
+      },
+      "docs/native-sdk.md": {
+        "sha256": "44760d95d225b0b4ccedcd7fae78f3c9e8393ab2a1da5125a616c8a70a52d0d6",
+        "bytes": 5352
+      },
+      "docs/project-lineage.md": {
+        "sha256": "1c21a3fffd310eddb32ab445d903650bc1db71ab53db62368f098eb394023ae3",
+        "bytes": 5014
+      },
+      "docs/public-reproduction.md": {
+        "sha256": "39e5acaaf74e271d0247bacacf5145ee00d97c7f711a908b70c1399b3a36d321",
+        "bytes": 3176
+      },
+      "docs/publication-plan.md": {
+        "sha256": "1773e78b3a2b86c6edf97e58b8f5bdba96ccf28e3208743d59dc327774222302",
+        "bytes": 2475
+      },
+      "docs/research-protocol.md": {
+        "sha256": "790498e3e633ce6ea04d90f8ac558bf5f2819f2ed87d98bf4ffded3a27d9cbfd",
+        "bytes": 6356
+      },
+      "docs/research/README.md": {
+        "sha256": "233f3d5183aa0e39eeb765e8ee3ea25b96fac8d0e3ab132a4da645eec7297fad",
+        "bytes": 2191
+      },
+      "docs/research/biological-symbolism.md": {
+        "sha256": "0730c7ddbb12ffbedea261bbe9ee90190a606164783993b3c4e36689d544142a",
+        "bytes": 4494
+      },
+      "docs/research/composition-analysis.md": {
+        "sha256": "6b7188a95e9dea3ac1cd8102f853d3c72cf696ebcfeb4638f42a07a9e40ff9ed",
+        "bytes": 6076
+      },
+      "docs/research/context-review-20261029.md": {
+        "sha256": "05b83a8ac82a3ba93222cc4ebe3da3947bb2c9ff5bdc8fa96b25e822fd9554d4",
+        "bytes": 3923
+      },
+      "docs/research/contextual-audit-20261031.md": {
+        "sha256": "d0f2c96d9f02a13c1b8a239421e5ceab8f4ce1bef1ca7305269fe2aced19d0c1",
+        "bytes": 3080
+      },
+      "docs/research/illustrated-arguments.md": {
+        "sha256": "58d0da6d6221b8eb625f153a00fe3529635c6f0078a3c9b81b46dcd237740df2",
+        "bytes": 3993
+      },
+      "docs/research/interval-geometry.md": {
+        "sha256": "1fb20ba8e8115aeb6e8c398fa89950967ce0a4b6191065a395016e8edec6fb8c",
+        "bytes": 5833
+      },
+      "docs/research/invertebrate-advancement.md": {
+        "sha256": "db28155eb22297c5df82a6b9a459c17a5cbf7c4f038216b492c0ec2f1fa9e33e",
+        "bytes": 6380
+      },
+      "docs/research/review-planning.md": {
+        "sha256": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7",
+        "bytes": 6199
+      },
+      "docs/research/shared-methods-analysis.md": {
+        "sha256": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab",
+        "bytes": 9099
+      },
+      "docs/research/visual-evidence.md": {
+        "sha256": "3db7692afd6b2d6cb1e44c732090ddade722554a4126e0fbf5435fe72346960b",
+        "bytes": 5906
+      },
+      "docs/style-guide.md": {
+        "sha256": "8547e5175fa483254fc92e840b6b261f8724e9ad5413544806f3f5ab8f19518d",
+        "bytes": 8367
+      }
+    },
+    "root_entry_files": {
+      "README.md": {
+        "sha256": "c8b0786da7d833f893bcc571687d7cd1828a906227869f759b3d337d5ba37463",
+        "bytes": 11581
+      },
+      "AGENTS.md": {
+        "sha256": "a93120bd3b07bc806b749d481a41d28fdf672619edb32a911631ce1273880df1",
+        "bytes": 6392
+      }
+    },
+    "references": 287,
+    "errors": [],
+    "positive": {
+      "directory": "038-entomology-documentation-positive",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "6dd896906befa04ad96c7ea3d5307d2c59b4b27af5733b2b218707637547eef4",
+          "bytes": 3845
+        },
+        "pid.json": {
+          "sha256": "ff01d2bf2b49c5dbf3d5e5fc519002f37169598f0fe1ac0d492b8823ce210024",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "7e546abcf54fcbe3ae528f503839db9804b125b3f1e1d9b46c978e00b8f56d7d",
+          "bytes": 189
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "dd0e64777f4ea7c5d882ed50fb620a460d99c01de9a2e4115b2cbf149c959690",
+          "bytes": 61
+        }
+      }
+    },
+    "broken_readme_refusal": {
+      "directory": "039-entomology-documentation-refusal",
+      "returncode": 1,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "47e392f71c66d1346edc7620995d7412ed40600e9562857932603ebfa4c2dd78",
+          "bytes": 3846
+        },
+        "pid.json": {
+          "sha256": "83bdd76eb10ac873e623425b194b9c6ace097e050cd9e5fedb9dc1015446332d",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "76197226cd63a588b9462295e994c50e23d10bdfedb17a9e1d3a68ebabc674fd",
+          "bytes": 401
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "1a540f93b7b8db450240d0e3d6afa4a5259ea957f6a874afbf334fcaecd974f5",
+          "bytes": 61
+        }
+      }
+    },
+    "dated_predecessor": "research/documentation-maintenance-20261103.json",
+    "qualification": "Previous documentation receipts retain their named bytes; this record binds this later epoch."
+  },
+  "configuration": {
+    "bytes": {
+      "sha256": "818336a6604f7ac412c929644b3db655adef2e68291444732855262781ad4b7e",
+      "bytes": 746
+    },
+    "validation": {
+      "parser": "PyYAML 6.0.3",
+      "prefix": "/Volumes/GitVault/Local/blake-github-signposting-20261103T190207Z/cache/uv/builds-v0/.tmp4sUpvB",
+      "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+      "configuration_sha256": "818336a6604f7ac412c929644b3db655adef2e68291444732855262781ad4b7e",
+      "archive_directories": [
+        "/research/history/main-alignment-20261029",
+        "/research/history/paper-advancement-20261029",
+        "/research/history/review-planning-20261030",
+        "/research/history/template-native-20261030"
+      ],
+      "current_root_security_update_rule_unignored": true,
+      "all_archived_manifests_explicitly_ignored": true,
+      "version_update_prs_disabled": true,
+      "controls": [
+        {
+          "name": "root-security-ignored",
+          "rejected": true,
+          "reason": "Root must remain eligible for security updates"
+        },
+        {
+          "name": "missing-archived-producer",
+          "rejected": true,
+          "reason": "Exact complete archive directory inventory required"
+        },
+        {
+          "name": "wildcard-archive-scope",
+          "rejected": true,
+          "reason": "Exact complete archive directory inventory required"
+        },
+        {
+          "name": "historical-lock-updates-enabled",
+          "rejected": true,
+          "reason": "Archive policy shape differs"
+        },
+        {
+          "name": "security-options-disconnected-from-main",
+          "rejected": true,
+          "reason": "Root must remain eligible for security updates"
+        },
+        {
+          "name": "overlapping-current-rule",
+          "rejected": true,
+          "reason": "Exactly root and explicit archive policies required"
+        },
+        {
+          "name": "wrong-ecosystem",
+          "rejected": true,
+          "reason": "Current uv root required"
+        },
+        {
+          "name": "duplicate-key",
+          "rejected": true,
+          "reason": "Duplicate YAML key"
+        },
+        {
+          "name": "malformed-yaml",
+          "rejected": true,
+          "reason": "while parsing a flow node"
+        }
+      ],
+      "limit": "Local syntax/policy validation and rejecting controls; hosted ingestion and future bot behavior not asserted."
+    },
+    "receipt": {
+      "directory": "036-real-yaml-and-refusing-policy-controls",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "d45b87a23a364756041eaff9bb154dafeefecdb4d0b7c56d13049f538b3ab907",
+          "bytes": 3607
+        },
+        "pid.json": {
+          "sha256": "e685a4ed03c9869692ca779936f15092b4fb260f47fc3ab623cf9adf61606082",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "066a868e7b4a682568b8a893856c784ec36e694c265e9b5758516dfd75879355",
+          "bytes": 136
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "c3aa9be29d4b3fe2d402f31e6fde60ed3f5829969522951f807a185f70ebbd5e",
+          "bytes": 61
+        }
+      }
+    },
+    "root_and_archive_lock_bytes_unchanged": true,
+    "policy": "Root security-update PRs remain eligible; scheduled version PRs disabled. Exact archived directories ignore update PRs for every package; alerts remain visible.",
+    "sources": [
+      "https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/controlling-dependencies-updated",
+      "https://github.com/github/docs/blob/main/content/code-security/reference/supply-chain-security/dependabot-options-reference.md"
+    ]
+  },
+  "github": {
+    "repository": "docxology/Blakean_Entomology",
+    "visibility": "public",
+    "description": "Invertebrate lives and imagery in William Blake: source-bound concordance, contextual readings, conditional taxonomy and illustrated working paper.",
+    "homepage": "https://doi.org/10.5281/zenodo.23900583",
+    "topics": [
+      "corpus-analysis",
+      "digital-humanities",
+      "entomology",
+      "invertebrates",
+      "literary-studies",
+      "reproducible-research",
+      "william-blake"
+    ],
+    "live_readback": {
+      "directory": "040-entomology-independent-live-metadata-readback",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "6a7b56fe0cbc3411968e9c63e161762025e62d5aad969e124a09115b07b3824d",
+          "bytes": 3386
+        },
+        "pid.json": {
+          "sha256": "242bfcdd27931037d68eab7e33017f28738d31f37ab3c793de4813af53b28bfc",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "6a15c47490328b7a0dded6bb51bed7fecbedaacb2f4520e0be5d48d675aa1ce1",
+          "bytes": 2301
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "83d047673785bd156f53217e144030d942fe1088373135308bde208645453a54",
+          "bytes": 61
+        }
+      }
+    },
+    "metadata_apply": {
+      "plan_id": "561322c92867c8f8d793865a31085176f84f255b6f336fd94735efd01bd3502f",
+      "actual_manager_state": "APPLIED-UNVERIFIED",
+      "reason": "VERIFY-MISMATCH",
+      "receipt": {
+        "directory": "032-apply-exact-reviewed-topic-plan",
+        "returncode": 2,
+        "files": {
+          "prelaunch.json": {
+            "sha256": "0af6cf90d3032e3eadf575117132d5773ef211bfecca23478d16d5810fe607ce",
+            "bytes": 3384
+          },
+          "pid.json": {
+            "sha256": "429b8e1d29dfb0874725179b6912af7f4eb626ec12ccf5cd16b9e12612f02dc9",
+            "bytes": 15
+          },
+          "stdout.log": {
+            "sha256": "eeee6fd0adfb2903043fb0c598b2eced61bd86ea60f9fdefbfd43632e12021f9",
+            "bytes": 1445
+          },
+          "stderr.log": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "completion.json": {
+            "sha256": "f431d9032f7e315a10d32c9eb1531d2dbedd878aefc9eb79f9ff992158b84e7c",
+            "bytes": 61
+          }
+        }
+      },
+      "owner_followup": "Fresh live reads match requested topic membership and unchanged description/homepage. Topic ordering differs from the reviewed request. Original manager outcome is preserved; no retry or manager qualification is claimed."
+    },
+    "branch_protection": {
+      "required_status_checks": null,
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/docxology/Blakean_Entomology/branches/main/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_pull_request_reviews": {
+        "url": "https://api.github.com/repos/docxology/Blakean_Entomology/branches/main/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": false,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 0
+      },
+      "restrictions": null
+    },
+    "security_and_analysis": {
+      "secret_scanning": {
+        "status": "enabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "enabled"
+      },
+      "dependabot_security_updates": {
+        "status": "enabled"
+      },
+      "secret_scanning_non_provider_patterns": {
+        "status": "disabled"
+      },
+      "secret_scanning_validity_checks": {
+        "status": "disabled"
+      }
+    },
+    "workflow_scope": "GitGuardian secret check; no repository Actions workflow executes the research suite. No hosted whole-paper/scientific acceptance claimed.",
+    "github_release": {
+      "url": "https://github.com/docxology/Blakean_Entomology/releases/tag/v1.0.0",
+      "tag": "v1.0.0",
+      "assets": 8,
+      "all_hosted_digest_and_size_metadata_match_publication_receipt": true,
+      "receipt": {
+        "directory": "025-entomology-public-release-assets",
+        "returncode": 0,
+        "files": {
+          "prelaunch.json": {
+            "sha256": "b9f0abf48e308d478b2dd0c1b269c0bfc21ff35bd3949ac43d7ef206daffb1da",
+            "bytes": 3386
+          },
+          "pid.json": {
+            "sha256": "a35c03eefaaaf6598f6f4c1f98898b71174338ace3e300b373d9aaf3199b1d21",
+            "bytes": 15
+          },
+          "stdout.log": {
+            "sha256": "12d59c9dccc71c4211a3105ccbfbdd27b424ccae1efd32ea151ec692a7f1f293",
+            "bytes": 3519
+          },
+          "stderr.log": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "completion.json": {
+            "sha256": "f6699f3d012e5e58874101d1df79276963d0e7af35af613ad7e8462741b215b8",
+            "bytes": 61
+          }
+        }
+      },
+      "limit": "Release API metadata readback; no new anonymous asset-body replay claimed."
+    }
+  },
+  "unchanged": {
+    "application_code": true,
+    "dependency_selections": true,
+    "paper_pdf": true,
+    "data_and_readings": true,
+    "historical_locks_and_receipts": true,
+    "version_tags_and_zenodo": true
+  },
+  "evidence_packet": "blake-github-signposting-20261103T190207Z",
+  "not_claimed": [
+    "New software regression/native render/release acceptance",
+    "Hosted future Dependabot ingestion or PR behavior",
+    "Dismissal or remediation of archived dependency alerts",
+    "Protected worktree removal",
+    "Scientific/rights/accessibility acceptance"
+  ],
+  "self_exclusion": "This record is excluded from its own map; final candidate manifest binds its bytes."
+}
