@@ -39,11 +39,29 @@ def frontmatter_markdown(data: AbstractData) -> str:
     """Use native figure counters and source-only page hooks before the native TOC."""
     if data.visuals is None:
         raise PublicationError("illustrated_source_required", "Frontmatter")
+    tv = data.composition.pooled_vs_equal_nonempty_tv
+    if tv is None:
+        raise PublicationError("composition_undefined", "Graphical abstract caption")
+    details = (
+        f"The lower panel separates {data.context.summary.candidate_hits:,} candidates, "
+        + f"{data.context.summary.reviewed_hits} authored review decisions and "
+        + f"{data.context.summary.unreviewed_hits:,} unreviewed candidates. Its proportional "
+        + "bar keeps the complete candidate denominator; neither the image nor the analogy "
+        + "adds a contextual decision.",
+        "The lower cards separate the emmet's need, the glow-worm's light and the beetle's "
+        + "audible route. These are capacities offered in the text, not a reported rescue "
+        + "or observed insect behavior. A compound name must be read before classification.",
+        "The lower plot shows the three largest absolute category-share changes under "
+        + "pooled and equal nonempty-group weighting. Circles and squares share a 0–100% "
+        + f"axis; full-profile total variation is {tv:.6f}. Lexical profiles and the "
+        + "Worm–infant comparison establish no species identity or ancestral relation.",
+    )
     captions = tuple(
         f"{w.title}. “{' / '.join(w.quotation.splitlines())}” "
         + f"{w.locator} {w.credit} [@{w.citation_key}]. "
-        + "The panels distinguish a reading, a rival and a conditional classification."
-        for w in data.visuals.manifest.witnesses
+        + "The panels distinguish a reading, a rival and a conditional classification. "
+        + detail
+        for w, detail in zip(data.visuals.manifest.witnesses, details, strict=True)
     )
     titles = (
         "The Fly: likeness and injury",

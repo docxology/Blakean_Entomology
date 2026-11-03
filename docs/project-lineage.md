@@ -35,7 +35,7 @@ decision or political warrant between the applications.
 
 ## Separate current runtime from captured evidence
 
-The current 0.8.0 software selects Blake 0.7.0 at Git
+The current unpublished 1.0.0 software selects Blake 0.7.0 at Git
 `263d7c83abe6f1309a64af3285a683c1b7672269` through `pyproject.toml` and
 `uv.lock`. Its installation and workflow qualification are recorded in
 [verification.json](../research/verification.json). Upstream `main` is a moving

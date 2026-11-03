@@ -1,0 +1,74 @@
+{
+  "schema_version": 29,
+  "version": "0.8.0",
+  "qualification_epoch": "documentation-review-20261102",
+  "qualification": "research/documentation-review-20261102.json",
+  "sha256": "a86d6afcd80a87a47ae470956e88dcd9db188f134c719515e3bcb0a871924363",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "current_source_sha256": "c2b86fbe8eabb481c4697c8e855f2dea4ee5cd4322c81fe005edaf6c8b87b2a2",
+  "current_native": {
+    "epoch": "analysis_output/illustrated-template-native-20261102-03",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/pdf/blakean_entomology_combined.pdf",
+    "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-03/output/web/index.html",
+    "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453",
+    "pages": 45,
+    "title": "Blakean Entomology",
+    "receipt_sha256": "8ab356aaa7306b0fbb497358ee4ff0eb497ecadfe54716f178e3a3322933b432"
+  },
+  "independent_acceptance": {
+    "source": {
+      "verdict": "REQUEST_CHANGES / SRC-01",
+      "path": "research/reviews/visual-20261102-independent02.json",
+      "owner_closure": "research/reviews/visual-20261102-src01-owner-closure.json",
+      "fresh_software_reapproval": false
+    },
+    "current_output": {
+      "verdict": "PASS_WITH_LIMITATIONS",
+      "path": "research/reviews/visual-20261102-output03.json",
+      "pdf_sha256": "363275bd52e56b895432f3fb7ea63d6c9ee17a2b0bf7346c6a2aebc28f0e1b95",
+      "html_sha256": "0241152bb71cea3c2182be448beefc1ad4b557afd45c5ef3dc42bc39f01dd453"
+    }
+  },
+  "delivery": {
+    "downloads": "COPIED_AND_BYTE_VERIFIED",
+    "receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/downloads-delivery01.json",
+    "git_publication_receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/entomology-publication-final.json",
+    "target_branch": "main",
+    "required_visibility": "PRIVATE",
+    "route": "Protected-main pull request; actual Git events are separate from this source qualification."
+  },
+  "software_qualification": {
+    "tests": 464,
+    "coverage": {
+      "application": {
+        "numerator": 2782,
+        "denominator": 3064,
+        "percent": 90.79634464751958,
+        "floor": 90,
+        "files": 43
+      },
+      "tools": {
+        "numerator": 1012,
+        "denominator": 1503,
+        "percent": 67.33200266134398,
+        "floor": 60,
+        "files": 17
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "lint": "PASS",
+    "format": "PASS",
+    "dependencies": "PASS",
+    "scope": "Fresh canonical installed software only; exact native03 retains its independent output verdict.",
+    "canonical_normal_install": true
+  },
+  "preserved_previous_index": "research/history/documentation-review-20261102/verification.json",
+  "scope": "Source, software, native output, independent acceptance and publication are separate claims.",
+  "canonical_qualification": "research/visual-installed-20261102.json",
+  "documentation_reconciliation": {
+    "receipt": "research/documentation-review-20261102.json",
+    "sha256": "a86d6afcd80a87a47ae470956e88dcd9db188f134c719515e3bcb0a871924363",
+    "scope": "Documentation only; retained software and native identities are unchanged and not rerun."
+  }
+}

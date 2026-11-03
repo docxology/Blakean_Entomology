@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "statement_and_branch": {
+    "application": {
+      "covered": 2854,
+      "total": 3134,
+      "percent": 91.06573069559668,
+      "floor": 90
+    },
+    "tools": {
+      "covered": 1012,
+      "total": 1503,
+      "percent": 67.33200266134398,
+      "floor": 60
+    }
+  },
+  "negative_control": "Same observed data rejected by 100% floors; no reports altered"
+}

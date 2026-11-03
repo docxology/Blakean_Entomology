@@ -2,7 +2,7 @@
 title: "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention"
 author:
   - Daniel Ari Friedman
-date: "2 November 2026 · Private research draft 0.8.0"
+date: "2 November 2026 · Unpublished review candidate 1.0.0"
 lang: en
 ---
 
@@ -589,7 +589,7 @@ decisions or add contextual animal classifications. The historical 0.4.0
 authoring rebuild consumed the retained analytical outputs under their exact
 hashes and its then-current SDK pin. It did not claim a fresh mathematical
 replay or transfer those outputs to a new analytical producer. The present
-0.8.0 edition preserves those producer identities while consuming the retained
+1.0.0 review edition preserves those producer identities while consuming the retained
 exports. Its schema 3 native host and the source-support analysis below use
 the separately verified Blake SDK 0.7.0 pin, with distinct receipts for their
 current execution.

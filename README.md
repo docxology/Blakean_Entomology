@@ -10,54 +10,43 @@ Start with [project status](docs/PROJECT_STATUS.md),
 the [current private working-draft PDF](Blakean_Entomology.pdf) and
 the [documentation map](docs/README.md).
 
-## Current application and paper
+## Unpublished 1.0.0 review candidate
 
-Entomology **0.8.0** selects public Blake **0.7.0**, exact Git
+Entomology **1.0.0** selects public Blake **0.7.0**, exact Git
 `263d7c83abe6f1309a64af3285a683c1b7672269`, through
-[pyproject.toml](pyproject.toml) and [uv.lock](uv.lock).
-Blake supplies reusable corpus custody and methods. This application owns
-vocabulary, query-channel policy, contextual judgments, conditional reference
-mappings, domain graphics, image readings and literary argument.
-Federalism is an architectural sibling, with no runtime dependency.
+[pyproject.toml](pyproject.toml) and [uv.lock](uv.lock). Blake owns reusable
+corpus custody and methods; this application owns its vocabulary, contextual
+judgments, conditional classification, domain figures and literary argument.
+Federalism remains an independent sibling, with no runtime dependency.
 [Lineage and responsibility](docs/project-lineage.md).
 
-The new [original-codepoint geometry](docs/research/interval-geometry.md)
-separates candidate records, occupied text, overlap depth, overlapping pairs
-and documented reading windows. It retains every source facet and zero-hit
-unit. Two analytical figures show source support and the bounded exposure of
-existing reviewed candidates. The analysis creates no new decision, animal
-attestation, complete-work reading or image inspection.
+The 42-page native candidate has an authentic whole-recto Blake cover,
+three distinct graphical abstracts on physical pages 2–4, and contents on page 5.
+The Fly joins injury and reciprocal questions to the full review denominator;
+A Dream distinguishes the emmet, glow-worm and beetle's offered capacities;
+Thel sets the Worm–infant comparison beside measured lexical weighting effects.
+Complete original impressions, exact quotations, locators and counterreadings
+remain visible. The 11 mm margins and 4 mm footer spacing retain 10-point body
+type. The actual pinned [template writers](docs/manuscript/README.md) own
+hydration, citations, numbering and PDF/HTML production.
 
-The paper develops provision, feeding, webs, prisons and collective embodiment
-through copy-specific contexts and live alternatives. Rodney M. Baine's
-*The Scattered Portions: William Blake's Biological Symbolism* is cited as a
-verified bibliographic predecessor. **Its relevant chapter remains unread and
-unavailable; its formal title and boundaries remain unverified.**
-The complete Hoagwood review and selected Hutchings material have their own
-reading ceilings. [Scholarship and access record](docs/research/biological-symbolism.md).
+Both the repository and candidate remain private. DOI **10.5281/zenodo.23900583** is reserved in an unsubmitted Zenodo draft with no uploaded files; it is not yet a registered public record. Final author approval is required before public deposit, visibility changes or a `v1.0.0` tag/release. [Publication plan](docs/publication-plan.md).
 
-Current manuscript production uses the actual pinned
-[docxology/template](https://github.com/docxology/template) hydration,
-validation, formalism/cross-reference filters and PDF/web writers. Physical
-page 1 is an authentic complete-recto Blake cover; distinct graphical abstracts
-occupy pages 2–4, followed by contents on page 5.
-The [native contract](docs/manuscript/README.md) and
-[host SDK profiles](docs/native-sdk.md) bind each new edition independently.
-The current 45-page candidate replaces the three schematic opening graphics
-with quotation-led arguments using complete impressions of *The Fly*, *A Dream*
-and *Thel*. A word/context/lineage table and clearer reference/atlas figures keep
-historical names, grammatical uses and conditional modern classification
-distinct. The abstracts and interpretive captions are revised. The
-[illustrated-argument contract](docs/research/illustrated-arguments.md) closes
-quotation/image joins and their real refusing controls. Native production has
-completed. The exact 45-page PDF/HTML passed independent working-draft output review, and both dated and current PDFs were copied byte-for-byte to Downloads. Source review's test-size finding was closed by an AST-preserving split and 20 passing affected tests; this owner correction is not fresh independent software reapproval. Publication and exact scopes are recorded in
-[project status](docs/PROJECT_STATUS.md). The accepted 44-page 0.7 edition and
-its earlier correction verdicts remain historical evidence.
+The [geometry contract](docs/research/interval-geometry.md) separates records,
+occupied text, overlap and documented reading windows. No corpus, vocabulary,
+review label, source identity or analytical input changed in this revision.
+Rodney M. Baine's *The Scattered Portions: William Blake's Biological Symbolism*
+remains cited as a verified bibliographic predecessor; its relevant chapter
+remains unavailable and unread. [Reading and access limits](docs/research/biological-symbolism.md).
 
-The retained 40-page 0.4.0 native edition and earlier standalone editions keep
-their original [native qualification](research/template-native-20261030.json),
-[analytical producers](research/paper-advancement-20261029.json) and failures.
-A later SDK or documentation update does not relabel those bytes.
+The normally installed Python 3.11.17 candidate passes **474 tests**,
+strict typing, Ruff and formatting. Separate suite-only statement/branch
+coverage is **91.07% application / 67.33% tools**; all 45
+application and 163 exact SDK runtime/resource members match their sources.
+Native, independent review, canonical consumer and delivery evidence remain
+separate in the [current qualification](research/review-candidate-1.0.0.json) and [project status](docs/PROJECT_STATUS.md).
+The earlier 45-page 0.8.0 edition and failed footer attempt retain their own
+bytes and receipts; this revision does not rename an analytical producer.
 
 ## Corpus and review denominator
 
@@ -82,7 +71,7 @@ specialist-consensus estimate. A reference lineage is conditional modern
 classification, not a sequence-inferred phylogeny or a species identification
 in Blake. [Research protocol](docs/research-protocol.md).
 
-The final canonical normal-installed gate passed **464 tests**, with **90.80% application / 67.33% tools** suite-only statement/branch coverage. Typing, lint, formatting and dependency checks pass. [Exact current qualification](research/visual-installed-20261102.json).
+The current normal-installed candidate passes **474 tests**. See the [current qualification](research/review-candidate-1.0.0.json) for exact source, runtime, output and independent-review bindings.
 
 ## Run locally
 
@@ -163,8 +152,8 @@ uv run --locked ruff format --check src tests tools
 uv run --locked basedpyright
 ~~~
 
-The current normal-installed suite passed **464 tests**. Separate
-statement-and-branch coverage is **90.80% application / 67.33% tools**, against
+The current normal-installed suite passed **474 tests**. Separate
+statement-and-branch coverage is **91.07% application / 67.33% tools**, against
 90% / 60% floors. The explicit project configuration keeps historical test
 trees outside collection. Full package typing and the changed-tool scopes have
 their own records; the default strict command covers `src`.

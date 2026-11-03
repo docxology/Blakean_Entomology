@@ -1,0 +1,99 @@
+{
+  "project": "entomology",
+  "docs_files": 27,
+  "files": {
+    "docs/PROJECT_STATUS.md": "314fbf04ef7c681158b91fce03ea3322d54842e1bedeb4cfe9fc211ec4cbff44",
+    "docs/README.md": "5da819d945d09de2ffe6213b6752f0ade7e9b8c4e8adb551f938e3925e20b65f",
+    "docs/manuscript/README.md": "de9d53320d5c9716037ef3db9d9c9dc322ba09b60c45ed2c78318509a9421c57",
+    "docs/manuscript/assets/retrieval-sensitivity.png": "93061eb6f053750a65dbb79c06baece1c38b3ac96c90ca51bf3fbdb8a035d25a",
+    "docs/manuscript/blakean-entomology.md": "b84044f775d8f553e9ad59bb573ce29844600dfbae7bb3258211eb4e7027cef8",
+    "docs/manuscript/config.yaml": "276f92651c8d4717d7d9981ad92bf574c7771aee1460e6d6159a0d4bd0ceb96b",
+    "docs/manuscript/preamble.md": "34233b69380440fd13c3e139e9e0d45ddd6dcaa785c33814e917a93b13e25dda",
+    "docs/manuscript/print-header.tex": "340907f5b5e10d4e2f8a29be9205f8c7df481746223619fe43e83b1273d9dd10",
+    "docs/manuscript/references.bib": "55e5f04a8c0c086611210d859d0dc2ef909dc6bbfecf41e59755fb7bd291ba4f",
+    "docs/manuscript/sensitivity-supplement.md": "38dba98c7095c3ba1d25c4c13e9946104a4c7939c5dee536576519fa85f7f65e",
+    "docs/manuscript/web.css": "cb99d46c6cd1c42f9de8aadf5635e39fbcdbf8c5287477348a543ff892fb0273",
+    "docs/native-sdk.md": "80d141342db4556cf36c0b19070719170bff48cc27eb1407c375aabd71a5bc0d",
+    "docs/project-lineage.md": "baaf81cc60826ea66b8ccdaaf42da8290a1abc37d34b3707edf24cee5ca67890",
+    "docs/publication-plan.md": "1e171018cd65b298476b92189e01d0d7aea087f5f32fb16c945f2e709bfd833f",
+    "docs/research/README.md": "233f3d5183aa0e39eeb765e8ee3ea25b96fac8d0e3ab132a4da645eec7297fad",
+    "docs/research/biological-symbolism.md": "0730c7ddbb12ffbedea261bbe9ee90190a606164783993b3c4e36689d544142a",
+    "docs/research/composition-analysis.md": "4e5be2250951c108c6ae8ebe27e7670fb280432ffe67c7a21514fa1d53a51577",
+    "docs/research/context-review-20261029.md": "bd8212898638dd0a07c6c887d61c114258ee9db4d39efb8efb3e3db59a0e368a",
+    "docs/research/contextual-audit-20261031.md": "d0f2c96d9f02a13c1b8a239421e5ceab8f4ce1bef1ca7305269fe2aced19d0c1",
+    "docs/research/illustrated-arguments.md": "bc2cd323fa733091905d27ab6ffba1376143d49012f62d6aedb69080b58bd9ec",
+    "docs/research/interval-geometry.md": "1fb20ba8e8115aeb6e8c398fa89950967ce0a4b6191065a395016e8edec6fb8c",
+    "docs/research/invertebrate-advancement.md": "db28155eb22297c5df82a6b9a459c17a5cbf7c4f038216b492c0ec2f1fa9e33e",
+    "docs/research/review-planning.md": "9df4ab14de9b04e3fbbc5e4503a0f50cc986ed961a1d6c03b8948185a16455c7",
+    "docs/research/shared-methods-analysis.md": "0fa9fed24645546e00aeba26babb05168c78bc825920b1959ba994425d5ebcab",
+    "docs/research/visual-evidence.md": "870108207a3a710f537680c440e8ebc4ef37b169d8d6a2b2f791838feb007536",
+    "docs/research-protocol.md": "daf0ae51ffd1eb53c063a908d1d52c492cb70ad7e3307690877200cf528e2b83",
+    "docs/style-guide.md": "b3106d7b72218a35e2f333415b0eda52037196fcc90363f53747e87b0f69e052",
+    "AGENTS.md": "3380976b079935612121f88651a26b8752ddb4473c590f681ea56ae20ee8bbda",
+    "README.md": "d3e88bd64df0c6afa25fba398b8c7c971d2d76e8639db0238c1cb5bef4df60d5",
+    "CHANGELOG.md": "b665fbd9892e7bd8c472f1c804814d3cc0973ddbcf1b90b83d2249170ec05861",
+    "CITATION.cff": "63c036dc0f547775bbd4b2f3f8c6c7bcabd078091b8856f47e07a1ef84aee7d3"
+  },
+  "links_examined": 182,
+  "broken": [],
+  "prepared_stage_image_targets": [
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/invertebrate-reference.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/met-347935-whole.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/met-347974-whole.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/met-347973-whole.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/met-348001-whole.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/gates-copy-e-comparison.jpg"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/thel-bentley6-two-copies.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/thel-o-006-whole.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/02-composition-influence.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/corpus-atlas.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/04-query-channel-source-audit.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/context-review.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/source-footprint.png"
+    },
+    {
+      "source": "docs/manuscript/blakean-entomology.md",
+      "target": "assets/review-exposure.png"
+    }
+  ],
+  "negative_control": "A deliberately absent local target is rejected",
+  "scope": "Current docs inventory/local file targets and separate native figure resolution; not semantic certification of scholarly claims or historical external availability"
+}
