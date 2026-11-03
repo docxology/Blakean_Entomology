@@ -1,0 +1,46 @@
+{
+  "paper": {
+    "title": "{{PAPER_TITLE}}",
+    "subtitle": "{{PAPER_SUBTITLE}}",
+    "version": "{{PAPER_VERSION}}",
+    "date": "2 November 2026",
+    "cover": {
+      "image": "../figures/cover.png",
+      "alt": "William Blake's complete What is Man! museum recto, Gates of Paradise copy E (1793): a segmented larval-looking body arches over a small human figure on a leaf. The design stages a comparison; it does not identify a species or document metamorphosis."
+    }
+  },
+  "authors": [
+    {
+      "name": "Daniel Ari Friedman",
+      "orcid": "0000-0001-6232-9096"
+    }
+  ],
+  "metadata": {
+    "language": "en",
+    "fontsize": "10pt",
+    "geometry": "letterpaper,margin=11mm,footskip=4mm",
+    "documentclass": "article"
+  },
+  "rendering": {
+    "section_breaks": false,
+    "cover_height_fraction": 0.61,
+    "figure_height_fraction": 0.78,
+    "front_matter_figure_height_fraction": 0.78
+  },
+  "publication": {
+    "release_status": "unpublished 1.0.0 review candidate; final author approval required",
+    "repository_url": "https://github.com/docxology/Blakean_Entomology",
+    "year": 2026,
+    "doi": "10.5281/zenodo.23900583",
+    "doi_status": "reserved; unpublished"
+  },
+  "render": {
+    "formats": {
+      "pdf": true,
+      "html": true,
+      "slides": false,
+      "docx": false,
+      "epub": false
+    }
+  }
+}

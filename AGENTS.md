@@ -1,6 +1,6 @@
 # Entomology agent guide
 
-This private application owns invertebrate vocabulary, contextual decisions,
+This application owns invertebrate vocabulary, contextual decisions,
 reference mappings, selected image readings and its manuscript. Public
 [Blake](https://github.com/docxology/blake) owns corpus custody and reusable
 methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
@@ -29,7 +29,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
   writers for current manuscripts. Keep native numbering and cross-references
   in the authored grammar; the application owns its frontmatter and domain
   diagrams. Read the render guide before changing that boundary.
-- Current unpublished 1.0.0 production selects Blake 0.7.0 at Git
+- Current 1.0.0 production selects Blake 0.7.0 at Git
   `263d7c83abe6f1309a64af3285a683c1b7672269`. Native schema 3 is
   the current profile; schemas 1 and 2 remain readable with their original pins
   and are refused for new production. Follow [the profile contract](docs/native-sdk.md).
@@ -37,7 +37,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
   domain visual encodings and literary interpretation in this application.
   Federalism is an architectural sibling, not a runtime dependency.
 - Follow the mounted GitVault operating contract. Use the supported repository
-  lease for this private identity and matching worktree/common store. Keep
+  lease for this public repository identity and matching worktree/common store. Keep
   environments, caches and temporary files external, and verify both
   `sys.prefix` and `sys.base_prefix` before Python gates.
 - Treat `pyproject.toml` and `uv.lock` as the current executable SDK selection.
@@ -62,13 +62,15 @@ Blake cover on physical page 1, three distinct graphical abstracts on pages
 prove physical placement. Check citations, native counters and every
 affected physical page, and bind the new PDF separately from earlier outputs.
 The [status index](docs/PROJECT_STATUS.md) defines which research tasks remain
-open; code success does not close them. Verify private visibility and exact
+open; code success does not close them. Verify public visibility and exact
 local/remote `main` identity at delivery. Keep raw provider expression and source
 captures in their ignored private custody.
 
-## Public release hold
+## Public release and continuing custody
 
-The 1.0.0 edition is an unpublished private review candidate. Its cover DOI is
-reserved, not a published deposit. Final author approval is required before
-Zenodo upload/publication, changing visibility, or creating v1.0.0 tags/releases.
-Core Blake release approval is separate. Follow the [publication plan](docs/publication-plan.md).
+Daniel approved this exact 1.0.0 edition and public GitHub/Zenodo distribution
+on 3 November 2026. [Publication facts](publication.json) and the
+[release guide](docs/publication-plan.md) separate that event from software,
+native-output and scientific evidence. Work in the Public/ canonical slot;
+preserve the original private-path producer receipts and all ignored data.
+New editions require their own source, output, review and publication records.
