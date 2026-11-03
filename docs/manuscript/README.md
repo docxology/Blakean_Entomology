@@ -1,9 +1,16 @@
-# Native manuscript production
+# Published manuscript and new native production
 
-The current 1.0.0 article uses the actual pinned
+The published 1.0.0 article uses the actual pinned
 [docxology/template](https://github.com/docxology/template) framework. Blake owns
 corpus custody and reusable methods. Entomology owns source selection, animal
 judgments, literary interpretation, graphical abstracts and publication inputs.
+
+The [published PDF](../../Blakean_Entomology.pdf), registered DOI and release
+assets are bound by [publication.json](../../publication.json). The deposited
+rendering-input archive preserves the original native metadata, including its
+then-unpublished status. Those source words describe the captured production
+epoch; current public visibility is recorded separately. Do not edit frozen
+article/configuration bytes to update a historical label.
 
 ## Source and runtime contract
 
@@ -56,7 +63,7 @@ The new geometry run has its own analytical receipt; consuming it in a paper
 is not a second numerical replay.
 
 ~~~sh
-uv run --locked python tools/render_manuscript.py \
+uv run --locked --no-sync python tools/render_manuscript.py \
   --request "$REQUEST" --request-sha256 "$REQUEST_SHA256" \
   --template-root "$TEMPLATE_ROOT" --template-python "$TEMPLATE_PYTHON" \
   --output analysis_output/new-native-epoch
@@ -66,7 +73,7 @@ The prepare-only option closes a fresh source stage without native acceptance.
 Wrong request/input/template pins, changed members and occupied destinations
 are refusing cases.
 
-## Geometry assets and current candidate
+## Geometry assets and published edition
 
 The [geometry contract](../research/interval-geometry.md) defines the new
 source-support and review-exposure figures. Run
@@ -182,70 +189,16 @@ Inspect new source figures and every final physical page; obtain independent
 acceptance bound to the exact final receipt/PDF. These are distinct from
 specialist scientific review, complete image-corpus review or public release.
 
-## Retained 0.4.0 production qualification
+## Retained qualification history
 
-Use `uv run --no-sync pytest -c pyproject.toml tests` for the normally installed
-suite. The explicit configuration prevents a parent GitVault pytest root from
-collecting historical project trees. Strict checks cover the package and the
-changed application tools `render_manuscript.py` and
-`prepare_research_manuscript.py`. Check `native_template_worker.py` and
-`native_web.py` at Python 3.14 with the selected project source/tools and
-pinned template on the checker's import path. This is not a strict-check claim
-for every unchanged tool.
+The [preceding guide](../../research/history/documentation-maintenance-20261103-preimage/docs/manuscript/README.md)
+preserves the complete former instructions and their exact source bytes.
+The [0.4.0 native record](../../research/template-native-20261030.json),
+[planning qualification](../../research/review-planning-20261030.json) and
+[schema-2 admission](../../research/native-sdk-admission-20261031.json) remain
+evidence for their named epochs. Their counters, source overlays, standalone
+print paths and one-shot grants do not qualify current production.
 
-Keep unit, actual preparation/render-CLI, retained-data figure production and
-native-runtime preflight/CSS counters in separate databases. Trace real
-operations; the final PDF need not be rebuilt to obtain counters. Combine only
-segments whose consumed source bytes still match their before/after manifests,
-retaining every original database and report with `coverage combine --keep`.
-Map the normally installed application package to `src/blakean_entomology` in
-the coverage path aliases. Preserve older-source counters outside that union.
-
-The combined gate has separate branch-aware denominators: covered statements
-plus covered branches divided by all statements plus branches. The unit-only
-database is not the full production qualification. With the externally bound
-`COMBINED_COVERAGE` and `COVERAGE_CONFIG` paths, run:
-
-~~~sh
-uv run --no-sync coverage report --rcfile "$COVERAGE_CONFIG" \
-  --data-file "$COMBINED_COVERAGE" --include '*/blakean_entomology/*' \
-  --fail-under 90
-uv run --no-sync coverage report --rcfile "$COVERAGE_CONFIG" \
-  --data-file "$COMBINED_COVERAGE" --include '*/tools/*' \
-  --fail-under 60
-~~~
-
-Retain both the initial failing coverage union and its completed real-production
-qualification. Declare excluded and unexecuted surfaces, interpreter identities,
-source bindings, raw positive/refusal commands and both complete denominators
-in the [retained native qualification](../../research/template-native-20261030.json). Retained analytical exports keep their
-historical producer; figure-only consumption does not become numerical replay.
-
-The retained 0.3 draft used a standalone print path. Its accepted 37-page PDF and
-sealed evidence keep that historical scope; they are never relabelled as a
-template-native build.
-
-## Software-only review-planning epoch
-
-Retained 0.5.0 software passed 303 installed tests and the declared
-separate application/tool coverage floors; its exact Git SDK and real
-planning/refusal commands are in
-[the software qualification](../../research/review-planning-20261030.json).
-The retained PDF/HTML and their original producer remain unchanged. No old
-coverage database, native receipt, page review or one-shot production grant
-is reassigned to this software epoch. Changed manuscript or renderer inputs
-require their own source, native and physical/browser-output qualification.
-
-## Retained schema-2 software admission
-
-The 0.6.0 schema-2 contract introduced actual installed provenance
-for its new staging. [Current profile policy](../native-sdk.md) now selects schema 3. The exact Blake 0.6.0 selection passed 353 normal-installed
-tests, strict package typing, Ruff/format and separate application/tool coverage
-floors; [the software receipt](../../research/native-sdk-admission-20261031.json)
-binds runtime, source, lock and refusing controls. Archived schema-1 inputs and
-this retained edition keep their exact original producer. The software-only gate
-does not invoke native writers or renew an earlier one-shot grant. A current-SDK
-replacement requires a new pinned request, supported admission and complete
-PDF/HTML acceptance under the current native contract and
-[scoped task index](../PROJECT_STATUS.md). The former E-N02 identifier belongs
-to its historical planning epoch.
+Use the current profile above and the [SDK contract](../native-sdk.md) for a
+new epoch. [Maintenance](../maintenance.md) describes source/release identities
+and the separate documentation closure.

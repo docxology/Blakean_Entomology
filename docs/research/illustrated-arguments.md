@@ -32,7 +32,7 @@ pre-illustration parent's additional-assets manifest, the authored visual ledger
 and the atlas. Then run the real CLI with an unused output:
 
 ~~~sh
-uv run --locked python -m tools.extend_visual_assets \
+uv run --locked --no-sync python -m tools.extend_visual_assets \
   --request "$REQUEST" --request-sha256 "$REQUEST_SHA256" \
   --output analysis_output/new-illustrated-assets
 ~~~

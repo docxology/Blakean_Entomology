@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "base_commit": "b3bc9bf4e6e2d67316175eaa4f11eaa1e5cddd40",
+  "scope": "Exact former manuscript guide retained; current instructions live under docs/.",
+  "preimages": {
+    "docs/manuscript/README.md": {
+      "sha256": "578e9a382adc3957e9e9ba1c2b409ad676638444cf4ad3efca2cccc4e16a821b",
+      "bytes": 13929
+    }
+  }
+}

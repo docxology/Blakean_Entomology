@@ -57,8 +57,9 @@ successful captured primary sources remain the evidence for those claims.
 The current [render guide](../manuscript/README.md) and
 [verification receipt](../../research/verification.json) bind native page sizing,
 full-page inspection and independent acceptance separately from these selected
-source observations. Private-main publication and Downloads delivery remain
-maintainer responsibilities. The original
+source observations. Public-main integration and exact-byte Downloads delivery
+remain maintainer responsibilities; the completed edition is bound by the
+[publication receipt](../../research/publication-20261103.json). The original
 five analytical baseline artifacts and eleven decisions are unchanged.
 
 ## Two edition-specific Gates objects

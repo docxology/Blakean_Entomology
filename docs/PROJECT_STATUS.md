@@ -4,7 +4,7 @@ Status date: 3 November 2026. **Public 1.0.0 working-paper edition**.
 Daniel approved the exact reviewed edition for public distribution.
 [Publication plan](publication-plan.md).
 
-## Current candidate and distinct evidence
+## Published edition and distinct evidence
 
 Entomology owns its domain vocabulary, policies, judgments, source selections,
 graphical arguments and manuscript. Public Blake **0.7.0** at Git
@@ -14,6 +14,7 @@ The sibling application is independent. The actual template is pinned at
 
 | Evidence | Current observation and limit |
 |---|---|
+| Current source maintenance | The current docs/README closure and 21 source-only checks are recorded in the [maintenance binding](../research/documentation-maintenance-20261103.json); the published 474-test qualification remains its own epoch. |
 | Software | 474 normal-installed tests pass on Python 3.11.17; suite-only statement/branch coverage 91.07% application / 67.33% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
 | Installation | 45 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
 | Native | Actual pinned template PDF/HTML writers completed. The PDF has 42 pages; title, cover DOI, physical page order, formal numbering and sources are checked independently of software tests. |
@@ -24,8 +25,10 @@ The sibling application is independent. The actual template is pinned at
 
 The ledger remains **36,039 candidates / 47 reviewed / 35,992 unreviewed**. Nine selected originals do not establish an image census. Baine remains bibliographically verified; the relevant chapter is unavailable/unread.
 
-Every file under `docs/` is inventoried and checked for local links/current
-signposts in this revision. Dated study notes remain historical, not current
+The [maintenance record](../research/documentation-maintenance-20261103.json)
+inventories the complete tracked `docs/` scope and checks current signposts.
+[Maintenance guidance](maintenance.md) separates current instructions from
+retained source and worktree custody. Dated study notes remain historical, not current
 producer claims. The [predecessor status](../research/history/doi-review-v1-preimage/docs/PROJECT_STATUS.md)
 and its exact qualification indexes are preserved. Current source and native
 success do not establish whole-paper scientific acceptance, specialist review,

@@ -19,7 +19,7 @@ recorded separately. These are not independent observations, prevalence or
 accuracy estimates. Three new uncertain labels preserve a live
 literal/figurative alternative.
 
-Run the current real workflows under the repository's admitted private lease
+Run the current real workflows under the public repository's supported repository/common-store lease
 and locked installed environment:
 
 ```bash

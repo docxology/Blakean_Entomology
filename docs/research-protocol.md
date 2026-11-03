@@ -78,7 +78,7 @@ hits. Its shared tree layout carries no branch lengths, time inference or
 monophyly proof. The vocabulary audit and separate gap-probe epoch preserve
 all earlier forms and decisions. See
 [the advancement method](research/invertebrate-advancement.md) and
-[the private style guide](style-guide.md).
+[the style guide](style-guide.md).
 
 New reading credit is recorded in the advancement ledger with selected-text and
 source hashes. Full short-poem transcription credit requires every verse line

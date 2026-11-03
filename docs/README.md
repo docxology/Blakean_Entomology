@@ -6,13 +6,16 @@ application's relation to public Blake and Federalism. Blake supplies reusable
 corpus/custody/methods; this application owns invertebrate vocabulary,
 eligibility, contextual decisions, reference-taxonomy interpretation and paper.
 
-[Documentation reconciliation](../research/documentation-review-20261102.json)
-records the complete current documentation scope and its retained limitations.
+The [2 November documentation reconciliation](../research/documentation-review-20261102.json)
+retains its original scope. [Current maintenance](maintenance.md) and the
+[new documentation bindings](../research/documentation-maintenance-20261103.json)
+identify this later documentation closure without rewriting the old record.
 
 ## Operating and scholarly contracts
 
 | Document | Use |
 |---|---|
+| [Maintenance and evidence boundaries](maintenance.md) | Current source, immutable release inputs and branch/worktree custody |
 | [Research protocol](research-protocol.md) | Inputs, vocabulary, roles and review boundaries |
 | [Style guide](style-guide.md) | Syntax, formalism, figure and scholarship requirements |
 | [Research dossier map](research/README.md) | Current methods guides and explicitly historical notes |
@@ -60,7 +63,11 @@ acceptance or public rights warrant follows from a software or writer pass.
 
 Current visual-method contract: [Illustrated arguments and conditional classification](research/illustrated-arguments.md).
 
-The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.
+The [Public installation and release receipt](../research/publication-20261103.json)
+records the published software qualification. The [2 November installation](../research/visual-installed-20261102.json)
+and [runtime profile](../research/runtime-profile-20261102.json) retain their earlier
+scopes. Native output, independent page/browser review and Git publication
+remain separate evidence.
 
 [Public release guide](publication-plan.md) records the approved edition, distribution scope and future-release requirements.
 
