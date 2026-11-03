@@ -75,8 +75,9 @@ in Blake. [Research protocol](docs/research-protocol.md).
 ## Run locally
 
 Keep source, environments, both Python prefixes, caches and temporary files on
-mounted GitVault. Use the existing external Python 3.11.17 runtime and supported
-repository admission. Bind external `TMPDIR`, outer `TMPPREFIX`,
+mounted GitVault. Use the external Python runtime declared by
+[`.python-version`](.python-version) and supported repository admission. Bind
+external `TMPDIR`, outer `TMPPREFIX`,
 `UV_CACHE_DIR` and `UV_LINK_MODE=copy` before source-work commands.
 
 ~~~bash
