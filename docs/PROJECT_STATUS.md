@@ -36,7 +36,7 @@ The [verification index](../research/verification.json) keeps those claims separ
 
 | ID and owner | Inputs and useful unit | Acceptance and budget |
 |---|---|---|
-| E-R01 — Daniel/editor; minor | Review the exact qualified edition and select one feedback group/section and target venue. | Close named feedback and qualify changed pages. Begin with 60–90 minutes; venue and specialist judgment remain human gates. |
+| E-R01 — Daniel/editor; minor | Select one post-release feedback group/section and target venue; author approval and public distribution are complete. | Close named feedback and qualify changed pages. Begin with 60–90 minutes; venue and specialist judgment remain human gates. |
 | E-R02 — independent contextual reviewer; medium | Review a source-pinned planned subset or reassess a declared part of the 47 agent decisions. The global 35,992 remain unreviewed. | Retain run/hit IDs, reviewer, rationale, locator, disagreements and residual denominator. Allow 2–4 hours; prose reading creates no decision. |
 | E-R03 — corpus/edition researcher; major, staged | Choose one vocabulary gap or work/copy cohort, preserving zero/overlap controls. | Start with a two-hour discovery checkpoint; changed inputs require new pins/epochs and exact membership/facet/count comparisons. Text equality is not edition independence. |
 | E-R04 — image researcher; major, staged | Declare a work/copy cohort beyond the nine selected originals. | Start with rights/availability for 5–10 objects and a two-hour checkpoint. Bind inspected, unavailable and ambiguous objects; do not infer a census. |
@@ -51,3 +51,6 @@ separate coverage floors before changing the default again.
 Choose the owner, exact inputs, affected paths, unused epoch and acceptance
 before a new unit. Coordinate heavyweight campaigns. An earlier one-shot native
 or recovery receipt is not a renewed grant. Public distribution covers the selected edition; third-party terms remain explicit. [Privacy](../PRIVACY.md).
+
+[Verified public delivery](public-reproduction.md) records the completed publication and separates
+immutable release inputs from later documentation and remaining research.

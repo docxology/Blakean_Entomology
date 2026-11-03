@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "verified_date": "2026-11-03",
+  "repository": "docxology/Blakean_Entomology",
+  "public": true,
+  "release_tag": "v1.0.0",
+  "release_source_commit": "6d72f692eeedef95287a7262079755c6e9e2f311",
+  "github_release": "https://github.com/docxology/Blakean_Entomology/releases/tag/v1.0.0",
+  "zenodo": {
+    "record_id": 23900583,
+    "doi": "10.5281/zenodo.23900583",
+    "url": "https://zenodo.org/records/23900583",
+    "state": "done",
+    "datacite_state": "findable",
+    "doi_resolver_http": 200
+  },
+  "assets": {
+    "Blakean_Entomology-1.0.0-rendering-inputs.zip": {
+      "sha256": "4ac022cc6503dbac50c4aed21717a92e51e668287db9a3d567333d37ef420e76",
+      "bytes": 65233936,
+      "md5": "f239d0acc20d5018f5d81111afed1c41"
+    },
+    "FONT-NOTICES.zip": {
+      "sha256": "87594cda1deed6db69951aec0cec926755a562147b572ebc6e86d1006ed86fcd",
+      "bytes": 15133,
+      "md5": "2aacfcdf5e32b15646462aff49583475"
+    },
+    "Blakean_Entomology.pdf": {
+      "sha256": "fc99a3dd629646a6e7cb1b41e0b6290388cbb4a09d7c0f91526e0c413dddf73a",
+      "bytes": 58073976,
+      "md5": "8102fac6c68e1af4d193939da2a21741"
+    },
+    "blakean_entomology-1.0.0-py3-none-any.whl": {
+      "sha256": "068c15f4bd286fab50e79247ee57b567151d3a7492bfa305320f8e0aad8abcc9",
+      "bytes": 84025,
+      "md5": "78a1329ed0b555f16e54d2a07c3ad645"
+    },
+    "release-manifest.json": {
+      "sha256": "f9097b19927b9eea0efeb07b46adda794fd5f2f93708ed052a3e5f4c7b70ecc7",
+      "bytes": 2232,
+      "md5": "586ee1f018caeb0a298f31aa394eeff2"
+    },
+    "SHA256SUMS": {
+      "sha256": "147541eb01664256c752658866c5f2f10fa201d538968911d48ad016ce0e5681",
+      "bytes": 660,
+      "md5": "2b64ea1a4341d0ee2900897f432e2c5d"
+    },
+    "blakean_entomology-1.0.0.tar.gz": {
+      "sha256": "4516bcb09dca1e55add7b6063664fba8073f22b26de4e4968679833ec4396ec9",
+      "bytes": 1554062,
+      "md5": "8448e399bbb20c2e8299b36d2680942c"
+    },
+    "source-map.json": {
+      "sha256": "c38e97bf08af34325efa3ccac445b3de464cd917b12e58d62c8fae902377181d",
+      "bytes": 37520,
+      "md5": "4fedffe3a40d3ff0ec862f7e85b07c33"
+    }
+  },
+  "anonymous_readback": {
+    "zenodo": 8,
+    "github": 8,
+    "sha256_and_size_match": true
+  },
+  "hosted_checks_at_release_integration": [
+    {
+      "name": "GitGuardian Security Checks",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "github_reviews_at_release_integration": [],
+  "independent_review": {
+    "verdict": "APPROVE_PROSPECTIVE_RELEASE_PAYLOAD",
+    "verdict_sha256": "e66dbf77948bc7bfe6b94306e51817338f026f65ac38e0ef657df624b2a965b1",
+    "report_sha256": "d2434e263954f14dfa5c00f6a17500b9f8c33b16545e9b9b4ac5e0d7a7ceb27f",
+    "scope": "Frozen corrected prospective content/exposure, distinct from actual publication and scientific acceptance."
+  },
+  "scope": "Post-release owner-qualified publication/readback/documentation receipt. Immutable tags and deposited source maps retain the approved release source. Later documentation does not create a new software/manuscript version or reassign native/analytical producers.",
+  "limits": [
+    "Working papers; publication is not scientific peer review or specialist accessibility certification.",
+    "Provider corpus, indexes and restricted captures remain ignored and unredistributed.",
+    "Earlier failures, editions, reading ceilings and custody receipts remain preserved."
+  ],
+  "software_version": "1.0.0",
+  "paper_version": "1.0.0",
+  "canonical_public_runtime": {
+    "project": "entomology",
+    "canonical": "/Volumes/GitVault/Username/docxology/Public/Blakean_Entomology",
+    "retained_previous": "/Volumes/GitVault/Local/environments/Blakean_Entomology-retained-before-public-runtime-20261103",
+    "previous_environment_inode": 151572361,
+    "current": {
+      "version": "3.11.17 (main, Oct 14 2026, 00:55:17) [Clang 23.1.3 ]",
+      "prefix": "/Volumes/GitVault/Username/docxology/Public/Blakean_Entomology/.venv",
+      "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+      "normal_application": {
+        "url": "file:///Volumes/GitVault/Username/docxology/Public/Blakean_Entomology",
+        "dir_info": {
+          "editable": false
+        }
+      },
+      "sdk": {
+        "url": "https://github.com/docxology/blake.git",
+        "vcs_info": {
+          "vcs": "git",
+          "commit_id": "263d7c83abe6f1309a64af3285a683c1b7672269",
+          "requested_revision": "263d7c83abe6f1309a64af3285a683c1b7672269"
+        }
+      },
+      "exact_release_members": 45,
+      "exact_release_metadata": true
+    },
+    "declared_entrypoints": {
+      "blake-entomology": {
+        "actual_help_exit": 0,
+        "path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Entomology/.venv/bin/blake-entomology"
+      }
+    },
+    "scope": "Postcondition qualification of actual completed canonical normal sync; no duplicate setup or environment replacement. Original failed CLI-name guess remains retained."
+  },
+  "relocation": {
+    "previous_path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Entomology",
+    "public_path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Entomology",
+    "root_inode_preserved": 151471241,
+    "non_git_members_exact_inode_mode_size_mtime_target": 21705,
+    "head_preserved": "6baee6ec0fbd9251ec3ec14f6347c46d79fa18d5",
+    "worktree_repair": "",
+    "worktrees": [
+      {
+        "path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Entomology",
+        "head": "6baee6ec0fbd9251ec3ec14f6347c46d79fa18d5",
+        "locked": null,
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Entomology-shared-methods-0.2.0-20261028",
+        "head": "07b3087bd3aee3aa7f3a4456220db164bd6f5f8f",
+        "locked": null,
+        "status": ""
+      }
+    ],
+    "scope": "Same-filesystem supported relocation and official Git worktree repair. Ignored data/environments/output epochs preserved without provider upload or deletion."
+  },
+  "installed_tests_passed": 474,
+  "public_source_only_tests_passed": 21,
+  "public_source_only_custody": {
+    "source_only_local_data_present": false,
+    "source_only_analysis_output_present": false,
+    "public_source_map_files": 320
+  }
+}
