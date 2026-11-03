@@ -1,6 +1,6 @@
 # Native manuscript production
 
-The current unpublished 1.0.0 article uses the actual pinned
+The current 1.0.0 article uses the actual pinned
 [docxology/template](https://github.com/docxology/template) framework. Blake owns
 corpus custody and reusable methods. Entomology owns source selection, animal
 judgments, literary interpretation, graphical abstracts and publication inputs.
@@ -34,7 +34,7 @@ producers. A new source preparation, mathematical run, native writer result,
 complete page/browser review and delivery are different evidence objects.
 Federalism remains an independent sibling, with no runtime dependency here.
 
-Use the supported private-repository lease. Keep TMPDIR, outer TMPPREFIX,
+Use the supported public-repository/common-store lease. Keep TMPDIR, outer TMPPREFIX,
 uv/Python caches, Matplotlib and TeX paths external. Never overwrite a prepared
 or native epoch. Failed epochs retain raw errors and partial files.
 
@@ -79,7 +79,7 @@ Preparation rechecks these bindings before writing its own completion marker.
 The current preparation is `analysis_output/doi-review-article-1.0.0-20261103-01`.
 Its native schema-3 stage is recorded with exact hashes in
 [the current qualification](../../research/review-candidate-1.0.0.json).
-The new 42-page edition has a reserved DOI on the authentic cover and richer
+The new 42-page edition has the DOI on the authentic cover and richer
 quotation-led graphical abstracts on physical pages 2–4. Geometry is
 `letterpaper,margin=11mm,footskip=4mm`; body type remains 10 pt. The original
 17 mm edition and the clipped-footer native01 remain retained. The real physical

@@ -28,11 +28,11 @@
     "front_matter_figure_height_fraction": 0.78
   },
   "publication": {
-    "release_status": "unpublished 1.0.0 review candidate; final author approval required",
+    "release_status": "public 1.0.0 author-approved working paper",
     "repository_url": "https://github.com/docxology/Blakean_Entomology",
     "year": 2026,
     "doi": "10.5281/zenodo.23900583",
-    "doi_status": "reserved; unpublished"
+    "doi_status": "published"
   },
   "render": {
     "formats": {

@@ -1,7 +1,7 @@
 # Project status and scoped next work
 
-Status date: 2 November 2026. **Unpublished 1.0.0 review candidate**.
-The repository stays private; final author approval precedes public releases.
+Status date: 3 November 2026. **Public 1.0.0 working-paper edition**.
+Daniel approved the exact reviewed edition for public distribution.
 [Publication plan](publication-plan.md).
 
 ## Current candidate and distinct evidence
@@ -17,10 +17,10 @@ The sibling application is independent. The actual template is pinned at
 | Software | 474 normal-installed tests pass on Python 3.11.17; suite-only statement/branch coverage 91.07% application / 67.33% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
 | Installation | 45 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
 | Native | Actual pinned template PDF/HTML writers completed. The PDF has 42 pages; title, cover DOI, physical page order, formal numbering and sources are checked independently of software tests. |
-| Cover DOI | `10.5281/zenodo.23900583`; reserved in an unsubmitted draft, zero uploaded files. Registration/resolution awaits approved publication. |
+| Cover DOI | [10.5281/zenodo.23900583](https://doi.org/10.5281/zenodo.23900583); exact published record and files are bound in [publication.json](../publication.json). |
 | Layout | Letter paper, 11 mm margins, 4 mm footer spacing, 10-point body text. All page text stays inside trim. |
 | Output review | Exact PDF/HTML hashes, owner page/browser inspection and the separate independent verdict are recorded in the [current qualification](../research/review-candidate-1.0.0.json). Earlier review/failure records remain unchanged. |
-| Git / Downloads | Private-main integration and byte-verified review PDF delivery are distinct later events in the task's publication/delivery receipts. No public deposit, visibility change, release or tag is authorized before final approval. |
+| Git / Downloads | Public main, versioned release, supported GitVault relocation and Downloads delivery have separate verified receipts. See [publication facts](../publication.json). |
 
 The ledger remains **36,039 candidates / 47 reviewed / 35,992 unreviewed**. Nine selected originals do not establish an image census. Baine remains bibliographically verified; the relevant chapter is unavailable/unread.
 
@@ -50,5 +50,4 @@ separate coverage floors before changing the default again.
 
 Choose the owner, exact inputs, affected paths, unused epoch and acceptance
 before a new unit. Coordinate heavyweight campaigns. An earlier one-shot native
-or recovery receipt is not a renewed grant. Private-main delivery supplies no
-public item-level rights clearance. [Privacy](../PRIVACY.md).
+or recovery receipt is not a renewed grant. Public distribution covers the selected edition; third-party terms remain explicit. [Privacy](../PRIVACY.md).

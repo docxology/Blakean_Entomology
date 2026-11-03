@@ -1,6 +1,6 @@
 # Corpus, methods and application lineage
 
-Entomology is a private application of the public
+Entomology is an application of the public
 [Blake corpus and methods](https://github.com/docxology/blake). The upstream
 [corpus-and-methods working paper](https://doi.org/10.5281/zenodo.23770249)
 describes infrastructure and evidence limits; this application's animal
@@ -15,16 +15,16 @@ of transferred review credit.
 | Owner | Responsibility |
 |---|---|
 | Public `blake` | Acquisition and recovery, source custody, portable schemas and explicit conversions, normalization and distinct retrieval profiles, generic counting/statistics/proximity/composition/concentration, rooted hierarchy/layout, exact interval geometry, deterministic review planning, annotation/run custody and offline workspace. |
-| Private `Blakean_Federalism` | Political query selections, institutional models and comparisons, interpretation, manuscript and its own fixed evidence epochs. |
+| Public `Blakean_Federalism` | Political query selections, institutional models and comparisons, interpretation, manuscript and its own fixed evidence epochs. |
 | Public `docxology/template` | Generic manuscript hydration, pre-render validation, formalism/cross-reference filters and native PDF/web writers. |
-| Private `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings, frontmatter and manuscript. |
+| Public `Blakean_Entomology` | Invertebrate vocabulary, query-channel policy, conditional taxon mapping, contextual adjudication, domain figures, selected image readings, frontmatter and manuscript. |
 
 Entomology imports `blake.applications`, `blake.studies` and explicit
 `blake.methods` modules. It consumes the public portable schema rather than an
 undocumented SQLite layout. Domain code delegates generic algorithms upstream;
 the classification reference neither infers a phylogeny nor adjudicates a Blake
 occurrence. See [project status](PROJECT_STATUS.md) and the
-[private style guide](style-guide.md).
+[style guide](style-guide.md).
 
 The [geometry workflow](research/interval-geometry.md) reuses public interval
 arithmetic. Entomology retains original-source grouping, channel eligibility,
@@ -35,7 +35,7 @@ decision or political warrant between the applications.
 
 ## Separate current runtime from captured evidence
 
-The current unpublished 1.0.0 software selects Blake 0.7.0 at Git
+The current 1.0.0 software selects Blake 0.7.0 at Git
 `263d7c83abe6f1309a64af3285a683c1b7672269` through `pyproject.toml` and
 `uv.lock`. Its installation and workflow qualification are recorded in
 [verification.json](../research/verification.json). Upstream `main` is a moving

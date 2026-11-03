@@ -7,9 +7,16 @@ name = "blakean-entomology"
 version = "1.0.0"
 description = "A source-bound invertebrate concordance and research application of the Blake corpus"
 readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE", "LICENSE-PAPER.md"]
 requires-python = ">=3.11"
 authors = [{name = "Daniel Ari Friedman"}]
 dependencies = ["blake>=0.7.0", "click>=8.1", "pydantic==2.11.9"]
+
+[project.urls]
+Repository = "https://github.com/docxology/Blakean_Entomology"
+Paper = "https://doi.org/10.5281/zenodo.23900583"
+Documentation = "https://github.com/docxology/Blakean_Entomology/tree/main/docs"
 
 [project.scripts]
 blake-entomology = "blakean_entomology.cli:main"

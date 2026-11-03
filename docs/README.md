@@ -34,7 +34,7 @@ access and interpretive ceiling.
 
 | Source | Status |
 |---|---|
-| [Blakean Entomology](manuscript/blakean-entomology.md) | Current unpublished 1.0.0 authored article, with expanded Fly/Dream/Thel graphical arguments; its 42-page native output and earlier editions have separate qualifications |
+| [Blakean Entomology](manuscript/blakean-entomology.md) | Current 1.0.0 authored article, with expanded Fly/Dream/Thel graphical arguments; its 42-page native output and earlier editions have separate qualifications |
 | [Configuration](manuscript/config.yaml), [preamble](manuscript/preamble.md), [BibTeX](manuscript/references.bib), [web style](manuscript/web.css) | The article's other four authored native inputs |
 | [Sensitivity supplement](manuscript/sensitivity-supplement.md) | Earlier analytical fragment; not an extra section of the current native article |
 | [Sensitivity image](manuscript/assets/retrieval-sensitivity.png) | Retained fragment asset; a byte/dimension check alone supplies no new visual acceptance |
@@ -62,5 +62,4 @@ Current visual-method contract: [Illustrated arguments and conditional classific
 
 The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.
 
-[Prepublication plan](publication-plan.md) records the reserved cover DOI and
-final author approval required for public deposit, repository visibility and releases.
+[Public release guide](publication-plan.md) records the approved edition, distribution scope and future-release requirements.

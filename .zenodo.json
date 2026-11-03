@@ -1,0 +1,43 @@
+{
+  "title": "Blakean Entomology: Small Lives, Uncertain Bodies, and the Work of Attention",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0.0",
+  "publication_date": "2026-11-03",
+  "description": "How do Blake’s small lives make another being’s needs matter? This article argues that provision, feeding and aggregation give different forms to that question: help can enable another life, appetite can use it, and a collective body can redistribute its powers. Copy-specific readings of four short poems, nine selected historical scans and bounded prophetic and prose passages test this account against symbolic, spiritual and human-centered alternatives. The emmet’s offered route, the fly’s reciprocal likeness and the Worm/infant comparison become visual arguments in which the complete impression remains beside the exact words, a rival reading and a limit on biological identification. A reproducible concordance supplies breadth without turning retrieval into a bestiary: 102 categories yield 36,039 category-source-span candidates in 2,067 captured units; 2,498 belong to 199 identified Blake-primary reading units. Within that scope, 82 name-family categories supply 1,239 candidates. Pooled and equal nonempty-group compositions differ by total variation 0.222387 across 26 positive groups. Source-role contrasts, finite proximity experiments and recorded reading windows expose dependence on particular inputs. The contextual ledger contains 47 authored decisions and leaves 35,992 candidates unreviewed. These measures describe a search and its selective examination, not animal prevalence or complete-oeuvre coverage. Baine’s biological-symbolic scholarship, accessed here through a contemporary review, makes contextual variability a continuing challenge. The argument locates ethical force in particular acts of hearing, sustaining, injuring and joining; neither a shared name nor a modern lineage determines that force.",
+  "creators": [
+    {
+      "name": "Friedman, Daniel Ari",
+      "orcid": "0000-0001-6232-9096",
+      "affiliation": "Active Inference Institute"
+    }
+  ],
+  "keywords": [
+    "William Blake",
+    "digital humanities",
+    "entomology",
+    "source provenance"
+  ],
+  "access_right": "open",
+  "license": "other-closed",
+  "language": "eng",
+  "doi": "10.5281/zenodo.23900583",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/docxology/Blakean_Entomology",
+      "scheme": "url"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.23921364",
+      "scheme": "doi"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.23900617",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Author-approved public working paper. Authored research rights remain reserved; public download is not a general reuse license. Upstream Blake remains MIT and third-party images/fonts retain their terms. Provider corpus/indexes/full source captures are excluded. Software, native-output, scientific, accessibility and publication claims remain separate. Exact SDK: Blake 0.7.0 at 263d7c83abe6f1309a64af3285a683c1b7672269. The selected original template render and all earlier failures retain their original identities."
+}

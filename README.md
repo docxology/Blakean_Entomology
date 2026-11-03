@@ -1,16 +1,16 @@
 # Blakean Entomology
 
-Private research on **invertebrate lives and imagery in William Blake**: worm,
+Research on **invertebrate lives and imagery in William Blake**: worm,
 fly, spider, emmet/ant, bee, beetle, moth, caterpillar, snail, Polypus and the
 wider field of small, creeping, collective and uncertain bodies. “Entomology”
 is the research heading; the scope includes all invertebrates.
 
 Start with [project status](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article](docs/manuscript/blakean-entomology.md),
-the [current private working-draft PDF](Blakean_Entomology.pdf) and
+the [published 1.0.0 working-paper PDF](Blakean_Entomology.pdf) and
 the [documentation map](docs/README.md).
 
-## Unpublished 1.0.0 review candidate
+## Public 1.0.0 edition
 
 Entomology **1.0.0** selects public Blake **0.7.0**, exact Git
 `263d7c83abe6f1309a64af3285a683c1b7672269`, through
@@ -30,7 +30,7 @@ remain visible. The 11 mm margins and 4 mm footer spacing retain 10-point body
 type. The actual pinned [template writers](docs/manuscript/README.md) own
 hydration, citations, numbering and PDF/HTML production.
 
-Both the repository and candidate remain private. DOI **10.5281/zenodo.23900583** is reserved in an unsubmitted Zenodo draft with no uploaded files; it is not yet a registered public record. Final author approval is required before public deposit, visibility changes or a `v1.0.0` tag/release. [Publication plan](docs/publication-plan.md).
+The author-approved 1.0.0 edition is published at [Zenodo](https://doi.org/10.5281/zenodo.23900583) and [GitHub v1.0.0](https://github.com/docxology/Blakean_Entomology/releases/tag/v1.0.0). [Publication facts](publication.json) bind the exact approved PDF; [distribution terms](LICENSE-PAPER.md) preserve authored and third-party rights. Publication does not establish specialist scientific acceptance.
 
 The [geometry contract](docs/research/interval-geometry.md) separates records,
 occupied text, overlap and documented reading windows. No corpus, vocabulary,
@@ -167,5 +167,13 @@ one-shot grant are reassigned. New paper bytes require fresh PDF/HTML inspection
 Remaining work includes contextual adjudication, edition reconciliation, the
 image inventory, direct Baine access, specialist criticism, accessibility and
 venue decisions. [Scoped tasks](docs/PROJECT_STATUS.md) give useful next units.
-Private-main publication supplies no public item-level rights clearance.
+Public distribution covers only the selected author-approved payload.
 [Privacy and custody](PRIVACY.md).
+
+## Related projects and editions
+
+| Project | GitHub | Zenodo |
+|---|---|---|
+| Corpus and shared methods | [blake](https://github.com/docxology/blake) | [Paper 0.5.0](https://doi.org/10.5281/zenodo.23921364) |
+| Invertebrate readings and concordance | [Blakean Entomology](https://github.com/docxology/Blakean_Entomology) | [1.0.0](https://doi.org/10.5281/zenodo.23900583) |
+| Political argument and institutional models | [Blakean Federalism](https://github.com/docxology/Blakean_Federalism) | [1.0.0](https://doi.org/10.5281/zenodo.23900617) |
