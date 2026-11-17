@@ -12,6 +12,8 @@ the [documentation map](docs/README.md).
 [Maintenance and retained evidence](docs/maintenance.md) distinguish current
 instructions from immutable release sources and protected worktrees.
 
+![Blakean Entomology architecture: pinned blake 0.7.0 corpus and 102-category invertebrate lexicon, interval geometry across 36,039 span candidates, purposive contextual review, and the 42-page 1.0.0 edition](docs/assets/architecture-overview.svg)
+
 ## Public 1.0.0 edition
 
 Entomology **1.0.0** selects public Blake **0.7.0**, exact Git
