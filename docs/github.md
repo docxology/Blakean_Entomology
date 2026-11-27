@@ -25,7 +25,7 @@ methods. This application owns its question, selections, domain policy,
 interpretations and manuscript; the sibling application is independent.
 
 The repository description, homepage and topics describe that scope. The
-[distribution terms](../LICENSE-PAPER.md) and [privacy contract](../PRIVACY.md)
+[distribution terms](../LICENSE-PAPER.md) and [privacy contract](PRIVACY.md)
 govern authored and third-party material. Public visibility does not relicense
 the application or restricted inputs. GitHub's “Other” license label reflects
 the reserved research license.

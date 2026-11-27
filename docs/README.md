@@ -21,6 +21,9 @@ identify this later documentation closure without rewriting the old record.
 | [Research dossier map](research/README.md) | Current methods guides and explicitly historical notes |
 | [Original-codepoint geometry](research/interval-geometry.md) | Match support, record multiplicity, source weighting and documented-window custody |
 | [Review planning](research/review-planning.md) | Verify the retained blank batch; create new epochs only at unused destinations |
+| [Public reproduction](public-reproduction.md) | Bounded installed checks, retained publication inputs, and limits on complete corpus qualification |
+| [Privacy and source custody](PRIVACY.md) | Raw archive terms, ignored local fixtures, and approved publication boundaries |
+| [Maintenance backlog](TODO.md) | Open work and claim limits |
 | [Manuscript workflow](manuscript/README.md) | Retained pinned template profile and native/output qualification |
 | [Native host SDK admission](native-sdk.md) | Actual installed provenance, current versus historical profiles and separate template-runtime evidence |
 | [Independent contextual/Baine audit](research/contextual-audit-20261031.md) | Eight existing decisions, custody pointer and remaining direct-reading gate |

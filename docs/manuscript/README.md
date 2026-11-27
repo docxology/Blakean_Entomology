@@ -12,6 +12,42 @@ then-unpublished status. Those source words describe the captured production
 epoch; current public visibility is recorded separately. Do not edit frozen
 article/configuration bytes to update a historical label.
 
+## Reader build from the deposited rendering inputs
+
+Use the [public rendering-input archive at Zenodo](https://zenodo.org/records/23900583)
+to build the complete approved article with [Template at
+`87704feae0a4490ef7dad9c931d268e8c30273c2`](https://github.com/docxology/template/tree/87704feae0a4490ef7dad9c931d268e8c30273c2).
+The archive carries the prepared text, original bibliography and attributed
+publication graphics. Its license notices and its intended distribution scope
+are recorded in the archive and [publication record](../../publication.json).
+
+Set `TEMPLATE_ROOT` to a clean Template checkout at that commit with its locked
+Python 3.14 environment, Pandoc, pandoc-crossref and XeLaTeX. Set `ZIP` to the
+absolute path of the local public archive
+`Blakean_Entomology-1.0.0-rendering-inputs.zip`. From this repository root,
+use Python 3.11 or later for staging and create a fresh detached checkout
+where Template discovers working projects:
+
+~~~sh
+project="$TEMPLATE_ROOT/projects/working/Blakean_Entomology"
+git worktree add --detach "$project" HEAD
+python3 "$project/tools/stage_published_reader.py" --archive "$ZIP" \
+  --archive-sha256 4ac022cc6503dbac50c4aed21717a92e51e668287db9a3d567333d37ef420e76
+cd "$TEMPLATE_ROOT"
+uv run --no-sync python scripts/pipeline/stage_03_render.py --project working/Blakean_Entomology
+uv run --no-sync python scripts/pipeline/stage_04_validate.py --project working/Blakean_Entomology
+~~~
+
+Staging verifies the archive digest and size against the committed release
+record and verifies every member. It copies the prepared manuscript,
+bibliography, preamble and used figures, resolves the three display values in
+the generated configuration and records the retained text's numeric values
+for render parity. The build writes PDF and HTML under the worktree's
+`output/` directory. Use the 42-page DOI PDF and the original native receipts
+when citing the released pagination or original production. Fresh analytical
+preparation and the original native edition have the separate prerequisites
+below.
+
 ## Source and runtime contract
 
 The default application pin is the actually qualified Python 3.11.17. The
