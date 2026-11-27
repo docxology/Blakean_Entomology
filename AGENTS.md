@@ -16,7 +16,7 @@ methods. Begin with [project status and task scopes](docs/PROJECT_STATUS.md).
 | Illustrated graphical abstracts and word/context/lineage figures | [Illustrated arguments](docs/research/illustrated-arguments.md), exact visual ledger and existing source/image rights records |
 | Scholarly prose, bibliography or images | [Style guide](docs/style-guide.md), [biological-symbolism scholarship](docs/research/biological-symbolism.md), [visual witnesses](docs/research/visual-evidence.md), source and reading ledgers |
 | Native SDK admission or transport | [Host SDK contract](docs/native-sdk.md), current source/lock pins, the upstream installed verifier and actual normal-install qualification; archived profiles retain their producers. |
-| Manuscript preparation, PDF or delivery | [Render guide](docs/manuscript/README.md), [current verification](research/verification.json), [privacy](PRIVACY.md) |
+| Manuscript preparation, PDF or delivery | [Render guide](docs/manuscript/README.md), [current verification](research/verification.json), [privacy](docs/PRIVACY.md) |
 
 ## Work in the right layer
 

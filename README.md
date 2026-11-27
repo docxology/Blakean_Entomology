@@ -148,6 +148,13 @@ uv run --locked --no-sync blake-entomology review \
 Blank cells remain unreviewed. Wrong-run, duplicate/unknown IDs, altered source
 fields and partial annotations refuse. A decision never changes source authorship.
 
+## Offline verification
+
+The [public reproduction guide](docs/public-reproduction.md) separates installed
+source-only checks, the retained publication reader, and primary corpus replay.
+The [manuscript guide](docs/manuscript/README.md) links to the pinned reader build
+for a previously deposited rendering-input bundle.
+
 ## Verification and scope
 
 ~~~bash
@@ -191,7 +198,7 @@ Remaining work includes contextual adjudication, edition reconciliation, the
 image inventory, direct Baine access, specialist criticism, accessibility and
 venue decisions. [Scoped tasks](docs/PROJECT_STATUS.md) give useful next units.
 Public distribution covers only the selected author-approved payload.
-[Privacy and custody](PRIVACY.md).
+[Privacy and custody](docs/PRIVACY.md).
 
 ## Related projects and editions
 

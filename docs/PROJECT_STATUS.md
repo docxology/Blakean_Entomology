@@ -53,7 +53,7 @@ separate coverage floors before changing the default again.
 
 Choose the owner, exact inputs, affected paths, unused epoch and acceptance
 before a new unit. Coordinate heavyweight campaigns. An earlier one-shot native
-or recovery receipt is not a renewed grant. Public distribution covers the selected edition; third-party terms remain explicit. [Privacy](../PRIVACY.md).
+or recovery receipt is not a renewed grant. Public distribution covers the selected edition; third-party terms remain explicit. [Privacy](PRIVACY.md).
 
 [Verified public delivery](public-reproduction.md) records the completed publication and separates
 immutable release inputs from later documentation and remaining research.

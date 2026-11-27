@@ -70,4 +70,4 @@ and contracts even when input bytes match.
 
 Federalism's institutional model, political claims, quotation ledger, releases
 and acceptance records stay with Federalism. Provider expression and full private
-outputs stay in the ignored custody described in [PRIVACY.md](../PRIVACY.md).
+outputs stay in the ignored custody described in [the privacy guide](PRIVACY.md).

@@ -28,6 +28,14 @@ with neither local_data/ nor analysis_output/, using the new canonical
 Public installation. It includes real admission/refusal checks. It is
 a bounded profile, not the full suite or a coverage-floor result.
 
+## Rebuild the published article for reading
+
+Follow the [reader build](manuscript/README.md#reader-build-from-the-deposited-rendering-inputs)
+to render the deposited text, citations and attributed graphics offline after
+obtaining the exact public ZIP. This uses the archived prepared article and
+its figures. The provider corpus and source captures needed to regenerate
+the analysis are independently held.
+
 ## Full research qualification needs retained fixtures
 
 The complete installed suite passed **474 tests** with the authorized
@@ -36,7 +44,7 @@ tests in a source-only clone also selects corpus, reference-source,
 casebook/image or prepared-output fixtures that are intentionally absent
 from Git. Missing-fixture errors are not a successful qualification.
 Restore only the independently pinned, lawfully held inputs described
-in [project status](PROJECT_STATUS.md), [corpus custody](../PRIVACY.md)
+in [project status](PROJECT_STATUS.md), [corpus custody](PRIVACY.md)
 and the [native guide](manuscript/README.md) before the full gate. Do not
 silently skip errors, substitute new downloads, or change a corpus pin.
 
